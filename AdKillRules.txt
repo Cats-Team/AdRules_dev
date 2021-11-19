@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2021-11-19 10:24:26
-! Total count: 134639
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2021-11-19 22:21:35
+! Total count: 134662
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -23104,6 +23104,7 @@
 ##AFS-AD
 ##AMP-AD
 ##A[href*=".com/?Agent="]
+##A[href*="/htt331.com"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href="http://goo.gl/jQ9bcz"]
@@ -51718,7 +51719,7 @@ dj6u.com##.banner,.banner_text
 dj92cc.com,djkk.com,tingqq.com#@#.share_list
 djwma.com###logo
 dl-protect.best,dl-protect.top,dl-protect.xyz,dl-protect1.com,ed-protect.org,extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.pro,extreme-down.top,extreme-down.tv,extreme-down.video,extreme-down.work,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-download.xyz,french-stream.lol,french-stream.re,hdss.la,hdss.to,japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws,lelscan-vf.co,one-piece-streaming-vostfr.com,streaming-vostfr.net,streamingfrance.com,summarynetworks.com,toonanime.tv,vostfree.com,wawacity.bz,wawacity.co,wawacity.ec,wawacity.ninja,wawacity.vip#$#abort-current-inline-script Math /atob|btoa|break/
-dl-protect.best,dl-protect.top,dl-protect.xyz,dl-protect1.com,ed-protect.org,extreme-down.plus,extreme-down.site,extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.pro,extreme-down.top,extreme-down.tv,extreme-down.video,extreme-down.work,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-download.xyz,french-stream.lol,french-stream.re,hdss.la,hdss.to,japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws,lelscan-vf.co,one-piece-streaming-vostfr.com,streaming-vostfr.net,streamingfrance.com,summarynetworks.com,toonanime.tv,vostfree.com,wawacity.bz,wawacity.co,wawacity.ec,wawacity.ninja,wawacity.vip#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/
+dl-protect.best,dl-protect.top,dl-protect.xyz,dl-protect1.com,ed-protect.org,extreme-down.plus,extreme-down.site,extreme-down.blue,extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.pro,extreme-down.top,extreme-down.tv,extreme-down.video,extreme-down.work,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-download.xyz,french-stream.lol,french-stream.re,hdss.la,hdss.to,japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws,lelscan-vf.co,one-piece-streaming-vostfr.com,streaming-vostfr.net,streamingfrance.com,summarynetworks.com,toonanime.tv,vostfree.com,wawacity.bz,wawacity.co,wawacity.ec,wawacity.ninja,wawacity.vip#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/
 dl.pconline.com.cn##.box-push
 dl.pconline.com.cn##.dlTips
 dl.pconline.com.cn##.links > p:not([class])
@@ -52507,7 +52508,7 @@ etidol.com##.adBlockR,.mustBuy.blockspace,.products.blockspace
 etnet.com.cn##.firstAD
 etr.fr##.no_block
 ets2.lt,miloserdov.org###custom_html-2
-etsy.com#?#li.wt-grid__item-xs-6:-abp-has(p[aria-label^="Ad from"])
+etsy.com#?#li.wt-grid__item-xs-6:-abp-has(a[href*="&plkey="])
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
 ettoday.net###ticker_3
@@ -63385,7 +63386,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@id="watch_fee
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Patrocinado|Publicidad|Sponsa|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@class]/a[@aria-label[.="Patrocinado" or .="Sponsa" or .="Bersponsor" or .="Commandité" or .="Ditaja" or .="Gesponsert" or .="Gesponsord" or .="Patrocinado" or .="Publicidad" or .="Sponsa" or .="Sponset" or .="Sponsored" or .="Sponsorisé" or .="Sponsorizat" or .="Sponsorizzato" or .="Sponsorlu" or .="Sponsorowane" or .="Реклама" or .="ממומן" or .="تمويل شوي" or .="دارای پشتیبانی مالی" or .="سپانسرڈ" or .="مُموَّل" or .="प्रायोजित" or .="সৌজন্যে" or .="ได้รับการสนับสนุน" or .="内容" or .="贊助" or .="Sponsoroitu" or .="May Sponsor" or .="Được tài trợ"]]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//a[@aria-label][@href][@role="link"][@tabindex="0"]//div[@class]/span[@class][contains(normalize-space(),"Sponsored")]/ancestor::a[@aria-label][1]'
-www.facebook.com,web.facebook.com#$#json-override 'data.node.comet_sections.context_layout.story.comet_sections.metadata.0.story.ghl_label.text data.viewer.news_feed.edges.0.node.comet_sections.context_layout.story.comet_sections.metadata.0.story.ghl_label.text' 123456789 '' /SPONSORED/; hide-if-matches-xpath '//*[contains(text(),"123456789")]/ancestor::div[@class]/div[@aria-posinset][@aria-describedby]'
+www.facebook.com,web.facebook.com#$#json-override 'data.node.comet_sections.context_layout.story.comet_sections.metadata.0.story.ghl_label.text data.viewer.news_feed.edges.0.node.comet_sections.context_layout.story.comet_sections.metadata.0.story.ghl_label.text' 123456789 '' /SPONSORED/; hide-if-matches-xpath '//*[contains(text(),"123456789")]/ancestor::div[@class]/div[@aria-posinset or @aria-describedby or @aria-labelledby]'
 www.famens.com##.adpic,.capital,[href^="/AdLinks_"],.pic-row3
 www.faxingw.cn##div.info_right_top1,div.detailadv,div.advadf,div[class^="banner_"],div[class^="indadv"],div.detailgc
 www.fc0597.com,www.fc0592.com,www.fc593.com,www.fc0595.com,www.fc0596.com##div.div_ad,embed[src^="http://f.0597ok.com/ilike/597/"],div.zyflnews,div.divtop
@@ -75385,6 +75386,7 @@ zznews.cn##.ad:not([style])
 ||baileyorphan.com^
 ||bailinghealth.cn^
 ||bailonushe.com^
+||baimbw.cn^
 ||baimuyuan.com.cn^
 ||bainushe.com^
 ||baipagid.com^
@@ -75414,6 +75416,7 @@ zznews.cn##.ad:not([style])
 ||baiyuandian.cc^
 ||baiyug.cn^*AD.js
 ||baizb.com^
+||baizbw.cn^
 ||baizhan.net/coop/hezuo/
 ||baizhu.cc^$third-party
 ||baj.fanwenzhan.com^
@@ -76793,6 +76796,7 @@ zznews.cn##.ad:not([style])
 ||bjytdqwx.com^
 ||bjyyxywjm.cn^
 ||bjzcbx.com^
+||bjzglwj.cn^
 ||bjzshy.cn^
 ||bjzsyx.cn^
 ||bjzywuxian.com^
@@ -85492,6 +85496,7 @@ zznews.cn##.ad:not([style])
 ||dsh7ky7308k4b.cloudfront.net^
 ||dshrx.com^
 ||dsie7h4lo9wxu.cloudfront.net^
+||dslenggui.com^
 ||dsmmadvantage.com^$third-party
 ||dsnextgen.com^
 ||dsnr-affiliates.com^
@@ -86643,6 +86648,7 @@ zznews.cn##.ad:not([style])
 ||ejunshi.com^
 ||ejurzsax.com^
 ||ejyymghi.com^$third-party
+||ejzzv.cn^
 ||ek8.voyage-prive.com^
 ||ekansovi.com^
 ||ekg.riotgames.com^
@@ -94146,6 +94152,7 @@ zznews.cn##.ad:not([style])
 ||hvrhgt.thesun.co.uk^
 ||hvrhgt.thesun.ie^
 ||hvz.net.zooplus.com^
+||hvzlgyi.cn^
 ||hw-api.priv.net.zooplus.de^
 ||hw.d.ns.emailvision.net.daraz.com^
 ||hw345proxy.net.daraz.com^
@@ -96797,6 +96804,7 @@ zznews.cn##.ad:not([style])
 ||jcdf99.com/hzz/scripts/new
 ||jcelyj.com^
 ||jchgcipyywszqt.com^
+||jcjaniu.cn^
 ||jclari.idgarages.com^
 ||jcm.jd.com^$script,third-party
 ||jcmagnet.com.cn^
@@ -96810,6 +96818,7 @@ zznews.cn##.ad:not([style])
 ||jcwlq.com^
 ||jcwuzktevijp.com^
 ||jcwwxn.com^
+||jcxcvqc.cn^
 ||jczzjx.com^
 ||jd-bbs.com/tianyi/
 ||jd-bbs.com^*/gif/
@@ -96897,6 +96906,8 @@ zznews.cn##.ad:not([style])
 ||jenkins.gitmanagement.net.zooplus.de^
 ||jenkinsmetricslegacy.net.zooplus.com^
 ||jenniferlaurax.com^
+||jennyunfit.com^
+||jennyunfit.com^$popup
 ||jeopardyloo.com^
 ||jeperdee.net^
 ||jeperm.com^
@@ -97256,6 +97267,8 @@ zznews.cn##.ad:not([style])
 ||jlc001.com/static/js/_pc.js
 ||jldtlh.fashionnova.com^
 ||jlhygy.com^
+||jljspx.com^
+||jlklnwmj.com^
 ||jlmhk.com/images/data/
 ||jln3.clstudios.com^
 ||jlpcn.net/img/300p-
@@ -104737,6 +104750,7 @@ zznews.cn##.ad:not([style])
 ||mkcms.com/stats.js
 ||mkd88.cc/16.32.jpg
 ||mkhoj.com^
+||mkjopsvjorjkw.top^
 ||mkjsqrpmxqdf.com^
 ||mkjunc.cn^
 ||mklik.gazeta.pl^
@@ -105344,6 +105358,7 @@ zznews.cn##.ad:not([style])
 ||mpejus.suvie.com^
 ||mpfoklbjfy.com^
 ||mpglie.apartmentguide.com^
+||mphbvtw.cn^
 ||mphgyvnbap.com^
 ||mphj.com/Runtime/Js/
 ||mphj.com^*Runtime/Js/
@@ -107730,6 +107745,7 @@ zznews.cn##.ad:not([style])
 ||ofixwedjbtjc.com^
 ||ofk3.orcanta.fr^
 ||ofkqel.sabinastore.com^
+||ofmoppeuap.com^
 ||ofnumeltor.com^
 ||ofnumeltor.com^$popup
 ||ofphanpytor.com^
@@ -117047,6 +117063,7 @@ zznews.cn##.ad:not([style])
 ||showsteel.com^$third-party
 ||showstreet.com/log/
 ||showyoursite.com^$third-party
+||shproud.com^
 ||shqbsdjatunl.com^
 ||shqmetrics.sony.com^
 ||shrek.6.cn^
@@ -122662,6 +122679,8 @@ zznews.cn##.ad:not([style])
 ||sydcxk.epipla1.gr^
 ||sydneygfpink.com^
 ||sydswxx.com^
+||syduzothu.pro^
+||syduzothu.pro^$popup
 ||sygame.695157.com^$third-party
 ||syiae.com^
 ||sykc.madeindesign.ch^
@@ -126691,6 +126710,7 @@ zznews.cn##.ad:not([style])
 ||tt123.hao0202.com^
 ||tt27.com/js/jsg/
 ||ttaj.cn^
+||ttaqsrkkmcc.xyz^
 ||ttauri.laptopmag.com^
 ||ttavav6.com/zz/
 ||ttbaods.com$script
@@ -127573,6 +127593,7 @@ zznews.cn##.ad:not([style])
 ||unknowncarp.com^
 ||unknowncrate.com^$third-party
 ||unknowntray.com^$third-party
+||unkuljyhrpjhn.top^
 ||unlessorolii.xyz^
 ||unlikebenignityeyeshadow.com^
 ||unlimitate.club^
@@ -133303,6 +133324,7 @@ zznews.cn##.ad:not([style])
 ||yporn.tv/yp/yptv.php
 ||yppreudkgmya.xyz^
 ||ypreferred.com^
+||yprocedent.co^
 ||ypuxlzxa.com^
 ||ypwpzgld.com^
 ||ypymsisnwv.com^
@@ -134353,6 +134375,7 @@ zznews.cn##.ad:not([style])
 ||zqlcdzvdexdrd.com^
 ||zqlpee.fashionwalker.com^
 ||zqnow.net/js/kh.js
+||zqqifh.cn^
 ||zqrygp.dufy.com.tr^
 ||zqsbnfh.top^
 ||zqscript.com^
