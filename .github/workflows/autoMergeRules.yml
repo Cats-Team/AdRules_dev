@@ -2,6 +2,10 @@ name: Auto-Merge-Rules
 on:
   schedule:
     - cron: '0 22,10 * * *'
+  push:
+   branches:
+    - main
+
 
   workflow_dispatch:
 
@@ -28,9 +32,7 @@ jobs:
           git add --all
           git commit -m "Updated at $(date)"
           # git remote add origin "https://github.com/Cats-Team/AdRules_dev.git"
+          git remote add origin "https://${{ secrets.CODING_ACCOUNT }}:${{ secrets.CODING_PASSWORD }}@e.coding.net/cats-team/adguard/AdRules.git
           git fetch --unshallow origin
           git push -u origin --all
-      - name: Push message to tg
-        run: |
-          bash ./tama_bot.sh
 
