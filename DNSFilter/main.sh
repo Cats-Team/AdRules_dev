@@ -10,7 +10,7 @@ wget -O i5.txt https://anti-ad.net/easylist.txt
 
 # Start Merge and Duplicate Removal
 cat i*.txt > mergd.txt
-cat mergd.txt | grep -w '^||' | grep -w '^@@' > tmpp.txt
+cat mergd.txt | grep -c '^||' | grep -c '^@@' > tmpp.txt
 sort tmpp.txt | uniq > tmp.txt
 
 
