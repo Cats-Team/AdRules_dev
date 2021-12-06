@@ -14,15 +14,16 @@ wget -O i7.txt https://filters.adtidy.org/android/filters/4_optimized.txt
 cat i*.txt > mergd.txt
 cat mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' > tmpp.txt
 sort tmpp.txt | uniq > tmp.txt
+sort -n tmp.txt > tmmp.txt
 
 
 # Start Count Rules
-num=`cat tmp.txt | wc -l`
+num=`cat tmmp.txt | wc -l`
 
 # Start Add title and date
 echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> tpdate.txt
 echo "! Total count: $num" >> tpdate.txt
-cat title.dd tpdate.txt tmp.txt > final.txt
+cat title.dd tpdate.txt tmmp.txt > final.txt
 
 mv final.txt ../../adguard.txt
 rm *.txt
