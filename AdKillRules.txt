@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2021-12-07 11:59:12
-! Total count: 134435
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2021-12-07 12:15:51
+! Total count: 134441
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -41506,8 +41506,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 7b2.com,thh521.com,ygodl.com,zhujib.com#@#.social-top:not(html):not(body)
 7b6l2j.cn
 7days.ru,7ogorod.ru,agrognom.ru,alau.kz,argumenti.ru,argumentiru.com,etotprazdnik.ru,fermilon.ru,fishki.net,globuss24.ru,gorodche.ru,kp.ru,mashintop.ru,maxpark.com,news.ru,newsland.com,ogodom.ru,pasmi.ru,politros.com,shtrafsud.ru,svpressa.ru,teleprogramma.pro#$#abort-on-property-write ccJugger
-7days2die.info###nafikblock
-7days2die.info#?#.articleContent > p:-abp-has(> span + strong[style])
+7days2die.info##.articleContent > p[style="display: block!important; text-align: center;"]
 7hcn.com##.pr > a[href^="http"]:not([href^="http://www.7hcn."])
 7hcn.com##.rCont
 7hcn.com##div[ac],.outside
@@ -43552,6 +43551,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||cloudfront.net^*/jquery.google-analytics.js$domain=homepath.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||cloudinary.com/portalbici/advertisements/$domain=portalbici.es
+@@||cloudmaestro.com^$script,domain=overtone.co
 @@||cloudtime.to/banner.php$script
 @@||club.tgfcer.com^$generichide
 @@||cm-beacon.nakanohito.jp/at/ranking/$script
@@ -43639,6 +43639,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||count.taobao.com/counter$script
 @@||count.video.sina.com.cn^*?video_ids=
 @@||countrygarden.com.cn/ad/
+@@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 @@||cp.rackspace.com/javascript/services/analytics.js?$script,~third-party
 @@||cpagrip.com/script_include.php?id=$domain=nation2.com
 @@||cpagrip.com/script_include.php?id=$script
@@ -45538,6 +45539,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||miniup.com/images/ads.png$image
 @@||miniurls.co/intermission/loadTargetUrl$xmlhttprequest
 @@||mirror*.mangafunc.fun/comic/
+@@||mistore.jp/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||mix.dj/jscripts/jquery/mdj_adverts.js$script
 @@||mixpanel.com/site_media/js/api/mixpanel.js$domain=blog.cloudflare.com
 @@||mixpanel.com/track/?data=$xmlhttprequest,domain=change.org|kickstarter.com|thefrisky.com
@@ -46592,6 +46594,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||sonichits.com^$generichide
 @@||sophos.com^*/tracking/gainjectmin.js$script,domain=community.sophos.com
 @@||soranews24.com^$generichide
+@@||sortporn.com/ai2/s/s/js/m/pr-before.js$script,~third-party
 @@||soufunimg.com/??*/fshare.
 @@||soufunimg.com/count/uvbforpc.js
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
@@ -70714,6 +70717,7 @@ zznews.cn##.ad:not([style])
 ||adgrid.io^$third-party
 ||adgroups.com^$third-party
 ||adgrx.com^$third-party
+||adgtx.club^
 ||adguard.com/-/event/
 ||adgxptnsiwxjx.com^
 ||adhai.com^
@@ -98647,6 +98651,7 @@ zznews.cn##.ad:not([style])
 ||jytjw.com^
 ||jyyqzt.sledstore.se^
 ||jyzai.cn^
+||jyzaw.cn^
 ||jz5u.com/js/tl$script
 ||jz5u.com/js/xiazaiURL.js
 ||jz5u.com/new/
@@ -129272,6 +129277,7 @@ zznews.cn##.ad:not([style])
 ||web-bars.com^
 ||web-boosting.net^$third-party
 ||web-counter.net^$third-party
+||web-player-tracker.biliapi.net^
 ||web-security.cloud^
 ||web-soft.in/counters/
 ||web-stat.com^$third-party
