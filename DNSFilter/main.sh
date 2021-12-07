@@ -10,7 +10,7 @@ wget -O i5.txt https://anti-ad.net/easylist.txt
 
 # Start Merge and Duplicate Removal
 cat i*.txt > mergd.txt
-cat mergd.txt | grep -v '^! ' | grep -n '^. '| grep -n '^/ '| grep -n '^. '| grep -n '^# ' > tmpp.txt
+cat mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v '^\.' > tmpp.txt
 sort tmpp.txt | uniq > tmp.txt
 
 
@@ -22,7 +22,7 @@ echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> tpdate.txt
 echo "! Total count: $num" >> tpdate.txt
 cat title.dd tpdate.txt tmp.txt > final.txt
 
-mv final.txt ../../dns.txt
+mv final.txt ../../DNS.txt
 rm *.txt
 cd ../../
 exit
