@@ -12,7 +12,9 @@ curl -o i9.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.tx
 
 # Start Merge and Duplicate Removal
 cat i*.txt > mergd.txt
-cat mergd.txt | grep '^|' | grep -v './' | grep -v '.\$' > tmpp.txt
+cat mergd.txt | grep '^|' | grep -v './' | grep -v '.\$' > block.txt
+cat mergd.txt | grep '^@' | grep -v './' | grep -v '.\$' > allow.txt
+cat block.txt allow.txt > tmpp.txt
 sort -n tmpp.txt | uniq > tmp.txt
 
 
