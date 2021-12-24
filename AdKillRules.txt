@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2021-12-23 22:22:01
-! Total count: 136833
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2021-12-24 10:25:07
+! Total count: 136860
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -1119,6 +1119,7 @@
 ###ad-r
 ###ad-rbkua
 ###ad-rec-atf
+###ad-rec-btf
 ###ad-rec-btf-top
 ###ad-recommend
 ###ad-rect
@@ -6083,6 +6084,7 @@
 ###halfpagead
 ###haoetv1
 ###haoxinqing_me_img
+###hawkMagWidget
 ###hb-header-ad
 ###hcf-ad-wrapper
 ###hd-ads
@@ -10183,6 +10185,7 @@
 ##.ad-banner-bkgd
 ##.ad-banner-bottom-container
 ##.ad-banner-box
+##.ad-banner-btf
 ##.ad-banner-container
 ##.ad-banner-content
 ##.ad-banner-image
@@ -11796,6 +11799,7 @@
 ##.adTxt
 ##.adType2
 ##.adUltra
+##.adUnderArticle
 ##.adUnit
 ##.adUnitHorz
 ##.adUnitVert
@@ -12194,6 +12198,7 @@
 ##.ad_info_block
 ##.ad_inline
 ##.ad_inline_wrapper
+##.ad_inner
 ##.ad_inset
 ##.ad_island
 ##.ad_island2_spacer
@@ -17437,6 +17442,7 @@
 ##.fwAdTags
 ##.g-ad
 ##.g-ad-fix
+##.g-ad-leaderboard
 ##.g-ad-slot
 ##.g-ad-slot-toptop
 ##.g-adblock3
@@ -22891,6 +22897,7 @@
 ##.widget_advertisment
 ##.widget_advwidget
 ##.widget_adwidget
+##.widget_alaya_ad
 ##.widget_appmanager_sponsoredpostswidget
 ##.widget_arvins_ad_randomizer
 ##.widget_awaken_pro_medium_rectangle_ad
@@ -24513,6 +24520,7 @@
 ##div[id^="dfp-slot-"]
 ##div[id^="div-ads-"]
 ##div[id^="div-adtech-ad-"]
+##div[id^="div-gpt-"]
 ##div[id^="div-gpt-ad"]
 ##div[id^="divAdvAD_"]
 ##div[id^="div_ad_stack_"]
@@ -26073,7 +26081,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 -google-ads.$domain=~youston.agency
 -google-ads/
 -google-adsense.
--google-analytics-$domain=~wordpress.org
 -google-analytics-$script,domain=~wordpress.org
 -google-analytics.
 -google-analytics/$domain=~wordpress.org
@@ -27956,6 +27963,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /__utm.js
 /__varnish_geoip
 /__wsm.gif
+/_ajax/tebilisim.php?
 /_global/ads/*
 /_hcms/perf
 /_lib/ga.js
@@ -36157,6 +36165,9 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /onsitegeo.
 /onstuimig-tag-
 /ontopadvertising.
+/oo/*/l.js|$~third-party
+/oo/*/lsync.js$~third-party
+/oo/cl*.js?rd=$~third-party
 /opbb/float.js
 /opbb/obpp.tpl
 /opdc.gif?
@@ -40177,6 +40188,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post[data-field*="\"user_name\":\"\\u4e3f\\u5929\\u4e36\\u4e4b\\u6b87\""]:not([data-field*="\"user_id\":1180601200,"])
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.mediago-ad-wrapper
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tb_poster_placeholder
+1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,wefan.baidu.com,xingqu.baidu.com##.tbui_aside_float_bar + .clearfix
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###activity_countdown_head
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###attention-game-wraper_dialog
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
@@ -40288,7 +40300,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##div[id*="lottery"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#$#abort-on-property-read Object.prototype.loadImage
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com,wefan.baidu.com##.tbui_aside_float_bar + .clearfix
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###forum_recommend
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/hottopic
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###questionnaire_bg
@@ -49507,8 +49518,6 @@ baidu.com##.experience-card-bar-wrap
 baidu.com##.eye-catching-tpl-container
 baidu.com##.fc-ad-line
 baidu.com##.fc-wenku-ad
-baidu.com##.fengchao-wrap
-baidu.com##.fengchao-wrap-feed
 baidu.com##.first-card-container
 baidu.com##.fufei-activity-bar
 baidu.com##.gg-content
@@ -59598,7 +59607,9 @@ poba.com.tw,poba.hk#@#.adlist
 pocket-lint.com##.block-inline
 pocket-lint.com##.block-mpu
 pocket-lint.com##.im-desktop
+pocket-lint.com##.recommended-best-deal
 pocket-lint.com##.sqr_p
+pocket-lint.com##.squirrel_widget
 poedb.tw#%#//scriptlet("abort-current-inline-script", "document.getElementById", "/#myModal'\)\.modal/")
 poedb.tw#?#div[id]:-abp-contains(ad blocker)
 pogocheats.net#@#.adsbygoogle
@@ -72798,6 +72809,7 @@ zznews.cn##.ad:not([style])
 ||akkdyflrqpdtkt.top^
 ||aklglpwljiv.com^
 ||aklm.cc^
+||akmhw.com^
 ||akmxts.com^
 ||akmxts.com^$popup
 ||akozxay.cn^
@@ -73907,6 +73919,7 @@ zznews.cn##.ad:not([style])
 ||analytics.tbs.com^
 ||analytics.tcm.com^
 ||analytics.teamcovenant.com^
+||analytics.tebilisim.com^
 ||analytics.techweb.com.cn^
 ||analytics.teespring.com^
 ||analytics.themarketiq.com^
@@ -74057,6 +74070,7 @@ zznews.cn##.ad:not([style])
 ||anews7.nvwu.com^
 ||anexia-it.com^$third-party
 ||anfcadf.cn^
+||anfw.com.cn^
 ||angege.com^
 ||angege.com^$popup
 ||angelbaby.store^
@@ -76529,6 +76543,7 @@ zznews.cn##.ad:not([style])
 ||banwb.com^
 ||banwm.com^
 ||banwt.com^
+||banxc.com^
 ||banxf.com^
 ||banxfw.cn^
 ||banyinjia1.com/media/ads/*.mp4$redirect=noopmp3-0.1s,~third-party
@@ -76539,6 +76554,7 @@ zznews.cn##.ad:not([style])
 ||banyinjia3.com/media/ads/*.mp4$rewrite=abp-resource:blank-mp3,domain=banyinjia11.com|banyinjia3.com
 ||banzd.com^
 ||banzdw.cn^
+||banzf.com^
 ||banzhuxs.org/js/function.js
 ||banzou.name/qq/qq2.js
 ||baobaoshiye.com.cn^
@@ -77770,6 +77786,7 @@ zznews.cn##.ad:not([style])
 ||bitx.tv^
 ||bivgiokd0y.cn^
 ||bivitr.com^
+||biwo.ink^
 ||bixingjia.com/js/hf.
 ||bixjf.com/*/ad/*.mp4
 ||bixjf.com/*/video_loading.gif
@@ -80013,6 +80030,7 @@ zznews.cn##.ad:not([style])
 ||cdn.sophi.io^$third-party
 ||cdn.static-fra.de/*/tracking/
 ||cdn.taboola.com/libtrc/animeyttv/loader.js
+||cdn.tebilisim.com/analytics.js
 ||cdn.theoplayer.com/t?
 ||cdn.thunderhead.com/one/rt/js/one-tag.js
 ||cdn.toolbar.net.zooplus.com^
@@ -84774,6 +84792,7 @@ zznews.cn##.ad:not([style])
 ||dashingperfect.com^
 ||dashingsweater.com^
 ||dashingsweater.com^$third-party
+||dashuaibi.icu^
 ||dashubao.cc/gaogao/$script
 ||daskm.com^
 ||dasongti.top^
@@ -87715,6 +87734,7 @@ zznews.cn##.ad:not([style])
 ||easyhits4u.com^$third-party
 ||easyicon.net/gg2019/
 ||easyinline.com^$third-party
+||easyjz.com.cn^
 ||easykits.org^$popup
 ||easyliao.com^$third-party
 ||easylist-to.xyz^
@@ -99113,6 +99133,7 @@ zznews.cn##.ad:not([style])
 ||joeyzzvkpjha.com^
 ||jofhsybikfnl.com^
 ||jofinchnettle.com^
+||jogbxpg.cn^
 ||johannes.voith.com^
 ||johays.co^
 ||johtzj.com^
@@ -99166,6 +99187,7 @@ zznews.cn##.ad:not([style])
 ||jouteetu.net^
 ||jovfwgr.cn^
 ||joxhvjnlpb.com^
+||joyceglobal.club^
 ||joyekepus.online^
 ||joyfullysacrificeralph.com^
 ||joyhaftsyears.com^
@@ -99656,6 +99678,7 @@ zznews.cn##.ad:not([style])
 ||jxxcfd.com^
 ||jxy6.evobanco.es^
 ||jxyufa.com^
+||jxzz.tech^
 ||jy.zhongxues.com^
 ||jy135.com^$third-party
 ||jyacht.com/flash/marina.swf
@@ -101574,6 +101597,7 @@ zznews.cn##.ad:not([style])
 ||likenessalmosteradicate.com^
 ||likooste.com^
 ||lilacdefencelessroyal.com^
+||lilith.ink^
 ||lilithgame.info^
 ||liliwoin.top
 ||liliy9aydje10.com^
@@ -128613,6 +128637,7 @@ zznews.cn##.ad:not([style])
 ||ttbc.cc^
 ||ttbc33.com^
 ||ttdbj.com^
+||ttffhe.top^
 ||ttfpil.2dehands.be^
 ||ttgmjfgldgv9ed10.com^
 ||ttic.ru/counter^$third-party
@@ -130828,6 +130853,7 @@ zznews.cn##.ad:not([style])
 ||vnrherdsxr.com^
 ||vns3359.com^
 ||vntsm.com^
+||vnyqn.cn^
 ||vnzwxk.e-bebek.com^
 ||vo.msecnd.net/api/beYableJSv2.js
 ||voapozol.com^
@@ -135543,6 +135569,7 @@ zznews.cn##.ad:not([style])
 ||yuebofa.cc^$third-party
 ||yuedu.baidu.com/hybrid/wkrec/search?
 ||yueduyy.com^
+||yuegepiano.cn^
 ||yueleshenghuo.cn^
 ||yueli101.xyz^
 ||yueqal.glassesusa.com^
