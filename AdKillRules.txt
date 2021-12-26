@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2021-12-26 10:24:20
-! Total count: 136934
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2021-12-26 22:21:16
+! Total count: 136946
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -23430,6 +23430,7 @@
 ##a[href*=".aiyouxi56.com"]
 ##a[href*=".allsports4you.club"]
 ##a[href*=".approvallamp.club/"]
+##a[href*=".asada-kairyo.com/"]
 ##a[href*=".axdsz.pro/"]
 ##a[href*=".ayx300.com/"]
 ##a[href*=".bang.com/"][href*="&aff="]
@@ -42247,6 +42248,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@.adserver.$domain=litv.tv
 @@.com/ad.aspx|$domain=xdingdiann.com
 @@.com/adv/$domain=my.ctrip.com
+@@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/ad1.js$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/pic.png$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -43510,9 +43512,11 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
 @@||cdn.scarabresearch.com/js/*/scarab-v*.js$domain=avansas.com
 @@||cdn.segment.com/*/analytics.min.js$domain=canva.com
+@@||cdn.segment.com/analytics-next/$domain=app.cryptotrader.tax|givingassistant.org
 @@||cdn.segment.com/analytics-next/$domain=givingassistant.org
 @@||cdn.segment.com/analytics.js$domain=buffer.com
 @@||cdn.segment.com/analytics.js$domain=cryptokitties.co
+@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|givingassistant.org
 @@||cdn.segment.com/analytics.js/$script,domain=fender.com|givingassistant.org
 @@||cdn.segment.com/analytics.js/*/analytics.min.js$domain=stacksocial.com
 @@||cdn.segment.com/analytics.js/*/analytics.min.js$domain=surfline.com
@@ -43522,6 +43526,9 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||cdn.segment.com/analytics.js^$domain=creativemarket.com
 @@||cdn.segment.com/analytics.js^$domain=crunchyroll.com
 @@||cdn.segment.com/analytics.js^$domain=freshly.com
+@@||cdn.segment.com/next-integrations/integrations/intercom/*/intercom.dynamic.js.gz$script,domain=app.cryptotrader.tax
+@@||cdn.segment.com/next-integrations/integrations/vendor/commons.$script,domain=app.cryptotrader.tax
+@@||cdn.segment.com/v1/projects/$domain=app.cryptotrader.tax|benchling.com|givingassistant.org
 @@||cdn.segment.com/v1/projects/$domain=benchling.com|givingassistant.org
 @@||cdn.segmentify.com/*/segmentify.css$domain=migros.com.tr
 @@||cdn.segmentify.com/*/segmentify.js$domain=gittigidiyor.com
@@ -57052,6 +57059,7 @@ liepin.com##div.ui-masklayer,div.aui-dialog-content
 liewen.cc##div#ad2,div.nav_bottom_ad
 lifan.moe##.ad-container
 life.ru##.read-next
+life.tw###fbFixedAd
 life.tw##div[style="width:630px;height:700px;"]
 lifehacker.jp##div[data-gtm-mgid*="recomendList"]
 lifeinvader.com#@##ads-col
@@ -59762,6 +59770,7 @@ post.m.smzdm.com##div.btn-open-app
 post.m.smzdm.com##div.module-like-wrap
 post.m.smzdm.com##div.module-title:nth-child(20)
 post.m.smzdm.com##div.testin-container
+postimees.ee#@#.ad01
 postroll$xmlhttprequest,domain=iprima.cz
 postyourpuss.com###leaderboard
 power.baidu.com,www.baidu.com,zhidao.baidu.com##style[id*="s-m"] + div[id^="m"]
@@ -68766,6 +68775,7 @@ zznews.cn##.ad:not([style])
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
 ||900bets10.com^$popup
+||90158js.com^
 ||90370.com^$third-party
 ||9053fe03868ab.com^
 ||90bifen.net^*/c_ad_
@@ -124721,6 +124731,7 @@ zznews.cn##.ad:not([style])
 ||szyepu8.com/data/AADDimg/
 ||szyhqj.com/js/
 ||szyuke.cn^
+||szzd.ltd^
 ||t*.baidu.com/it/u=*,*&fm=76$third-party
 ||t*.zcvh.net^
 ||t-ak.hulu.com^
@@ -135235,6 +135246,7 @@ zznews.cn##.ad:not([style])
 ||ykxwn.com^
 ||yl-zipper.com^
 ||yladm.com^
+||ylbb-vipjs.com^
 ||yldbt.com^
 ||yldmgrimg.net^
 ||yldr.io^$third-party
