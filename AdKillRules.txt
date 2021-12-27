@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2021-12-26 22:21:16
-! Total count: 136946
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2021-12-27 10:24:58
+! Total count: 136954
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -25842,7 +25842,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 -ad-category-
 -ad-changer-
 -ad-choices.
--ad-code.
 -ad-code/
 -ad-codes_
 -ad-column-
@@ -27929,7 +27928,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /^https?:\/\/.*\/sw.js?.[a-zA-Z0-9%]{50,}/$script,~third-party
 /^https?:\/\/.*bit(ly)?\.(com|ly)\//$domain=1337x.to|cryptobriefing.com|eztv.io|eztv.tf|eztv.yt|fmovies.taxi|fmovies.world|limetorrents.info|megaup.net|mrunlock.kim|newser.com|sendit.cloud|torlock.com|uiz.io|userscloud.com|vev.red|vidbull.tv|vidop.icu|vidup.io|yourbittorrent2.com
 /^https?:\/\/146\.59\.211\.(\d){1,3}.*/$popup,third-party
-/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$third-party,domain=9xmovies.app|9xupload.asia|allsports.icu|cloudvideo.tv|daddylive.click|deltabit.co|dood.to|dood.watch|dum.to|embedstream.me|evoload.io|flashx.net|gaybeeg.info|hdfilme.cx|mangovideo.pw|mixdrop.bz|mixdrop.co|mixdrop.sx|mixdrop.to|mystream.to|nelion.me|nocensor.biz|ovagames.com|playtube.ws|pouvideo.cc|rojadirecta.watch|soccerstreamslive.co|strcloud.in|streamsport.icu|strtape.cloud|strtape.tech|strtapeadblock.club|supervideo.tv|uproxy.to|upstream.to|videovard.sx|vidlox.me|vidsrc.me|vidsrc.stream|vivo.sx|voe.sx|vupload.com|wowlive.info
+/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$third-party,domain=9xmovies.app|9xupload.asia|allsports.icu|cloudvideo.tv|daddylive.click|deltabit.co|dood.sh|dood.to|dood.watch|dum.to|embedstream.me|evoload.io|flashx.net|gaybeeg.info|hdfilme.cx|mangovideo.pw|mixdrop.bz|mixdrop.co|mixdrop.sx|mixdrop.to|mystream.to|nelion.me|nocensor.biz|ovagames.com|playtube.ws|pouvideo.cc|rojadirecta.watch|soccerstreamslive.co|strcloud.in|streamsport.icu|strtape.cloud|strtape.tech|strtapeadblock.club|supervideo.tv|uproxy.to|upstream.to|videovard.sx|vidlox.me|vidsrc.me|vidsrc.stream|vivo.sx|voe.sx|vupload.com|wowlive.info
 /^https?:\/\/cdn\.[0-9a-z]{3,6}\.xyz\/[a-z0-9]{8,}\.js$/$script,third-party
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
@@ -34903,6 +34902,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /js/ads/*2.js
 /js/ads/*5.js
 /js/ads/dui.js
+/js/ads/hf*.js
 /js/ads/neiye
 /js/ads/piao.js
 /js/ads/to
@@ -42249,7 +42249,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@.com/ad.aspx|$domain=xdingdiann.com
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
-@@.com/js/ad_/ad1.js$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/pic.png$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -43513,11 +43512,9 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||cdn.scarabresearch.com/js/*/scarab-v*.js$domain=avansas.com
 @@||cdn.segment.com/*/analytics.min.js$domain=canva.com
 @@||cdn.segment.com/analytics-next/$domain=app.cryptotrader.tax|givingassistant.org
-@@||cdn.segment.com/analytics-next/$domain=givingassistant.org
 @@||cdn.segment.com/analytics.js$domain=buffer.com
 @@||cdn.segment.com/analytics.js$domain=cryptokitties.co
 @@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|givingassistant.org
-@@||cdn.segment.com/analytics.js/$script,domain=fender.com|givingassistant.org
 @@||cdn.segment.com/analytics.js/*/analytics.min.js$domain=stacksocial.com
 @@||cdn.segment.com/analytics.js/*/analytics.min.js$domain=surfline.com
 @@||cdn.segment.com/analytics.js/v*/*/analytics.min.js$domain=learning.edx.org
@@ -43529,7 +43526,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||cdn.segment.com/next-integrations/integrations/intercom/*/intercom.dynamic.js.gz$script,domain=app.cryptotrader.tax
 @@||cdn.segment.com/next-integrations/integrations/vendor/commons.$script,domain=app.cryptotrader.tax
 @@||cdn.segment.com/v1/projects/$domain=app.cryptotrader.tax|benchling.com|givingassistant.org
-@@||cdn.segment.com/v1/projects/$domain=benchling.com|givingassistant.org
 @@||cdn.segmentify.com/*/segmentify.css$domain=migros.com.tr
 @@||cdn.segmentify.com/*/segmentify.js$domain=gittigidiyor.com
 @@||cdn.segmentify.com/*/segmentify.js$domain=migros.com.tr
@@ -45967,6 +45963,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=sc2casts.com
 @@||pagead2.googlesyndication.com/pagead/js/*show_ads_impl.js$domain=buickforums.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bricozone.fr
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|haoweichi.com|it365.abctool.info|logi.im|monnsutogatya.com|numberempire.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|xiebruce.top|yabook.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cpu-world.com|megaleech.us
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dailydoge.org
@@ -46334,8 +46331,9 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||quantcast.com/advertise$domain=quantcast.com
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|express.co.uk|independent.co.uk|ladbible.com
+@@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$script,domain=clint.be
 @@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$script,domain=cnews.fr
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|dailyrecord.co.uk|digitalcameraworld.com|donnaglamour.it|einthusan.tv|express.co.uk|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|ilbianconero.com|independent.co.uk|indy100.com|kueez.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|protothema.gr|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|dailyrecord.co.uk|digitalcameraworld.com|donnaglamour.it|einthusan.tv|express.co.uk|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|ilbianconero.com|independent.co.uk|indy100.com|kueez.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|nfl.com|pcgamer.com|porconocer.com|protothema.gr|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=euronics.it
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
 @@||quanzhi.cn/v3/images/index_ad/
@@ -50795,6 +50793,7 @@ changsha.cn##[class^="site_ad_"]
 channel1.livesportshd.us###ai_tapar_content
 channel4.com###c4ad-Top
 chanpindashi.com##.personal-information > a[href^="http"]:not([href*="chanpindashi."])
+chaojizhibo.net#@#.adsbygoogle
 chaomi.cc##.cm-ads
 chaomi.cc,cpnn.com.cn,cs.com.cn,dyhjw.com,kkj.cn,my0538.com,mydrivers.com,ofweek.com,silver.org.cn,ttzmz.vip,wendu.cn##.duilian
 chaomi.cc,cpnn.com.cn,cs.com.cn,dyhjw.com,kkj.cn,my0538.com,mydrivers.com,ofweek.com,silver.org.cn,ttzmz.vip,wendu.cn,y1118.com##.duilian
@@ -55955,6 +55954,7 @@ izismile.com##.ban_top
 izismile.com##.css-widget-item-wrap
 izmailov.tv##.popupBlock
 j3pz.com##.hidden-xs
+jable.tv###jimds-slider
 jable.tv###site-content > div.container > section.pb-3.pb-e-lg-40.text-center
 jable.tv##.badge
 jable.tv##.text-center > a[target="_blank"] > img
@@ -73345,6 +73345,7 @@ zznews.cn##.ad:not([style])
 ||amazon.*/1/p13n-shared-components/*/batch/action
 ||amazon.*/action-impressions/
 ||amazon.*/ajax/counter?
+||amazon.*/e/loi/imp?
 ||amazon.*/gp/kindle/kfc/SpecialOffer/
 ||amazon.*/gp/sponsored-products/logging^
 ||amazon.com*/ReportEvent?
@@ -76810,6 +76811,7 @@ zznews.cn##.ad:not([style])
 ||bcfabscdt.com^
 ||bcfeedback.taobao.com^
 ||bcfgwi.skidxb.com^
+||bcjxwlkj.com^
 ||bckfnohmg.com^
 ||bclheggx.com^
 ||bcloudhost.com^
@@ -78708,6 +78710,7 @@ zznews.cn##.ad:not([style])
 ||bsinteractive.hb.omtrdc.net^
 ||bsjgc.com^
 ||bsjjtpkc.com^
+||bsjxwlkj.com^
 ||bskblt.6thstreet.com^
 ||bskchina.cn/js/
 ||bskchina.cn^
@@ -81791,6 +81794,7 @@ zznews.cn##.ad:not([style])
 ||cnpingpang.com/uploadfile/TTW.gif
 ||cnpinzhuo.com^
 ||cnplugins.com/templets/cnplugins/pushbox1.js
+||cnprint.org/bbs/images/gg/
 ||cnpxwl.cheapcaribbean.com^
 ||cnq4379.com^
 ||cnr.cn/cnrxwph/iframe/tpdy/
@@ -98494,6 +98498,7 @@ zznews.cn##.ad:not([style])
 ||ja2.gamersky.com/
 ||ja9377.com^
 ||jable.tv/assets/*0.gif
+||jable.tv/assets/images/*-slider.
 ||jable.tv/assets/images/wejo/$image
 ||jacied.com^
 ||jackal.goldsteinmedia.com^
@@ -99007,6 +99012,7 @@ zznews.cn##.ad:not([style])
 ||jitashe.org/template/jitashe/image/bc/3
 ||jitdknclhdpfzyvkio.bid^
 ||jituangongsi.cn^
+||jiucaishuo.cn^
 ||jiudiandyw.com^
 ||jiudianhudong.com^
 ||jiudianhudong.com^$third-party
@@ -99404,6 +99410,7 @@ zznews.cn##.ad:not([style])
 ||jsdelivr.net/gh/*/960x60.
 ||jsdelivr.net/gh/a901361/
 ||jsdelivr.net/gh/cdnjsdelivr001/182cdn*.js
+||jsdelivr.net/gh/cloud-files-cdn/jsfiles/lieqi.
 ||jsdelivr.net/gh/cloud-files/imgs/adamkoo-
 ||jsdelivr.net/gh/dashange123/
 ||jsdelivr.net/gh/diyibanzhu/
@@ -136494,6 +136501,7 @@ zznews.cn##.ad:not([style])
 ||zkvivi.com/skin/wxc.js
 ||zkwsdf.com^
 ||zl588.com^
+||zl856.cn^
 ||zlacraft.com^
 ||zlbkj.com^
 ||zlfgedpuxrbpgm.com^
