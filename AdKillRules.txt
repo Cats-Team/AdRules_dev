@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-01 10:24:12
-! Total count: 137283
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-01 22:21:38
+! Total count: 137293
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -23682,6 +23682,7 @@
 ##a[href*="/mobads.php?"]
 ##a[href*="/nba9.lol"]
 ##a[href*="/nf.brushshopy.com"]
+##a[href*="/nomvzs.com/"]
 ##a[href*="/od005.cn"]
 ##a[href*="/od005.com"]
 ##a[href*="/od005.net"]
@@ -34055,7 +34056,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /global-ads_
 /global-analytics.js
 /global/ad/*
-/global/ads.
 /global/ads/*
 /global/analytics/*
 /global/ga.js?
@@ -39966,8 +39966,11 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /xxd.php?id=$script,third-party
 /xxgg/app.js
 /xxgg/book.js
+/xxgg/dj1.js
+/xxgg/dj2.js
 /xxgg/goodad.js
 /xxgg/gzh.js
+/xxgg/pfad.js
 /xxgg/pv.js
 /xxgg/xsggs.js
 /xy.gif?
@@ -71785,6 +71788,8 @@ zznews.cn##.ad:not([style])
 ||adready.com^$third-party
 ||adreadytractions.com^$third-party
 ||adreal.cn^
+||adrealclick.com^$popup
+||adrealclick.com^$third-party
 ||adrecord.com^$third-party
 ||adrecover.com^$third-party
 ||adrecreate.com^
@@ -75249,6 +75254,7 @@ zznews.cn##.ad:not([style])
 ||artandand.online^
 ||artantash.club^
 ||artaslangdon.com^$third-party
+||artbluesea.xyz^
 ||artdaily.cc/banners/
 ||artefact.is^$third-party
 ||artfin.club^
@@ -78870,6 +78876,7 @@ zznews.cn##.ad:not([style])
 ||bs.yandex.ru/informer/$third-party
 ||bs.yandex.ru^
 ||bs777.net^$third-party
+||bs987.cn^
 ||bsaq5.cn^
 ||bsbopag.cn^
 ||bsdaban.com^
@@ -103554,6 +103561,7 @@ zznews.cn##.ad:not([style])
 ||madx.flyme.cn^
 ||maebtjn.com^
 ||maegkrquttm.xyz^
+||mafengow.club^
 ||mafengwo.cn/uva/i.gif?
 ||mafengwo.net/s13/M00/D0/6D/wKgEaVza2HCAJw8sAAOVHkWHw_c98.jpeg
 ||mafia-linkz.to^$popup,third-party
@@ -135308,6 +135316,7 @@ zznews.cn##.ad:not([style])
 ||ygsoeu.size.co.uk^
 ||ygtnn.cn^
 ||ygtt.mobi^
+||ygtx.mobi^
 ||ygudtbdnhkhlmkd.xyz^
 ||yguuoibdsscki.com^
 ||ygzkedoxwhqlzp.com^
@@ -137153,6 +137162,7 @@ zznews.cn##.ad:not([style])
 ||zxxds.net^
 ||zxxtkrkzfyy3.com^
 ||zxxvns.f64.ro^
+||zxyonlybelongstolym.xyz^
 ||zxzj.fun/slade
 ||zxzj.fun/t.js
 ||zy16eoat1w.com^
