@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-05 22:22:32
-! Total count: 137598
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-06 10:25:22
+! Total count: 137619
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -9617,6 +9617,7 @@
 ##.MPUad
 ##.MREC_ads
 ##.M__leaderboardAdvert-image
+##.MacPlayer > #play-pause
 ##.MadClose
 ##.MainAdCont
 ##.Main_right_Adv_incl
@@ -18438,6 +18439,8 @@
 ##.in-content-ad--container
 ##.in-content-ad-container
 ##.in-content-ad-wrapper
+##.in-game-ad-left
+##.in-game-ad-right
 ##.in-latest-news-advertisement-container
 ##.in-node-ad-300x250
 ##.in-page-ad
@@ -23602,6 +23605,7 @@
 ##a[href*=".ttz5.cn"]
 ##a[href*=".tudown.com/"]
 ##a[href*=".udncoeln.com/"]
+##a[href*=".umtrack.com/"]
 ##a[href*=".vldbd.com/"]
 ##a[href*=".vxzmok.com"]
 ##a[href*=".wenpie.com/"]
@@ -24943,6 +24947,7 @@ $image,third-party,domain=258zw.com
 $image,third-party,domain=avtb6677.com|lady1.top
 $image,third-party,domain=lady1.top
 $media,domain=damimage.com|imagedecode.com|imageteam.org
+$ping
 $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|jxedt.com|mimima.com|rmdown.com|soyunpan.com|youtubeto.com
 $popup,third-party,domain=apl100.me|apl96.me|assia2.com|cloudvideo.tv|databasegdriveplayer.xyz​|fembed-hd.com|file-upload.com|geoip.redirect-ads.com|highstream.tv|loader.to|mangovideo.pw|mixdrop.bz|mixdrop.co|mixdrop.to|myflixer.to|mystream.to|play.hydracdn.network|playtube.ws|pouvideo.cc|sbplay2.com|streamas.cloud|streamlare.com|streamon.to|streamtape.com|strtape.cloud|strtpe.link|supervideo.tv|upstream.to|vidcloud9.com|videovard.sx|vidlox.me|vivo.sx|voe.sx|vupload.com|wiztube.xyz
 $popup,third-party,domain=downdv.com|rmdown.com|soyunpan.com|youtubeto.com
@@ -47171,6 +47176,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||track.nnn.de/cre-*/tracking/tracking.js
 @@||track.nzz.ch/cre-*/tracking/tracking.js
 @@||track.rundschau-online.de/cre-*/tracking/tracking.js
+@@||track.shipstation.com/collections/trackingEvents.js$~third-party
 @@||track.svz.de/cre-*/tracking/tracking.js
 @@||track2.royalmail.com^
 @@||trackcmp.net^|
@@ -67756,7 +67762,6 @@ zznews.cn##.ad:not([style])
 ||41df76c67812005c.com^
 ||42.51.8.24^
 ||42297df5c090.com^
-||423down.com^$csp=script-src
 ||425555a.com^
 ||426g.com^
 ||42837932b3d.com^
@@ -74138,6 +74143,7 @@ zznews.cn##.ad:not([style])
 ||analytics.nordea.fi^
 ||analytics.nordea.no^
 ||analytics.nordea.se^
+||analytics.oceanengine.com^
 ||analytics.omgpop.com/log
 ||analytics.omniscientai.com^$third-party
 ||analytics.oneplus.cn^
@@ -82214,6 +82220,7 @@ zznews.cn##.ad:not([style])
 ||cnxad.com^$third-party
 ||cnxad.net^
 ||cnxmyb.cn^
+||cnxunkewang.info^
 ||cnxweb.com^$third-party
 ||cnyibs.com^
 ||cnyw.net/autoloader.js
@@ -88442,6 +88449,7 @@ zznews.cn##.ad:not([style])
 ||eecd179r3b.com^
 ||eeco-net.actonservice.com^
 ||eee3a05c040fef3.com^
+||eeeap.cn^
 ||eeeqi.cn^
 ||eeftordu.net^
 ||eefxjexuwls.com^
@@ -89153,6 +89161,7 @@ zznews.cn##.ad:not([style])
 ||enjuk.com^
 ||enjuw.com^
 ||enkayijamal.club^
+||enkjaq.cn^
 ||enlarget.com^
 ||enlarget.com^$popup
 ||enlightenment.secureshoppingbasket.com^
@@ -90080,6 +90089,7 @@ zznews.cn##.ad:not([style])
 ||ezzxpepmllgdw.com^
 ||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com
 ||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|haokan.com
+||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|~haokan.com
 ||f-counter.jp^$third-party
 ||f-counter.net^$third-party
 ||f-emc.ngsp.gov.vn^
@@ -92169,6 +92179,7 @@ zznews.cn##.ad:not([style])
 ||gaitdrummerauto.com^
 ||gaitheed.com^
 ||gaitoath.com^
+||gaizeissuer.com^
 ||gak.webtoons.com^
 ||gakinibe.pro^
 ||gakseeft.com^$third-party
@@ -98933,6 +98944,7 @@ zznews.cn##.ad:not([style])
 ||javdove.com/templates/frontend/javdove/*/partialviewslider.
 ||javhd.com/ascripts/gcu.js
 ||javhd.com/banners-mainpage/
+||javhd.com/rstat
 ||javhd.com/sb/
 ||javhoo.net/pop/pop.jpg
 ||javhub.net/img/r18_banner1.jpg
@@ -98998,6 +99010,7 @@ zznews.cn##.ad:not([style])
 ||jcwuzktevijp.com^
 ||jcwwxn.com^
 ||jcxcvqc.cn^
+||jczs.xyz^
 ||jczzjx.com^
 ||jd-bbs.com/tianyi/
 ||jd-bbs.com^*/gif/
@@ -100138,6 +100151,7 @@ zznews.cn##.ad:not([style])
 ||jz5u.com/public/new/
 ||jzb.com/website/fe/pub_js/dbclickshow.js
 ||jzbzvk10u32f.adria.gg^
+||jzcool.top^
 ||jzdianlan.cn^
 ||jzhxzsgs.com^
 ||jzhzm30o49gv.com^
@@ -109435,6 +109449,7 @@ zznews.cn##.ad:not([style])
 ||nthyn.com/
 ||ntimg.cn/original/images/www_ads.jpg
 ||ntiveandi.biz^
+||ntjanyc.cn^
 ||ntkjbweenycfq.com^
 ||ntlab.org^$third-party
 ||ntmb.de/count.html?
@@ -114614,6 +114629,7 @@ zznews.cn##.ad:not([style])
 ||qiaopiguniang.com^
 ||qibalmm.com^
 ||qibxdwe1.com^
+||qichenx.com^
 ||qichetuoyun.com.cn^
 ||qichetuoyun.com.cn^$third-party
 ||qidian.com/Images/990x40_
@@ -115526,6 +115542,7 @@ zznews.cn##.ad:not([style])
 ||rcs.mako.co.il/js/neo/hpstats.js
 ||rcs.mako.co.il/js/scripts/metrics.js
 ||rcsobjects.it/rcs_tracking-service/v1/distro/HTML/trservice.shtml
+||rctxcsi.cn^
 ||rctxiqx.cn^
 ||rctxsrv.cn^
 ||rctxtjp.cn^
@@ -116931,6 +116948,7 @@ zznews.cn##.ad:not([style])
 ||rtve.d1.hb.omtrdc.net^
 ||rtve.hb.omtrdc.net^
 ||rtxlni.doclasse.com^
+||rtxpx-a.akamaihd.net^
 ||rtyznd.com^$popup
 ||rtzkyxtfwo.com^
 ||ru-mi.com/*/ee_tracking.js
@@ -118089,6 +118107,7 @@ zznews.cn##.ad:not([style])
 ||scjcgj.top^
 ||scjlpq.navitime.co.jp^
 ||sclick.baidu.com^
+||scloud.online/stat/
 ||scmetrics.shell.com^
 ||scmetrics.vodafone.it^
 ||scming.net.zooplus.de^
@@ -119913,6 +119932,7 @@ zznews.cn##.ad:not([style])
 ||sixscissors.com^$third-party
 ||sixsigmatraffic.com^$third-party
 ||sixteenabsorptionbreed.com^
+||sixtyhardwarepreference.com^
 ||sizeilksohs.com^
 ||sizesidewalk.com^
 ||sizesidewalk.com^$third-party
@@ -134980,6 +135000,7 @@ zznews.cn##.ad:not([style])
 ||xqncvy.edreams.com.mx^
 ||xqtcur.kirklands.com^
 ||xqtzp.cn^
+||xqwkjf.top^
 ||xqxlaymd.xyz^
 ||xqygyp.cn^
 ||xqzlgbbe.com^
