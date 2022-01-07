@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-06 22:22:54
-! Total count: 137653
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-07 10:26:01
+! Total count: 137684
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -8342,6 +8342,7 @@
 ###sponsored_news
 ###sponsored_option
 ###sponsored_v12
+###sponsoredad
 ###sponsoredads
 ###sponsoredlinks
 ###sponsoredlinks_cntr
@@ -12230,6 +12231,7 @@
 ##.ad_in_article
 ##.ad_in_column
 ##.ad_in_head
+##.ad_incontent
 ##.ad_index02
 ##.ad_indicator
 ##.ad_info_block
@@ -19757,6 +19759,7 @@
 ##.news-ad-square-a
 ##.news-ad-square-box
 ##.news-advert__column
+##.news-advertisement
 ##.news-home-block-ad
 ##.news-place-ad-info
 ##.newsAd
@@ -24442,6 +24445,7 @@
 ##a[src^="https://www.utherverse.com/net/"]
 ##a[style$="2147483647;"][ontouchstart]
 ##a[style="display:inline-block;font-weight:bold;color:#f00;border:1px solid #f00;border-radius:15px;padding:2px 5px 2px 5px;margin:5px 5px 5px 0px;"]
+##a[target="_bank"] > img[src*=".360buyimg.com"][style="width:100%;height:auto;"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"][href*="/bet188/"]
 ##a[target="_blank"][href^="http://api.taboola.com/"]
@@ -31341,6 +31345,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /analyticsjs.
 /analyticsjs/*
 /analyticsmediator.
+/analyticsmediator.js
 /analyticsscript_
 /analyticssdk.js
 /analyticstick.
@@ -37489,6 +37494,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /s.php?id=
 /s/i.php?id=$script,third-party
 /s/js/fshow.js$third-party
+/s/js/ta-2.3.js?
 /s1.php?type=
 /sTrackStats.
 /s_ad.aspx?
@@ -43703,6 +43709,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||chartbeat.com/*/chartbeat/$~third-party
 @@||chartbeat.com/js/chartbeat.js$domain=salon.com
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
+@@||chat.conveyhs.com/chatadapter/clickstream/clickstream.js$script
 @@||chatzy.com/?jsonp:$script
 @@||chdbits.co/pic/cattrans.gif
 @@||chdbits.co/pic/trans.gif
@@ -55743,6 +55750,7 @@ investing.com##.midHeader
 investopedia.com##.partnerlinks
 invezz.com##.mx-auto
 inwestycje.pl###show-message
+iodraw.com###popAd
 iour.co##div.moneyarea,A[href^="http://www.sh222333.com"],div[style="height:120px;"]
 ip-address.org##td[style="padding-top:0.3em"]
 ip.cn##.well > p > a
@@ -59979,6 +59987,8 @@ pravda.ru##.yaRtbBlock
 prawfsblawg.blogs.com,thomhartmann.com##img[height="200"]
 precisionvaccinations.com##.inhouse-block
 preemlinks.com#@##divads
+premierguitar.com###pg_leaderboard
+premierguitar.com##.a_promo
 preroll$xmlhttprequest,domain=iprima.cz|televizeseznam.cz
 presearch.org##.pr-4.max-w-2xl.mb-4.mt-4.md\:mt-0.md\:mb-6.ml-4
 presskitaquat.com##.e3lan-top
@@ -61601,6 +61611,7 @@ sourceforge.jp###gpt-sf_dev_300
 sourceforge.net###banner-sterling
 south-plus.net###header > div:last-child
 south-plus.net###header > table:first-child > tbody > tr:first-child > td.banner:first-child > a:last-child
+south-plus.net##a[onclick*="'ad'"]
 southernliving.com##.karma-sticky-rail
 southerntimesafrica.com##.body-header-banner
 sowetanlive.co.za##.section-article-sponsored
@@ -61614,6 +61625,8 @@ sozai-good.com#@#.ad_block
 sozi.cn##DIV[id^="Javascript"]
 space.utema.ru##.main-content-padding > div[class]:not([itemprop])
 spade7.com##DIV.banner.banner-post,DIV.widget.d_textbanner
+spanishdict.com###removeAdsSidebar
+spanishdict.com##.ad--1zZdAdPU
 spanishdict.com##.whitelist
 spankbang.com##.live-rotate
 spankbang.com##.livecam-rotate
@@ -63291,6 +63304,7 @@ v5bjq.com##.ad-Shrink,.ad960-90,.ad336-280,.gg810,.gg-wrap
 v5pc.com###full_downad
 v6p.co##iframe[SRC^="http://fans.bestvogue.com/fans/"]
 vafuli.com,v5gege.com##[id^="text-"],div.ad-widget,div[id^="jtheme-ad-"]
+valetudo.ru#?#.v_left > div.moduletable:has(script[src^="https://www.googletagmanager.com/"])
 vansky.com##.safari_pop
 vansky.com##.scol-banner
 vansky.com##.top-ad-link
@@ -71975,7 +71989,6 @@ zznews.cn##.ad:not([style])
 ||ads-trk.vidible.tv^
 ||ads-twitter.com^
 ||ads-union.jd.com^
-||ads-website.ytsservice.com^
 ||ads.
 ||ads.adaptv.advertising.com/*roll&pageUrl=4gtv.tv$script,xmlhttprequest,other,redirect=noopvast-2.0
 ||ads.audio.thisisdax.com^
@@ -72887,6 +72900,7 @@ zznews.cn##.ad:not([style])
 ||ahlxxx.com^
 ||ahmibai.cn^
 ||ahnioppshfwq.com^
+||ahnlab.tagtree.co.kr/track.imp
 ||ahoigzbodtcd.com^
 ||ahojer.com^
 ||ahov1.top^
@@ -87813,6 +87827,7 @@ zznews.cn##.ad:not([style])
 ||dzubavstal.com
 ||dzupi9b81okew.cloudfront.net^
 ||dzv1ekshu2vbs.cloudfront.net^
+||dzwgbm.xyz^
 ||dzwww.com/data/js/asp_$script
 ||dzwww.com/images/ad_down.js
 ||dzwww.com/k.js
@@ -89678,6 +89693,7 @@ zznews.cn##.ad:not([style])
 ||event.condenastdigital.com^$third-party
 ||event.csdn.net^
 ||event.demirorenteknoloji.com^$third-party
+||event.dengage.com^
 ||event.edb.gov.sg^
 ||event.getblue.io^
 ||event.getblue.io^$third-party
@@ -90097,7 +90113,6 @@ zznews.cn##.ad:not([style])
 ||ezytrack.com^$third-party
 ||ezzxpepmllgdw.com^
 ||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com
-||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|haokan.com
 ||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|~haokan.com
 ||f-counter.jp^$third-party
 ||f-counter.net^$third-party
@@ -98844,6 +98859,7 @@ zznews.cn##.ad:not([style])
 ||izhevskinfo.ru/count/
 ||izlesene.com/js/site/tracker.js
 ||izooto.com^$third-party
+||izpcoo.cn^
 ||iztwp.com/images/
 ||izuis.com^
 ||izuiyou.com/ad^
@@ -99812,6 +99828,7 @@ zznews.cn##.ad:not([style])
 ||jsdelivr.net/gh/voocdn/static/www/QlZ2twef.js
 ||jsdelivr.net/gh/yaociyuan/
 ||jsdelivr.net/gh/yaofa88/bifa@main/*960
+||jsdelivr.net/npm/datbpzjvws@latest/dist/script.min.js
 ||jsdelivr.net/npm/keen-tracking@*/keen-tracking.min.js
 ||jsdelivr.net/npm/live2d-
 ||jsdelivr.net/snowplow/
@@ -101095,6 +101112,7 @@ zznews.cn##.ad:not([style])
 ||kukulm.com^
 ||kukuplay.com/upload/*.swf
 ||kukury2hf8nd09.com^
+||kulcdtw.cn^
 ||kulkerbolda.com^
 ||kuloffer.com^
 ||kumanaun.net^
@@ -101109,6 +101127,7 @@ zznews.cn##.ad:not([style])
 ||kuntzenyt.club^
 ||kununu.com^*/tracking/
 ||kunyu.csdn.net^
+||kuoxing.mobi^
 ||kupona.de^$third-party
 ||kuprvs.cn^
 ||kuptabachy.com^
@@ -101309,6 +101328,7 @@ zznews.cn##.ad:not([style])
 ||ladybug.paulstovell.com^
 ||ladybugsweb.site^
 ||ladymetro.com^
+||ladyye.site^
 ||laferia.cr^$third-party
 ||lagacetanewspaper.com/wp-content/uploads/banners/
 ||lagoonolivia.com^
@@ -102117,6 +102137,7 @@ zznews.cn##.ad:not([style])
 ||lingdianshuwu.com/js/content
 ||lingerstored.com^
 ||linghangshouji.com^
+||linglingccc.xyz^
 ||linglong001.com^
 ||lingows.appspot.com/page_data/?
 ||lingpaocar.com^
@@ -107351,6 +107372,7 @@ zznews.cn##.ad:not([style])
 ||morgenpost.de/resources/*/js/webtrekk
 ||morguecountryportray.com^
 ||morhipo.com/Shared/AnalyticsJS^
+||mori.ink^
 ||moritava.com^
 ||mormont.gamer-network.net^
 ||morningsophisticatedcenter.com^
@@ -107642,6 +107664,7 @@ zznews.cn##.ad:not([style])
 ||msite.baidu.com/sdk^
 ||mskjf.com^
 ||msmetrics.ws.sonos.com^
+||msn.com/*/_log?
 ||msn.com/OneCollector/
 ||msn.com/collect/
 ||msn.com/images/v9/en-us/game/tw48/960x300_$third-party
@@ -107672,6 +107695,7 @@ zznews.cn##.ad:not([style])
 ||msufcu.actonservice.com^
 ||msujd.cn^
 ||msypr.com^
+||msyq.xyz^
 ||msz3.destinia.cn^
 ||mt-wzb.clarin.com/weizenbock/pixel.fingerprint.gif
 ||mt.59wz.com^
@@ -107961,6 +107985,7 @@ zznews.cn##.ad:not([style])
 ||mydas.mobi
 ||mydiethub.com^
 ||mydiethub.com^$popup
+||mydifile.com/view.php/*.gif
 ||mydirtyhobby.com^$third-party,domain=~my-dirty-hobby.com|~mydirtyhobby.de
 ||mydisplay.ctfile.com/$script,subdocument,popup
 ||mydisplay.ctfile.com^
@@ -115567,6 +115592,7 @@ zznews.cn##.ad:not([style])
 ||rcsobjects.it/rcs_tracking-service/v1/distro/HTML/trservice.shtml
 ||rctxcsi.cn^
 ||rctxiqx.cn^
+||rctxmbr.cn^
 ||rctxsrv.cn^
 ||rctxtjp.cn^
 ||rctxubn.cn^
@@ -117265,7 +117291,6 @@ zznews.cn##.ad:not([style])
 ||s.kk-resources.com/ks.js
 ||s.lenovo.com^
 ||s.lexusfinancial.com^
-||s.lxax.com/s/js/ta-2.3.js
 ||s.mannes.tech^
 ||s.metric.vodacom.co.za^
 ||s.mississauga.com^
@@ -119851,6 +119876,7 @@ zznews.cn##.ad:not([style])
 ||sintelligence.marykay.com^
 ||sintelligence.marykayintouch.com^
 ||sinvff.bathandbodyworks.ae^
+||sinyang.info^
 ||sioncenture.fun^
 ||sionsrathet.info^
 ||sippansy.com^
@@ -122239,6 +122265,7 @@ zznews.cn##.ad:not([style])
 ||sorcerers.net/images/aff/
 ||sorcerers.net/includes/butler/
 ||sordidsmile.com^
+||sordidsmile.com^$third-party
 ||sordidstir.com^
 ||soresneeze.com^
 ||soresneeze.com^$third-party
@@ -122249,6 +122276,7 @@ zznews.cn##.ad:not([style])
 ||sorryfearknockout.com^
 ||sorryhorngait.com^
 ||sortacki.net^
+||sortext.com^$third-party
 ||sortgenerousholidays.com^
 ||sortsail.com^
 ||sortsail.com^$third-party
@@ -126021,6 +126049,7 @@ zznews.cn##.ad:not([style])
 ||tdedqqv.cn^
 ||tdep.bunzlonline.nl^
 ||tdep.growwwdigital.com^
+||tdep.hema.nl/main.js
 ||tdep.hema.nl^
 ||tdep.kvk.nl^
 ||tdep.mijnurgentie.nl^
@@ -126581,6 +126610,7 @@ zznews.cn##.ad:not([style])
 ||thinkabletrick.com^
 ||thinkabletrick.com^$third-party
 ||thinkaction.com^$popup
+||thinkphp.pro^
 ||thinktot.com^$third-party
 ||thinnerlessenfounded.com^
 ||thiptumuce.com^
@@ -127709,6 +127739,7 @@ zznews.cn##.ad:not([style])
 ||tr.groupama-gne.fr^
 ||tr.gunosy.com^
 ||tr.helloartisan.info^
+||tr.indeed.com/m/basecamp/analytics.js
 ||tr.info-btob-leaders.com^
 ||tr.info-companeo.be^
 ||tr.info.actionlogement.fr^
