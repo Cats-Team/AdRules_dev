@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-11 10:26:01
-! Total count: 138189
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-11 22:22:52
+! Total count: 138206
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -23306,6 +23306,7 @@
 ##ADS-RIGHT
 ##AFS-AD
 ##AMP-AD
+##A[href$="/108mg8.com"]
 ##A[href*=".com/?Agent="]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
@@ -23318,6 +23319,7 @@
 ##A[href^="http://www.liveadexchanger.com/a/display.php"]
 ##A[href^="http://www.yourfilezone.com/play?lng="]
 ##A[href^="https://action.metaffiliation.com/trk.php?"]
+##A[style*=".misigl.com/"]
 ##DFP-AD
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
@@ -41872,7 +41874,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 91lai.com##.D_guanggaotu2
 91lai.com##.D_guanggaotu3
 91lai.com##.showimgs
-91mjw.com##A[style^="background"]
 91mjw.com,hahamx.cn##a[href^="https://s.click.taobao.com/"]
 91p20.space
 91porn.com##iframe[src$="/fans/ad.php"]
@@ -44877,6 +44878,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=blokker.nl
 @@||googletagmanager.com/gtm.js$domain=blue-tomato.com
 @@||googletagmanager.com/gtm.js$domain=braun.com
+@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|radiorur.de|saturn.at|sport1.de|vox.de
 @@||googletagmanager.com/gtm.js$domain=bunte.de|stiefelparadies.de
 @@||googletagmanager.com/gtm.js$domain=cabinet.planetakino.ua
@@ -48650,6 +48652,8 @@ abc-people.com##div[style*="background-color"][style*="position"][style*="z-inde
 abcya.com##.a-skyscraper
 abczdrowie.pl#$#abort-on-property-read slot.parentElement
 abczdrowie.pl,parenting.pl,nerwica.com,twojeip.wp.pl,echirurgia.pl#$#abort-current-inline-script document.querySelector registerSlot
+abmedia.io##a.sc-bnXvFD
+abmedia.io##div.kOQza
 abminbuy.com##body > a[rel="nofollow"] > img
 about.com#@##adcontainer1
 about:blank$popup,domain=ianimes.org|vizplay.icu|streamzz.to
@@ -50292,6 +50296,7 @@ bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
+bilibili.com#@#+js(ra, target, a[target=_blank][href^="/"])
 bilibili.com#@#.follow-wrapper
 bilibili.to###yytf
 bimiacg.net##.tuiguang
@@ -57894,7 +57899,6 @@ mail.pchome.com.tw##.mnav
 mail.pchome.com.tw##.sceng
 mail.qq.com###plp_ad_container
 mail.qq.com##.tipbook-top
-mail.qq.com,bilibili.com#@#+js(ra, target, a[target][href^="/"])
 mail.rambler.ru##.notification-warning
 mail.sina.com.cn##.rightbottom
 mail.yahoo.com###slot_LREC
@@ -58643,12 +58647,13 @@ mydramalist.com##div[class^="spnsr"]
 mydrivers.com###a_showhotnews_list_dia
 mydrivers.com###dangbei_down
 mydrivers.com###recommend
+mydrivers.com###right_tab li:first-child, #left_tab li:first-child
 mydrivers.com##.ab
+mydrivers.com##.baidu, a[href^=http][target=_blank]
 mydrivers.com##.baidu_box
 mydrivers.com##.bb
 mydrivers.com##.btnNext + div:last-child
 mydrivers.com##.down_xg + div + div[style="padding-top: 10px;"]
-mydrivers.com##.duilian,a[href*="jd.com/"],div.tj_list_tu
 mydrivers.com##.duilian2
 mydrivers.com##.fbh_float
 mydrivers.com##.news_info > div[style*="height:"]
@@ -58657,6 +58662,7 @@ mydrivers.com##.news_n + div[style*="height"]
 mydrivers.com##.news_xg + style + div
 mydrivers.com##.taobao_tab
 mydrivers.com##.zcdf ~ div[style]
+mydrivers.com##DIV[style^="width:890px;height:100px;"]
 mydrivers.com##a[href*=".ashx?to="]
 mydrivers.com##a[style][href*=".jd.com/"]
 mydrivers.com##div#code_lb.code_lb,TABLE[width="998"][height="90"],TABLE[width="1000"][height="90"],DIV.menu + DIV.baidu_box,#hsb_go,#dangbei_down,[id^="a_showhotnews_list"],[style^="width:1100px; height:90px;"],[class^="ad"],[style^="width:468px; height:60px;"],#recommend.news_xg
@@ -63979,6 +63985,7 @@ whoreshub.com##.col-second
 whosampled.com##.btnRingtoneTrack
 whoscored.com###billboard-container
 whsir.com###adswidget1-quick-adsense-2
+whsir.com##A[href*=".taobao.com"]
 wichspornos.com##.tf-sp
 wifinetnews.com##table[height="260"]
 wigcw.cn##.alert-block
@@ -64592,6 +64599,7 @@ www.youdao.com##div#spTop.sp-h
 www.youfuli8.com##div.textwidget
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined; override-property-read ytInitialPlayerResponse.adPlacements undefined
+www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-event-poc click button.ytp-ad-skip-button
 www.ytbbs.com##div.lt_ad,div.fend_ad,.ad,div.a_pr,div.ftop_ad
 www.yunaw.com##img[src*=".tietuku.com/"],img[src="http://yunaw.qiniudn.com/tuixiao.png"]
 www.yundaex.com##div#ad1
@@ -68969,6 +68977,7 @@ zznews.cn##.ad:not([style])
 ||86cg.me/sys
 ||86f4fd3b507f774.com^
 ||86fm.com^
+||86saohu.com/api/cctvs/show?
 ||86uk.com/uploads/*0.gif
 ||86uk.com/uploads/*0x
 ||86uk.com^$subdocument
@@ -78421,6 +78430,7 @@ zznews.cn##.ad:not([style])
 ||blazingswatstated.com^
 ||blbclassic.org/assets/images/*banners/
 ||blbhqqdfmvfsu.com^
+||blck4d.com^
 ||blcobmv.cn^
 ||bldr.mkt.samsung.com^
 ||bleaborahm.one^
@@ -91386,6 +91396,7 @@ zznews.cn##.ad:not([style])
 ||fobshanghai.com/bbsad/
 ||focalex.com^
 ||focuscat.com^
+||focused.wang^
 ||focusonus.top^
 ||focusprolight.com^
 ||focuusing.com^$popup
@@ -108322,6 +108333,7 @@ zznews.cn##.ad:not([style])
 ||mydrivers.com/2020/news/8/kkj_msi.gif
 ||mydrivers.com/2021/*msi
 ||mydrivers.com/2021/news/*_300250.
+||mydrivers.com/2021/news/zz890.png
 ||mydrivers.com/2021/www/nianhuojie.png
 ||mydrivers.com/drivers/2021/racent.jpg
 ||mydrivers.com/images/*_1100_90.
@@ -109518,6 +109530,7 @@ zznews.cn##.ad:not([style])
 ||noblefun.net^$popup
 ||noblemandrovebreeches.com^
 ||noblemanscramblemoderately.com^
+||noblift.mobi^
 ||nocdnrlly.xyz^$popup
 ||nocensor.biz/go/$popup
 ||nochange.ggsafe.com^
@@ -125703,6 +125716,7 @@ zznews.cn##.ad:not([style])
 ||syndicatedsearchresults.com^$third-party
 ||syndication.exosrv.com/splash.php?$xmlhttprequest,redirect=nooptext,important,domain=hboav.com
 ||syndication.jsadapi.com^$third-party
+||syndication.twitter.com^
 ||syndicpop.com^
 ||syndopop.com^
 ||syndromeseasidecontainer.com^
@@ -127502,6 +127516,7 @@ zznews.cn##.ad:not([style])
 ||tkelq.genesys.com^
 ||tkickhhylnvm.com^
 ||tkjcqb.forrent.com^
+||tkkdoc.com^
 ||tklyfe.esthetic-nails.ru^
 ||tkmdng.cn^
 ||tknet.rayjump.com^
@@ -133163,6 +133178,7 @@ zznews.cn##.ad:not([style])
 ||weizjzg.com^$third-party
 ||wejibk.com.cn^
 ||wejpuy.factor75.com^
+||wekb.club^
 ||wel-wel-fie.com^
 ||welcoming-carpets.tk^
 ||welcomingprotective.com^
@@ -136801,6 +136817,7 @@ zznews.cn##.ad:not([style])
 ||ysmhcwwvgtcx.com^
 ||ysnj74ed.com^
 ||ysont.cn^
+||ysrmy1.com^
 ||ysrrzgku6tar.us.themoneytizer.com^
 ||yssm.info/sm/true.js
 ||ystammedre.info^
