@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-12 10:25:52
-! Total count: 138251
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-12 22:22:48
+! Total count: 138264
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -36308,6 +36308,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /opdc.gif?
 /opdc.js
 /open.aspx?
+/open.html?$image
 /open.html?x=$image
 /open/log/*
 /open?shu=$popup
@@ -37380,7 +37381,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /resources/ads_
 /resourcestat.
 /responsive-ad-
-/responsive-ad.
 /responsive-ads.
 /responsive/ad_
 /responsive_ads.
@@ -37420,7 +37420,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /rightAd1.
 /rightAd2.
 /right_ad.
-/right_ad^
 /right_ad_
 /right_ads.
 /rightad*
@@ -47127,7 +47126,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
 @@||taximaxim.com/assets/*/fingerprint2.min.js
-@@||tb.mgtv.com/sdk/*/ad-sdk.js$script
+@@||tb.mgtv.com/sdk/*/ad-sdk.
 @@||tb1.bdstatic.com/??/tb/_/*/ad_$script
 @@||tbcdn.cn^*/click_track.js
 @@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party
@@ -48055,7 +48054,6 @@ _ad_units_
 _ad_url=
 _ad_utils-
 _ad_vertical.
-_ad_video_
 _ad_view=
 _ad_widesky.
 _ad_wrapper.
@@ -54423,6 +54421,8 @@ greatist.com##hl-adsense
 greatist.com,psychcentral.com##[data-empty]
 greatwuyi.com##.ad_img,.main_9788,[class^="main_ad"],[height="80"]
 greatwuyi.com##.main_ad2
+greekcitytimes.com##.greek-adlabel
+greekcitytimes.com##.greek-after-content
 greenxf.com##.yinsu_xz,.app_fix_wrap,#BZlocationID2,[id^="BZlocationID"]
 greenxf.com,xzji.com###speed-downloader
 greenxiazai.com##.downbtn > a:last-child
@@ -62354,7 +62354,7 @@ thegatewaypundit.com##a[href*="cloudfront.net"]
 thegatewaypundit.com##a[href="#"]
 thegatewaypundit.com#$#abort-on-property-read adtoniq; abort-on-property-write adtoniq; abort-on-property-write bomab; abort-on-property-write zacak; abort-on-property-write kozuq
 thegay.com##.video-page__content > .right
-thegay.tube#$#abort-current-inline-script mz
+thegay.tube,txxx.com#$#abort-current-inline-script mz
 thegazette.com###top-leaderboard
 thegreatdaily.com##[id^="ads"],#fbbox,.adsbygoogle,#rightAds
 thegreatdaily.com/cat##.col-lg-8.col-md-8{width:1190px;}
@@ -64647,6 +64647,8 @@ wxsnsdy.video.qq.com^
 wydy8.com##[height="83"]
 wyh.tv##.adverall
 x-mol.com###floatWindow
+x-mol.com###rightAllJournal
+x-mol.com##.news-white-content-right
 x.jd.com
 x3cn.com###portal_block_12045
 x3cn.com#?#.commonDiv:-abp-has(.ad)
@@ -78616,6 +78618,7 @@ zznews.cn##.ad:not([style])
 ||bmqjor.k-bid.com^
 ||bmrg.reflected.net^
 ||bmst.pw^
+||bmt4578.xyz^
 ||bmuju.com^
 ||bmw-connecteddrive.de/z.gif?x=
 ||bmw100.cn^
@@ -86794,6 +86797,7 @@ zznews.cn##.ad:not([style])
 ||ditorialproce.biz^
 ||dittyharsh.com^
 ||ditwrite.com^
+||diuleilou.top^
 ||diuling.com^
 ||divaduolite.com^
 ||divascam.com^
@@ -95417,6 +95421,7 @@ zznews.cn##.ad:not([style])
 ||hgm3fy0.cn^
 ||hgronline-perf.carte-gr.total.fr^
 ||hguas.com^
+||hgxy.info^
 ||hgyouxi.com/data/hgyouxiad/
 ||hgyouxi.net/data/hgyouxiad/attach
 ||hgyouxi.net/source/plugin/hgyouxiad/
@@ -117464,6 +117469,7 @@ zznews.cn##.ad:not([style])
 ||ruian.com/img/2016/a1-6-1.gif
 ||ruian.com/img/y13/
 ||ruibokeji.cn^
+||ruif.xyz^
 ||ruigezx.com^
 ||ruishungp.com/assetscms2019/js/get_content.js
 ||ruisu.cc
@@ -118552,6 +118558,7 @@ zznews.cn##.ad:not([style])
 ||scibook.cn/tuiguang.
 ||science.ytn.co.kr/_comm/clog.php
 ||sciencechannel.com/events/
+||sciencenet.cn/field/js/news.
 ||sciencenet.cn/html/js/
 ||sciencenet.cn/html/js/n
 ||sciencenet.cn/images/20180521.jpg
@@ -119538,6 +119545,7 @@ zznews.cn##.ad:not([style])
 ||sfdecpromwjj.com^
 ||sfeedback.equabank.cz^
 ||sffsdvc.com^
+||sfg8mbh.cn^
 ||sfgysl.ppomppu.co.kr^
 ||sfhyojoctcry.com^
 ||sfilm.com^
@@ -123331,6 +123339,7 @@ zznews.cn##.ad:not([style])
 ||srv.dynamicyield.com^
 ||srv.onedio.com/geo/code
 ||srv.onedio.com/track
+||srv.tunefindforfans.com^
 ||srv1.srv-stat.com/*/?tid=
 ||srv2trking.com^$popup
 ||srvbytrking.com^$popup
@@ -127762,6 +127771,7 @@ zznews.cn##.ad:not([style])
 ||tongbuchi.com^
 ||tongda-bearings.com/d1/
 ||tongdejiayuan.com^
+||tongdianku.com^
 ||tonghao.ltd^
 ||tonghao.ltd^$third-party
 ||tonghuacun.com/js/uc.js
@@ -134127,6 +134137,7 @@ zznews.cn##.ad:not([style])
 ||wstx.com/api.php?mod=ad&
 ||wstztt.com^
 ||wsuqzu.armani.com^
+||wswh.xyz^
 ||wsxxu.com^
 ||wsynefadhuli.xyz^
 ||wt-eu02.net^$domain=stern.de
@@ -135374,6 +135385,7 @@ zznews.cn##.ad:not([style])
 ||xiti.com^$third-party
 ||xitong8.com/theme/default/images/725x90.gif
 ||xitong8.com/theme/default/images/index_13.jpg
+||xitonghe.com/SkinNew/js/init_g.
 ||xitongku.cc^
 ||xitongzhijia.net/theme/2017/images/temp/ad_
 ||xitongzhijia.net/theme/2017/js/total_soft.js
@@ -136804,6 +136816,7 @@ zznews.cn##.ad:not([style])
 ||ypcdbw.drive2.com^
 ||ypcdbw.drive2.ru^
 ||ypdrrh.beddinginn.com^
+||ypdzb.cn^
 ||ypgdnrz.cn^
 ||yphlxtsgnpq.xyz^
 ||ypiads.com^$third-party
