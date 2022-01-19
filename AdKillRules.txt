@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-18 22:25:22
-! Total count: 139246
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-19 10:22:36
+! Total count: 139278
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -23330,7 +23330,6 @@
 ##AFS-AD
 ##AMP-AD
 ##A[href*=".com/?Agent="]
-##A[href*="/yb6277.vip"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href="http://goo.gl/jQ9bcz"]
@@ -23363,6 +23362,7 @@
 ##[class][onclick^="window.location.href"][onclick*=".pypyj.com"]
 ##[class][onclick^="window.location.href"][onclick*=".sydtqg.com"]
 ##[class^="Ad-adContainer"]
+##[class^="AdvertisingSlot_"]
 ##[class^="div-gpt-ad"]
 ##[data-ad-manager-id]
 ##[data-ad-module]
@@ -23647,6 +23647,7 @@
 ##a[href*=".revimedia.com/"]
 ##a[href*=".rookiego.com"]
 ##a[href*=".sandebg.com/"]
+##a[href*=".sjzbqnxx.com/"]
 ##a[href*=".smartadserver.com"]
 ##a[href*=".surfmdia.com/"]
 ##a[href*=".tbb168.com"]
@@ -23789,6 +23790,7 @@
 ##a[href*="/x5092.com"]
 ##a[href*="/xapps5.xyz"]
 ##a[href*="/xmkgc.com/"]
+##a[href*="/yb6277.vip"]
 ##a[href*="/yhbet50.vip"]
 ##a[href*="/yigeyuming3880.top"]
 ##a[href*="3wr110.xyz/"]
@@ -27190,7 +27192,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .zm/ads/
 .zone/ads/
 .zw/ads/
-/&ctier=L.*&dur=[1-20].*/$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com
 /(?::\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4})/
 /([0-9]{1,3}\.){3}[0-9]{1,3}.*(\/proxy|\.wasm|\.wsm|\.wa)$/$third-party,websocket
 /(https?:\/\/)104\.154\..{100,}/
@@ -31415,6 +31416,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /analyticstick.
 /analyticstrack.
 /analyticstracking.
+/analyticstracking.js
 /analyticstracking?
 /analyticstracking_
 /analyticstrain-
@@ -39865,6 +39867,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /wmgbeaconcode.
 /wmps_tracker.
 /wmxtracker.js
+/wob*?frm=0&url=
 /woopra.js
 /wordpress-ads-plug-in/*
 /wordpress/wp-json/pum/*/analytics/*
@@ -45897,6 +45900,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||mobygames.com/images/covers/$image,~third-party
 @@||mobygames.com/images/promo/$image,~third-party
 @@||moea.gov.tw/EgisWeb/Scripts/google-analytics.js
+@@||moengage.com/v2/$xmlhttprequest,domain=olx.com.lb
+@@||moengage.com/webpush/$script,domain=olx.com.lb
 @@||momovod.com/js/momo/adsbygoogle.js
 @@||monetate.net/js/$domain=nike.com
 @@||money18.on.cc/js/ad/liveinfo_page/
@@ -57766,6 +57771,7 @@ m.image.so.com##.waterfall > li[data-imgid] > a[href^="https://e.so.com/search/m
 m.iqiyi.com##div#shortcut,div.banner_inner.bd-large.aaaa,div.appBar
 m.ithome.com##BUTTON[class='open-app']
 m.ithome.com##DIV[class='op']
+m.jd.com###imk2FixedBottom
 m.jd.com###imk2FixedSideText
 m.jd.com###m_common_tip
 m.jd.com###m_common_tip_div
@@ -57892,6 +57898,8 @@ m.toutiao.com##.banner-top
 m.toutiao.com##.fold-btn-btn
 m.toutiao.com##.recommendation-container + div[class]
 m.tv.sohu.com##.advertise,.gg_icon
+m.tv.sohu.com##.btn-xz-app
+m.tv.sohu.com##.js-app-topbanner.actv-banner
 m.tvsou.com##.sogou-temp-hidden
 m.tvsou.com##.story_ad_android
 m.v.qq.com##.mod_app_banner
@@ -57901,6 +57909,7 @@ m.wallstreetcn.com##div[style="height: 130px;"]
 m.weather.com.cn##div[style^="position: fixed; width: 100%; bottom: 0px;"]
 m.weathercn.com###gg_hfaw_1
 m.weathercn.com##.red-package
+m.weibo.cn##.wrap
 m.wikihow.com##div.wh_ad
 m.xiaomiyoupin.com###download-bar
 m.xiaomiyoupin.com##.download-bar-container
@@ -58008,6 +58017,7 @@ mail.yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
 mailfoogae.appspot.com$image
 mailstat.us/tr$image
 mailtrack.io/trace/$image
+main.m.taobao.com##button
 maiziedu.com##.msg
 majorgeeks.com##.alford > tbody > tr
 majorgeeks.com##.highlight.content > center > font
@@ -62074,6 +62084,7 @@ sunporno.com##.close-invid
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
 super.cz##iframe[frameborder][scrolling][src^="https://www.super.cz/"]
+super.sina.cn##.call_up_banner
 supercars.com##.footer-promo
 supercheats.com##.a300
 supercheats.com##.cboth_sm
@@ -64091,6 +64102,8 @@ wigcw.cn##.alert-block
 wigcw.cn##a[href*=".gwents.com"]
 wiki.fextralife.com#@#.ad-sidebar
 wiki.mbalib.com###ad-phone
+wiki.mbalib.com##.app-ad
+wiki.mbalib.com##.download_app.news-banner-container
 wikihow.com###contribute_footer
 wikiprocedure.com#?#div:-abp-contains(/^Advertisement$/)
 wiley.com##.advert-leaderboard__container,.skyscraper--left
@@ -64148,10 +64161,14 @@ wk.baidu.com##.card-below-reader.card
 wk.baidu.com##.card-vip.card-wrap
 wk.baidu.com##.color-e9e9e9.border-1px-tb.related-doc-list-wrap
 wk.baidu.com##.core-card
+wk.baidu.com##.fc-ad-contain
+wk.baidu.com##.guess-rec-text-root > .w-container.rec-head > .rec-go-search-guide
 wk.baidu.com##.guide-to-univer-app-root
 wk.baidu.com##.guidetowkappwg-root
 wk.baidu.com##.icon-app
 wk.baidu.com##.lure.btn-download
+wk.baidu.com##.open-app-btn
+wk.baidu.com##.pay-doc-marquee
 wk.baidu.com##.pop-manager-view-containter
 wk.baidu.com##.reader-pop-manager-view-containter
 wk.baidu.com##.rec-text-root
@@ -64319,6 +64336,8 @@ www.360doc.com##+js(set,u_v,1)
 www.360doc.com##.ul-similar
 www.360doc.com##div.str_border:nth-of-type(5)
 www.360doc.com##div[id^="divad"],div#fullbg,#docAdBelowContent
+www.360kuai.com##.float--left.right_aside_wrapper
+www.360kuai.com##.side-wrapper
 www.3jy.com##div.Rad,div.rad
 www.40407.com##div.hong_f_201401,div.de_ad
 www.4399.com##div.btn_ico_ri
@@ -64494,6 +64513,7 @@ www.jc35.com###luxury,.ad_position,.adPosition,.adRight
 www.jdon.com##ins.adsbygoogle
 www.jdunion.com##div.wp.a_t,div.wp.a_f,div.a_h,div.bm.a_c
 www.jgzj.net##table.adcss,div#ad_headerbanner,div#ad_text.ad_text,div.ad_column
+www.jianshu.com##div[class^=baidu-app-download]
 www.jiaosm.net##div#weizhi-a,div.viewt_cc,div#xinxi
 www.jin10.com##.l-main_body > div[class]:not(.jin-timeline)
 www.jin10.com##.l-main_info > div[class]:not(.jin-declaration):not(.jin-qq-cooperation)
@@ -67542,6 +67562,7 @@ zznews.cn##.ad:not([style])
 ||2kl08cd74f.com^
 ||2ktd0.cn^
 ||2ktv.net.daraz.com^
+||2laezi9.cn^
 ||2leep.com^$third-party
 ||2lian.com^$third-party
 ||2lwlh385os.com^
@@ -69018,6 +69039,7 @@ zznews.cn##.ad:not([style])
 ||7xsf4r.com1.z0.glb.clouddn.com/lianzi.mp4
 ||7yucu023o36p.com^
 ||7z66.com/
+||7znpl4sa.top^
 ||8*.tianya.cn^
 ||8-7-6-8-0-0.com:8888^
 ||80.net.daraz.com^
@@ -89389,6 +89411,7 @@ zznews.cn##.ad:not([style])
 ||embed.mystream.to^$popup
 ||embed.sendtonews.com/player2/data_logging.php?
 ||embed.sendtonews.com^$third-party
+||embed.usersmagic.com^$third-party
 ||embed.videosdemadurasx.com/js/u_hits_control.js
 ||embeddedanalytics.com^$third-party
 ||embedly.com/widgets/xcomm.html$third-party
@@ -93533,6 +93556,7 @@ zznews.cn##.ad:not([style])
 ||gimpybedderump.com^
 ||giocdn.com^$third-party
 ||giosg.com^*/public/trace/
+||giotlsi.cn^
 ||giphy.com/*/xhr/api/*/collector
 ||giraff.io^$third-party
 ||giraffepiano.com^$third-party
@@ -94254,6 +94278,7 @@ zznews.cn##.ad:not([style])
 ||googletagservices.com^
 ||googletrackmanager.com^$third-party
 ||googleusercontent.com/tracker/
+||googlevideo.com/videoplayback?*&ctier=L&$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com
 ||googlevideoads.com^
 ||googlexbaidu.top^
 ||goolpter.com^
@@ -101198,6 +101223,7 @@ zznews.cn##.ad:not([style])
 ||kepkirrlcozb.com^
 ||kepler-37b.com^
 ||kepler-37b.com^$third-party
+||keqcte.cn^
 ||keqii.com^
 ||kerastase-usa.com/IZ/PXXiuO7QTJ/init.js
 ||kerch.fm/templates/FM/js/analytic.js
@@ -117401,7 +117427,6 @@ zznews.cn##.ad:not([style])
 ||retargetly.com^$third-party
 ||retargettracker.com^$third-party
 ||retcherruny.xyz^
-||retcode-*.arms.aliyuncs.com^
 ||retcode.taobao.com^
 ||retcyy.com^
 ||retention.ankidecks.com^
@@ -120331,6 +120356,7 @@ zznews.cn##.ad:not([style])
 ||shanprint.com^
 ||shanta-jos.com^
 ||shantelope.com^
+||shanxicloud.net^
 ||shanxige.com^
 ||shanyu178.com/agg$script
 ||shanyuebrowser.com^
@@ -121165,6 +121191,7 @@ zznews.cn##.ad:not([style])
 ||skroutz.gr/analytics/srecord/
 ||skskyh.crediclic.mx^
 ||skunk.dwa.li^
+||skwenq.cn^
 ||skxgvqcgefyy.com^
 ||skyactivate.com^$third-party
 ||skycheats.com^$popup,domain=elitepvpers.com
@@ -129666,6 +129693,7 @@ zznews.cn##.ad:not([style])
 ||tracker.redditmedia.com^
 ||tracker.relaido.jp^
 ||tracker.remp.impresa.pt^
+||tracker.remp.sme.sk^
 ||tracker.revip.info^
 ||tracker.roitesting.com^
 ||tracker.rqmob.com^
@@ -135158,6 +135186,7 @@ zznews.cn##.ad:not([style])
 ||wunderloop.net^$third-party
 ||wunteetoco.com^
 ||wurexs.com/hello/
+||wurking.global.ssl.fastly.net/ingestly-ingest/
 ||wurtoosy.com^
 ||wuseng.net^$third-party
 ||wussucko.com^
@@ -136290,6 +136319,7 @@ zznews.cn##.ad:not([style])
 ||xinhuanet.com/s?
 ||xinhuanet.com^*/ad_
 ||xinhuanet.com^*/adv
+||xinhuayin.biz^
 ||xinjs.cn/2010/zzz.jpg
 ||xinjscn.oss-cn-hangzhou.aliyuncs.com^
 ||xinju.cc^
@@ -136586,6 +136616,7 @@ zznews.cn##.ad:not([style])
 ||xrc3.com/js/floatcaoplus.js
 ||xrchmz.mobafire.com^
 ||xrdatsuclxrvpx.com^
+||xrecord.xyz^
 ||xref.io^$third-party
 ||xrfabakydcwngov.xyz^
 ||xrhobrrgwhtlu.com^
@@ -136597,6 +136628,7 @@ zznews.cn##.ad:not([style])
 ||xs177.com/js/shangbu.js
 ||xs8.cn/qreport?
 ||xscmzs.tenki.jp^
+||xsdizch.cn^
 ||xsgkjsb.cn^
 ||xshengyan.com/xxgg/bookll111.js
 ||xsjyun.cn^
