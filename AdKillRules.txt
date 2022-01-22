@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-22 10:22:27
-! Total count: 139525
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-22 22:19:44
+! Total count: 139544
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -12058,6 +12058,7 @@
 ##.ad_banner_div
 ##.ad_bar
 ##.ad_below_content
+##.ad_belowfirstpost_frame
 ##.ad_belowmenu
 ##.ad_bg
 ##.ad_bg_300x250
@@ -12202,6 +12203,7 @@
 ##.ad_footerbanner
 ##.ad_for_layout
 ##.ad_frame
+##.ad_frame_around
 ##.ad_framed
 ##.ad_front_promo
 ##.ad_full_click
@@ -31951,6 +31953,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /beacon/timing?
 /beacon/track/*
 /beacon/user-data
+/beacon/v1/batch?
 /beacon/vtn_loader.gif?
 /beacon?
 /beacon_async.
@@ -42107,6 +42110,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://email.*/blankpixel.gif
 ://email.*/e/o/
 ://ensighten.
+://fathom.$domain=~fathom.info|~fathom.io|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://fathom.$domain=~fathom.info|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://geoip.*/country.json
 ://ivw.*/get?referrer=
@@ -73774,6 +73778,7 @@ zznews.cn##.ad:not([style])
 ||aliweimeng.top^
 ||alixixi.com/adsview/
 ||aliyoo999.com^
+||aliys.net^
 ||aliyun.com/actionlog/
 ||aliyuncs.com/ad/jd-smoofit-ad.jpg
 ||aliyuncs.com/ghdb.gif
@@ -78494,6 +78499,7 @@ zznews.cn##.ad:not([style])
 ||bilsyndication.com^
 ||bima.weathercn.com^
 ||bimathyphy.com^
+||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
 ||bimlocal.com^
 ||bin-layer.de^$third-party
 ||bin-layer.ru^
@@ -79359,6 +79365,7 @@ zznews.cn##.ad:not([style])
 ||brainlyads.com^
 ||braintb.com^
 ||brakesoutright.com^
+||brall11.com^
 ||branch-consumer.hipages.com.au^
 ||branch-tradie.hipages.com.au^
 ||branch.carvana.com^
@@ -84190,6 +84197,7 @@ zznews.cn##.ad:not([style])
 ||cpnomnojtrt.top^
 ||cpoml.iask.sina.com.cn^$empty
 ||cpplay.com/inc/
+||cppoc.com^
 ||cpr.comptoirdescotonniers.com^
 ||cpro.
 ||cpro.baidu.com^
@@ -95031,6 +95039,7 @@ zznews.cn##.ad:not([style])
 ||guvdfs.cn^
 ||guvivqlbh.com^
 ||guxiaom.cn^
+||guxin.me^
 ||guyun03.cn^
 ||guzijie.top^
 ||gvcaffiliates.com^$popup,third-party
@@ -103470,6 +103479,7 @@ zznews.cn##.ad:not([style])
 ||lknqfn.furla.com^
 ||lkqd.net^
 ||lkskkssuoa.com^
+||lktxelg.cn^
 ||ll.gxsky.com^
 ||ll.hudong.com^
 ||ll38.com^
@@ -108270,6 +108280,7 @@ zznews.cn##.ad:not([style])
 ||mole.getfamealy.com^
 ||mole.rtbhouse.com^
 ||molebeagleheadless.com^
+||molimao.top/ad.js
 ||molimao.top/imp/upload/vod/*.gif
 ||molimao.top/jm/upload/vod/20211015-1/22ee554d96f75abbd71e6d488d842ac1.gif
 ||mollnia.com^$third-party
@@ -110037,6 +110048,7 @@ zznews.cn##.ad:not([style])
 ||niegg.com^
 ||nielofficieshandl.info^
 ||niematego.tk^$third-party
+||niepanruanjian.com^
 ||nieveni.com^
 ||nificincreasi.club^
 ||niforniadistollie.info^
@@ -110245,6 +110257,7 @@ zznews.cn##.ad:not([style])
 ||nmwbank.cn^
 ||nmwnlbeiykxina.xyz^
 ||nmykf.mobi^
+||nmyp.ltd^
 ||nmywwgnnkmud.com^
 ||nngjeadavrctk.top^
 ||nnkeajhamwoo.xyz^
@@ -116222,6 +116235,7 @@ zznews.cn##.ad:not([style])
 ||qq.com/tousu/img/20210511/8966052_1620746143.jpg
 ||qq.com/tousu/img/20210522/4340189_1621663491.jpg
 ||qq.com/vfpage/visual_focus_page.
+||qq0010.xyz^
 ||qq163com.cn^
 ||qq167.com^
 ||qq24h.com^$domain=bejson.com
@@ -128078,6 +128092,7 @@ zznews.cn##.ad:not([style])
 ||thefreesite.com/nov99bannov.gif
 ||thefuncoolstuff.com^
 ||thegay.com/ejtxclxnes/
+||thegay.com/giwkwmmncsgn/
 ||thehun.net/banners/
 ||theindependentbd.com/assets/images/banner/
 ||theirsvendor.com^
@@ -132569,6 +132584,7 @@ zznews.cn##.ad:not([style])
 ||vashoot.com^$third-party
 ||vassst1.com^
 ||vassst12.com^
+||vassst14.com^
 ||vassterboost.com^
 ||vasstycom.com^
 ||vasstycom.com^$popup
@@ -136514,6 +136530,7 @@ zznews.cn##.ad:not([style])
 ||xin.ycitys.cn/code^
 ||xin365.org^$third-party
 ||xinbo-lora.cn^
+||xinchenyang.cn^
 ||xindream.cn^
 ||xineday.com^
 ||xinerdact.com^
@@ -137504,6 +137521,7 @@ zznews.cn##.ad:not([style])
 ||ygodl.com/wp-content/uploads/*.js
 ||ygopvz.windsorstore.com^
 ||ygqczh.com^
+||ygqjt.cn^
 ||ygqukhllchpw.com^
 ||ygsm.com^$third-party
 ||ygtnn.cn^
@@ -137532,6 +137550,7 @@ zznews.cn##.ad:not([style])
 ||yhg28.xyz/templates/btbook/js/default.js
 ||yhgyog.elephantstock.com^
 ||yhhls.com^
+||yhjzg.cn^
 ||yhmceakev.com^
 ||yhnwux.cartacapital.com.br^
 ||yhsmk.com^
