@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-22 22:19:44
-! Total count: 139544
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-23 10:22:18
+! Total count: 139578
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -6575,6 +6575,7 @@
 ###js-outbrain-rightrail-ads-module
 ###js-page-ad-top
 ###js-popup-blocker
+###js-popup-cookie-block
 ###js-react-video-player-ad-right
 ###js-site-nav-ad-wrap
 ###js-story__ad-storyrec
@@ -11812,6 +11813,7 @@
 ##.adSpot-textBox
 ##.adSpot-textBoxGraphicRight
 ##.adSpot-twin
+##.adSpotFullWidth
 ##.adSpotIsland
 ##.adSquare
 ##.adStatementText
@@ -19250,6 +19252,7 @@
 ##.main_wrapper_upper_ad_area
 ##.mainadWrapper
 ##.mainadbox
+##.makeFooterAdSticky
 ##.mal-ad-unit
 ##.mal-koukoku-unit
 ##.mango_ads
@@ -24530,6 +24533,7 @@
 ##a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source
 ##a[src^="https://www.utherverse.com/net/"]
 ##a[style$="2147483647;"][ontouchstart]
+##a[style*=".e-years.net/"]
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
 ##a[style="display:inline-block;font-weight:bold;color:#f00;border:1px solid #f00;border-radius:15px;padding:2px 5px 2px 5px;margin:5px 5px 5px 0px;"]
@@ -28148,6 +28152,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /__wsm.gif
 /_ajax/tebilisim.php?
 /_global/ads/*
+/_gz/counter.php?
 /_hcms/perf
 /_lib/ga.js
 /_log?ocid=
@@ -32827,6 +32832,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /counter.js.php
 /counter.lt?
 /counter.php?chcounter_mode=
+/counter.php?width=
 /counter.pl?
 /counter.visit?
 /counter/*?rnd=$image
@@ -35655,6 +35661,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /logprogress.
 /logpstatus.
 /logpv.aspx?
+/logrecordservice/*
 /logreferrer.php?
 /logs/report_js_error
 /logserver-
@@ -42111,7 +42118,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://email.*/e/o/
 ://ensighten.
 ://fathom.$domain=~fathom.info|~fathom.io|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
-://fathom.$domain=~fathom.info|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://geoip.*/country.json
 ://ivw.*/get?referrer=
 ://ivwextern.
@@ -50978,6 +50984,7 @@ carrotchou.blog,landiannews.com,woniuyulew.com,xingkbjm.com,zhain8.com##.widget_
 carrotchou.blog,landiannews.com,xingkbjm.com##.widget_media_image
 cars.mitula.ae#@#.adsList
 carsales.com.au,technobuffalo.com##.page-header
+carsdirect.com###TopBanner
 cartomad.com,cartonmad.com,cartoonmad.com,comicnad.com,conicsmad.com##td[align="center"][height="102"]
 cartomad.com,cartoonmad.com##table[width="737"] > tbody > tr > td[valign="top"][height="118"]
 cartomad.com,cartoonmad.com##tr:nth-child(n+5) > td > table[width="732"]
@@ -52073,6 +52080,10 @@ dailybitcoins.org#@#.ad-img
 dailycaller.com###dailycaller_top
 dailycaller.com##.dc-sticky
 dailydoge.org#@#.adsbygoogle
+dailydot.com###DD_Desktop_HP_Content1
+dailydot.com###DD_Desktop_HP_Content2
+dailydot.com###DD_Desktop_HP_Content3
+dailydot.com###browsi-topunit
 dailydot.com##.cta-article-wrapper
 dailyevergreen.com##.sno-hac-desktop-1
 dailyfx.com##.dfx-article__sidebar
@@ -59367,6 +59378,8 @@ nsfwyoutube.com##img[src*="data"]
 nta.ng##img[alt="Online Ads WeConnect Platform"]
 ntm.gov.tw#@#.ad-left
 ntp.msn.cn##recommended-sites
+ntp.msn.com#%#AG_defineProperty("navigator.getBattery",{value:function(){return Promise.resolve()}});
+ntp.msn.com#@%#navigator.getBattery = undefined;
 ntpcb.com##img[width="1195"]
 ntunhs.edu.tw,ntust.edu.tw,sjsmitaa.org#@#.module-ads
 nude.hu##a[href*="/click/"]
@@ -62144,6 +62157,8 @@ suning.com##.touch-href.mb-suning.ng-bar-node
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js.sn-sidebar-tab-hover:nth-child(3)
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js:nth-child(3) > A > I.tab-icon.tab-icon-code:last-child
 sunnylife.tw##.Zi_ad_a_H
+sunofbeach.net##DIV[class$="-ad"]
+sunofbeach.net##DIV[id$="-ad"]
 sunporno.com###footer_a
 sunporno.com##.a-block
 sunporno.com##.close-invid
@@ -68019,6 +68034,7 @@ zznews.cn##.ad:not([style])
 ||3k8.com/d/js/m/thea
 ||3lga3.cn^
 ||3lift.com^
+||3line.tech^
 ||3lr67y45.com^
 ||3movs.com/sd3/
 ||3munion.net^
@@ -75819,6 +75835,7 @@ zznews.cn##.ad:not([style])
 ||aromamirror.com^$third-party
 ||aroudy.cn^
 ||aroundmonth.com^
+||arousedskinnyspeeding.com^
 ||arpa.net.daraz.com^
 ||arpg2.com^
 ||arpun.com/arpun/$script
@@ -80980,6 +80997,7 @@ zznews.cn##.ad:not([style])
 ||cdn2reference.com^
 ||cdn3.hentaihand.com^
 ||cdn3.net/pixe/
+||cdn4.life/media/
 ||cdn4ads.com^
 ||cdn4ads.com^$popup
 ||cdn7.baunetz.de^
@@ -81452,6 +81470,7 @@ zznews.cn##.ad:not([style])
 ||chengaib.net^
 ||chengdahdf.cn^
 ||chengdu.cn/acts/phoneqss/openCornerWin/
+||chengduyiren.cn^
 ||chengjunjie.top^
 ||chengruide.com$third-party
 ||chengruide.com^$third-party
@@ -81729,6 +81748,7 @@ zznews.cn##.ad:not([style])
 ||chunfuxie.cn^
 ||chunkycactus.com^
 ||chunkycactus.com^$third-party
+||chuqiguan.co^
 ||churchatsouthcreek.com^
 ||churchofjesuschrist.hb-api.omtrdc.net^
 ||churchtechtoday.com/?wordfence_lh=
@@ -84111,6 +84131,7 @@ zznews.cn##.ad:not([style])
 ||cp.qbaobei.com^
 ||cp121.com/js2/
 ||cp2.eastmoney.com^
+||cp9.club^
 ||cpa-offer.com^$popup
 ||cpa-optimizer.online^
 ||cpabeyond.com^
@@ -90649,6 +90670,7 @@ zznews.cn##.ad:not([style])
 ||exporder-patuility.com^
 ||exporder-patuility.com^$popup
 ||export.newscube.de^$~subdocument
+||exportspring.com^
 ||exposebox.com^$third-party
 ||exposuremixed.com^
 ||express.co.uk/analytics.config.json.php
@@ -96439,6 +96461,7 @@ zznews.cn##.ad:not([style])
 ||hollydeal.club^
 ||holyfamilyradio.org/banners/
 ||holyyjs.xyz^
+||homchang.site^
 ||home-prize-winner-ma2d.live^
 ||home-soon.com^$third-party
 ||home.163.com/special/$script,redirect=noopjs,domain=rjno1.com,important
@@ -97773,6 +97796,7 @@ zznews.cn##.ad:not([style])
 ||ihfmftmhdfw.com^
 ||ihfwer.aboutyou.com^
 ||ihhii.xyz^
+||ihhmh.com/mg/show
 ||ihjtrncfoha.com^
 ||ihmnnz.flo.com.tr^
 ||ihogaetw.com^
@@ -108212,6 +108236,7 @@ zznews.cn##.ad:not([style])
 ||mobylog.jp^$third-party
 ||mobytrks.com^
 ||mobzon.ru/adbp/adbp.js
+||mocc.ltd^
 ||mocean.mobi^
 ||mochiads.com/clk/
 ||mochibot.com^$third-party
@@ -110982,6 +111007,7 @@ zznews.cn##.ad:not([style])
 ||ocs-pl.oktawave.com/v1/AUTH_*/Reklamy/$object-subrequest,domain=freedisc.pl|reseton.pl
 ||octaviancontrast.com^
 ||octavius.rocks^$third-party
+||octhkas.cn^
 ||octomarket.com^$third-party
 ||octopart-analytics.com^$third-party
 ||octopart.com/kdRQnL15/init.js
@@ -116586,6 +116612,7 @@ zznews.cn##.ad:not([style])
 ||qzxfnv.beams.co.jp^
 ||qzxmtyy.com^
 ||qzxmtyy.com^$third-party
+||qzy123.ink^
 ||qzyfpfyy.com^
 ||qzyiming.cn^
 ||qzylyp.com^
@@ -116934,6 +116961,7 @@ zznews.cn##.ad:not([style])
 ||rdiul.com^$third-party
 ||rdlbkvo.cn^
 ||rdlrbm.studying.jp^
+||rdms.xyz^
 ||rdowulajr.xyz^
 ||rdqgllmny.com^$script
 ||rdrceting.com^
@@ -121537,6 +121565,7 @@ zznews.cn##.ad:not([style])
 ||sm.edweek.org^
 ||sm.stjude.org^
 ||sm077.com^
+||sm9t.ml^
 ||smaato.net^
 ||smac-ad.com^
 ||smac-ssp.com^$third-party
@@ -124229,6 +124258,7 @@ zznews.cn##.ad:not([style])
 ||spysubstance.com^$third-party
 ||spywords.com^$third-party
 ||spzqxefawfeubq.com^
+||spzxgcw.com^
 ||sq.requestads.com^
 ||sq2trk2.com^
 ||sq2trk2.com^$popup
@@ -126351,6 +126381,8 @@ zznews.cn##.ad:not([style])
 ||sunmedia.net^$third-party
 ||sunnybluecoral.com^
 ||sunnysmedia.com^$third-party
+||sunofbeaches.com/ast/assistant/ad-item/
+||sunofbeaches.com/shop/recommend/
 ||sunpma.com/other/logo/
 ||sunporno.com/abl.php
 ||sunporno.com/sunstatic/frms/
@@ -138270,6 +138302,7 @@ zznews.cn##.ad:not([style])
 ||yunsoka.com^
 ||yuntue.com/zb_users/plugin/MoreLinks/MoreLinks.php
 ||yunupload.net/jsa/
+||yunwanjia.wang^
 ||yunzhan365.com/resourceFiles/js/weixin-share.js
 ||yunzhanghe.cn^
 ||yunzuowen.com^$third-party
@@ -139348,6 +139381,7 @@ zznews.cn##.ad:not([style])
 ||zuoyebang.cc/static/question/pkg/wap-qb_
 ||zuoyebang.cc/static/question/question/resource/QRCode_
 ||zuoyebang.cc/zyb_4953cbb8a9a2332469592196c056a906.jpg
+||zuoyouyu.cn^
 ||zuphaims.com^
 ||zuphaims.com^$popup
 ||zupsawhenu.com^
