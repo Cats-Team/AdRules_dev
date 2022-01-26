@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-26 10:23:28
-! Total count: 142295
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-01-26 22:20:00
+! Total count: 142311
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -37080,6 +37080,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /prebid35.
 /prebid4.
 /prebid5.
+/prebid6.
 /prebid?
 /prebidAdcall.
 /prebid_$script,third-party
@@ -41453,8 +41454,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 4gamers.com.tw##video[src^="https://img.4gamers.com.tw/ads-media/"]
 4gtv.tv,80s.ai,ft.com,ftchinese.com,ftchinese.com.sz-dns.net,kartinfo.me,long7.qq.com,reh.tw,typecho.wiki#@#.adsbox
 4k123.com##.comeing_wad,.a_pb
-4kporn.xxx#$#override-property-read flashvars.popunder_url null
 4kporn.xxx,fpo.xxx##.footer-margin
+4kporn.xxx,mangovideo.club#$#override-property-read flashvars.popunder_url null
 4kpornvideos.tv,flashtranny.com,gaymovievids.com,gayporno.fm,igayporn.tv,machogaytube.com,onlydudes.tv,ts-tube.net,verygayboys.com,xgaytube.tv##.ae-player__itv
 4kzw.com,quanxiong.org,dijiuzww.com##[style="width:770px;height:260px"]
 4shared.com##.remove-rekl
@@ -43309,6 +43310,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||aolcdn.com/omniunih_int.js$domain=autoblog.com
 @@||aolcdn.com^*/beacon.min.js$domain=autoblog.com|dailyfinance.com
 @@||aone-soft.com/style/images/ad2.jpg
+@@||apc-pli.com/api/tracking/$~third-party,xmlhttprequest
 @@||api-merchants.skimlinks.com^
 @@||api.academia.edu/v0/users/*/stats$script
 @@||api.ad-gone.com^
@@ -54524,6 +54526,7 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[jsdata*="SinglePLA-"][data-id^="SinglePLA-"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[jstcache] > a[href^="/aclk?"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[role="navigation"] + c-wiz > div > .kxhcC
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:"]:-abp-has(span.p8AiDd)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(div[class*="-haAclf-"] > div.UzWqLb)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(span[class$="-badge-haAclf"] > span[class$="-badge"])
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(span[class$="-haAclf"] > span > button)
@@ -62901,6 +62904,7 @@ titan24.com###ad-index-01
 titantv.com###ctl00_Main_TVL_ctl00_sb
 titantv.com###frankly
 titantv.com##.gAd
+titantv.com#?#tr:-abp-has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 titanwolf.org##.col-md-3 > .card > .card-body
 titanwolf.org##.col-md-4 > .card-raised > .card-body
 titlovi.com#@#.pub_300x250
@@ -66874,6 +66878,7 @@ zznews.cn##.ad:not([style])
 ||123.59.150.56^
 ||123.sogou.com/discover/?
 ||12306media.com^
+||12333sbt.com/inc/
 ||1234.zgxue.com^
 ||123456.asia^
 ||1234567sg.xyz^
@@ -70488,6 +70493,7 @@ zznews.cn##.ad:not([style])
 ||a5.1xasset.com^$domain=6161bb.com
 ||a5020fec1701e9f3.com^
 ||a52.net.zooplus.de^
+||a5a0976123.com^
 ||a5a5a.com^$third-party
 ||a5e04df959f1af34.com^
 ||a5e2ef28b5.com^
@@ -71739,6 +71745,7 @@ zznews.cn##.ad:not([style])
 ||addfreestats.com^$third-party
 ||addictedapartlazy.com^
 ||addiply.com^
+||additionalcasualcabinet.com^
 ||additionalmedia.com^
 ||additionant.com^$third-party
 ||additionsselfemployedpeachy.com^
@@ -77795,6 +77802,7 @@ zznews.cn##.ad:not([style])
 ||bbs.zhanzhangwo.com/img/*.gif
 ||bbsbaba.com/js/1.js
 ||bbsbaba.com/js/2.js
+||bbsg.club^
 ||bbthat.com^$script,third-party
 ||bbtrack.net^$third-party
 ||bbttkk.com^
@@ -78126,6 +78134,7 @@ zznews.cn##.ad:not([style])
 ||beareyes.com.cn^*/ad/
 ||beastbeef.com^
 ||beastbeef.com^$third-party
+||beastintruder.com^
 ||beastlyaccomplished.com^
 ||beataemusky.com^
 ||beatconfessteddy.com^
@@ -82801,6 +82810,7 @@ zznews.cn##.ad:not([style])
 ||cloudfront.net^$script,domain=croydonguardian.co.uk
 ||cloudfront.net^$script,domain=gentside.com
 ||cloudfront.net^$script,domain=phonearena.com
+||cloudfront.net^$script,domain=titantv.com
 ||cloudfront.net^*.bmp?
 ||cloudfront.net^*/sponsors/$domain=pbs.org
 ||cloudfrontcar31.net.daraz.com^
@@ -83826,6 +83836,7 @@ zznews.cn##.ad:not([style])
 ||congtad.com^
 ||conimicutlighthouse.viessmann-us.com^
 ||conjeller-chikemon.com^
+||conjunctionbanner.com^
 ||connatix.com^$script,third-party
 ||connect-qa.netapp.com^
 ||connect.abm.netapp.com^
@@ -90458,6 +90469,7 @@ zznews.cn##.ad:not([style])
 ||enqxmgodgkxfoxs.top^
 ||enread.com/img/185-50.gif
 ||enrichcouriermagician.com^
+||enrilov.info^
 ||ens-sh.cn^
 ||ens.luzernerzeitung.ch^
 ||ens.nzz.ch^
@@ -94016,6 +94028,7 @@ zznews.cn##.ad:not([style])
 ||genericlink.com^
 ||generouslivelinessevidence.com^
 ||generouslivelinessevidence.com^$popup
+||genesis.malwarebytes.com^
 ||genesishealth.hrm.healthgrades.com^
 ||genesismedia.com^
 ||geneticdiminishblake.com^
@@ -120478,6 +120491,7 @@ zznews.cn##.ad:not([style])
 ||ruthlessrobin.com^$third-party
 ||ruthowhagi.com^
 ||rutius.com^
+||rutpunishsnitch.com^
 ||rutsneareta.com^
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
@@ -121256,6 +121270,7 @@ zznews.cn##.ad:not([style])
 ||sanl.footlocker.pt^
 ||sanl.footlocker.se^
 ||sanme2.lanzoui.com^
+||sanme2.taisantech.com^
 ||sanmenxia.info^
 ||sanmet.originenergy.com.au^
 ||sanmiyangguang.com^$third-party
@@ -140662,6 +140677,7 @@ zznews.cn##.ad:not([style])
 ||younct.com^
 ||youngalsobeautiful.com^
 ||youngerpoem.com^
+||youngestsow.com^
 ||youngmarble.com^
 ||youngmarble.com^$third-party
 ||youngoutmatchthousand.com^
