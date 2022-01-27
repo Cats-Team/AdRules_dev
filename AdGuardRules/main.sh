@@ -2,13 +2,13 @@
 cd AdGuardRules/src
 
 # Start Download
-wget -O i1.txt https://filters.adtidy.org/android/filters/2_optimized.txt
-wget -O i2.txt https://filters.adtidy.org/android/filters/11_optimized.txt
-wget -O i3.txt https://filters.adtidy.org/android/filters/3_optimized.txt
-wget -O i4.txt https://filters.adtidy.org/android/filters/224_optimized.txt
-wget -O i5.txt https://filters.adtidy.org/android/filters/14_optimized.txt
-wget -O i6.txt https://filters.adtidy.org/android/filters/5_optimized.txt
-wget -O i7.txt https://filters.adtidy.org/android/filters/4_optimized.txt
+wget -O i1.txt https://filters.adtidy.org/android/filters/2.txt
+wget -O i2.txt https://filters.adtidy.org/android/filters/11.txt
+wget -O i3.txt https://filters.adtidy.org/android/filters/3.txt
+wget -O i4.txt https://filters.adtidy.org/android/filters/224.txt
+wget -O i5.txt https://filters.adtidy.org/android/filters/14.txt
+wget -O i6.txt https://filters.adtidy.org/android/filters/5.txt
+wget -O i7.txt https://filters.adtidy.org/android/filters/4.txt
 
 # Start Merge and Duplicate Removal
 cat i*.txt > mergd.txt
