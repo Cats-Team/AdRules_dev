@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-02-05 10:18:39
-! Total count: 139752
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-02-05 22:27:24
+! Total count: 139772
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -8442,6 +8442,7 @@
 ###sticky-custom-ads
 ###sticky-footer-ad
 ###sticky-footer-ads
+###sticky-left-ad
 ###sticky-rail-ad
 ###sticky-top-ad-spacer
 ###sticky-top-ad-wrap
@@ -15529,6 +15530,7 @@
 ##.bannerWrapAdwords
 ##.banner_160x600
 ##.banner_234x90
+##.banner_240x400
 ##.banner_250x250
 ##.banner_300_250
 ##.banner_300x250
@@ -20739,6 +20741,7 @@
 ##.resourceImagetAd
 ##.respAds
 ##.responsive-ad
+##.responsive-ad-header-container
 ##.responsive-ad-outbrain
 ##.responsive-ad-wrapper
 ##.responsive-ads
@@ -24587,6 +24590,7 @@
 ##a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source
 ##a[src^="https://www.utherverse.com/net/"]
 ##a[style$="2147483647;"][ontouchstart]
+##a[style*=".ajzsa.xyz/"]
 ##a[style*=".e-years.net/"]
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
@@ -41988,6 +41992,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 8684.cn##DIV[id^="auto"],[id^="adv"]
 8684.cn,8684.com##div[id*="adid"]
 8684.cn,8684.com,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
+86cg.me##.vodbt
 86cg.me##[style^="width: 100%; height: auto; position: fixed; left: 0px; bottom: 0px;"]
 86ditu.com##[id^="gg"]
 86mdo.com##.hy_banner,.border01
@@ -43637,6 +43642,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||bingfeng.tw/data/attachment/common/ad/common_ad_icon.png
 @@||bingfeng.tw/source/plugin/unadblock/*_ads_*.js
 @@||bingfeng.tw^$generichide
+@@||biqupai.com^$domain=shudai.cc
 @@||bit-vortex.com/js/antiadblock.js$script
 @@||bitauto.com/bglogpostlog.js
 @@||bitbucket.org^$generichide
@@ -46107,6 +46113,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||mxpnl.com^$domain=dailysteals.com
 @@||mxpnl.com^$domain=mixpanel.com
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
+@@||myaccount.depositprotection.com/Scripts/lib/jsnlog/$script,~third-party
 @@||myaccount.google.com^$generichide
 @@||mybuys.com/webrec/wr.do?
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
@@ -47098,6 +47105,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||smp.sankei.co.jp/js/analytics/skd.Analysis.js
 @@||sms-receive.net/advertisment.js$script
 @@||smtcaw.com^$generichide
+@@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||snapchat.com/static/js/autotrack.js
 @@||snesfun.com/js/ads.js$script
 @@||softwarebrother.com^$generichide
@@ -54373,6 +54381,7 @@ ghacks.net##.ghacks-ad
 ghoffice.com##.tac > a > img[src*=".gif?"]
 ghoffice.com##[class="tac"],[class="mb5 tac cc"],[id^="ads_"],.textMes
 ghoffice.com,ksbbs.com,kshot.com##[id^="ads_"]
+ghxi.com##.ad_single_1
 ghxi.com#@#.social-item
 ghxi.com,mcdulll.com,pixnet.net##div[id*="-ad-"]
 giantfreakinrobot.com##.pw-leaderboard-atf-container
@@ -54512,6 +54521,7 @@ goodcome.com.tw###jad-right
 goodcome.com.tw###jad-top
 goodcome.com.tw##.Phase2_BigAdbox
 goodcome.com.tw,sporttery.cn###mask
+goodfon.com##.wallpapers__banner240
 goodgearguide.com.au,pcworld.co.nz,pcworld.idg.com.au##.lo-toppromos
 goodgearguide.com.au,pcworld.idg.com.au###float_leaderboard_bottom
 goodreturns.in###taboola-mid-category-thumbnails
@@ -55201,8 +55211,6 @@ hireteen.com###adb-enabled
 hispasexy.org#$#abort-current-inline-script _cpp
 histock.tw###tbadword
 histock.tw##.bottom-right
-history.com##.m-header-ad
-history.com##.m-in-content-ad-row
 hit180.com##.widget_ui_orbui:nth-child(-n+2)
 hitfm.ua,kissfm.ua,radiorelax.ua,radioroks.ua,rusradio.ua#$#abort-on-property-write prerole_length
 hitime5.com###gg250
@@ -58154,6 +58162,7 @@ mail.yahoo.com##[data-test-id^="pencil-ad"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 mail.yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
 mailfoogae.appspot.com$image
+mailshub.in##[href^="https://www.amazon.in/"]
 mailstat.us/tr$image
 mailtrack.io/trace/$image
 main.m.taobao.com##button
@@ -60807,6 +60816,7 @@ racingtv.com,twitter.com,wral.com##.promotion
 radaronline.com##.gwzeAW
 radaronline.com##.hIlCTc
 radaronline.com##.hfdIrh
+radaronline.com##.jkqdnZ
 radikal.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-read ads_script; abort-on-property-read atob; abort-on-property-read loaded_blocks_directadvert; abort-on-property-read utarget_script
 radio.yandex.by,radio.yandex.kz,radio.yandex.ru,radio.yandex.ua##.notify
 radioonline.fm###advertise_center
@@ -68413,6 +68423,7 @@ zznews.cn##.ad:not([style])
 ||51cto.com/home/web/js/new_login/iframe.js
 ||51cto.com/iframe/get-station-ads
 ||51cto.com/js/activity_pop.js
+||51dc.xyz^
 ||51dengshan.cn^
 ||51df7z.cn^
 ||51dianji.cn^
@@ -74330,6 +74341,7 @@ zznews.cn##.ad:not([style])
 ||amplifypixel.outbrain.com^
 ||amplitude.com^$third-party
 ||amplitudewassnap.com^
+||ampproject.org/preconnect.gif
 ||amptrack-dailymail-co-uk.cdn.ampproject.org^
 ||ampugi334f.com^
 ||ampush.io^$third-party
@@ -94439,6 +94451,7 @@ zznews.cn##.ad:not([style])
 ||goodcome.com.tw/block/ad/rndtopad.php
 ||goodcounter.org^$third-party
 ||gooderamour.com^
+||goodfon.com/stat/
 ||goodgamesmanship.com^
 ||goodgoodluck.cn^
 ||goodgupiao.com/skins/default/js/backTop.js
@@ -95988,6 +96001,7 @@ zznews.cn##.ad:not([style])
 ||heizoel24.de/Scripts/g_tracking.js
 ||hej.henriksommerfeld.se^
 ||helessenge.club^
+||hello-jm.com/foot.js
 ||hello.bpost.be^
 ||hello.bpost2.be^
 ||hello.emergeinteractive.com^
@@ -100773,6 +100787,7 @@ zznews.cn##.ad:not([style])
 ||jqmt.qq.com^
 ||jqsex.com^
 ||jquery-cdn.download^$third-party
+||jquery.envi-met.com.cn^
 ||jqueryget.com^
 ||jqueryserve.org^
 ||jqueryserver.com^
@@ -103835,6 +103850,7 @@ zznews.cn##.ad:not([style])
 ||lnzqw.net/js/
 ||loa-traffic.com^$third-party
 ||load.sumome.com^$third-party
+||loader.zeroform.com^
 ||loadercdn.com^
 ||loading-delivery1.com^$third-party
 ||loading-resource.com^
@@ -116668,6 +116684,7 @@ zznews.cn##.ad:not([style])
 ||qqm98.com^
 ||qqotmtadpamrwho.top^
 ||qqppz.com^
+||qqq-www-987.site^
 ||qqq123987.site^
 ||qqq937.com$third-party
 ||qqqmmm.top^
@@ -118329,6 +118346,7 @@ zznews.cn##.ad:not([style])
 ||rmbn.net^
 ||rmcxyfqbm.com^
 ||rmdown.com^$replace=/var rmJson/var fuck/
+||rmdzsw.top^
 ||rmgserving.com^
 ||rmipoz.com/dp.js
 ||rmkflouh.com^
@@ -121911,6 +121929,7 @@ zznews.cn##.ad:not([style])
 ||smadex.com^$third-party
 ||smaero.jp/js/access.js
 ||smagod.com^
+||smallapp.club^
 ||smallbeginner.com^$third-party
 ||smallcapnetwork.com/zfbp/viewtracker/
 ||smallentpation.pro^
@@ -139027,6 +139046,7 @@ zznews.cn##.ad:not([style])
 ||zhh8886.com^
 ||zhhoeyksp.com^
 ||zhiad.com^
+||zhiai.space^
 ||zhibo.me/js/fd.js
 ||zhibo.me/js/kh.js
 ||zhibo8.cc/js/adv-slide-toggle.js
