@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-02-12 10:21:12
-! Total count: 138609
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-02-12 22:19:13
+! Total count: 138642
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -9888,6 +9888,10 @@
 ##._table_ad_div_wide
 ##._top_ad_wrapper
 ##.a-ad
+##.a-ad--aside
+##.a-ad--leaderboard
+##.a-ad--skyscraper
+##.a-ad--wide
 ##.a-article-teaser--sponsored
 ##.a-d-container
 ##.a-d-rotate_widgets
@@ -10834,6 +10838,8 @@
 ##.ad-point
 ##.ad-popup
 ##.ad-popup-content
+##.ad-pos
+##.ad-pos-middle
 ##.ad-pos-top
 ##.ad-position
 ##.ad-position-1
@@ -13768,6 +13774,7 @@
 ##.adsbymahimeta
 ##.adsbypublift
 ##.adsbypubmax
+##.adsbypubpower
 ##.adsbysinodia
 ##.adsbytrafficjunky
 ##.adsbyvli
@@ -19933,6 +19940,7 @@
 ##.normal_ads
 ##.normalad
 ##.northad
+##.noskim.ad
 ##.not-ad-free
 ##.not-an-ad-header
 ##.note-advertisement
@@ -23462,9 +23470,11 @@
 ##[data-ad-module]
 ##[data-ad-width]
 ##[data-css-class="dfp-inarticle"]
+##[data-desktop-ad-id]
 ##[data-dynamic-ads]
 ##[data-ez-name]
 ##[data-freestar-ad]
+##[data-mobile-ad-id]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
 ##[href*=".adcampo.com/"]
@@ -24826,6 +24836,7 @@
 ##div[itemtype="http://schema.org/WPAdBlock"]
 ##div[itemtype="http://www.schema.org/WPAdBlock"]
 ##div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"]
+##div[onclick*=".8tse9.com"]
 ##div[onclick*=".rwnyou.com"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
@@ -26785,6 +26796,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .com/code.php?z=$script,third-party
 .com/common_list.js
 .com/core/js/the_pf.js
+.com/count?
 .com/counter?
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
@@ -42527,6 +42539,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ?advertiser=
 ?advertiser_id=$domain=~ads.pinterest.com|~panel.rightflow.com
 ?advertiserid=$domain=~adadyn.com|~outbrain.com|~seek.co.nz|~seek.com.au
+?advplaces=
 ?advsystem=
 ?advtile=
 ?advurl=
@@ -49169,7 +49182,7 @@ airav.cc###diy_right
 airav.cc###jssor_banner
 airav.cc##div[id^="Billing"]
 airplaydirect.com#@##header_ad
-airplaydirect.com,economicconfidential.com,elitepvpers.com,opednews.com,roadtester.com.au,runechat.com,tfetimes.com,therainbowtimesmass.com##img[height="90"]
+airplaydirect.com,economicconfidential.com,opednews.com,roadtester.com.au,runechat.com,tfetimes.com,therainbowtimesmass.com##img[height="90"]
 aiscore.com##.bet365
 aiscore.com##.justify-center.w100
 aishoujizy.com###ShouYe_ShangBu > .HtmlMoKua:first-child
@@ -53231,8 +53244,7 @@ electronicshub.org,net-load.com###text-25
 electronicshub.org,techlife.com,technipages.com###text-5
 elektro.info.pl,mashingup.jp#@#.is-sponsored
 elhow.ru###b-info-wrapper
-elitepvpers.com##img[width="600"]
-elitepvpers.com,lyngsat-logo.com,lyngsat-maps.com,lyngsat-stream.com,lyngsat.com,newswireni.com,webhostingtalk.com##img[width="160"]
+elitepvpers.com##[href^="https://www.elitepvpers.com/123/"]
 elitepvpers.com,pointblanknews.com,sharktankblog.com##img[height="60"]
 elmundo.es#?#body > main[role="main"] > div.ue-l-article:has(> div.ue-l-article__inner > div.ue-l-article__main-column > aside > div[id^="taboola"])
 elpais.com,chip.de,moviepilot.com,madison.com,promiflash.de,trendblog.net,qctimes.com,missoulian.com,chip.eu,promiflash.tv,bix7.com,7riversmarketplace.com,azstarnet.com,huskerextra.com,hawkmania.com,casperstartribune.com,justselect.ru,xonio.com,autosocut.de,thebettendorfnews.com,netcive.com,autocout24.de,lmagazinelincoln.com,lincolnrestaurantweek.com,napavalleywheels.com,thisistucson.com,download.de,billingsgazette.net,autoscount24.de,chipxonio.biz,tucsonestrella.us,teilescout24.eu,celebratenebraska.com,autoscunt.de,mopedscout.com,auto-sout24.de,autocsout24.de,promiflasch.de,autoteilescout.ch,aotoscout.de,motoscout.in,autoscoter24.de,autoskaud.de,ersatzteile-scout24.de,chipxonio.info,kfzscout24.de,reifenscout24.eu,harpers.de,aptshowcase.com,tyrescout24.com,tucsonestrella.org,houstonconews.com,mastercar.de,autoteilescout.net,bikescout24.eu,autoscout25.de,aut0scout.de,zubehoerscout24.de,autosout-24.de,rivervalleybusinessreport.com,teilescout24.net,motor-scout24.eu,unfall-scout.de,tuning-scout24.eu,motoscount24.de,autoascout24.de,reifen-scout24.de,autoteilescout24.org,autoteilescout24.info,motoscout.us,moviecritter.de,autoscouet24.de,utoscout24.de,motor-scout.ch,autoscout23.de,motorrad-scout.net,moto-scout24.pl,motorradscaut24.de,macfrage.net,bikerscout.info,motorscout24.eu,gzlincoln.com,chipxonio.net,automobilscaut.de,capitalnewspapers.com,fahrzeugscout.de,autoscout22.de,motoradscout.eu,motoscout24.mx,motoscout.ro,motoskout.de,ersatzteilscout.de,autoteilescout.de,neighborhoodextra.com,autiscout24.de,motoscout.mx,danceshoppenebraska.com,autoscouting24.de,workbakken.com,auto-scout-2.de,billingsgazzette.com,livewellwyoming.com,autoscont24.de,autoskaud24.de,auto-scount.de,carscout24.de,moto-scout24.mobi,ersatzteilscout24.de,autoscott-24.de,dailystarcalendar.com,montanamessenger.com,tuningscout24.de,notoscout24.de,automobilscout24.de,auto-skout-24.de,it-whitepaper.net,spearfishcommunity.com,atoscout-24.de,autosgout24.de,auto-scouts.de,reifenscout24.com,wyoworks.com,motoscout24.mobi,wheelsforyoukansas.com,motorrad-scout24.info,teilescout24.at,autscout24.de,auto-scaut24.de,teile-scout.com,autoscod24.de,teile-scout.ch,autocout-24.de,chip-video.de,moto-scout.com.cn,lincoln-living.com,motorradscout24.net,ms24.biz,flipsideonline.com,moto-scout24.ro,auotoscout24.de,www-auto-scout24.de,motorradscout24.org,rollerscout.de,kfz-teilescout.de,auto-skout.de,autohausscout24.eu,xonio.at,autohausscout24.de,autoscuot.de,downloadchip.de,autoteile-scout24.info,outdoorboatsrvsmore.com,motorrad-scout24.ch,motoscot.de,as24autocredit.de,auto-scott-24.de,auto-scot-24.de,autoskout-24.de,autosgaud24.de,it-whitepaper.at,elektroautoscout.de,autoscput24.de,motorradscout.eu,autosout.de,foto-video.eu,chip-fotovideo.de,unfallscout24.de,quadscout24.de,motorradscout.org,autos-scout.de,motoscout24.ro,motoscout24.co,teile-scout.net,autodcout24.de,autosccout24.de,autoscout4.de,autoscout-online.de,autoteile-scout.com,aotoscout24.de,audosgaut.de,auto-shout.de,autosckut24.de,game-critter.com,autoscoutvierundzwanzig.de,motorscout24.de,insidenapavalley.com,southernillinoisan.com,audosgaud.de,motorrad-scout24.net,outdoorwheels.com,autoteile-scout.info,autoscaund24.de,autosgaud.de,laestrelladetucson.us,teilescout.org,autoteile-scout.at,autoteilescout24.ch,otoscout.de,auto-skaut24.de,auto-sout-24.de,ersatzteil-scout-24.de,teilescout.com,auto-cout-24.de,wyovarsity.com,aotoscaut.de,autoteile-scout.org,wheelsforyouomaha.com,promiflash.net,gebrauchtwagen-scout.de,motoscout-24.com,motosout24.com,ms24.mobi,autoscout2.de,outoscout24.de,auto-scout24.de,foodcritter.com,promiflash.org,walkacrosswyoming.com,autoteile-scout24.ch,mtfires.com,musicritter.com,mtinbusiness.com,motoscout.info,starcitygolfer.com,autoteilescout24.net,autohausscout.de,autoacout24.de,moto-scout.info,wi-elections.com,auto-skout24.de,autoshot24.de,motosocut24.de,autoscout27.de,chipdigital.de,autoscout24-online.de,teilescout.info,autoscout-xl.de,teilescout24.org,ersatzteilescout-24.at,it-whitepaper.org,krombach24.de,automobilscout.de,finderads.com,freakfestlive.com,ellsworthcommunity.com,motor-scout.de,moto-scout.ch,uatoscout24.de,autoscouts.de,moto-scout24.net,autoscaut24.de,auotscout24.de,ersatzteilescout-24.de,quadcityvarsity.com,motorradscout.ch,unfallautoscout24.com,ersatzteilescout.de,promi-flash.de,estrelladetucson.com,salukigameday.com,autosco24.de,autoteilescout.eu,ersatzteilescout-24.com,download-chip.de,autoscuot-24.de,motorrad-scout24.biz,wwwautoscout.de,motoradscout24.com,wheelsforyounebraska.com,motoscout-24.de,teile-scout24.biz,autoteile-scout.biz,reifenscout.net,auto-skut24.de,auto-scout.de,atoscout.de,chip-fotovideo.eu,chipxonio.org,qcvarsity.com,reifenscout.at,auto-scout-24.de,mooscout24.de,estrelladetucson.net,teile-scout.org,download-chip.mobi,promi-flash.ch,elektroauto-scout.de,woodfordcountyjournal.com,autoscoot24.de,familie-kellers.de,teile-scout24.org,autoscaut-24.de,ersatzteil-scout.de,wheelsforyoumissouri.com,movie-critter.com,tarif.de,auto-scuot-24.de,tuningscout24.net,kfzscout.eu,fahrzeugscout24.de,corridormag.com,autoscout24de.de,oldiescout24.de,autoscount-24.de,autoscaunt.de,car-scout24.de,autosscout24.de,billinggazette.com,autohaus-adermann.de,missoulianentertainer.com,wiprepzone.com,missoulian.net,oldtimer-scout24.de,monsoonalerts.com,xn--motorrderscout24-0nb.de,motoscout24.cn,moto-scout24.de,starcityhealth.com,audoscout24.de,motorradscout24.ch,pc-frage.net,motorradscout.net,xonio.mobi,ms24.cn,motorrad-scout.org,ihrautoscout.com,newjobsnd.com,auto-scout4.de,auttoscout24.de,autocscout24.de,autuscaut.de,autoteile-scout24.biz,autoscoud.de,autosc0ut24.de,ms24.us,moto-scout24.eu,lincolnjournalstar.com,motorrad-scout.mobi,promiflash.ch,unfallscout.de,walkerwatch.net,teilescout24.ch,auto-scou.de,emptystockingclub.com,motoscout2.de,xonio.eu,teilescout.eu,www-autoscout24.de,motorad-scout.eu,ahtoscout.de,utoscout.de,it-whitepaper.info,autoscout20.de,kfzteilescout24.de,mastercar.com,ms24.com.cn,officefrage.net,unfallautoscout24.de,autos-scout24.de,moto-scout.mobi,farmercityjournal.com,teilescout.net,chip-germany.de,kchaiyo.com,moto-scout24.us,moto-scout.in,tuningmarkt.eu,seelakegeorge.com,ascout24.de,motoscuot.de,motorad-scout.de,autoscout-2.de,autosckot.de,motoscout24.net,autoschaut24.de,tyrescout24.eu,poststar.org,bikerscout24.com,audosgaut24.de,motorradscout24.eu,wyomingwheelsforyou.com,autoscouts24.de,tucsonestrella.com,digitalcritter.com,77square.com,autoshout24.de,moto-scout24.biz,reifenscout.ch,autoskaut-24.de,reifen-scout24.com,wwwautoscout-24.de,motoscout24.com,reifenscout24.de,mietwagenscout.com,auto-scot.de,moto-scout24.cn,autoscott24.de,teile-scout.de,autoteilescout24.eu,auoscout24.de,motorbikescout.com,motorradscout.biz,c.de,jahreswagenscout24.de,moto-scout.com,chip-foto-video.eu,autoscuout24.de,motoradscout.net,motorradscout.info,auto-skaut-24.de,auto-scott.de,champions.co,teile-scout24.at,as24.de,www-auto-scout.de,autoteile-scout24.com,autoscott.de,motorradscout-24.de,wwwauto-scout.de,mtoscout24.de,autoscoutt.de,ms24.info,www-autoscout.de,carscout.de,gebrauchtwagen-sout.de,starcitybridal.com,missoulien.com,myautoscout24.de,oldiescout.de,autoteile-scout.ch,motorad-scout24.de,ersatzteilescout.eu,auto-scut24.de,motoscout.biz,auto-scaut-24.de,auto-scount-24.de,chip.at,motoscuot24.de,musiccritter.com,motscout24.de,motor-scout.com,laestrelladetucson.org,crashscout24.de,autoskout24.de,werkstattscout24.com,ahl-freiberg.de,autoscond24.de,chip-linux.com,reifenscout24.info,autooscout24.de,motoscut24.de,motorscout.ch,wyopreps.net,oldtimerscout24.de,promiflash-images.de,a-scout.de,badgerbeat.com,youngtimerscout24.ch,testlabor.de,motorradscout24.com,chiplog.de,blackhillsjournal.net,car-scout-24.de,motoscout.org,autoscoutde.de,autosscout.de,autosout24.de,gebrauchtwagenscout.de,lifeandstylesi.net,motoscout.com,saddlebagnotes.com,autoscuont24.de,meadecountytimestribune.com,motorad-scout.ch,uatoscout.de,autoscuot24.de,motoradscout.de,winecountrysi.com,motorrad-scout-24.net,togetherapartmadison.com,auto-shout24.de,bike-scout24.de,as24shop.de,moto-scout.cn,wyovarsity.net,motoscout24.eu,autoscout28.de,moto-scout.de,kfz-teilescout24.de,bike-scout24.eu,qcpreps.com,sellitnebraska.com,motorbikescout24.eu,autoreifenscout.de,promi-flash.com,evo7.de,missoulian.us,auto-scou24.de,autosocut24.de,auto-scoud.de#%#//scriptlet("abort-current-inline-script", "navigator", "/propertyIsEnumerable.*window\.stop.*\/[A-Za-z0-9\-_]{100}/")
@@ -53865,6 +53877,7 @@ footdirect24.com###hid
 forebet.com##.rbannerDiv
 foreca.com##.a1sjxe3a
 foreca.com##.anlu8i5
+forecast7.com##.altad
 forestriverforums.com##.recommended-stories
 foreverconscious.com,blwideas.com,utahsweetsavings.com,usersub.com,thechroniclesofhome.com,theavtimes.com,tastefullyeclectic.com,stevivor.com,redcarpet-fashionawards.com,prepared-housewives.com,mjsbigblog.com,lizs-early-learning-spot.com,knowyourphrase.com,hodgepodgehippie.com,yummytummyaarthi.com,spring.org.uk,greenarrowtv.com,tamaratattles.com,goodnewsnetwork.org,entertainment-focus.com,bike-urious.com#$#abort-on-property-read g00gletag
 formula1.com##.f1-dfp-banner-wrapper
@@ -55442,6 +55455,7 @@ hqdoor.com##.index_newad
 hqew.com##.js-ad-tips
 hqew.com##.pop-banner
 hqew.com##div[class^="g-ad-"]
+hqporner.com##.black_friday
 hqpornstream.com##.lds-hourglass
 href="http://www.viidii.info/?http"]
 hrszyl.com##[src^="/images/jiaoyou"]
@@ -57847,6 +57861,7 @@ lxty66.com###header + .tac.mb5
 ly.com##div#newRedPop,div.pbngdda-nsnwbwl
 ly6080.com###loginInfo > a
 lyd.com.cn##.ad:not(:nth-child(15))
+lyngsat-logo.com,lyngsat-maps.com,lyngsat-stream.com,lyngsat.com,newswireni.com,webhostingtalk.com##img[width="160"]
 lyreader.com##.fixnewUser
 lyreader.com##[onclick^="loadDownloadAPP"]
 lyricsmode.com##.h113
@@ -61802,6 +61817,7 @@ sm.cn##.oab-ball-wrap
 sm.cn##A.sc-title,A.app-wrap,DIV.app-rank app-no-trend sc-padding,DIV.sc-footer,A.uc-download-channel,#ad_*
 sm.cn##a[href^="http://m.sm.cn/adclick?"]
 sm.cn##div[id*="_Shopping_Etao_"]
+sm.cn##div[id^="ad_ele_"]
 sm.cn##div[id^="dl-banner-"]
 sm.ms##.advertising_1
 sm.ms##.advertising_2
@@ -63302,6 +63318,7 @@ tubeoffline.com##a[href^="https://www.xvinlink.com/?a_"]
 tubepornclassic.com##.___it0h1l3u2se2lo
 tuberel.com##.fel-list
 tuberel.com##.vda-item
+tucao.one###t5
 tucao.one##a[href*="/index.php?m=poster&"]
 tucao.one##div[class^="c_c"]
 tucao.one##div[style*="height:10"][style*="width:964"]
@@ -64380,6 +64397,8 @@ whnews.cn###gd_r
 whnews.cn###panel
 whnews.cn##.whnews_a_dv
 whnight.com##DIV.a_mu,DIV.wp.a_t,DIV.a_pb
+who.is##.teaser-bar
+who.is##a[href^="https://www.name.com/redirect/"]
 whocallsme.com###cnt_1
 whocallsme.com###cnt_2
 whocallsme.com###cnt_btm
@@ -66560,6 +66579,7 @@ zznews.cn##.ad:not([style])
 ||037info1-astrologie.net.daraz.com^
 ||037info17.net.daraz.com^
 ||037infodevelopment.net.daraz.com^
+||037jav.com/wp-content/uploads/2021/04/*.gif
 ||037nginxnfo.net.daraz.com^
 ||039ad0897e6da.com^
 ||03containerinfo.net.daraz.com^
@@ -78541,6 +78561,7 @@ zznews.cn##.ad:not([style])
 ||bfdcdn.com^
 ||bfdtt.com^
 ||bfe4e6d364be199.com^
+||bff6b409f7.com^
 ||bfgg365.com^
 ||bfmio.com^
 ||bfmio.com^$third-party
@@ -78838,7 +78859,7 @@ zznews.cn##.ad:not([style])
 ||bit.com.au/scripts/js_$script
 ||bit.ly/stats?
 ||bit.ly^$image,domain=tooxclusive.com
-||bit.ly^$popup,domain=dexerto.com|elitepvpers.com|eteknix.com|gdriveplayer.us|kitguru.com|ouo.io|ouo.press|sh.st
+||bit.ly^$popup,domain=dexerto.com|eteknix.com|gdriveplayer.us|kitguru.com|ouo.io|ouo.press|sh.st
 ||bit.ly^$script,domain=hayjav.com
 ||bit.ly^$subdocument,domain=adf.ly
 ||bitadexchange.com^$popup
@@ -78880,7 +78901,6 @@ zznews.cn##.ad:not([style])
 ||biteburied.com^
 ||bitesizememorable.com^
 ||bitingcomposed.com^
-||bitly.com^$popup,domain=elitepvpers.com
 ||bitmango.com/log
 ||bitonclick.com^$third-party
 ||bitools.net.daraz.com^
@@ -80833,6 +80853,7 @@ zznews.cn##.ad:not([style])
 ||carriedmycosis.com^
 ||cars.com/ajax/activityloggingapi^
 ||carscannon.com^$third-party
+||carset.vip^
 ||carsickstrodeproductive.com^
 ||carstat.bitauto.com^
 ||carswellmedia.thomsonreuterscanada.ca^
@@ -85804,6 +85825,7 @@ zznews.cn##.ad:not([style])
 ||d8360.com^
 ||d8360.com^$third-party
 ||d869381a42af33b.com^
+||d87c82a1da.com^
 ||d8d4ab7673.com^
 ||d9ad.com^
 ||d9kvn70l4ogn.com^
@@ -87329,7 +87351,6 @@ zznews.cn##.ad:not([style])
 ||disbandcrumena.com^
 ||discord.com/api/*/science
 ||discord.com/api/v*/science
-||discordapp.com/attachments/$domain=elitepvpers.com
 ||discordclosure.com^
 ||discountminds.com^
 ||discountryvc.club^
@@ -93705,6 +93726,7 @@ zznews.cn##.ad:not([style])
 ||gg.gw032.com^
 ||gg.huahaimi.work^
 ||gg.kugou.com^
+||gg.miinaa.com^
 ||gg.miued.com^
 ||gg.sonhoo.com^
 ||gg.uuu9.com^
@@ -95351,6 +95373,7 @@ zznews.cn##.ad:not([style])
 ||haichengdzsp.com^
 ||haidaocn.com^
 ||haidongqing.top^
+||haigou.life^
 ||hailiao520.com^
 ||hainei.org/union/
 ||hairdosslitter.casa^
@@ -97149,6 +97172,7 @@ zznews.cn##.ad:not([style])
 ||hurtteeth.com^
 ||hurtteeth.com^$third-party
 ||huseby.actonservice.com^
+||husfly.com^
 ||husfly.com^$third-party
 ||hushpub.com^
 ||husktheoretical.com^
@@ -97356,7 +97380,6 @@ zznews.cn##.ad:not([style])
 ||i.newssuite.sony.net^
 ||i.pixl.is/*.gif$image,domain=bunkr.is
 ||i.pokernews.com^
-||i.postimg.cc^$image,domain=elitepvpers.com
 ||i.s-microsoft.com/wedcs/ms.js
 ||i.snssdk.com^$domain=~i.snssdk.com
 ||i.tddmp.com^
@@ -103498,6 +103521,7 @@ zznews.cn##.ad:not([style])
 ||lm665.com^
 ||lm685.com^
 ||lm789456.com^
+||lm811.com^
 ||lm832.com^
 ||lm865.com^
 ||lm881.com^
@@ -106036,6 +106060,7 @@ zznews.cn##.ad:not([style])
 ||med66.com/lamu/
 ||medals.bizrate.com^$third-party
 ||medfoodspace.com^
+||medgoodfood.com^
 ||medi-8.net^$third-party
 ||media*.marktjagd.com/*/1x1.gif
 ||media-allrecipes.com/assets/deployables/*/analytics.bundled.js
@@ -109908,6 +109933,7 @@ zznews.cn##.ad:not([style])
 ||nnolljzcxzud.com^
 ||nnqyed.laredoute.be^
 ||nnsbbd.com^
+||nnteens.com/ad$subdocument
 ||nntgna.dmm.com^
 ||nnvtvx.chegg.com^
 ||nnwm.com^
@@ -115010,6 +115036,7 @@ zznews.cn##.ad:not([style])
 ||pubmine.com^
 ||pubnation.com^
 ||pubplus.com^$third-party
+||pubpowerplatform.io^
 ||pubrain.com^
 ||pubsrv.devhints.io^
 ||pubstack.io^$third-party
@@ -125818,6 +125845,7 @@ zznews.cn##.ad:not([style])
 ||svr-prc-01.com^$third-party
 ||svsub.com^
 ||svtrd.com^$third-party
+||svvbrkk.cn^
 ||svwsvn.top^
 ||svyksa.info^
 ||sw2block.com^
@@ -127767,6 +127795,9 @@ zznews.cn##.ad:not([style])
 ||titan007.com/news.aspx
 ||titan24.com/scripts/stats.js
 ||titanads1.com^
+||titanads2.com^
+||titanads3.com^
+||titanads4.com^
 ||titanads5.com/sp/delivery/js.php?
 ||titanads5.com^
 ||tithephustu.com^
@@ -130324,6 +130355,7 @@ zznews.cn##.ad:not([style])
 ||tubeviral.com/visitScript/$script,third-party
 ||tucao.one/uploadfile/*/ch.gif
 ||tucao.one/uploadfile/20*/20*.gif
+||tucao.one/uploadfile/2022/0211/t5.
 ||tudg.qq.com/dataimport^
 ||tudotecnologia.site^
 ||tudouui.com/tspecial/assets/PauseContainer.swf
@@ -133752,6 +133784,7 @@ zznews.cn##.ad:not([style])
 ||whexamipta.com^
 ||whezogrewha.com^
 ||whfpbc.99.com.cn^
+||whfyhouse.com^
 ||whhd.gov.cn^$script,third-party
 ||whhepyd.cn^
 ||whhxnz.com^
