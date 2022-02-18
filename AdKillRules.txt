@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-02-17 22:21:27
-! Total count: 139137
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-02-18 10:24:13
+! Total count: 139158
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -9593,6 +9593,7 @@
 ##.GoogleDfpAd-wrapper
 ##.GoogleDfpAdModule
 ##.GoogleDfpAdModule-advertisementLabel
+##.GoogleDoubleClick-SponsorText
 ##.GoogleSideAd
 ##.Googleads728
 ##.GreenHomeAd
@@ -20391,6 +20392,7 @@
 ##.pod-ad-box
 ##.podRelatedAdLinksWidget
 ##.podSponsoredLink
+##.polar-ad
 ##.polaris-ad--wrapper-desktop
 ##.polaris__ad
 ##.poll_sponsor_ad
@@ -23463,6 +23465,7 @@
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
+##DIV[id^="adv-"].adv
 ##FBS-AD
 ##IFRAME[src*="//pos.baidu.com/"]
 ##LEADERBOARD-AD
@@ -24924,7 +24927,6 @@
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 ##topadblock
 ##vg-pause-ads
-#%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -43020,7 +43022,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||adnxs.com^$image,subdocument,domain=bitzfree.com
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
-@@||adobedtm.com/*-source.min.js$script,domain=atresplayer.com|backcountry.com|bt.com|dollargeneral.com|kroger.com|personal.natwest.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|atresplayer.com|backcountry.com|bt.com|dollargeneral.com|kroger.com|personal.natwest.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|foodnetwork.com|verizon.com
@@ -45473,7 +45475,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||imasdk.googleapis.com/flash/*.swf$domain=syndication.vmma.be,object-subrequest
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
 @@||imasdk.googleapis.com/js/sdkloader/*$script,domain=mindgames.com|htmlgames.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|scrippsdigital.com|tdn.com|truvid.com|tubitv.com|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|ani.gamer.com.tw|appledaily.com|hamivideo.hinet.net|line.me|linetv.tw|litv.tv|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|xuite.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|appledaily.com|linetv.tw|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|xuite.net
@@ -46047,6 +46049,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=cnbc.com
 @@||mpsnare.iesnare.com/general5/wdp.js$domain=usbank.com
 @@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|login.skype.com|vitacost.com
+@@||mpsnare.iesnare.com/snare.js$domain=rossmann.de
 @@||mpsnare.iesnare.com/snare.js$script,domain=power.fi
 @@||mpsnare.iesnare.com/wu/snare.js$domain=westernunion.com
 @@||ms332.com^$generichide
@@ -48835,6 +48838,8 @@ aae3.com##form + center > p[align="center"]
 aae3.com,qq.com###coo_qqBrowser
 aan.xxx###header-banner
 aardvark.co.nz##.tinyprint
+aarp.org##.caregivingPromotion
+aarp.org##.hot-deals
 aatoplist.org##A[href^="http://300286."],[height="60"]
 abbao.cn##._abbao_all_ads,.adsbygoogle
 abbao.cn#@##adContent
@@ -51573,6 +51578,7 @@ cnbeta.com$$span[class="fr"]
 cnbeta.com,itboth.com,itkeyword.com,ruyo.net##a[href*="cloud.tencent."]
 cnbeta.com,qudong.com##a[href*=".ctyun."]
 cnbeta.com,sojson.com##a[href*=".upyun."]
+cnblogs.com###cnblogs_c2
 cnblogs.com###div_digg
 cnblogs.com###xiaociguai
 cnblogs.com##.adPopup
@@ -53539,6 +53545,7 @@ fights.cz###desktop-leader-top
 fights.cz###desktop-square-top
 fights.cz##.banner-add
 fights.cz,spisovatele.cz##body>a[target="_blank"]
+fights.cz,tiscali.cz,hudebniskupiny.cz,osobnosti.cz,ahaonline.cz#$#prevent-listener beforeunload ()
 fijisun.com.fj##.widget-1
 fijisun.com.fj##.widget-3
 file-up.org,zippyshare.com,uploadproper.com,uploadproper.net#$#abort-on-property-write Fingerprint2
@@ -53856,6 +53863,7 @@ freebitz.xyz##.BannerContainerScrapper
 freebitz.xyz##.BannerMain
 freebunker.com,imagesnake.com,imgcarry.com,pornbus.org###introOverlayBg
 freecodecamp.cn,freecodecamp.one#@#.btn-social
+freecodecamp.org#%#//scriptlet("abort-current-inline-script", "Function", "b9kEBAW")
 freecomiconline.me,lordmanga.com,mangahentai.me,manytoon.com,readfreecomics.com##.c-top-sidebar
 freecourseweb.com###text-20
 freedidi.com##.sidebar-content > div[id^="custom_html-"]
@@ -60145,6 +60153,7 @@ politico.com##.fixed-top
 politico.com##.story-continued
 politico.com#@#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
 politifact.com##.m-billboard
+politring.com##a[href="https://metrika.yandex.ru/"]
 pollunit.com##.btn[href$="?feature=ads"]
 pollunit.com#?#.owl-carousel:-abp-has(.carousel-ad)
 polska-ie.com#@##adsense
@@ -69103,6 +69112,7 @@ zznews.cn##.ad:not([style])
 ||77file.com/jsa/
 ||77kp.com/jquery/banners-
 ||77kpw.cc/pc/?wz=
+||77nnv9.xyz^
 ||77power.com^
 ||77tracking.com^$third-party
 ||77u.com^
@@ -80151,7 +80161,6 @@ zznews.cn##.ad:not([style])
 ||byridxpkvxqcx.com^
 ||byscy.cn^$third-party
 ||byshatilu.com^
-||byside.com^$third-party
 ||byspot.com^$third-party
 ||bystfied.pro^
 ||bytecdn.cn/article/content^
@@ -82443,6 +82452,7 @@ zznews.cn##.ad:not([style])
 ||clicksor.net^$popup,third-party
 ||clicksor.net^$third-party
 ||clickstream.co.za^$third-party
+||clickstream.cresendo.net^
 ||clickstream.grubhub.com/event.gif?event=
 ||clickstream.odysee.com^
 ||clicksvenue.com^
@@ -95031,6 +95041,7 @@ zznews.cn##.ad:not([style])
 ||guitargrandmother.com^$third-party
 ||guiyimq.fun^
 ||guj.de/js/gujTracker.js
+||guji.store^
 ||gukmoduk.one^
 ||gulfnews.com^$cookie=/incap_ses_|visid_incap_|NEW_VISITOR|nlbi_|___utmv/
 ||guli21.com/PNEW/
@@ -102632,6 +102643,7 @@ zznews.cn##.ad:not([style])
 ||leftoverdense.com^
 ||leftoverdoorbell.com^
 ||lefxryhuzyw.com^
+||lega.store^
 ||legacy.com/globalscripts/tracking/
 ||legacy.com^*/unicaclicktracking.js?
 ||legalevaluate.com^
@@ -103626,6 +103638,7 @@ zznews.cn##.ad:not([style])
 ||lnzangcha.com^
 ||lnzq5.com/js/
 ||lnzqw.net/js/
+||lo83cs.space^
 ||loa-traffic.com^$third-party
 ||load.sumome.com^$third-party
 ||loader.zeroform.com^
@@ -108956,6 +108969,7 @@ zznews.cn##.ad:not([style])
 ||mzwfu.xyz^
 ||mzwfw.club^
 ||mzxun.com^
+||mzy1.xyz^
 ||mzy2014.com^$third-party
 ||mzya5718.xyz^
 ||mzyfz.*/modules/46/
@@ -116057,6 +116071,7 @@ zznews.cn##.ad:not([style])
 ||quantumads.com^$third-party
 ||quantummetric.com^$third-party
 ||quantumws.net^$third-party
+||quanwu.shop^
 ||quanxiaozi.com^
 ||quapp.1122dh.com/adscom/ads^$app=com.biquge.ebook.app
 ||quarterbean.com^
@@ -128161,6 +128176,7 @@ zznews.cn##.ad:not([style])
 ||tj.ali213.net/
 ||tj.video.qq.com/
 ||tj.youzanyun.com^
+||tj3rql9siwef.www.freecodecamp.org^
 ||tjcghyy.cn^
 ||tjcttxdfelb.com^
 ||tjgasbjinlx.xyz^
@@ -131220,6 +131236,7 @@ zznews.cn##.ad:not([style])
 ||uczfl.com/data/content
 ||uczzd.com^
 ||uczzd.net^
+||ud783c01.com^
 ||ud783c02.com^
 ||ud783c08.com^
 ||ud831d2.com^
@@ -133055,6 +133072,7 @@ zznews.cn##.ad:not([style])
 ||vq1qi.pw^
 ||vq40567.com^$popup
 ||vq7736.com^
+||vqlrwgj.cn^
 ||vqp3.madeindesign.co.uk^
 ||vqr3jeu1qi41.com^
 ||vr4011.com^
@@ -133783,6 +133801,7 @@ zznews.cn##.ad:not([style])
 ||webcams.com/js/im_popup.php?
 ||webcams.com/misc/iframes_new/
 ||webcamsbabe.com/js/s.js
+||webcare.byside.com^
 ||webclickengine.com^
 ||webclickmanager.com^
 ||webclicktracker.com^$third-party
@@ -135692,6 +135711,7 @@ zznews.cn##.ad:not([style])
 ||wxyn0o3xmora.com^
 ||wxyun168.xyz^
 ||wy213.com^$popup,third-party
+||wy8.wang^
 ||wy95.xyz^
 ||wyacondahamptonville.com^$third-party
 ||wyafelk.cn^
@@ -136381,6 +136401,7 @@ zznews.cn##.ad:not([style])
 ||xmstpay.com^
 ||xmtsyg.com^
 ||xmvusqpp.com^
+||xmwn.shop^
 ||xmxxwl.com^
 ||xmyejun.cn^
 ||xmysinter.com^
