@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-02-19 22:21:11
-! Total count: 139240
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-02-20 10:22:47
+! Total count: 139255
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -23737,6 +23737,7 @@
 ##a[href*=".downok.com"]
 ##a[href*=".dpcpfw.com/"]
 ##a[href*=".ex068.com"]
+##a[href*=".fancyzf.com/"]
 ##a[href*=".fllkf.com/"]
 ##a[href*=".frtyl.com/"]
 ##a[href*=".fwd28.com/"]
@@ -28511,7 +28512,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ad-skyscraper.
 /ad-source/*
 /ad-sovrn.
-/ad-space/*
+/ad-space/*$~image
 /ad-specs.
 /ad-sprite.
 /ad-srv.
@@ -31127,7 +31128,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /adwords-conversion-tracking.
 /adwords-tracker.
 /adwords/*$domain=~google.com
-/adwordstracking.js
 /adworks.$domain=~adworks.att.com|~adworks.co.il|~adworks.fi|~adworks.jobijoba.io|~adworks.net
 /adworks/*
 /adworldmedia/*
@@ -45036,7 +45036,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtag/js^$domain=timparty.tim.it
 @@||googletagmanager.com/gtm.js$domain=20min.ch
 @@||googletagmanager.com/gtm.js$domain=accupass.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz
 @@||googletagmanager.com/gtm.js$domain=ads.allegro.pl
 @@||googletagmanager.com/gtm.js$domain=amd.com
 @@||googletagmanager.com/gtm.js$domain=anond.hatelabo.jp
@@ -54368,7 +54368,6 @@ ghacks.net##.ghacks-ad
 ghoffice.com##.tac > a > img[src*=".gif?"]
 ghoffice.com##[class="tac"],[class="mb5 tac cc"],[id^="ads_"],.textMes
 ghoffice.com,ksbbs.com,kshot.com##[id^="ads_"]
-ghxi.com##.ad_single_1
 ghxi.com##.ad_single_11
 ghxi.com#@#.social-item
 ghxi.com,mcdulll.com,pixnet.net##div[id*="-ad-"]
@@ -64493,7 +64492,6 @@ wtop.com##.post--sponsored
 wuchajian.net##.UPAD
 wuchajian.net##.UPAD,.TopAD,.headAD,[class^="TextAd"]
 wucuowx.com##[height="90"]
-wuenci.com##.davwheat-ad
 wuhaozhan.net##.xsl111
 wuhaozhan.net#?#.l-box:-abp-has(.l-a > span[style="margin-left:-5px;"])
 wuhaozhan.net$$div[class="item-box"]
@@ -70113,6 +70111,7 @@ zznews.cn##.ad:not([style])
 ||a19537.actonservice.com^
 ||a19609.actonservice.com^
 ||a19612.actonservice.com^
+||a1webstrategy.com^$third-party
 ||a2.avomeen.com^
 ||a2.b310.com^
 ||a2.tenglongluntai.com:8081^$domain=m.haiduomi.com,third-party
@@ -79831,6 +79830,7 @@ zznews.cn##.ad:not([style])
 ||btcfans.com/template/comiis_lssy/ad/
 ||btdb.in/beacon.html
 ||btdx8.com/tmp/
+||bte.ink^
 ||btez8.xyz^
 ||btez8.xyz^$third-party
 ||btgndarx.xyz^
@@ -81168,6 +81168,7 @@ zznews.cn##.ad:not([style])
 ||cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js
+||cdn.klambt.services/matomo/$third-party
 ||cdn.lmiutil.com/lpassets/track-
 ||cdn.lr-ingest.io/logger-1.min.js
 ||cdn.megadata.co.kr/dist/prod/enp_tracker_
@@ -85294,6 +85295,7 @@ zznews.cn##.ad:not([style])
 ||d.haberler.com^
 ||d.image-ad.jp^
 ||d.impactradius-event.com^$third-party
+||d.k3r.jp^
 ||d.line-cdn.net/*/torimochi.js/*/torimochi.js
 ||d.line-scdn.net/*/torimochi.js/*/torimochi.js
 ||d.m-net.de^
@@ -90896,6 +90898,7 @@ zznews.cn##.ad:not([style])
 ||eyzubm.gooutdoors.co.uk^
 ||ez33.com^$third-party
 ||ezakus.net^$third-party
+||ezapp.ovh/track.js?pixelId=
 ||ezdownloadpro.info^$popup
 ||ezec.co.uk^$third-party
 ||ezeraf.com^
@@ -101498,6 +101501,7 @@ zznews.cn##.ad:not([style])
 ||kf3msfm.com^
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||kfd3sm2c.com^
+||kfir.club^
 ||kfluoa.com^
 ||kfqdf.com/$script
 ||kfuiprtjuqntp.com^
@@ -102574,6 +102578,7 @@ zznews.cn##.ad:not([style])
 ||lead-or-call.ru^$third-party
 ||lead.im^$third-party
 ||leadadvert.info^
+||leadberry.com/trackers/$third-party
 ||leadbi.com^$third-party
 ||leadbolt.net^
 ||leadboltads.net^
@@ -107311,6 +107316,7 @@ zznews.cn##.ad:not([style])
 ||metricsdirect.com^$third-party
 ||metricsinfo.edc.ca^
 ||metricsishare.rediff.com^
+||metricskey.com^$third-party
 ||metricss.bibliotheek.nl^
 ||metricssecure.empiretoday.com^
 ||metricssecure.luna.com^
@@ -117320,6 +117326,7 @@ zznews.cn##.ad:not([style])
 ||retargeter.com.br^$third-party
 ||retargeter.com^
 ||retargeting.biz^$third-party
+||retargeting.newsmanapp.com^$third-party
 ||retargeting.vistaprint.com^
 ||retargetly.com^$third-party
 ||retargettracker.com^$third-party
@@ -119185,6 +119192,7 @@ zznews.cn##.ad:not([style])
 ||scientificsneeze.com^
 ||scientificsneeze.com^$third-party
 ||scillathemons.com^
+||scinable.net/access?vid=
 ||scint-x.com/js/
 ||scintillatingscissors.com^$third-party
 ||scintillatingsilver.com^
@@ -120529,6 +120537,7 @@ zznews.cn##.ad:not([style])
 ||shopeemobile.com/ph/tr
 ||shophustivu.com^
 ||shopify.com/*/page?*&eventType=
+||shopify.com/*/site-tracking.php?
 ||shopify.com/s/javascripts/tricorder/$script
 ||shopify.com/shopifycloud/media-analytics/
 ||shopifycloud.com/v1/event.gif
@@ -126949,6 +126958,7 @@ zznews.cn##.ad:not([style])
 ||tagm.eduscho.at^
 ||tagm.tchibo.de/ai.aspx
 ||tagm.tchibo.de^
+||tagman.britishairways.com^
 ||tagmanager.alright.network^$third-party
 ||tagmanager.cn^$third-party
 ||tagmanager.toast.com^$third-party
@@ -129422,6 +129432,7 @@ zznews.cn##.ad:not([style])
 ||track.kyoads.com^
 ||track.laredoute.fr^$image
 ||track.leadhit.io^$third-party
+||track.leadhit.ru^$third-party
 ||track.leady.cz^
 ||track.lexico.com^
 ||track.libii.cn^
@@ -129633,6 +129644,7 @@ zznews.cn##.ad:not([style])
 ||tracker.stileo.it^
 ||tracker.swedish.org^
 ||tracker.thinkermail.com^
+||tracker.thinkermail.com^$third-party
 ||tracker.thinkindot.com^
 ||tracker.timesgroup.com^
 ||tracker.tiu.ru^
@@ -129665,6 +129677,7 @@ zznews.cn##.ad:not([style])
 ||tracking-opi.fonpit.de^
 ||tracking-rce.veeseo.com^$third-party
 ||tracking-receiver.prod-general.stocard-backend.com^
+||tracking-sap.frodx.com^$third-party
 ||tracking-secure.csob.cz^
 ||tracking-server-prod-1.zenmxapps.com^
 ||tracking-service.glority.com^
@@ -129987,6 +130000,7 @@ zznews.cn##.ad:not([style])
 ||tracking.skyword.com^$third-party
 ||tracking.smartbets.com^
 ||tracking.smartmeapp.com^
+||tracking.smartselling.cz^$third-party
 ||tracking.softwareprojects.com^
 ||tracking.sokrati.com^
 ||tracking.sp.sofi.com^
@@ -131559,6 +131573,7 @@ zznews.cn##.ad:not([style])
 ||umm6.cn^
 ||umsns.com^
 ||umtnycoscl.xyz^
+||umvspj.cn^
 ||un.ubaike.cn^
 ||un.xz6.com^
 ||un1.lawyernet.cn^
@@ -131567,7 +131582,7 @@ zznews.cn##.ad:not([style])
 ||unablewisdom.com^
 ||unacceptableclevercapable.com^
 ||unacceptablepit.com^
-||unagi-*.amazon.com/1/events^
+||unagi*.amazon.*/1/events^
 ||unanimis.co.uk^
 ||unarmedindustry.com^$third-party
 ||unaspajas.com^$third-party
