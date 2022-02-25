@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-02-25 10:24:40
-! Total count: 139728
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-02-25 22:21:59
+! Total count: 139739
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -23761,6 +23761,7 @@
 ##a[href*="/1033776.com/"]
 ##a[href*="/111.231.78.194/"]
 ##a[href*="/1240486.com/"]
+##a[href*="/1266p.com:"]
 ##a[href*="/1298860.com/"]
 ##a[href*="/136ayx.vip"]
 ##a[href*="/170hth.com/"]
@@ -23771,6 +23772,7 @@
 ##a[href*="/3337818.com/"]
 ##a[href*="/33hth.cn"]
 ##a[href*="/3400com-o15.com/"]
+##a[href*="/3525v.com:"]
 ##a[href*="/445.ee/"]
 ##a[href*="/5537220.com/"]
 ##a[href*="/602034.com"]
@@ -25069,7 +25071,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 &cbrandom=
 &clicktag=http
 &cmpState=$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|expres.cz|www.idnes.cz
-&collocation-$xmlhttprequest,domain=televizeseznam.cz
 &displayads=
 &event=view&
 &hitType=pageview&
@@ -25077,7 +25078,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 &ifr=0|$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz
 &mf_referrer=
 &mi_ecmp=
-&no_comply-$xmlhttprequest,domain=televizeseznam.cz
 &pageReferrer=
 &pagegroup=*&url=$script
 &popunder=$popup
@@ -25086,15 +25086,12 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 &ref=*&tag=
 &refer=http$script
 &refererPageDetail=
-&schmollocation-$xmlhttprequest,domain=televizeseznam.cz
-&source=tvseznam*&zoneId-$xmlhttprequest,domain=televizeseznam.cz
 &stats_tkn=
 &t=pageview&
 &tag=IMPRESSION&
 &trackingserver=
 &uid=ssp-$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 &visitorUuid=
-&vratislavice-1=$xmlhttprequest,domain=televizeseznam.cz
 &xhtml?$script,third-party
 &zoneid=*&ad_$popup
 &zoneid=*&direct=$popup
@@ -29049,16 +29046,16 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /adbrite2.
 /adbrite_
 /adbroker.
-/adbroker/*
+/adbroker/*$~image
 /adbtr.
 /adbucket.
-/adbucks/*
+/adbucks/*$~image
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /adbug_
 /adbureau.
 /adbutler-
 /adbutler.
-/adbutler/*
+/adbutler/*$~image
 /adbytes.
 /adcache.
 /adcall.$domain=~adcall.cz
@@ -38678,7 +38675,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /tidaladplugin.
 /tide_stat.js
 /tiepian.
-/tigatage:$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz|televizeseznam.cz
+/tigatage:$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
 /tigtag_custom/*_banner
 /tigtag_custom/include/couplet.
 /tigtag_custom/include/popup.
@@ -41872,6 +41869,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 91porn.com,dizhi.i7p.work,i9p.co,caoporn.com##[src^="http://fans.bestvogue.com/fans/"],#ad_text,.ad_float_left,#ad_headerbanner
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
+91porny.com,jiuse205.com##.container-fluid.p-0[class*="mb-"]
+91porny.com,jiuse205.com##.jsv-g1
 91s.org##div.banner_ad,div.gg,div.right_Bor
 91wenmi.com###xiezuo
 91wenmi.com###xzsp
@@ -42197,7 +42196,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 =googleanalytics_
 =half-page-ad&
 =iframe_adv&
-=js&lst=$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz|televizeseznam.cz
+=js&lst=$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
 =js_ads&
 =lightboxAd&
 =loadAdStatus&
@@ -42215,10 +42214,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 =simpleads/
 =stats&action=
 =stats&apiVersion=
-=sznp_pv$xmlhttprequest,domain=televizeseznam.cz
 =textads&
 =tickerReportAdCallback_
-=undefined&baharasa$xmlhttprequest,domain=televizeseznam.cz
 =vip_skip_ad*
 =ws://*?pool=
 =ws://*?pools=
@@ -42309,8 +42306,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ?handler=ads&
 ?impr?pageid=
 ?key=$popup,domain=verystream.com
-?kruchekl=$xmlhttprequest,domain=televizeseznam.cz
-?kruchkehl=undefined&$xmlhttprequest,domain=televizeseznam.cz
 ?local_ga_js=
 ?log=stats-
 ?logType=impression&
@@ -42323,7 +42318,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ?proxy=*?pools=
 ?proxy=ws://$script,websocket
 ?proxy=wss://$script,websocket
-?pvId=$xmlhttprequest,domain=televizeseznam.cz
 ?service=ad&
 ?sponsor_pixel=
 ?statify_referrer=
@@ -46782,6 +46776,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||selfimg.com.cn/??
 @@||sellpoint.net/smart_button/$script,domain=walmart.com
 @@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
+@@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
 @@||seriousdeals.net/intermission/loadTargetUrl$xmlhttprequest
 @@||serve-ts.amagi.tv^*/beacon?$xmlhttprequest,domain=watch.truecrimenetworktv.com
 @@||serve.netsh.org/pub/*/ads.js$xmlhttprequest
@@ -48751,7 +48746,6 @@ ada.baidu.com
 ada.org,globes.co.il,techcentral.ie,texteditor.co,versus.com##.topBanner
 adageindia.in#?#div:-abp-has(> h2:-abp-contains(From the WEB))
 adageindia.in,bombaytimes.com#?#a:-abp-has(> div > p:-abp-contains(Ad: ))
-adblock$xmlhttprequest,domain=televizeseznam.cz
 adblock-tester.com##embed[width="240"]
 adblock-tester.com##object[width="240"]
 adbuck.cc###col_publi
@@ -50647,7 +50641,6 @@ btyingshi.com##.aside > .card:last-child
 btyou.com
 btzhongzifuli.com,cililianbt.org,maomaobt.cc,sousoucili.com,zhainanzhongzi.cc##.photos
 btzx2017.com##.ad,.header_ad_place
-bubak$xmlhttprequest,domain=televizeseznam.cz
 bubbaporn.com,kalporn.com,koloporno.com,pornodingue.com,pornodoido.com,pornozot.com,serviporno.com,voglioporno.com##.banners-footer
 bububu.live$$a[href="advslog.php"]
 bububu.live$$div[class="overdiv"]
@@ -51961,6 +51954,9 @@ dailymail.co.uk##.watermark
 dailymail.co.uk##[name^="google_ads_iframe_"]
 dailymail.co.uk,namesecure.com#@#.adHolder
 dailymail.co.uk,thisismoney.co.uk##.billboard_wrapper
+dailymotion.com##div[class^="AdBanner"]
+dailymotion.com##div[class^="DisplayAd"]
+dailymotion.com##div[class^="VideoInfo__videoInfoAdContainer"]
 dailynews.sina.com##.TopNav + table
 dailynewsegypt.com##.banner-250
 dailynewsegypt.com##.skyscraper-banner
@@ -53668,6 +53664,7 @@ fr.hujiang.com###regModule
 fr.hujiang.com###uzt-mask
 fr2135.com###friendLink_contents
 fr2135.com###mv_mp4cg
+frauporno.com#$#abort-current-inline-script document.querySelectorAll popMagic
 frdic.com,godic.net##a[onclick*="/ads/"]
 free.aliyun.com##div.module-wrap.J_tb_lazyload.aliyun-bottom
 free.com.tw###custom_html-11
@@ -58344,7 +58341,6 @@ middleeasteye.net##.sidebar-photo-extend
 midifan.com##.mid-aaa
 midifan.com##.top-aaa
 midroll$xmlhttprequest,domain=iprima.cz
-midroll$xmlhttprequest,domain=televizeseznam.cz
 miercn.com###foot_return_foot
 miercn.com##.ad_list
 miercn.com##.color-box
@@ -58490,7 +58486,6 @@ mondoweiss.net##.notrack
 money.pl#$#abort-current-inline-script document.querySelector querySelector
 money.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
 money.pl#?#div:-abp-has(> img[src$="/bg.png"])
-money.pl,sportowefakty.wp.pl#$#abort-on-property-read prebidConfig.config.bidTargets
 money18.on.cc#@#.ads-bg
 moneycontrol.com##.hide-mobile
 moneycontrol.com##.mf_radarad
@@ -59237,40 +59232,40 @@ novinky.cz,kupi.cz,sport.cz,super.cz##[data-e11i="ogm-branding-advert"], [class=
 novinky.cz,kupi.cz,sport.cz,super.cz##[data-e4e-advert], .basafoxy
 novinky.cz,kupi.cz,sport.cz,super.cz##[id$="-ad-container"]
 novinky.cz,kupi.cz,sport.cz,super.cz##[id^="tetrahedron"], .tetrahedron
+novinky.cz,kupi.cz,sport.cz,super.cz##a[href*="/clickthru?"]
 novinky.cz,kupi.cz,sport.cz,super.cz##a[href*="__CLICKTHRU__"]
 novinky.cz,kupi.cz,sport.cz,super.cz##a[title="R_eklama"]
 novinky.cz,kupi.cz,sport.cz,super.cz##a[title="Rekᥣama"]
 novinky.cz,kupi.cz,sport.cz,super.cz##iframe[data-cx-loaded]
+novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz###sznad-video-takeover
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##._ad_branding_positioner
+novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##.ssp_top
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[class$="ad-wrapper"]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[data-blahakvaka]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[data-oblohakava]
+novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="/pimpu?"]
+novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="Seznam_"][href*="adb"]
+novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="_Branding"]
+novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="_leaderboard"]
+novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="herm"][href*="seznam"]
+novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[id^="adPrClanek_"]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[id^="branding-"]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[id^="outstream_container_"]
+novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="/bimbu?"]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="?adocurl"]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="?spotId="]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="BANNER"]
+novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="_goes_through_the_woods="]
+novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adb"][href*="collocation="]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adblock"]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adcurl="]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adfibeg="]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="ghx_content"]
+novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="klik"][href*="truu"]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[frameborder="no"][scrolling="no"][style*="display: block;"]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[frameporder]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[hehehe="no"][scrolling="no"][style*="display: block;"]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[ramefamorderx]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,televizeseznam.cz###sznad-video-takeover
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,televizeseznam.cz##.ssp_top
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,televizeseznam.cz##[href*="/pimpu?"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,televizeseznam.cz##[href*="Seznam_"][href*="adb"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,televizeseznam.cz##[href*="_Branding"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,televizeseznam.cz##[href*="_leaderboard"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,televizeseznam.cz##[href*="herm"][href*="seznam"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,televizeseznam.cz##[id^="adPrClanek_"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,televizeseznam.cz##a[href*="/bimbu?"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,televizeseznam.cz##a[href*="_goes_through_the_woods="]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,televizeseznam.cz##a[href*="adb"][href*="collocation="]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,televizeseznam.cz##a[href*="klik"][href*="truu"]
-novinky.cz,kupi.cz,sport.cz,super.cz,televizeseznam.cz##a[href*="/clickthru?"]
 novinky.cz,sport.cz,super.cz##[class$="_main__ad"]
 novinky.cz,super.cz,sport.cz##[class*="ClickThrough"]
 novinky.cz,super.cz,sport.cz,expres.cz##.barMan
@@ -60206,7 +60201,7 @@ precisionvaccinations.com##.inhouse-block
 preemlinks.com#@##divads
 premierguitar.com###pg_leaderboard
 premierguitar.com##.a_promo
-preroll$xmlhttprequest,domain=iprima.cz|televizeseznam.cz
+preroll$xmlhttprequest,domain=iprima.cz
 presearch.org##.pr-4.max-w-2xl.mb-4.mt-4.md\:mt-0.md\:mb-6.ml-4
 presskitaquat.com##.e3lan-top
 pretoria.co.za##.banner-bg
@@ -62145,6 +62140,7 @@ sunporno.com##.close-invid
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
 super.cz##iframe[frameborder][scrolling][src^="https://www.super.cz/"]
+super.cz#$#override-property-read sspPositions null
 super.sina.cn##.call_up_banner
 supercars.com##.footer-promo
 supercheats.com##.a300
@@ -62430,7 +62426,6 @@ teledeporteonline.pw##[id^="total"]
 telegraph.co.uk##.commercial-unit
 telepolis.pl##DIV[style="width:750px; height:200px; background-color:black; color:white; text-align: center; font: bold 30px Helvetica, Arial, sans-serif;"]
 telesputnik.ru##.adbPopup
-televizeseznam.cz##img[alt="Reklama"]
 telexplorer.com.ar#$#abort-current-inline-script MutationObserver compareDocumentPosition
 tellymix.co.uk###sidebar > div[style]
 tellymix.co.uk##.a-text
@@ -72228,6 +72223,7 @@ zznews.cn##.ad:not([style])
 ||adnow.cc$third-party
 ||adnow.cc^$third-party
 ||adnow.com^$third-party
+||adnsrv.name^
 ||adnuntius.com^$third-party
 ||adnxs-simple.com^
 ||adnxs.com^
@@ -86749,6 +86745,7 @@ zznews.cn##.ad:not([style])
 ||devastatingallothallucinate.com^
 ||devatics.com^$third-party
 ||devatics.io^$third-party
+||deveincyanids.com^
 ||develenv.com^$third-party
 ||developeractivemarketing.net.zooplus.it^
 ||developermedia.com^$third-party
@@ -87688,6 +87685,7 @@ zznews.cn##.ad:not([style])
 ||doaseeph.com^
 ||doashair.net^
 ||dobest.com/$third-party
+||dobiez.com/statics/wap_v1/js/qwd.
 ||doboacki.net^
 ||doc88.com^*/count.js
 ||docer.org/static/utils/jquery.min.js
@@ -87838,6 +87836,7 @@ zznews.cn##.ad:not([style])
 ||dopa.com^
 ||dopansearor.com^
 ||dopingdiallyl.com^
+||dopjfbdvatxlhe.com^
 ||dopor.info^
 ||doppler-reporting.cbsivideo.com^
 ||doptik.ru^
@@ -90676,6 +90675,7 @@ zznews.cn##.ad:not([style])
 ||exc.ns.nl^
 ||excdnrdsu.com^
 ||exceedinglydiscovered.com^
+||exceedmintpoker.com^
 ||excellaskiju.xyz^
 ||excellenceads.com^
 ||exceptingfivesnake.com^
@@ -91063,6 +91063,7 @@ zznews.cn##.ad:not([style])
 ||fae46gussylvatica.com^
 ||fafa.tuku.com^$domain=shouchaobao.com
 ||fafafa1.com^
+||faggotsnulled.com^
 ||faggrim.com^
 ||faglollstwo.com^
 ||fagold.xyz^
@@ -100719,6 +100720,7 @@ zznews.cn##.ad:not([style])
 ||js-agent.newrelic.com^
 ||js-agent.newrelic.com^$domain=chaturbate.com,redirect=nooptext,important
 ||js-js.oss-cn-beijing.aliyuncs.com/mnpc-umeng.js$domain=dianyingim.com
+||js-tianqilm.com^
 ||js-webt-lol.9cache.com/piwik
 ||js.17173.com/ping.js
 ||js.23yy.com^
@@ -101245,6 +101247,7 @@ zznews.cn##.ad:not([style])
 ||k1.wanwenwan.cn^
 ||k12shequ.com^
 ||k1815.com^
+||k1rsdhu.xyz^
 ||k2215.cn^
 ||k22x6.cn^
 ||k2n0f.cn^$third-party
@@ -101416,6 +101419,7 @@ zznews.cn##.ad:not([style])
 ||kbb.com/pixall/
 ||kbdviyqhbhnd.com^
 ||kbkilog.cn^
+||kbneks00.online^
 ||kbngab.com^
 ||kbnihnmrghgy.com^
 ||kbotrjug.xyz^
@@ -102109,6 +102113,7 @@ zznews.cn##.ad:not([style])
 ||kuajingtao.cc^
 ||kuakao.com/index.php?m=content&c=index&a=show_ad
 ||kuakao.com:6053/floatcard?
+||kuamei.cloud^
 ||kuangbang.ltd^
 ||kubam.cn^
 ||kube.net.zooplus.it^
@@ -104287,6 +104292,7 @@ zznews.cn##.ad:not([style])
 ||lovestyl.com^
 ||lovexia.top^
 ||low-ya.com/duplicate-ga-cookie
+||loweredinflammable.com^
 ||lowermybills.actonsoftware.com^
 ||lowestpendulousdistract.com^
 ||lowgxl.yokumoku.jp^
@@ -111641,6 +111647,7 @@ zznews.cn##.ad:not([style])
 ||openload.co/assets/js/script$script
 ||openload.co/assets/js/script.packed
 ||openlog.in^$third-party
+||opensrhinos.com^
 ||openstat.net^
 ||openstat.net^$third-party
 ||opensubtitles.org/gfx/banners_campaigns/2x2.gif
@@ -115968,6 +115975,7 @@ zznews.cn##.ad:not([style])
 ||qichenx.com^
 ||qichetuoyun.com.cn^
 ||qichetuoyun.com.cn^$third-party
+||qicqn.cn^
 ||qidian.com/Images/990x40_
 ||qidian.com/bgImg.
 ||qidian.com/bgOps.
@@ -116122,6 +116130,7 @@ zznews.cn##.ad:not([style])
 ||qktbbiavkqcqmn.com^
 ||qktfwkftgqeynnp.com^
 ||qktfwkftgqeynnp.com^$popup
+||qkuvmwf.cn^
 ||qkxzdm.stellenanzeigen.de^
 ||ql.uzuzuz.com^
 ||qlaot.com^
@@ -126436,6 +126445,7 @@ zznews.cn##.ad:not([style])
 ||supertrackingz.com^
 ||supervisegoldfish.com^
 ||supervisegoldfish.com^$third-party
+||superxxxfree.com^
 ||supfast.net^
 ||supfree.net/england/
 ||supfree.net/poland/mobile.js
@@ -133747,6 +133757,7 @@ zznews.cn##.ad:not([style])
 ||vzw.sp1.convertro.com^
 ||vzyuphrmanfbks.com^
 ||vzzylo.com^
+||w-cached.cncenter.cz/js/cnc-ads-controller.$script,domain=blesk.cz|extra.cz|reflex.cz|zive.cz|auto.cz|e15.cz|autorevue.cz|dama.cz|maminka.cz|mojezdravi.cz|zeny.cz|onetv.cz|info.cz|ahaonline.cz
 ||w.ahalogy.com/e?v=
 ||w.ahalogy.com/widget/frame?&client=
 ||w.anmeihe.cn^
