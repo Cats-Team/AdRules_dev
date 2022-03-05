@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-03-05 10:23:14
-! Total count: 140837
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-03-05 22:21:13
+! Total count: 140855
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -23809,8 +23809,10 @@
 ##a[href*="/Register?a="]
 ##a[href*="/ads/adscenter."]
 ##a[href*="/aiyoubet178.com/"]
+##a[href*="/av888822.vip/"]
 ##a[href*="/ayx600.com/"]
 ##a[href*="/ayxbet846.vip"]
+##a[href*="/bibo149.com:"]
 ##a[href*="/blfanss.com"]
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/d27.tv"]
@@ -23879,6 +23881,7 @@
 ##a[href="/ad2.html"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/gghtml/tyc.html"]
+##a[href="/goto.php?url=hth"]
 ##a[href="http://hqbet2191.com"]
 ##a[href="http://t.cn/E2PgiG1"]
 ##a[href="http://t.cn/Ex0cCbt"]
@@ -24699,6 +24702,7 @@
 ##div[id^="zergnet-widget"]
 ##div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"]
 ##div[onclick*=".8tse9.com"]
+##div[onclick*=".lyty49.com"]
 ##div[onclick*=".rwnyou.com"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
@@ -36839,6 +36843,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /plugins/ibd-block-adblocker/*$script,stylesheet
 /plugins/main/js/jquery.simplemodal.js$script
 /plugins/mts-wp-in-post-ads/*
+/plugins/nimiq/*$script
 /plugins/no-adblock/*
 /plugins/page-cornr-
 /plugins/social-traffic-pop/stp.js$script
@@ -41814,6 +41819,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 92wy.com##.adhengfu
 92zw.com##.adhtml
 9312.net##.pop-up
+939394.xyz##img[src*=".xyz"][src*=".gif"]
 939394.xyz#?#a:-abp-has(img[src*=".alicdn."])
 939394.xyz#?#a:-abp-has(img[src*="/ddimg/"])
 949d.com###play_ad_bg
@@ -42356,6 +42362,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/adx.$domain=tanx.com
 @@/analytics.php?$domain=xcar.com.cn
 @@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se
+@@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se|repco.co.nz|repco.com.au
 @@/api/ad/*$domain=pinduoduo.com
 @@/api/ads?$domain=nmkjxy.com
 @@/bag2?r[]=*&r[]=$domain=free.com.tw
@@ -43912,6 +43919,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||dbz-fantasy.com/ads.css
 @@||dbzog.de/Bilder/$image
 @@||dbzog.de^$elemhide
+@@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
 @@||dcinfos.abtasty.com/geolocAndWeather.php^$domain=tf1.fr
 @@||dcinside.com$cookie=_ga
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
@@ -47276,6 +47284,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||union2.50bang.org^$third-party
 @@||uniqlo.com^*/trackingservice/$~third-party
 @@||universfreebox.com/js/advertisement.js
+@@||unpkg.com/@optimizely/optimizely-sdk$script,domain=talktalk.co.uk
 @@||unpkg.com/web-vitals/dist/web-vitals.base.iife.js$script,domain=wpolityce.pl
 @@||unshowmasonline.com/banner.gif$image
 @@||up-load.io^$generichide
@@ -52328,6 +52337,9 @@ downg.com##DIV.cp.recommend > DIV.cp-main,DIV.cp.sponsor,DIV.baiduad,DIV.col1 > 
 downhot.com##.guanggao,.sd580,.sd480
 downhot.com##.guans
 downkr.com###download-gaosu-list,[id^="download-panel-"],[id^="btm-union"]
+downkr.com##.address-left > ul:nth-child(2)
+downkr.com##.download-btn > .text-right
+downkr.com##a[href*=".xitongzhijia.net"]
 download.cnet.com##.c-pageFrontDoor_adWrapper
 download.cnet.com##.c-pageProductDetail-sidebarAd
 download.cnet.com##.c-pageProductDetail_productAlternativeAd
@@ -67190,6 +67202,7 @@ zznews.cn##.ad:not([style])
 ||2gis.ru/_/log
 ||2gis.ru/_/metrics
 ||2gmbbl.cn^
+||2gustis.xyz^
 ||2gvuukm1lm.com^
 ||2gz9nc.cn^
 ||2h81gp.tkepyc.com^$script,xmlhttprequest,domain=pch.com
@@ -84374,6 +84387,7 @@ zznews.cn##.ad:not([style])
 ||cqerbihou.com^
 ||cqfangduan.com^
 ||cqftonline.com^
+||cqfygc.xyz^
 ||cqgya.com^
 ||cqhot.club^
 ||cqishr.mobile.de^
@@ -86237,6 +86251,7 @@ zznews.cn##.ad:not([style])
 ||dddomainccc.com^$popup
 ||dddtv.xyz^
 ||dddyun.com^
+||ddeyi.cn^
 ||ddfcash.com^$third-party
 ||ddg1277.com^
 ||ddgjjj.com^$third-party
@@ -87465,6 +87480,7 @@ zznews.cn##.ad:not([style])
 ||dlvjmr.cn^
 ||dlxgm.cn^
 ||dlxrlc2ni2.com^
+||dlxxjsh.top^
 ||dlyukun.cn^
 ||dlzjdesign.com^
 ||dlzm790g.com^
@@ -100295,6 +100311,7 @@ zznews.cn##.ad:not([style])
 ||jealousabstainhut.com^
 ||jealouslacklesslackless.com^
 ||jeannemildconfusion.com^
+||jeason.club^
 ||jebadu.com^
 ||jebaziwhe.com^
 ||jebe.renren.com^
@@ -110526,6 +110543,7 @@ zznews.cn##.ad:not([style])
 ||nimblecommerce.com/widget.action?
 ||nimbleswan.io^
 ||nimhuemark.com^
+||nimiq.com^$third-party
 ||nimiqpool.com^$third-party
 ||nimiqtest.net^$third-party
 ||nimmediu.info^
