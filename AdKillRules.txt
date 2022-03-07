@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-03-06 22:21:24
-! Total count: 139876
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-03-07 10:24:30
+! Total count: 139880
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -14516,6 +14516,7 @@
 ##.advert-article-bottom
 ##.advert-autosize
 ##.advert-banner
+##.advert-banner-container
 ##.advert-banner-holder
 ##.advert-bannerad
 ##.advert-bar
@@ -20406,6 +20407,7 @@
 ##.plista_widget_retrescoAd_2
 ##.plugin-ad
 ##.plugin-ad-container
+##.plugin-daily_count
 ##.pm-ad
 ##.pm-ad-unit
 ##.pm-ad-zone
@@ -47078,7 +47080,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||track.ksta.de/cre-*/tracking/tracking.js
 @@||track.mybloglog.com/js/jsserv.php?$domain=egotastic.com
 @@||track.nnn.de/cre-*/tracking/tracking.js
-@@||track.nzz.ch/cre-*/tracking/tracking.js
+@@||track.nzz.ch/cre-*/tracking/
 @@||track.nzz.ch^$script,~third-party
 @@||track.rundschau-online.de/cre-*/tracking/tracking.js
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
@@ -47167,6 +47169,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||uid.mavencoalition.io/v3$xmlhttprequest,domain=discover.hubpages.com
 @@||uid.mavencoalition.io/v3$xmlhttprequest,domain=globalcovidsummit.org
 @@||uid.mavencoalition.io^$xmlhttprequest,domain=mtonews.com|thestreet.com
+@@||uid.mavencoalition.io^$xmlhttprequest,domain=si.com
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||uim.tifbs.net/js/3423.js$domain=top.de
 @@||uim.tifbs.net/js/7732.js$domain=gewinnspiel.gmx.de|gewinnspiel.web.de
@@ -58568,7 +58571,7 @@ newxue.com##.dashuggtop1
 newxue.com##.left336280
 newyorker.com#@#.ad-container
 newyorkyimby.com##img[height="280"]
-newyx.net,veryhuo.com##.gs
+newyx.net,veryhuo.com,yxbao.com##.gs
 newzit.com##.big_WcxYT
 nex-software.com#?#.toolinfo:-abp-has(a[href$="/reimage"])
 nex-software.com#?#h4:-abp-has(a[href$="/reimage"])
@@ -60345,6 +60348,8 @@ rjno1.com##div[class*="-a-d2"]
 rjno1.com##div[class*="-a-d3"]
 rjno1.com##div[class*="-a-d4"]
 rjno1.com#$#div[class^="aqn"] { position: absolute !important; left: -4000px !important; }
+rjno1.com#$?#style:contains(@keyframes) { remove: true; }
+rjno1.com#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', 'inlineScript')
 rjno1.com#?#.post > div[class^="ivo"] > .adsbygoogle:upward(1)
 rjno1.com#?#.sidebar > div[class^="ivo"]:has(> .space > script:contains(slotbydup))
 rjno1.com#?#.site-main > div[class^="ivo"]:has(.adsbygoogle)
@@ -60428,7 +60433,6 @@ ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 ruanyifeng.com##a[href*=".100offer.com"]
 ruanyifeng.com##a[href*=".kaikeba.com"]
 ruanyifeng.com##a[href*=".ke.qq.com"]
-ruanyifeng.com##a[href*="?utm_source="]
 ruanyifeng.com##a[href^="https://ke.qq.com/"]
 ruanyifeng.com##div[style*="important"]
 ruanyifeng.com#%#//scriptlet('prevent-setTimeout', 'checker')
@@ -64930,7 +64934,6 @@ yx320.com##[href^="http://mp.weixin.qq.com/"]
 yxad.com##div#QQCOM_Button2,div.l_qq_com,div#QQ_Right_button1,div#banner,div#nav,div#nowpsn
 yxbao.com###gs_down
 yxbao.com##.ad_1000_90
-yxbao.com##.gs
 yxdm.li##.adv-bt
 yxdm.li##.adv0
 yxdm.tv##.adv0
@@ -89441,6 +89444,7 @@ zznews.cn##.ad:not([style])
 ||ens-sh.cn^
 ||ens.luzernerzeitung.ch^
 ||ens.nzz.ch^
+||ens.nzz.ch^$badfilter
 ||ens.tagblatt.ch^
 ||ens.themarket.ch^
 ||ensighten.bhphoto.com^
