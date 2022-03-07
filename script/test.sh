@@ -63,11 +63,11 @@ hosts=(
   "https://adaway.org/hosts.txt"
 )
 
-ad-damain=(
+ad_damain=(
   "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt"
 )
 
-allow-damain=(
+allow_damain=(
   "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt"
 )
 
@@ -92,31 +92,31 @@ do
   # shellcheck disable=SC2181
 done
 
-for i in "${!dnsl[@]}"
+for i in "${!dns[@]}"
 do
   echo "开始下载 dns${i}..."
   curl --parallel --parallel-immediate -k -L -C - -o "dns${i}.txt" --connect-timeout 60 -s "${dns[$i]}"
   # shellcheck disable=SC2181
 done
 
-for i in "${!hostsl[@]}"
+for i in "${!hosts[@]}"
 do
   echo "开始下载 dns${i}..."
   curl --parallel --parallel-immediate -k -L -C - -o "hosts${i}.txt" --connect-timeout 60 -s "${hosts[$i]}"
   # shellcheck disable=SC2181
 done
 
-for i in "${!ad-damain[@]}"
+for i in "${!ad_damain[@]}"
 do
   echo "开始下载 dns${i}..."
-  curl --parallel --parallel-immediate -k -L -C - -o "ad-damain${i}.txt" --connect-timeout 60 -s "${ad-damain[$i]}"
+  curl --parallel --parallel-immediate -k -L -C - -o "ad-damain${i}.txt" --connect-timeout 60 -s "${ad_damain[$i]}"
   # shellcheck disable=SC2181
 done
 
-for i in "${!allow-damain[@]}"
+for i in "${!allow_damain[@]}"
 do
   echo "开始下载 dns${i}..."
-  curl --parallel --parallel-immediate -k -L -C - -o "allow-damain${i}.txt" --connect-timeout 60 -s "${allow-damain[$i]}"
+  curl --parallel --parallel-immediate -k -L -C - -o "allow-damain${i}.txt" --connect-timeout 60 -s "${allow_damain[$i]}"
   # shellcheck disable=SC2181
 done
 
