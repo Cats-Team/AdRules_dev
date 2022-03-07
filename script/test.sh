@@ -132,21 +132,21 @@ cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > ad-da
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt
 
 # Start Count Rules
-adblock-num=`cat tmp-adblock.txt | wc -l`
-adguard-num=`cat tmp-adguard.txt | wc -l`
-dns-num=`cat tmp-dns.txt | wc -l`
-hosts-num=`cat tmp-hosts.txt | wc -l`
-ad-damain-num=`cat ad-damian.txt | wc -l`
-allow-num=`cat tmp-allow.txt | wc -l`
+adblock_num=`cat tmp-adblock.txt | wc -l`
+adguard_num=`cat tmp-adguard.txt | wc -l`
+dns_num=`cat tmp-dns.txt | wc -l`
+hosts_num=`cat tmp-hosts.txt | wc -l`
+ad_damain_num=`cat ad-damian.txt | wc -l`
+allow_num=`cat tmp-allow.txt | wc -l`
 
 # Start Add title and date
 echo "! Version: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间） " >> tpdate.txt
-echo "! Total count: $adblock-num" >> adblock-tpdate.txt
-echo "! Total count: $adguard-num" >> adguard-tpdate.txt
-echo "! Total count: $dns-num" >> dns-tpdate.txt
-echo "! Total count: $hosts-num" >> hosts-tpdate.txt
-echo "! Total count: $allow-num" >> allow-tpdate.txt
-echo "! Total count: $ad-damain-num" >> ad-damain-tpdate.txt
+echo "! Total count: $adblock_num" >> adblock-tpdate.txt
+echo "! Total count: $adguar_num" >> adguard-tpdate.txt
+echo "! Total count: $dns_num" >> dns-tpdate.txt
+echo "! Total count: $hosts_num" >> hosts-tpdate.txt
+echo "! Total count: $allow_num" >> allow-tpdate.txt
+echo "! Total count: $ad_damain_num" >> ad-damain-tpdate.txt
 cat adblock-tpdate.txt tmp-adblock.txt > adblock-final.txt
 cat adguard-tpdate.txt tmp-adguard.txt > adguard-final.txt
 cat dns-tpdate.txt tmp-dns.txt > dns-final.txt
