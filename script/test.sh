@@ -136,7 +136,7 @@ adblock_num=`cat tmp-adblock.txt | wc -l`
 adguard_num=`cat tmp-adguard.txt | wc -l`
 dns_num=`cat tmp-dns.txt | wc -l`
 hosts_num=`cat tmp-hosts.txt | wc -l`
-ad_damain_num=`cat ad-damian.txt | wc -l`
+ad_damain_num=`cat ad-damain.txt | wc -l`
 allow_num=`cat tmp-allow.txt | wc -l`
 
 # Start Add title and date
