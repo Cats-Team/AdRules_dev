@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-03-07 16:17:11
-! Total count: 139892
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-03-07 22:21:44
+! Total count: 139909
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -13291,6 +13291,7 @@
 ##.ads-skyscraper-container-right
 ##.ads-skyscraper-left
 ##.ads-skyscraper-right
+##.ads-slot-mb-container
 ##.ads-small
 ##.ads-smartphone
 ##.ads-social-box
@@ -57354,11 +57355,15 @@ m.pcpop.com##div#android_fu,div#apple_fu,div.logo
 m.qidian.com###bookDetailWrapper > div.book-detail-info:last-child > div.book-detail-btn:last-child
 m.qidian.com###fixBoxs, #read_app_download
 m.qidian.com###footerApp
+m.qidian.com###readTopTip
+m.qidian.com###vue-components
+m.qidian.com##.read-author-say.jsAuthorSay
 m.qidian.com##DIV[class='footer-backtop-cell jsGuestWrapper']
 m.qidian.com##DIV[class='module-field']
 m.qidian.com##DIV[style='background: rgba(0,0,0,0.4);position: fixed;left:0;right:0;top:0;bottom:0;z-index:9999;']
 m.qidian.com##div.app_download
 m.qidian.com##div.book-detail-btn:nth-of-type(3)
+m.qidian.com##div[id*="chapterEndModule_"]
 m.qu.la###chaptercontent > p
 m.qu.la###chaptercontent > span
 m.qu.la##dfn.MjAxNQ
@@ -60263,8 +60268,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(base64)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(data:)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
+redtube.com,tube8.com,tube8.es,tube8.fr,youporn.com,youporngay.com##video[playinline][loop]
 redtube.com,youporn.com,youporngay.com##img[src^="bLob:" i]
-redtube.com,youporn.com,youporngay.com##video[loop][src^="bLob:" i]
 ref.so##div[style="overflow:hidden; height:auto; width:1002px; margin:0 auto;  "]
 referencemega.com###hebdotop_t
 reflex.cz###gl-nat
@@ -60493,6 +60498,7 @@ saltwire.com##.sw-banner
 samachar.com##.add-slot-fluid
 samayam.com,indiatimes.com##a[onclick][rel="nofollow,noindex"]
 samehadaku.net#@##adsense
+samelectric.ru#$#abort-on-property-read XMLHttpRequest
 samsung.com###operationBanner
 samsung.com#?#.template-item:-abp-has(> .wrap-sub-title > div > .ad)
 sangwu.org##.ad2,.ad1,.adsbygoogle
@@ -60595,6 +60601,8 @@ search.genieo.com##.promoted_right
 search.smzdm.com###elevator > LI:first-child
 search.smzdm.com###elevator > LI:first-child > SPAN:first-child
 search.snapdo.com###AfloatingD
+search.yahoo.com##.va-mid
+search.yahoo.com##.va-mid + a
 searchcommander.com##.footer-widget
 searchcommander.com##[href^="https://www.searchcommander.com/rec/"]
 searchenginejournal.com###spcat_ifr
@@ -62456,12 +62464,12 @@ tube-bunny.com##.mobile-vision
 tube-bunny.com##.visions
 tube8.com##.footerBanner
 tube8.com##.gridBanner_
+tube8.com##[data-spot-id]
+tube8.com##[data-spot]
 tube8.com#$#abort-on-property-write AdDelivery
 tube8.com,tube8.es,tube8.fr##.adsbytrafficjunky
 tube8.com,tube8.es,tube8.fr##.col-3-lg.col-4-md.col-4
-tube8.com,tube8.es,tube8.fr##[id][style="display: block;"]
-tube8.com,tube8.es,tube8.fr##[src^="bloB:https://www.tube8."]
-tube8.com,tube8.es,tube8.fr##[style*="background-color: rgb(255, 255, 255)"]
+tube8.com,tube8.es,tube8.fr##[src*="bloB:https://www.tube8."]
 tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[src*="blob:"]
 tubeconverter.net###ringtone-button
 tubedupe.com##[src^="https://tubedupe.com/player/html.php?aid="]
@@ -88312,6 +88320,7 @@ zznews.cn##.ad:not([style])
 ||easyad.com^
 ||easyads28.info^
 ||easyads28.mobi^
+||easyads28.pro^
 ||easyads29.info^
 ||easyai.tech/wp-content/uploads/*-576x1024.
 ||easybrochurecinnamon.com^
@@ -101265,6 +101274,7 @@ zznews.cn##.ad:not([style])
 ||kirgeemo.com^
 ||kirnscraps.com^
 ||kischartsrelimit.pro^
+||kiss-anime.org/akame
 ||kissanimeonline.com/driectlink$popup
 ||kisscartoon.sh/api/pop.php
 ||kissdraft.com^
@@ -104532,6 +104542,7 @@ zznews.cn##.ad:not([style])
 ||madhouse.cn^
 ||madisonjamesphotography.com^
 ||madisonlogic.com^$third-party
+||madkudu.com^$third-party
 ||madlan.co.il/o4wPDYYd/init.js
 ||madmen2.alastonsuomi.com^
 ||madnet.ru^$third-party
@@ -108820,6 +108831,7 @@ zznews.cn##.ad:not([style])
 ||mylikechat.com^$third-party
 ||myline1.club^
 ||mylinkbox.com^
+||mylust.com/b/
 ||mymarketing.co.il/Include/tracker.js
 ||mymed.su/counter/
 ||mymetal.ru/counter/
@@ -113115,6 +113127,7 @@ zznews.cn##.ad:not([style])
 ||phekrimp.com^
 ||phen.fabricmedia.ru^$third-party
 ||phenomenonattorney.com^
+||phenompeople.com^$third-party
 ||pheselta.net^
 ||phgnxd.nike.com.br^
 ||phhitgjxsit.com^
@@ -116935,6 +116948,7 @@ zznews.cn##.ad:not([style])
 ||rebuildcroakdeployment.com^
 ||rec.udn.com^
 ||recablesaccule.casa^
+||recapture.io^$third-party
 ||recart.com/tracking/
 ||recastcompellease.com^
 ||receiptfastestparameter.com^
@@ -131901,6 +131915,7 @@ zznews.cn##.ad:not([style])
 ||uebadu.com^
 ||uecdn.es/js/pbmu.js
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
+||uedas.qidian.com^
 ||uedvam.tatilsepeti.com^
 ||uefzsx.xxxlutz.cz^
 ||ueg.cc
@@ -132237,6 +132252,7 @@ zznews.cn##.ad:not([style])
 ||united-infos.net/event?
 ||united-infos.net^$third-party
 ||united.activate.ensighten.com^
+||unitelogreport.reader.qq.com^
 ||unitethecows.com^
 ||units.knotch.it^
 ||unity3d.com/v1/events
@@ -139492,8 +139508,8 @@ zznews.cn##.ad:not([style])
 ||znjj.tv/uploadfiles/abi/ad201
 ||znlgplt.com^
 ||znq9.destinia.mx^
-||znqip.net^
-||znqip.net^$popup
+||znqip.net
+||znqip.net$popup
 ||znrttr.jaypore.com^
 ||znsv.baidu.com/
 ||znurmlkkeltsb.com^
@@ -139545,6 +139561,7 @@ zznews.cn##.ad:not([style])
 ||zongheng.com^*/logger.min.js
 ||zongjiangc.top^
 ||zongjiangd.top^
+||zonmxej.cn^
 ||zononi.com^
 ||zononi.com^$popup,third-party
 ||zonst.com^
