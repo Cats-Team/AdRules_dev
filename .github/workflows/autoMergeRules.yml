@@ -23,6 +23,7 @@ jobs:
           bash ./AdGuardRules/main.sh
           bash ./AdKillRules/main.sh
           bash ./DNSFilter/main.sh
+          bash ./script/test.sh
       - name: Git push assets to github
         run: |
           git init
