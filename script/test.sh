@@ -153,3 +153,6 @@ cat dns-tpdate.txt tmp-dns.txt > dns-final.txt
 cat hosts-tpdate.txt tmp-hosts.txt > hosts-final.txt
 cat allow-tpdate.txt tmp-allow.txt > allow-final.txt
 cat ad-damain-tpdate.txt ad-damain.txt > ad-damain-final.txt
+
+mv *final.txt ../
+rm *.txt
