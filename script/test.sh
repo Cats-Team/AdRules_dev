@@ -129,8 +129,8 @@ cat allow-damain*.txt | sed "s/^/@@||&/g" | sed "s/$/&^/g" >> pre-allow.txt
 # Start Merge and Duplicate Removal
 cat easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' > tmp-adblock.txt
 cat adguard*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt
-cat dns*.txt abp-hosts.txt | grep '^|\|^@' |grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' |grep -v '/' | grep -v '.\$' | sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt
-cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt
+cat dns*.txt abp-hosts.txt | grep '^|\|^@' | grep -v './' |grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' |grep -v '/' | grep -v '.\$' | sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt
+cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -v './'|'grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-damain.txt
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt
 cd ../
@@ -148,7 +148,7 @@ allow_num=`cat tmp-allow.txt | wc -l`
 # Start Add title and date
 echo "! Version: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间） " >> tpdate.txt
 echo "! Total count: $adblock_num" >> adblock-tpdate.txt
-echo "! Total count: $adguar_num" >> adguard-tpdate.txt
+echo "! Total count: $adguard_num" >> adguard-tpdate.txt
 echo "! Total count: $dns_num" >> dns-tpdate.txt
 echo "! Total count: $hosts_num" >> hosts-tpdate.txt
 echo "! Total count: $allow_num" >> allow-tpdate.txt
@@ -166,6 +166,7 @@ diffFile="$(ls pre |sort -u)"
 for i in $diffFile; do
  titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
  cat ./mod/$titleName ./pre/$i > ./$i
+ sed -i '/^$/d' $i
  echo "合并${i}的标题中"
 done
 #rm -f *.txt
