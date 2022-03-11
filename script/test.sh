@@ -157,12 +157,11 @@ cat tpdate.txt dns-tpdate.txt tmp-dns.txt > dns.txt
 cat tpdate.txt hosts-tpdate.txt tmp-hosts.txt > hosts.txt
 cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow.txt
 cat tpdate.txt ad-damain-tpdate.txt ad-damain.txt > ad-damain.txt
-
+rm tmp*.txt *tpdate.txt
 # Title
 for i in $(ls *.txt); do
  titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
  cat ./mod/$titleName ./$i > ../$i
 done
 #mv *final.txt ../
-rm tmp*.txt
 rm -rf tmp
