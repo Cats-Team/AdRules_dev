@@ -157,7 +157,7 @@ cat tpdate.txt ad-damain-tpdate.txt ad-damain.txt > ad-damain-final.txt
 # Title
 for i in $(ls *-final.txt); do
  titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
- cat ./mod/$titleName ./$i > ./$i
+ cat ./mod/$titleName ./$i > ../$i
 done
 #mv *final.txt ../
 rm *.txt
