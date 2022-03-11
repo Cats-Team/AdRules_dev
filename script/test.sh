@@ -170,5 +170,5 @@ for i in $diffFile; do
 done
 #rm -f *.txt
 #mv *final.txt ../
-rm -rf tmp
+rm -rf tmp pre
 exit
