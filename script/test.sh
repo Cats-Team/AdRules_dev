@@ -165,6 +165,7 @@ for i in $(ls *.txt); do
  titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
  cat ./mod/$titleName ./script/$i > ../$i
 done
+cd script
 rm -f *.txt
 #mv *final.txt ../
 rm -rf tmp
