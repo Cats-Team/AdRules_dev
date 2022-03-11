@@ -1,6 +1,7 @@
 #!/bin/sh
+rm *.txt
 cd script
-#rm *.txt
+rm *.txt
 mkdir -p ./tmp/
 cd tmp
 easylist=(
