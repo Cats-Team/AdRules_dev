@@ -1,6 +1,6 @@
 #!/bin/sh
 #rm *.txt
-cd script
+#cd script
 #rm *.txt
 mkdir -p ./tmp/
 cd tmp
@@ -133,9 +133,9 @@ cat dns*.txt abp-hosts.txt | grep '^|\|^@' |grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}
 cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-damain.txt
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt
-
-mv tmp-*.txt ../
-cd ../
+mkdir -p ./pre/
+mv tmp-*.txt .././pre
+cd .././pre
 # Start Count Rules
 adblock_num=`cat tmp-adblock.txt | wc -l`
 adguard_num=`cat tmp-adguard.txt | wc -l`
@@ -161,12 +161,12 @@ cat tpdate.txt ad-damain-tpdate.txt tmp-ad-damain.txt > ad-damain.txt
 rm tmp*.txt *tpdate.txt
 # Title
 cd ../
-diffFile="$(ls script |grep 'txt'|sort -u)"
+diffFile="$(ls pre |sort -u)"
 for i in $diffFile; do
  titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
- cat ./mod/$titleName ./script/$i > ../$i
+ cat ./mod/$titleName ./pre/$i > ../$i
+ echo '合并$i的标题中'
 done
-cd script
 rm -f *.txt
 #mv *final.txt ../
-rm -rf tmp
+rm -rf tmp pre
