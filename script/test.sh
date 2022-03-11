@@ -1,6 +1,8 @@
 #!/bin/sh
 cd script
 #rm *.txt
+mkdir -p ./tmp/
+cd tmp
 easylist=(
   "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt"
   "https://easylist.to/easylist/fanboy-annoyance.txt"
@@ -131,6 +133,8 @@ cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -Ev "([0-9]{1,3}.){3
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > ad-damain.txt
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt
 
+mv tmp-*.txt ../
+cd ../
 # Start Count Rules
 adblock_num=`cat tmp-adblock.txt | wc -l`
 adguard_num=`cat tmp-adguard.txt | wc -l`
@@ -147,17 +151,18 @@ echo "! Total count: $dns_num" >> dns-tpdate.txt
 echo "! Total count: $hosts_num" >> hosts-tpdate.txt
 echo "! Total count: $allow_num" >> allow-tpdate.txt
 echo "! Total count: $ad_damain_num" >> ad-damain-tpdate.txt
-cat tpdate.txt adblock-tpdate.txt tmp-adblock.txt > adblock-final.txt
-cat tpdate.txt adguard-tpdate.txt tmp-adguard.txt > adguard-final.txt
-cat tpdate.txt dns-tpdate.txt tmp-dns.txt > dns-final.txt
-cat tpdate.txt hosts-tpdate.txt tmp-hosts.txt > hosts-final.txt
-cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow-final.txt
-cat tpdate.txt ad-damain-tpdate.txt ad-damain.txt > ad-damain-final.txt
+cat tpdate.txt adblock-tpdate.txt tmp-adblock.txt > adblock.txt
+cat tpdate.txt adguard-tpdate.txt tmp-adguard.txt > adguard.txt
+cat tpdate.txt dns-tpdate.txt tmp-dns.txt > dns.txt
+cat tpdate.txt hosts-tpdate.txt tmp-hosts.txt > hosts.txt
+cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow.txt
+cat tpdate.txt ad-damain-tpdate.txt ad-damain.txt > ad-damain.txt
 
 # Title
-for i in $(ls *-final.txt); do
+for i in $(ls *.txt); do
  titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
  cat ./mod/$titleName ./$i > ../$i
 done
 #mv *final.txt ../
-rm *.txt
+rm tmp*.txt
+rm -rf tmp
