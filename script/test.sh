@@ -160,9 +160,11 @@ cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow.txt
 cat tpdate.txt ad-damain-tpdate.txt ad-damain.txt > ad-damain.txt
 rm tmp*.txt *tpdate.txt
 # Title
+cd ../
 for i in $(ls *.txt); do
  titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
- cat ./mod/$titleName ./$i > ../$i
+ cat ./mod/$titleName ./script/$i > ../$i
 done
+rm -f *.txt
 #mv *final.txt ../
 rm -rf tmp
