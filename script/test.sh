@@ -133,9 +133,10 @@ cat dns*.txt abp-hosts.txt | grep '^|\|^@' |grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}
 cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-damain.txt
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt
+cd ../
 mkdir -p ./pre/
-mv tmp-*.txt .././pre/
-cd .././pre/
+mv tmp-*.txt .././pre
+cd .././pre
 # Start Count Rules
 adblock_num=`cat tmp-adblock.txt | wc -l`
 adguard_num=`cat tmp-adguard.txt | wc -l`
