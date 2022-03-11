@@ -168,6 +168,6 @@ for i in $diffFile; do
  cat ./mod/$titleName ./pre/$i > ../$i
  echo "合并${i}的标题中"
 done
-rm -f *.txt
+#rm -f *.txt
 #mv *final.txt ../
 rm -rf tmp pre
