@@ -161,7 +161,8 @@ cat tpdate.txt ad-damain-tpdate.txt tmp-ad-damain.txt > ad-damain.txt
 rm tmp*.txt *tpdate.txt
 # Title
 cd ../
-for i in $(ls ./script/*.txt); do
+diffFile="$(diff -q script/ |sort -u)"
+for i in $diffFile; do
  titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
  cat ./mod/$titleName ./script/$i > ../$i
 done
