@@ -154,5 +154,10 @@ cat tpdate.txt hosts-tpdate.txt tmp-hosts.txt > hosts-final.txt
 cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow-final.txt
 cat tpdate.txt ad-damain-tpdate.txt ad-damain.txt > ad-damain-final.txt
 
-mv *final.txt ../
+# Title
+for i in $(ls *-final.txt); do
+ titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
+ cat ./mod/$titleName ./$i > ./$i
+done
+#mv *final.txt ../
 rm *.txt
