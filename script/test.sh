@@ -135,7 +135,7 @@ cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-a
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt
 cd ../
 mkdir -p ./pre/
-mv ./tmp/tmp-*.txt ./
+mv ./tmp/tmp-*.txt ./pre
 cd ./pre
 # Start Count Rules
 adblock_num=`cat tmp-adblock.txt | wc -l`
