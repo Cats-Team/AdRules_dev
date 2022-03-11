@@ -1,12 +1,9 @@
 #!/bin/sh
-#rm *.txt
-#cd script
-#rm *.txt
+
 mkdir -p ./tmp/
 cd tmp
 easylist=(
   "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt"
-  "https://easylist.to/easylist/fanboy-annoyance.txt"
   "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"
   "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt"
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
@@ -42,7 +39,6 @@ allow=(
 
 dns=(
   "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt"
-  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
   "https://easylist.to/easylist/fanboy-annoyance.txt"
   "https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt"
   "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
@@ -130,13 +126,16 @@ cat allow-damain*.txt | sed "s/^/@@||&/g" | sed "s/$/&^/g" >> pre-allow.txt
 cat easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' > tmp-adblock.txt
 cat adguard*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt
 cat dns*.txt abp-hosts.txt | grep '^|\|^@' | grep -v './' |grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' |grep -v '/' | grep -v '.\$' | sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt
-cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -v './'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt
+cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '.$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-damain.txt
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt
+
+#Pre Filter
 cd ../
 mkdir -p ./pre/
 mv ./tmp/tmp-*.txt ./pre
 cd ./pre
+
 # Start Count Rules
 adblock_num=`cat tmp-adblock.txt | wc -l`
 adguard_num=`cat tmp-adguard.txt | wc -l`
@@ -160,7 +159,7 @@ cat tpdate.txt hosts-tpdate.txt tmp-hosts.txt > hosts.txt
 cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow.txt
 cat tpdate.txt ad-damain-tpdate.txt tmp-ad-damain.txt > ad-damain.txt
 rm tmp*.txt *tpdate.txt
-# Title
+# Add Title
 cd ../
 diffFile="$(ls pre |sort -u)"
 for i in $diffFile; do
