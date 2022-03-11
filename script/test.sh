@@ -1,7 +1,7 @@
 #!/bin/sh
-rm *.txt
+#rm *.txt
 cd script
-rm *.txt
+#rm *.txt
 mkdir -p ./tmp/
 cd tmp
 easylist=(
@@ -131,7 +131,7 @@ cat easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# 
 cat adguard*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt
 cat dns*.txt abp-hosts.txt | grep '^|\|^@' |grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' |grep -v '/' | grep -v '.\$' | sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt
 cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt
-cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > ad-damain.txt
+cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-damain.txt
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt
 
 mv tmp-*.txt ../
@@ -141,7 +141,7 @@ adblock_num=`cat tmp-adblock.txt | wc -l`
 adguard_num=`cat tmp-adguard.txt | wc -l`
 dns_num=`cat tmp-dns.txt | wc -l`
 hosts_num=`cat tmp-hosts.txt | wc -l`
-ad_damain_num=`cat ad-damain.txt | wc -l`
+ad_damain_num=`cat tmp-ad-damain.txt | wc -l`
 allow_num=`cat tmp-allow.txt | wc -l`
 
 # Start Add title and date
@@ -157,7 +157,7 @@ cat tpdate.txt adguard-tpdate.txt tmp-adguard.txt > adguard.txt
 cat tpdate.txt dns-tpdate.txt tmp-dns.txt > dns.txt
 cat tpdate.txt hosts-tpdate.txt tmp-hosts.txt > hosts.txt
 cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow.txt
-cat tpdate.txt ad-damain-tpdate.txt ad-damain.txt > ad-damain.txt
+cat tpdate.txt ad-damain-tpdate.txt tmp-ad-damain.txt > ad-damain.txt
 rm tmp*.txt *tpdate.txt
 # Title
 cd ../
