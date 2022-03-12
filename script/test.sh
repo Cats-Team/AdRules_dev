@@ -70,62 +70,37 @@ allow_damain=(
   "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt"
 )
 
-for i in "${!easylist[@]}"
+
+for i in "${!easylist[@]}" "${!adguard[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_damain[@]}"  "${!allow_damain[@]}"
 do
   echo "开始下载 easylist${i}..."
   curl --parallel --parallel-immediate -k -L -C - -o "easylist${i}.txt" --connect-timeout 60 -s "${easylist[$i]}"
-  # shellcheck disable=SC2181
-done
-
-for i in "${!adguard[@]}"
-do
-  echo "开始下载 easylist${i}..."
+  echo "开始下载 adguard${i}..."
   curl --parallel --parallel-immediate -k -L -C - -o "adguard${i}.txt" --connect-timeout 60 -s "${adguard[$i]}"
-  # shellcheck disable=SC2181
-done
-
-for i in "${!allow[@]}"
-do
   echo "开始下载 allow${i}..."
   curl --parallel --parallel-immediate -k -L -C - -o "allow${i}.txt" --connect-timeout 60 -s "${allow[$i]}"
-  # shellcheck disable=SC2181
-done
-
-for i in "${!dns[@]}"
-do
   echo "开始下载 dns${i}..."
   curl --parallel --parallel-immediate -k -L -C - -o "dns${i}.txt" --connect-timeout 60 -s "${dns[$i]}"
-  # shellcheck disable=SC2181
-done
-
-for i in "${!hosts[@]}"
-do
-  echo "开始下载 dns${i}..."
+  echo "开始下载 hosts${i}..."
   curl --parallel --parallel-immediate -k -L -C - -o "hosts${i}.txt" --connect-timeout 60 -s "${hosts[$i]}"
-  # shellcheck disable=SC2181
-done
-
-for i in "${!ad_damain[@]}"
-do
-  echo "开始下载 dns${i}..."
+  echo "开始下载 ad_damain${i}..."
   curl --parallel --parallel-immediate -k -L -C - -o "ad-damain${i}.txt" --connect-timeout 60 -s "${ad_damain[$i]}"
-  # shellcheck disable=SC2181
-done
-
-for i in "${!allow_damain[@]}"
-do
-  echo "开始下载 dns${i}..."
+  echo "开始下载 allow_damain${i}..."
   curl --parallel --parallel-immediate -k -L -C - -o "allow-damain${i}.txt" --connect-timeout 60 -s "${allow_damain[$i]}"
   # shellcheck disable=SC2181
 done
 
 # Pre Fix rules
+
 cat hosts*.txt| grep -Ev '#|\$|@|!|/|\\|\*'| sed 's/127.0.0.1 //' | sed 's/0.0.0.0 //' |sed "s/^/||&/g" |sed "s/$/&^/g"| sed '/^$/d'| grep -v '^#' | grep -v 'local' | sort -n | uniq | awk '!a[$0]++' > abp-hosts.txt 
+
 cat allow-damain*.txt | sed "s/^/@@||&/g" | sed "s/$/&^/g" >> pre-allow.txt
+
 # Start Merge and Duplicate Removal
+
 cat easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' > tmp-adblock.txt
 cat adguard*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt
-cat dns*.txt abp-hosts.txt | grep '^|\|^@' | grep -v './' |grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' |grep -v '/' | grep -v '.\$' | sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt
+cat dns*.txt abp-hosts.txt | grep '^|\|^@' | grep -v './' | grep -v '.$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt
 cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '.$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-damain.txt
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt
@@ -152,6 +127,8 @@ echo "! Total count: $dns_num" >> dns-tpdate.txt
 echo "! Total count: $hosts_num" >> hosts-tpdate.txt
 echo "! Total count: $allow_num" >> allow-tpdate.txt
 echo "! Total count: $ad_damain_num" >> ad-damain-tpdate.txt
+
+# Start mage
 cat tpdate.txt adblock-tpdate.txt tmp-adblock.txt > adblock.txt
 cat tpdate.txt adguard-tpdate.txt tmp-adguard.txt > adguard.txt
 cat tpdate.txt dns-tpdate.txt tmp-dns.txt > dns.txt
@@ -159,6 +136,7 @@ cat tpdate.txt hosts-tpdate.txt tmp-hosts.txt > hosts.txt
 cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow.txt
 cat tpdate.txt ad-damain-tpdate.txt tmp-ad-damain.txt > ad-damain.txt
 rm tmp*.txt *tpdate.txt
+
 # Add Title
 cd ../
 diffFile="$(ls pre |sort -u)"
@@ -168,7 +146,5 @@ for i in $diffFile; do
  sed -i '/^$/d' $i
  echo "合并${i}的标题中"
 done
-#rm -f *.txt
-#mv *final.txt ../
 rm -rf tmp pre
 exit
