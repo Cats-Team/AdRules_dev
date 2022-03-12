@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-12 18:24:22（北京时间） 
-! Total count: 126466
+! Version: 2022-03-13 06:21:54（北京时间） 
+! Total count: 126483
 ! ------加强屏蔽Start------ !
 !酷安"提到的好物"
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
@@ -12961,6 +12961,8 @@ bilibili.com#@#.btn-ctnr
 ##.adbreak
 ##.adbrite2
 ##.adbrite_post
+##.adbtn
+##.adbtns
 ##.adbttm_right_300
 ##.adbttm_right_label
 ##.adbucks
@@ -24618,7 +24620,6 @@ bilibili.com#@#.btn-ctnr
 ##a[href^="https://affiliate.rusvpn.com/click.php?"]
 ##a[href^="https://affiliates.bet-at-home.com/processing/"]
 ##a[href^="https://agacelebir.com/"]
-##a[href^="https://ak.hetaruvg.com/"]
 ##a[href^="https://albionsoftwares.com/"]
 ##a[href^="https://americafirstpolls.com/"]
 ##a[href^="https://as.sexad.net/"]
@@ -36263,6 +36264,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /linkcountdata/*
 /linkedads/*
 /linkinformer.js
+/linkpulse.js
 /links/popad$popup
 /links_sponsored_
 /linktrack.js
@@ -44299,6 +44301,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||shopping.naver.net/ad/$image,script,stylesheet,domain=naver.com
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
 @@||show.g.mediav.com/s?type=$script,domain=miercn.com
+@@||showcase.codethislab.com/banners/$image,~third-party
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/pubtag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -47162,6 +47165,7 @@ baltic-course.com###banner_master_top
 baltic-course.com###bannerbottom
 baltic-course.com###bannerleft
 baltic-course.com,webfail.com###bannertop
+bangordailynews.com##.scaip
 bangtubevideos.com#$#override-property-read setTimeout noopFunc; abort-on-property-write location.replace
 banid.pl#@#.ga
 banjiajia.com##.register-box
@@ -51136,6 +51140,7 @@ genius.com##div[class^="DfpAd__Container-"]
 genius.com##div[class^="LeaderboardOrMarquee__"]
 geo.de##.lp_mwi_dialog-wrapper
 geo.de##div.lp_mwi_dialog-overlay.lp_mwi_dialog-overlay--is-active
+geoguessr.com##.game-layout__in-game-ad
 geoguessr.com##.start__display-ad
 geoguessr.com##div[class^=result-layout_right__]
 geoparker.net
@@ -73406,6 +73411,7 @@ zzpzero.com
 ||bing.com/fd/ls/GLinkPing.aspx?
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
+||bing.com/mouselog
 ||bing.com/search^$removeparam=pc
 ||bing.com^$removeparam=/^sh/
 ||bing.com^$removeparam=FORM
@@ -74290,6 +74296,7 @@ zzpzero.com
 ||brownfox.top^
 ||broworker7.com^
 ||browsealoud.com/plus/scripts/$script
+||browser-intake-datadoghq.com^
 ||browser-statistik.de^$third-party
 ||browser-update.org^$third-party
 ||browser-updater.yandex.net^
@@ -74849,6 +74856,7 @@ zzpzero.com
 ||cactusglobal.io^$third-party
 ||cactusmedia.com^$third-party
 ||cad.chosun.com^
+||cad.youku.com^
 ||cadfixbig.site^
 ||cadlsyndicate.com^
 ||cadlsyndicate.com^$popup
@@ -80187,6 +80195,7 @@ zzpzero.com
 ||digreality.com^$third-party
 ||digressremarkableconfide.com^
 ||digresstrailfined.com^
+||digrice.xyz^
 ||diguver.com^
 ||dihutyaiafuhr.cloudfront.net^
 ||diitlm.com^
@@ -92123,6 +92132,7 @@ zzpzero.com
 ||jpysvip.net/ad/
 ||jpzwomhbxoalxu.com^
 ||jq159.com$third-party
+||jqad.vip^
 ||jqcfgnm.cn^
 ||jqcgyjwidktu.xyz^
 ||jqk72ugyl2pz.com^
@@ -104282,6 +104292,7 @@ zzpzero.com
 ||psozyhotho.pro^
 ||psqiwslwpjccb.com^
 ||psqsjg.coach.com^
+||pss.alicdn.com/iku/log^
 ||pstat.akathists.com^
 ||pstatp.com/*from=ad^
 ||pstatp.com/growth/mobile_list/image/bonus_
@@ -104766,6 +104777,7 @@ zzpzero.com
 ||pyhszs.cn^
 ||pyhuiyu.com^
 ||pyk.imrworldwide.com/cgi-bin^$app=com.huawei.hwvplayer.youku
+||pyk.in-neo.cn^
 ||pyloic.com^
 ||pylon.micstatic.com^
 ||pymsqjixir.xyz^
@@ -108046,6 +108058,7 @@ zzpzero.com
 ||seal.verisign.com^$third-party
 ||sealine.youku.com/yk/*callback=adpagesdk$script
 ||sealine.youku.com/yk/html?
+||sealine.youku.com^
 ||sealserver.trustwave.com^$third-party
 ||seamchristmas.com^
 ||seao.business.samsung.com^
@@ -113432,6 +113445,7 @@ zzpzero.com
 ||svc.dynamics.com/f/m/$third-party
 ||svc.dynamics.com/t/w$third-party
 ||svclqyctlijue.com^
+||svcwvx.cn^
 ||svem.cc
 ||svfwer.top^
 ||sviss.top^
@@ -117868,6 +117882,7 @@ zzpzero.com
 ||umsns.com^
 ||umtnycoscl.xyz^
 ||umvspj.cn^
+||un-acs.youku.com^
 ||un.ubaike.cn^
 ||un.xz6.com^
 ||un1.lawyernet.cn^
@@ -123224,6 +123239,7 @@ zzpzero.com
 ||yjxssk.apartments.com^
 ||yjyc-ask.com/res/ads/
 ||yjyjnolllezo.com^
+||ykad-data.youku.com^
 ||ykad-gateway.youku.com^
 ||ykanx.com^
 ||ykbeeweifodyyb.com^
@@ -123382,6 +123398,7 @@ zzpzero.com
 ||youivr.com/image/*-960x80
 ||youjizzlive.com/api/metrics
 ||youkewangluo.cn$third-party,script
+||youku-crm-product.youku.com^
 ||youku.com/QVideo/~ajax/getDefaultItem?
 ||youku.com/cms/tool/pub/get_putdata.
 ||youku.com/compvlog?
