@@ -129,9 +129,9 @@ echo "! Total count: $allow_num" >> allow-tpdate.txt
 echo "! Total count: $ad_damain_num" >> ad-damain-tpdate.txt
 
 # Start mage
-cat tpdate.txt adblock-tpdate.txt tmp-adblock.txt > adblock.txt
+cat tpdate.txt adblock-tpdate.txt .././mod/rules/adblock-rules.txt tmp-adblock.txt > adblock.txt
 cat tpdate.txt adguard-tpdate.txt tmp-adguard.txt > adguard.txt
-cat tpdate.txt dns-tpdate.txt tmp-dns.txt > dns.txt
+cat tpdate.txt dns-tpdate.txt .././mod/rules/dns-rules.txt tmp-dns.txt > dns.txt
 cat tpdate.txt hosts-tpdate.txt tmp-hosts.txt > hosts.txt
 cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow.txt
 cat tpdate.txt ad-damain-tpdate.txt tmp-ad-damain.txt > ad-damain.txt
