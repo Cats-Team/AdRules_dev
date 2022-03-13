@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-13 18:24:13（北京时间） 
-! Total count: 126522
+! Version: 2022-03-14 06:21:36（北京时间） 
+! Total count: 126558
 ! ------加强屏蔽Start------ !
 !酷安"提到的好物"
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
@@ -2592,6 +2592,7 @@ bilibili.com#@#.btn-ctnr
 ###ad_tile_home
 ###ad_top
 ###ad_topBanner
+###ad_topScroller
 ###ad_top_728x90
 ###ad_top_banner
 ###ad_top_bar
@@ -10903,6 +10904,7 @@ bilibili.com#@#.btn-ctnr
 ##.ad-link-right
 ##.ad-links
 ##.ad-links-text
+##.ad-list-desktop
 ##.ad-list-item
 ##.ad-loaded
 ##.ad-loader
@@ -15333,6 +15335,7 @@ bilibili.com#@#.btn-ctnr
 ##.adwrappercls1
 ##.adx-300x250-container
 ##.adx-300x600-container
+##.adx-ads
 ##.adx-wrapper
 ##.adx-wrapper-middle
 ##.adx_center
@@ -24265,6 +24268,7 @@ bilibili.com#@#.btn-ctnr
 ##a[href*="/yigeyuming3880.top"]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href*="?channelCode="] > img[src*=".com:"]
+##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="itoon.app"]
 ##a[href*="mdapp01.com/"]
 ##a[href*="nnqp.vip"]
@@ -26094,6 +26098,7 @@ $removeparam=int_cmpid
 $removeparam=int_content
 $removeparam=int_medium
 $removeparam=int_source
+$removeparam=intcid,domain=cbsnews.com
 $removeparam=intcid,domain=wired.com
 $removeparam=intcmp
 $removeparam=internal,domain=teletrader.com
@@ -26506,7 +26511,7 @@ $removeparam=sample,domain=arms-retcode.aliyuncs.com
 $removeparam=sampling,domain=arms-retcode.aliyuncs.com
 $removeparam=sb_referer_host
 $removeparam=sc,domain=bing.*
-$removeparam=sc,domain=bing.com|qvc.com
+$removeparam=sc,domain=bing.com|qvc.com|startpage.com
 $removeparam=sc_referrer,domain=snapchat.com
 $removeparam=sc_ua,domain=snapchat.com
 $removeparam=scd,domain=ashleystewart.com
@@ -26653,6 +26658,7 @@ $removeparam=sub_aff_id
 $removeparam=subacctid
 $removeparam=subacctname
 $removeparam=subid,domain=webmasterplan.com|admitad.com|mintmobile.com|secretlab.*
+$removeparam=subref,domain=newsweek.com
 $removeparam=success,domain=arms-retcode.aliyuncs.com
 $removeparam=sudaref
 $removeparam=suid,domain=taobao.com
@@ -39358,6 +39364,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /tagx.js
 /tailtarget.js
 /talkads/*
+/talpa-analytics/*
 /tan.js
 /tan1.js
 /tanad.js
@@ -44284,6 +44291,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||serve.popads.net/checkInventory.php$script,domain=imgnova.xyz
 @@||serve.popads.net/checkInventory.php$script,domain=jav4.me
 @@||servebom.com/tmn*.js$script,domain=tomsguide.com|tomshardware.co.uk|tomshardware.com|wonderhowto.com
+@@||served-by.pixfuture.com/www/delivery/gcws.php$xmlhttprequest,domain=premiumtimesng.com
 @@||server.cpmstar.com/view.aspx?poolid=$domain=newgrounds.com
 @@||server1.affiz.net/tracking/ads_display.php$script,domain=fit.sh
 @@||service.maxymiser.net^$script,domain=enigaseluce.com
@@ -45615,6 +45623,7 @@ _fbadbookingsystem&
 _feast_ad.
 _files/ad.
 _files/ads/
+_fioiwhfo_
 _fixed_ad.
 _float_fuo.js
 _floating_ad_
@@ -46218,6 +46227,8 @@ all.qidian.com##img[width="990"][height="40"]
 allboxing.ru#$#abort-current-inline-script document.querySelector open
 allfuckpics.com##.herb
 allfuckpics.com##.middleclass
+allkeyshop.com,cdkeyit.it,cdkeynl.nl,cdkeypt.pt,clavecd.es,goclecd.fr,keyforsteam.de##.background-link-left
+allkeyshop.com,cdkeyit.it,cdkeynl.nl,cdkeypt.pt,clavecd.es,goclecd.fr,keyforsteam.de##.background-link-right
 allmusic.com##.medium-rectangle
 allmyfaves.com,allthetests.com,dailynews.lk,dealsonwheels.co.nz,dosgamesarchive.com,eth-converter.com,farmtrader.co.nz,freealts.pw,goosegame.io,greatbritishchefs.com,moviesfoundonline.com,openstreetmap.org,vstreamhub.com###banner
 allnewspipeline.com###content > [href]
@@ -57094,6 +57105,11 @@ preemlinks.com#@##divads
 prelandappslab.com
 premierguitar.com###pg_leaderboard
 premierguitar.com##.a_promo
+premiumtimesng.com###text-429
+premiumtimesng.com###text-440
+premiumtimesng.com##.directcampaign
+premiumtimesng.com##.premi-texem-campaign
+premiumtimesng.com##img[alt$=" Ad"]
 preroll$xmlhttprequest,domain=iprima.cz
 presearch.org##.pr-4.max-w-2xl.mb-4.mt-4.md\:mt-0.md\:mb-6.ml-4
 presskitaquat.com##.e3lan-top
@@ -60561,6 +60577,9 @@ wallstreetcn.com##.wscn-ad
 wallstreetcn.com##.wscn-page-ad
 wallstreetcn.com##.xinren-wrapper
 wallstreetcn.com##div.ad,ins.adsbygoogle,div.ad-box.ad-side,div.head-event-wrapper,a#app-campaign,DIV.side-box > DIV.row-fluid > DIV.span12,.side-money,.node-main-ad
+walmart.com##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
+walmart.com#?#div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:-abp-has(div[data-ad-component-type="wpa-tile"])
+walmart.com#?#li.items-center:-abp-has(div[data-ad-component-type="wpa-tile"])
 wan.douyu.com
 wan.lm995.com
 wandhi.com###ttgg-6
@@ -69717,6 +69736,7 @@ zzpzero.com
 ||allittledprevi.info^
 ||alljapanesepass.com/ascripts/gcu.js
 ||alljapanesepass.com/rstat
+||allkeyshop.com/blog/wp-content/uploads/allkeyshop_background_
 ||alllget.com^$third-party
 ||allluck.cn^
 ||allmt.com^
@@ -70213,6 +70233,7 @@ zzpzero.com
 ||analytics.humanautomation.ai^
 ||analytics.infobae.com^
 ||analytics.inform.com^
+||analytics.iraiser.eu^
 ||analytics.ishopchangi.com^
 ||analytics.itsnoahevans.co.uk^
 ||analytics.joincambridge.com^
@@ -70460,6 +70481,7 @@ zzpzero.com
 ||ann5.net^
 ||anncmq.com^
 ||annesuspense.com^
+||anni141224.club^
 ||announcement.ru^$third-party
 ||annoyedairport.com^$third-party
 ||annoyedfifth.com^
@@ -77089,6 +77111,7 @@ zzpzero.com
 ||coinminingonline.com^$third-party
 ||coinnebula.com^$third-party
 ||coinpot.co^$third-party
+||coins4days.com/*_ext_iframe/
 ||coinsicmp.com^
 ||cointraffic.io^$third-party
 ||coinurl.com/get.php?id=
@@ -82830,6 +82853,7 @@ zzpzero.com
 ||enus.douyucdn.cn/venus/release/rn/checkPackage?
 ||envelopeheadache.com^
 ||enviablewaistwhereabouts.com^
+||enviou.com.br^$third-party
 ||enviousfundraiserbelonged.com^
 ||enviousshape.com^$third-party
 ||enviousthread.com^
@@ -88009,6 +88033,7 @@ zzpzero.com
 ||hengfaienterprises.com/template/reader/wap/revvd.js
 ||henghost.com/data/forum-$script
 ||henghost.com^$third-party
+||hengtengds.com^
 ||hengyisoft.vip^
 ||hentaibiz.com^
 ||hentaiblue.com/*=eyJ.js
@@ -91065,6 +91090,7 @@ zzpzero.com
 ||iqzgqivb.com^
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||ir2aok.com^
+||iraiser.eu/analytics.js
 ||iraithiz.com^
 ||irecentlym.club^
 ||irecentlym.club^$popup
@@ -93967,6 +93993,7 @@ zzpzero.com
 ||leadsleap.com/widget/
 ||leadsleap.com^$third-party
 ||leadsmonitor.io^$third-party
+||leadspace.com^$third-party
 ||leadsrx.com^$third-party
 ||leadtracking.plumvoice.com^
 ||leadvision.dotmailer.co.uk^$third-party
@@ -96966,6 +96993,7 @@ zzpzero.com
 ||mdxhon.allhomes.com.au^
 ||me360.com/swt/swt.js
 ||me390.life^
+||me511.win^
 ||me680.com/js/*.js
 ||me99.club^
 ||meadigital.com^$third-party
@@ -99450,6 +99478,7 @@ zzpzero.com
 ||neighbourcoastearnestly.com^
 ||neighbouringmarvel.com^
 ||neighchurch.com^
+||neihan.co^
 ||neitherentrailsrim.com^
 ||nejmqianyan.cn^$third-party
 ||neki.org^$third-party
@@ -103357,6 +103386,7 @@ zzpzero.com
 ||pm14.com^$third-party
 ||pmb*.tj.ali213.net/js/
 ||pmbox.biz^$third-party
+||pmdatabase.xyz^
 ||pmetrics.performancing.com^
 ||pmlw0efk4x.com^
 ||pmo.ee/stats/
@@ -103365,6 +103395,7 @@ zzpzero.com
 ||pmpubs.com^
 ||pmshow.cn^
 ||pmsrvr.com^
+||pmweb.com.br^$third-party
 ||pmzer.com^
 ||pnads.com^$third-party
 ||pncloudfl.com^
@@ -105703,6 +105734,7 @@ zzpzero.com
 ||r8sr4j.cn^
 ||r932o.com^
 ||ra.gtimg.com/uv/1712104/index.js
+||raac33.net^
 ||raaliforniaat.biz^
 ||rabbitbreath.com^
 ||rabbitporno.com/friends/
@@ -108750,6 +108782,7 @@ zzpzero.com
 ||sf9yvla26s5t.com^
 ||sfacg.com/JS/New/j
 ||sfanf.com^
+||sfceco.cn^
 ||sfdecpromwjj.com^
 ||sffsdvc.com^
 ||sfg8mbh.cn^
@@ -120501,6 +120534,7 @@ zzpzero.com
 ||widget.shopstyle.com^
 ||widget.trustpilot.com^$third-party
 ||widgetadvertising.biz^
+||widgetbe.com^
 ||widgetbox.com/syndication/track/
 ||widgetbucks.com^
 ||widgethost.com/pax/counter.js?
@@ -122385,6 +122419,7 @@ zzpzero.com
 ||xmysinter.com^
 ||xmzwdgm.com^
 ||xn--$third-party
+||xn--2hvw21e.online^
 ||xn--2qu96gouvko1a.com^
 ||xn--2qux23confgml.club^
 ||xn--3bs795g.chat^
@@ -122630,6 +122665,7 @@ zzpzero.com
 ||xwpoxv.birdies.com^
 ||xwuad.com^
 ||xww360.com^
+||xwwj.ink^
 ||xwxmfubxzc.com^
 ||xx123.top^
 ||xxaalsn.cn^
