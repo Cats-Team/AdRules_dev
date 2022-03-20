@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-20 06:21:31（北京时间） 
-! Total count: 125902
+! Version: 2022-03-20 18:24:08（北京时间） 
+! Total count: 125919
 ! ------加强屏蔽Start------ !
 !酷安"提到的好物"
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
@@ -933,6 +933,7 @@ bilibili.com#@#.btn-ctnr
 ###ad-300x250-wrapper
 ###ad-300x250Div
 ###ad-300x250_mid
+###ad-300x250_mobile
 ###ad-300x250_top
 ###ad-300x40-1
 ###ad-300x40-2
@@ -7228,6 +7229,7 @@ bilibili.com#@#.btn-ctnr
 ###mn_ads
 ###moa-ads-long
 ###mobile-ad-container
+###mobile-adhesion
 ###mobile-ads-ad
 ###mobile-ads-link
 ###mobile-index > div#vodbm
@@ -12911,6 +12913,7 @@ bilibili.com#@#.btn-ctnr
 ##.adblock728x90
 ##.adblockInfo
 ##.adblockOverlay
+##.adblock__banner
 ##.adblock_detector
 ##.adblock_enabled
 ##.adblock_floating_message
@@ -13084,6 +13087,7 @@ bilibili.com#@#.btn-ctnr
 ##.adfoot
 ##.adfootbox
 ##.adfooter
+##.adform__topbanner
 ##.adformobile
 ##.adframe
 ##.adframe2
@@ -15596,6 +15600,7 @@ bilibili.com#@#.btn-ctnr
 ##.articleTopAd
 ##.article__ad-holder
 ##.article__ad-ir
+##.article__adblock
 ##.article__adv
 ##.article__inset--margin-ad
 ##.article__leaderboard-ad
@@ -27016,7 +27021,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 */ads.
 */adsense/
 */html/click/
-*/letv-gug/$media,object-subrequest
+*/letv-gug/$media,object-subrequest,xhr
 */mediaController
 */piaofu.
 */piaofu/
@@ -43353,7 +43358,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||jsfiddle.net^$generichide
 @@||jsjiami.com^$generichide
 @@||jsonip.com/?callback=$script,domain=pagtel.com.br
-@@||jsqsjn.com^$script,domain=yssm.info
+@@||jsqsjn.com^$script,domain=fyxfcw.com|yssm.info
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||jswenhui.com^*/ad/
 @@||juicyads.com/adshow.php?adzone=746140$domain=getrelax.cc|sexylove.club
@@ -52423,7 +52428,6 @@ huya.com##.room-business-game
 huya.com##.tt[style*="1200px"]
 huya.com##.wrap-income.chat-wrap-panel
 huya.com##div[class*="NavDownload"]
-huya.com,yy.com,le.com##+js(nowebrtc)
 hwbot.org###partner-tiles
 hwhills.com###footerbanner
 hwhills.com###sb_left_tower
@@ -57625,6 +57629,7 @@ qq.com#@#.ad-icon
 qq.com#@#.adsbox
 qq.com#@#.adside
 qq.com#@#.side_ad
+qq.com,huya.com,yy.com,le.com##+js(nowebrtc)
 qq.com,sogou.com##.cs_dropbox[pbflag="xialaresou"]
 qq.com,sogou.com##.m[pbflag="bt_mai"]
 qq.com,sogou.com##div[pbflag="bt_newsb_ad"]
@@ -63350,6 +63355,7 @@ zzpzero.com
 ||033.com^$third-party
 ||0346420d60.com^
 ||0351dvd.cn^
+||0371app.wang^
 ||0377shujuhuifu.top^
 ||0379home.com/public/js/ad_pic.js
 ||0379home.com/public/js/beside.js
@@ -75746,6 +75752,7 @@ zzpzero.com
 ||changhehengqi.com^
 ||chango.com^
 ||changsha.cn/front_js/site_ad/4/site_ad_284.js
+||changxu.cool^
 ||changyan.$subdocument
 ||changyan.itc.cn/mdevp/extensions/mobile-cmt-advert/
 ||changyan.sohu.com^
@@ -77046,6 +77053,7 @@ zzpzero.com
 ||codeonclick.com^$popup
 ||codepub.com/wuse/pic/$image
 ||coderformylife.info^
+||coderjim.ltd^
 ||codesbro.com^
 ||codesocang.com/js/a.js
 ||codesocang.com/plus/*baoyue
@@ -91836,6 +91844,7 @@ zzpzero.com
 ||jltzknvw.com^
 ||jlvqhftliz.com^
 ||jlwljym.com^
+||jlwsw.top^
 ||jlxzt.com^
 ||jly24aw29n5m-a.akamaihd.net^
 ||jlyayxz.cn^
@@ -91908,6 +91917,7 @@ zzpzero.com
 ||johannes.voith.com^
 ||johays.co^
 ||johtzj.com^
+||joiakit.com^
 ||joicky.com^
 ||join.opencare.com^
 ||join.whitegfs.com^$popup
@@ -93369,6 +93379,7 @@ zzpzero.com
 ||kzsicw.tvspielfilm.de^
 ||kzvhgpqvmle.com^
 ||kzxsrxf.cn^
+||kzzs.shop^
 ||l-host.net/etn/omnilog?
 ||l-kingmall.com^
 ||l-tike.com/akam/$script
@@ -95405,6 +95416,7 @@ zzpzero.com
 ||ly2si17.cn^
 ||ly5200.cn^
 ||ly8c.caci-online.fr^
+||lyabjy.cn^
 ||lyadu.com^
 ||lyaeccn.com^
 ||lyatblkpblca.com^
@@ -98531,6 +98543,7 @@ zzpzero.com
 ||munero.me^$third-party
 ||munnin.hicsuntdra.co^
 ||munori.com^
+||muoo.xyz^
 ||mupsytyzu.com^
 ||mupteekr.net^
 ||muqson0kgr.com^
@@ -99740,6 +99753,7 @@ zzpzero.com
 ||nmh.my.na/main/products/$third-party
 ||nmiodk.promiflash.de^
 ||nmlhkj.com^
+||nmlysc.wang^
 ||nmmgp.cn^
 ||nmo1.orpi.com^
 ||nmpcdn.com^
@@ -102546,6 +102560,7 @@ zzpzero.com
 ||pingma.qq.com^
 ||pingmeibang.com/zt/zx.jpg
 ||pingmeter.com^$third-party
+||pingmianshejishi.com^
 ||pingmid.qq.com^
 ||pingomatic.com^$third-party
 ||pingpang.info/themes/v1.0/images/temp/ad/
@@ -117538,7 +117553,6 @@ zzpzero.com
 ||unionsug.baidu.com^
 ||unionsy.com^
 ||uniplayad.com^
-||uniqlo.com/us/elgnisolqinu.js
 ||uniqodo.com^$third-party
 ||uniregistry.com^
 ||united-infos.net/event?
@@ -120399,6 +120413,7 @@ zzpzero.com
 ||wowza.com/v1/analytics
 ||woxts.cn^
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
+||woydyd343.com^
 ||woymebsi.com^
 ||wp-monero-miner.de^$third-party
 ||wp-script.com/img/banners/
@@ -123352,6 +123367,7 @@ zzpzero.com
 ||zagxgmzmiledvh.com^
 ||zahodi-ka.ru/ic/index_cnt.fcgi?
 ||zahodi-ka.ru^*/schet.cgi?
+||zailaigou.top^
 ||zaintrillet.com^
 ||zaitouwang.com^
 ||zaivikuk.com^
@@ -124375,6 +124391,7 @@ zzpzero.com
 1kkk.com,dm5.com,dm5.hk##.adform_2
 1kkk.com,dm5.com,dm5.hk,sfacg.com###beitou
 1m3d.com###klp_adtop
+1news.co.nz,boston25news.com,kiro7.com,wftv.com##.arcad_feature
 1sale.com,7billionworld.com,9jaflaver.com,achieveronline.co.za,canstarblue.co.nz,chordfrenzy.com,climatechangenews.com,cryptonomist.ch,dallasobserver.com,energyforecastonline.co.za,esports.com,eventcinemas.co.nz,flashx.tv,furaffinity.net,geo.tv,govtrack.us,gramfeed.com,houstonpress.com,idiva.com,indiatimes.com,inspirock.com,knowyourmeme.com,m.economictimes.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,mini-ielts.com,miningprospectus.co.za,mugshots.com,myfitnesspal.com,nativeplanet.com,nbc.na,news.nom.co,nsfwyoutube.com,roadaheadonline.co.za,roms-download.com,russia-insider.com,russian-faith.com,savevideo.me,sddt.com,servicepublication.co.za,sgcarmart.com,sherdog.com,shipyearonline.co.za,stars-portraits.com,straitstimes.com,strawpoll.me,tcm.com,tech2.com,tehrantimes.com,tellerreport.com,thecatholicuniverse.com,thejakartapost.com,thelakewoodscoop.com,themalaysianinsider.com,thenews.com.pk,theprojectmanager.co.za,thestar.com.my,viamichelin.com,viamichelin.ie,vidstreaming.io,wallpaper.com,y8.com,yummy.ph##.ads
 1snau.ru,bychico.net,dyrik.ru,ecosounds.net,in-drive.ru,inforpost.com,musecube.org,obozrevatel.com,oknotivi.ru,pogodnik.com,sandero.ru,turbominer.ru##body > div[style*="z-index"][style*="9999"]
 1stchina.net,717dyw.com,86cg.me,duodada.com,liaocao.tv,nicotv.me,poxiaotv.com,taotaoxiang.vip##[onclick]
