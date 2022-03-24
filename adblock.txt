@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-24 06:24:06（北京时间） 
-! Total count: 126164
+! Version: 2022-03-24 18:25:35（北京时间） 
+! Total count: 126178
 ! ------加强屏蔽Start------ !
 !酷安"提到的好物"
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
@@ -23799,7 +23799,7 @@ bilibili.com#@#.btn-ctnr
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
-##DIV[style=" max-width:1000px;  margin:0 auto;"] > A > IMG[height="60px"]
+##DIV[style=" max-width:999px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##FBS-AD
 ##IFRAME[src*="//pos.baidu.com/"]
 ##LEADERBOARD-AD
@@ -25986,7 +25986,7 @@ $removeparam=effi_id
 $removeparam=effi_id2
 $removeparam=ei,domain=google.*
 $removeparam=eid,domain=facebook.com
-$removeparam=eid,~xmlhttprequest,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com
+$removeparam=eid,~xmlhttprequest,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*
 $removeparam=elq
 $removeparam=elqCampaignId
 $removeparam=elqTrack
@@ -26997,7 +26997,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 &adsrc=
 &adstrade=
 &adstype=
-&adurl=
 &callback=hitStats_
 &cbrandom=
 &clicktag=http
@@ -33441,6 +33440,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /client-event.axd?
 /client-logging-bundle-
 /client-metrics/?target
+/client-tracking-sync.
 /client.rum.
 /client/ads.
 /clientEventLog/*
@@ -41548,6 +41548,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@playtv.fr$object-subrequest,domain=play.tv|playtv.fr
 @@plugins/blockalyzer-adblock-counter/img/ads/$image
 @@u-ads.adap.tv*youku.$domain=youku.com
+@@www.cocomanga.com/js/ad_/ad2.js
 @@|http*/crossdomain.xml$object-subrequest,domain=vercanalestv.com
 @@|http://$image,domain=socketloop.com
 @@|http://$script,domain=sport1.de
@@ -44706,6 +44707,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||tracking.narvar.com/tracking/$~third-party
 @@||tracking.narvar.com/trackinginfo/$~third-party
 @@||tracklog.58.com/referrer$~third-party
+@@||trackonomics.net/client/$script,domain=popsugar.com
 @@||trackr.fr/sites/all/themes/contrib/touch/js/miroirs/adwordstracking.js$script
 @@||tractorshed.com/photoads/upload/$~third-party
 @@||translate.google.*/translate_*&q=$~third-party,xmlhttprequest,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
@@ -47110,6 +47112,7 @@ baidu.com#$#hide-if-contains 广告 #content_right>div .ec-tuiguang
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
 baidu.com#?#.ec_wise_ad
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
+baidu.com#@##page-pre
 baidu.com#@#.share-line
 baidu.com$$article[rl-link-data-url="mbd.baidu.com"]
 baidu.com$$div[class="bannerad"]
@@ -54765,6 +54768,7 @@ m.baidu.com##.suggest-hot
 m.baidu.com##.water-container.tab-news-content
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
 m.baidu.com##a[href*="m.lecai.com"]
+m.baidu.com#@#div[class*="ads"]
 m.baidu.com,www.baidu.com###provider,div[class$="fixed"],SECTION#middle_banner,.ec_ad_results,.shopping-item,#bottomOperate
 m.baidu.com,www.baidu.com##ARTICLE[class='c-container aladdin__10uYO']
 m.baidu.com,www.baidu.com##A[class='hint-qnaire-bar']
@@ -61460,6 +61464,7 @@ www.aoyou4.top
 www.aoyou5.top
 www.avtbo.com$$img[style="padding-bottom"]
 www.baidu.com###content_left > *:not([id]) *,[class="result c-container new-pmd"][id="1"][tpl="se_com_default"][data-click="{"]
+www.baidu.com#@#div[class*="ads"]
 www.baidu.com$@$div[class="ad_"]
 www.baidu.com,m.baidu.com##.listbox
 www.baidu.com,m.baidu.com##DIV[class='qrcode call']
@@ -64056,6 +64061,7 @@ zzpzero.com
 ||193.197.158.209^$third-party,domain=~statistik.lubw.baden-wuerttemberg.de.ip
 ||194007.com/4058.gif
 ||195315.com/storage/tpl/tj.js
+||19811231.me^
 ||198game.com^
 ||199.116.177.156^$domain=~fc2.jp.ip
 ||1990tu.com/i/*.gif
@@ -82330,6 +82336,7 @@ zzpzero.com
 ||ejimtl.costway.com^
 ||ejin56.com^$third-party
 ||ejktj.com^
+||ejnjapw.cn^
 ||ejoonsoo.net^
 ||ejpcuw.mitsubishilaval.com^
 ||ejunshi.com^
@@ -87634,6 +87641,7 @@ zzpzero.com
 ||haocpc.comindex
 ||haodazhizhuangzhuang.club^
 ||haodiwh.top^
+||haodong.site^
 ||haodongkeji.cn^
 ||haoerer.cn^
 ||haofs.com/haofs/ggapi.asp
@@ -97956,6 +97964,7 @@ zzpzero.com
 ||mjzsw.vip^
 ||mk-ads.com^$popup
 ||mk1lyl406xmp.com^
+||mk6n4ym.cn^
 ||mkadsearch.lizhifm.com^
 ||mkaff.com^$popup
 ||mkcms.com/stats.js
@@ -101847,6 +101856,7 @@ zzpzero.com
 ||pair.com/itero/tracker_ftc/
 ||paishuiban.ltd^
 ||paishuno.net^
+||pajinse.top^
 ||pakbanners.com^$third-party
 ||pakdru.altrarunning.com^
 ||pakistant.club^
@@ -102240,6 +102250,7 @@ zzpzero.com
 ||pdsjycm.com^
 ||pdss.xyz^
 ||pdst.fm^$script,third-party
+||pdsvrtb.cn^
 ||pdvacde.com^
 ||pdxgfnnoan.com^
 ||pdzutf.sftworks.jp^
@@ -103507,6 +103518,7 @@ zzpzero.com
 ||porntop.com/magic/*.js^$script,domain=porntop.com
 ||porntrack.com^$third-party
 ||porntry.com^$third-party
+||pornvas.com/lively
 ||pornvibe.org/banners/
 ||porojo.net^
 ||porpoise.azettl.net^
@@ -105424,6 +105436,7 @@ zzpzero.com
 ||qwvv.com^
 ||qwxcs.com^
 ||qwxcs.com^$third-party
+||qwzpslp.cn^
 ||qx568.com^$popup
 ||qxfly.com^
 ||qxhydkz8.hmjdaw.ntt.com^
@@ -118759,6 +118772,7 @@ zzpzero.com
 ||vipvps.shop
 ||vipwm.cc^
 ||vipyearha.com/uploads/20*.gif
+||vipytyl.ltd^
 ||viqxlggexukmnjf.com^
 ||viqyxamy.xyz^
 ||vira.ru^$third-party
