@@ -4,7 +4,7 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-26 18:24:24（北京时间） 
+! Version: 2022-03-27 06:21:54（北京时间） 
 ! Total count: 126350
 ! ------加强屏蔽Start------ !
 !酷安"提到的好物"
@@ -34004,7 +34004,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /delivery.ads.
 /delivery.php?pool_id=
 /delivery.php?rnd=
-/delivery/*?advplaces=
 /delivery/afr.
 /delivery/ag.
 /delivery/al.php
@@ -38937,7 +38936,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /sophus3_logging.js
 /sophusThree-
 /soralink.js
-/soralink/*
 /soralink/*$~stylesheet
 /source/plugin/mama_tips/*
 /source/plugin/yw_alertlogin/*
@@ -42631,6 +42629,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||deb.gs/intermission/loadTargetUrl$xmlhttprequest
 @@||decision.taplytics.com^$domain=royalbank.com
 @@||delet.jhi.pl/bower_components/angular-google-analytics/$script,~third-party
+@@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||delivery.vidible.tv/jsonp/$script,domain=engadget.com
 @@||delivery.wasu.cn/crossdomain.xml
 @@||demo.hongkiat.com/jquery-detect-ads-block/images/ads.jpg$image
@@ -44454,6 +44453,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||smtcaw.com^$generichide
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||snesfun.com/js/ads.js$script
+@@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||softwarebrother.com^$generichide
 @@||sogou.com/adpub/cfg/sendmsg.
 @@||sogou.com/pv.gif?*&stype=showskinpanel
@@ -46069,6 +46069,7 @@ acgzone.us##DIV#page > DIV[style^="width:960px;height:"],a[href^="http://www.S99
 ackcdn.net
 acomics.ru##div[style*="/design/common/pic/please"]
 acprimetime.com,brigantinenow.com,downbeachbuzz.com##.widget_sp_image
+actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com##+js(set, GSvars.addressTracking, false)
 actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.co,lodynet.dev,lodynet.ink,lodynet.live,lodynet.tv,rotana.video#$#abort-on-property-read decodeURIComponent
 active.com###med_rec_bottom
 active.com###med_rec_top
@@ -48804,11 +48805,9 @@ coingolive.com##[href^="https://bitpreco.com/"]
 coingolive.com##[href^="https://coinext.com.br/"]
 coinlisting.info###carousel-example-generic
 coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
-coinmarketcap.com##.cmc-native-ad-row
 coinmarketcap.com##.goXFFk
 coinmarketcap.com##.sponsoredMark
 coinmarketcap.com##.trending-sponsored
-coinmarketcap.com##[class^="sponsoredMark_"]
 coinpedia.org##.stream-title
 coinpedia.org,siasat.com##.stream-item-inline-post
 cointelegraph.com##._1p0RFbnRBP8wtiCNM9Gxde
@@ -50722,7 +50721,7 @@ flashx.pw,flashx.tv#$#abort-on-property-read affLink
 flashx.tv###nuevoa
 flat-ads.com,job.inshokuten.com#@#.ad-content
 flat-ads.com,lastpass.com#@#.ad-img
-flaticon.com###s-p
+flaticon.com##a[href^="//www.flaticon.com/edge/redirect?"]
 flatpanelshd.com###sb-site > .hidden-xs.container
 flava.co.nz,hauraki.co.nz,mixonline.co.nz,thehits.co.nz,zmonline.com##.layout__background
 flicksmore.com###pc_show
@@ -55837,7 +55836,6 @@ mtrend.cn##a[href*="taomoubao.com"]
 mtrend.cn##a[href^="http://tao.mtrend.cn/"]
 mtrend.cn##div[style="float:left; width:100%; margin-bottom:25px; text-align:center;"]
 mtv-ktv.net###aShow
-mtvuutiset.fi##+js(set, gsSkyId, noopFunc)
 muchong.com###creditegg
 muchong.com###mask
 muchong.com###xd_popbox
@@ -63871,7 +63869,8 @@ zzpzero.com
 ||1314sss.top^
 ||1328f.com/js/jquery.js
 ||13322.com/newIndex/ad/
-||1337x.to/images/x28.jpg
+||1337x.*/images/x28.jpg
+||1337x.*/images/x2x8.jpg
 ||1337x.to/ip3.php
 ||1337x.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data:
 ||1339.cf/yuzrmji.js$script,domain=imgnova.xyz
@@ -65150,6 +65149,7 @@ zzpzero.com
 ||51yes.com^
 ||51yes.com^$third-party
 ||51yhzp.com^$third-party
+||51yusi.xyz^
 ||51zdwy.cn^
 ||51zrtx.com^
 ||51ztzj.com/js/you.js
@@ -73693,7 +73693,6 @@ zzpzero.com
 ||bing.com^$removeparam=crslsl
 ||bing.com^$removeparam=ecount
 ||bing.com^$removeparam=efirst
-||bing.com^$removeparam=filters
 ||bing.com^$removeparam=go
 ||bing.com^$removeparam=mkt
 ||bing.com^$removeparam=nclid
@@ -78903,6 +78902,7 @@ zzpzero.com
 ||d.wi-fi.ru^
 ||d.ziyuanm.com^
 ||d0.xcar.com.cn^
+||d03.xyz^
 ||d03165aacb.com^
 ||d0efb7d9aeb478d.com^
 ||d0f7c10e2e.com^
@@ -88639,6 +88639,7 @@ zzpzero.com
 ||hnqhdnryukqko.com^
 ||hnrhyy.com/vip/$script
 ||hnruisheng.cn^
+||hnsyjaeger.site^
 ||hnsykly.cn^
 ||hnthink.vip^
 ||hntiantai.cn^
@@ -95738,7 +95739,6 @@ zzpzero.com
 ||lypn.net^$third-party
 ||lyraik.cn^
 ||lyricalcomfortfatherinlaw.com^
-||lyricsmint.red^
 ||lyricsmint.red^$third-party
 ||lyrigh.com^
 ||lysq.com/data/attachment/portal/
@@ -95845,7 +95845,6 @@ zzpzero.com
 ||m.haiduomi.com/template/vfed/asset/js/global.js?v=*
 ||m.haiduomi.com/template/vfed/asset/js/sidebar.js?v=3.1.0$domain=m.haiduomi.com
 ||m.hao123img.com/static/html5-index/js/
-||m.haradeiu.rocks^
 ||m.haxdu.com/hi18^
 ||m.iqiyipic.com/common/lego/*.jpg$app=com.qiyi.video
 ||m.irl.com^
@@ -100068,6 +100067,7 @@ zzpzero.com
 ||nmcdn.us^
 ||nmctm.cn^
 ||nmetrics.samsungmobile.com^
+||nmgch.top^
 ||nmgk.com/Runtime/Js/
 ||nmgk.com/Uploads/dp/
 ||nmgk.com/Uploads/nmgkgif/bfq.

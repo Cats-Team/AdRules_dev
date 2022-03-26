@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-03-26 10:23:51
-! Total count: 139406
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-03-26 22:21:20
+! Total count: 139416
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -10886,6 +10886,7 @@
 ##.ad-place-holder
 ##.ad-placeholder
 ##.ad-placeholder-leaderboard
+##.ad-placeholder-wrapper
 ##.ad-placement
 ##.ad-placement-left
 ##.ad-placement-right
@@ -15609,6 +15610,7 @@
 ##.banner-ad-pos
 ##.banner-ad-row
 ##.banner-ad-section
+##.banner-ad-skeleton-box
 ##.banner-ad-space
 ##.banner-ad-wrap
 ##.banner-ad-wrapper
@@ -33164,7 +33166,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /delivery.ads.
 /delivery.php?pool_id=
 /delivery.php?rnd=
-/delivery/*?advplaces=
 /delivery/afr.
 /delivery/ag.
 /delivery/al.php
@@ -38191,7 +38192,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /sophus3_logging.js
 /sophusThree-
 /soralink.js
-/soralink/*
+/soralink/*$~stylesheet
 /source/plugin/drk_ledadv/*
 /source/plugin/mama_tips/*
 /source/plugin/yw_alertlogin/*
@@ -46905,6 +46906,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||snapchat.com/static/js/autotrack.js
 @@||snesfun.com/js/ads.js$script
+@@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||softwarebrother.com^$generichide
 @@||sogou.com/adpub/cfg/sendmsg.
 @@||sogou.com/pv.gif?*&stype=showskinpanel
@@ -50814,6 +50816,7 @@ careonline.com.tw##.wrapper > script + a[href][onclick]
 cargurus.com##.cg-siteHeader-leaderBoardWrap
 cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
 caribpress.com###top_banner_container
+carls-sims-4-guide.com##hr.post_separator + .windowbg
 carmag.co.za###home-leaderboard
 carmag.co.za###sidebar-primary
 carmag.co.za##.homepage-300x250-banner
@@ -51496,9 +51499,9 @@ coingolive.com##[href^="https://bitpreco.com/"]
 coingolive.com##[href^="https://coinext.com.br/"]
 coinlisting.info###carousel-example-generic
 coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
-coinmarketcap.com##.cmc-native-ad-row
+coinmarketcap.com##.goXFFk
 coinmarketcap.com##.sponsoredMark
-coinmarketcap.com##[class^="sponsoredMark_"]
+coinmarketcap.com##.trending-sponsored
 coinpedia.org##.stream-title
 coinpedia.org,siasat.com##.stream-item-inline-post
 cointelegraph.com##._1p0RFbnRBP8wtiCNM9Gxde
@@ -52372,6 +52375,7 @@ douyu.com##.PcDiversion
 douyu.com##.PrivilegeGiftModalDialog
 douyu.com##.SuperFansGuideTips
 douyu.com##.TaskIcon
+douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
 douyu.com##.ToolbarActivityArea
 douyu.com##.ToolbarActivityArea > div:nth-of-type(1) > div:nth-of-type(1) > div.ActivityItem:nth-of-type(3)
 douyu.com##.XinghaiAd
@@ -53454,7 +53458,7 @@ flashx.pw,flashx.tv#$#abort-on-property-read affLink
 flashx.tv###nuevoa
 flat-ads.com,job.inshokuten.com#@#.ad-content
 flat-ads.com,lastpass.com#@#.ad-img
-flaticon.com###s-p
+flaticon.com##a[href^="//www.flaticon.com/edge/redirect?"]
 flatpanelshd.com###sb-site > .hidden-xs.container
 flava.co.nz,hauraki.co.nz,mixonline.co.nz,thehits.co.nz,zmonline.com##.layout__background
 flicksmore.com###pc_show
@@ -63585,6 +63589,7 @@ wapwenku.baidu.com,wk.baidu.com###bottomFixed
 wapwenku.baidu.com,wk.baidu.com##.tout
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
 warcraftpets.com###footer-top
+warcraftpets.com##.sitelogo > div
 warisboring.com###WIB300x250_IA_M_HB
 warn.chrome.360.cn##.pop-box
 warontherocks.com##.wotr_top_lbjspot
@@ -66367,7 +66372,8 @@ zznews.cn##.ad:not([style])
 ||1314sss.top^
 ||1328f.com/js/jquery.js
 ||13322.com/newIndex/ad/
-||1337x.to/images/x28.jpg
+||1337x.*/images/x28.jpg
+||1337x.*/images/x2x8.jpg
 ||1337x.to/ip3.php
 ||1337x.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data:
 ||1339.cf/yuzrmji.js$script,domain=imgnova.xyz
@@ -67728,6 +67734,7 @@ zznews.cn##.ad:not([style])
 ||51yes.com^
 ||51yes.com^$third-party
 ||51yhzp.com^$third-party
+||51yusi.xyz^
 ||51zdwy.cn^
 ||51zrtx.com^
 ||51ztzj.com/js/you.js
@@ -84132,6 +84139,7 @@ zznews.cn##.ad:not([style])
 ||d.wi-fi.ru^$third-party
 ||d.ziyuanm.com^
 ||d0.xcar.com.cn^
+||d03.xyz^
 ||d03165aacb.com^
 ||d0efb7d9aeb478d.com^
 ||d0f.le-dauphin.com^
@@ -87142,6 +87150,7 @@ zznews.cn##.ad:not([style])
 ||dsnfun.cn^
 ||dsnr-affiliates.com^
 ||dsnrkqbeqbyu.com^
+||dsoizkd.cn^
 ||dsomethove.xyz^
 ||dsoxjxin5jji.controlconceptsusa.com^
 ||dsp-adcreative.mobshark.net^
@@ -95628,6 +95637,7 @@ zznews.cn##.ad:not([style])
 ||hnqhdnryukqko.com^
 ||hnrhyy.com/vip/$script
 ||hnruisheng.cn^
+||hnsyjaeger.site^
 ||hnsykly.cn^
 ||hnthink.vip^
 ||hntiantai.cn^
@@ -103803,7 +103813,7 @@ zznews.cn##.ad:not([style])
 ||lypn.net^$third-party
 ||lyraik.cn^
 ||lyricalcomfortfatherinlaw.com^
-||lyricsmint.red^
+||lyricsmint.red^$third-party
 ||lyrigh.com^
 ||lysq.com/data/attachment/portal/
 ||lytics.io^$third-party
@@ -103933,7 +103943,6 @@ zznews.cn##.ad:not([style])
 ||m.haiduomi.com/template/vfed/asset/js/global.js?v=*
 ||m.haiduomi.com/template/vfed/asset/js/sidebar.js?v=3.1.0$domain=m.haiduomi.com
 ||m.hao123img.com/static/html5-index/js/
-||m.haradeiu.rocks^
 ||m.haxdu.com/hi18^
 ||m.iqiyipic.com/common/lego/*.jpg$app=com.qiyi.video
 ||m.irl.com^
@@ -109390,6 +109399,7 @@ zznews.cn##.ad:not([style])
 ||nmetrics.boostmobile.com^
 ||nmetrics.samsung.com^
 ||nmetrics.samsungmobile.com^
+||nmgch.top^
 ||nmgk.com/Runtime/Js/
 ||nmgk.com/Uploads/dp/
 ||nmgk.com/Uploads/nmgkgif/bfq.
