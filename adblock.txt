@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-27 06:21:54（北京时间） 
-! Total count: 126350
+! Version: 2022-03-27 18:24:29（北京时间） 
+! Total count: 126366
 ! ------加强屏蔽Start------ !
 !酷安"提到的好物"
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
@@ -23807,6 +23807,8 @@ bilibili.com#@#.btn-ctnr
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
+##DIV[style=" max-width:998px;  margin:0 auto;"] > A > IMG[height="120px"]
+##DIV[style=" max-width:999px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##FBS-AD
 ##IFRAME[src*="//pos.baidu.com/"]
 ##LEADERBOARD-AD
@@ -44473,6 +44475,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||soufunimg.com/count/uvbforpc.js
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
+@@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
 @@||sozi.cn/images/ad/tj
 @@||spanishdict.com^$generichide
 @@||spankbang.com^*/prebid-ads.js$domain=spankbang.com
@@ -46618,6 +46621,7 @@ apps.evozi.com##div#adunit,div.iab-ad,ins.adsbygoogle
 apps.opera.com,babynamegenie.com,ecaytrade.com,nbcbayarea.com,nwherald.com,planetsourcecode.com,sciagaj.org,themuslimvibe.com,totalxbox.com,varsity.com,w3techs.com,wgxa.tv##.promo
 apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.header-billboard
 apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.mosaic-banner
+appuals.com##.wp-timed-p
 aqours.today
 ar.waterserver.cn
 ar12gaming.com,geekwire.com##.featured-sponsor
@@ -48280,6 +48284,7 @@ chanel.wohewodejxy.top
 chanel.wohewodejxz.top
 chanet.com.cn#@##ad_content
 changsha.cn##[class^="site_ad_"]
+changshuohr.net
 channel1.livesportshd.us###ai_tapar_content
 channel4.com###c4ad-Top
 chanpindashi.com##.personal-information > a[href^="http"]:not([href*="chanpindashi."])
@@ -61618,6 +61623,7 @@ www.govjieyang.cn
 www.govkunming.cn
 www.govlaibing.cn
 www.govliuzhou.cn
+www.govshangxi.cn
 www.govshenzhen.cn
 www.govxian.cn
 www.govxinjiang.cn
@@ -71136,6 +71142,7 @@ zzpzero.com
 ||apple.com/mw/v1/reportAnalytics
 ||apple.com^$removeparam=/^ign-/
 ||apple.com^$removeparam=ct
+||apple.com^$removeparam=ctx_brand
 ||apple.com^$removeparam=fnode
 ||apple.com^$removeparam=mttn3pid
 ||apple.com^$removeparam=mttnagencyid
@@ -71545,6 +71552,7 @@ zzpzero.com
 ||asttcp.vatera.hu^
 ||astyk.cn^
 ||asu05mm.cn^
+||asukahan.xyz^
 ||asumi.shinobi.jp^
 ||asundersimultaneously.com^
 ||asuqoqsea.com^
@@ -75469,6 +75477,7 @@ zzpzero.com
 ||catracking.finning.com^
 ||cats.d20.rs^
 ||catschickens.com^
+||catsys.jp^$third-party
 ||catverticalposterity.com^
 ||catwenbat.com^
 ||catwrite.com^
@@ -83571,6 +83580,7 @@ zzpzero.com
 ||exclusivebrass.com^
 ||exclusiveclicks.com^$third-party
 ||exclusivepussy.com^$third-party
+||excsyrv.cn^
 ||excuseparen.com^
 ||exd4.destinia.com.au^
 ||exdmarketing.smu.edu.sg^
@@ -89530,6 +89540,7 @@ zzpzero.com
 ||ibjivrhrflquy.xyz^
 ||ibjlweoqb.com^
 ||ibmcloud.com/collector/
+||iboxs.xyz^
 ||ibpxl.com^$third-party
 ||ibpxl.net^$third-party
 ||ibryte.com^
@@ -91523,6 +91534,7 @@ zzpzero.com
 ||j4a73n7v5k.com^
 ||j5sq8.com^
 ||j6rudlybdy.com^
+||j6zh4g0.cn^
 ||j7rzxe098g5m.com^
 ||j84nvmd.cn^
 ||j8j9.com^$third-party
@@ -95696,6 +95708,7 @@ zzpzero.com
 ||lxgerdcitg.com^
 ||lxgmgalmrxqlj.xyz^
 ||lxhjaq.cn^
+||lxiaoxin.com^
 ||lxiu.shop^
 ||lxlx.shop^
 ||lxoemc.libero.it^
@@ -110769,6 +110782,7 @@ zzpzero.com
 ||smetrix.avon.uk.com^
 ||smetrix.youravon.com^
 ||smg.com/Etrack/
+||smgjupy.cn^
 ||smh.com.au/assets/europa.
 ||smh.ink^
 ||smigro.info^
@@ -114851,6 +114865,7 @@ zzpzero.com
 ||thumpssleys.com^
 ||thunderhead.com^$third-party
 ||thunderingrose.com^
+||thundersoft.top^
 ||thurag.com^
 ||thurnflfant.com^
 ||thwartcrazyposition.com^
@@ -118007,6 +118022,7 @@ zzpzero.com
 ||unsuccessfulpensive.com^
 ||unta.cn^
 ||untaryes.online^
+||untenable.wang^
 ||untidyquestion.com^
 ||untidyrice.com^$third-party
 ||untiloutrage.com^
