@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-04-03 18:25:07（北京时间） 
-! Total count: 126568
+! Version: 2022-04-04 06:22:45（北京时间） 
+! Total count: 126572
 ! ------加强屏蔽Start------ !
 !酷安"提到的好物"
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
@@ -26534,7 +26534,6 @@ $removeparam=pvid,domain=taobao.com
 $removeparam=pvid,domain=tmall.com
 $removeparam=pzid,domain=emirates.com
 $removeparam=qid,domain=amazon.*
-$removeparam=qid,domain=~ebay.*|~zhidao.baidu.com
 $removeparam=qp,domain=bing.*
 $removeparam=qs,domain=bing.*
 $removeparam=qualifier,domain=amazon.*
@@ -26631,7 +26630,7 @@ $removeparam=rmmds
 $removeparam=rmtsref
 $removeparam=rndad
 $removeparam=rnid,domain=amazon.*
-$removeparam=rpcid,domain=lifamasks.shop
+$removeparam=rpcid
 $removeparam=rpp_cid
 $removeparam=rs,domain=gamereactor.*
 $removeparam=rss,domain=sn.dk|ted.com
@@ -27037,6 +27036,7 @@ $~xmlhttprequest,removeparam=LID
 $~xmlhttprequest,removeparam=mbid
 $~xmlhttprequest,removeparam=mcid,domain=~miguvideo.*
 $~xmlhttprequest,removeparam=msid
+$~xmlhttprequest,removeparam=qid,domain=~ebay.*|~zhidao.baidu.com
 $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com
 $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbop.com|awesomeopensource.com
 &ADFAssetID=$media,domain=expres.cz|www.idnes.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz
@@ -86171,6 +86171,7 @@ zznews.cn##.ad:not([style])
 ||govowhaca.com^
 ||govowhaca.com^$popup
 ||govqingdao.cn^
+||govshangxi.cn^
 ||govshanxi.cn^
 ||govshenzhen.cn^
 ||govtoutiao.cn^
@@ -106590,6 +106591,7 @@ zznews.cn##.ad:not([style])
 ||rkdms.com^
 ||rkllcrwtftx.com^
 ||rkoepfotesi.com^
+||rkohksa.cn^
 ||rkomf.com^
 ||rktch.com^$third-party
 ||rktu.com^$third-party
@@ -114509,6 +114511,7 @@ zznews.cn##.ad:not([style])
 ||tgxcmcoikpgek.com^
 ||tgzobwoutuwn.com^
 ||th-make.com^
+||th.bing.com/th/*&riu=$image,third-party
 ||th21333.com^
 ||thague.com^
 ||thaibeco.com^
@@ -116486,6 +116489,7 @@ zznews.cn##.ad:not([style])
 ||tracking.visma.se^
 ||tracking.vismaraet.nl^
 ||tracking.vodafone.com^
+||tracking.voordeeluitjes.nl^
 ||tracking.warehouseautomation.com^
 ||tracking.waterfrontmedia.com^
 ||tracking.webtradecenter.com^
