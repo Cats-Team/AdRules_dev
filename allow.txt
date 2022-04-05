@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-04-05 18:23:42（北京时间） 
-! Total count: 5347
+! Version: 2022-04-06 06:22:19（北京时间） 
+! Total count: 5348
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -722,6 +722,7 @@
 @@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
+@@||api.cxense.com/public/widget/data?json=$domain=delfi.lt
 @@||api.cxense.com/public/widget/data?json=$domain=lavoz.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=pcgames.de
 @@||api.cxense.com/public/widget/data?json=$domain=wsj.com
@@ -2426,8 +2427,7 @@
 @@||google.com/js/gweb/analytics/$domain=google.com
 @@||google.com/js/gweb/analytics/doubletrack.js$domain=android.com
 @@||google.com/payments/*/adwords.$document,subdocument
-@@||google.com/recaptcha/$csp,subdocument
-@@||google.com/recaptcha/api.js
+@@||google.com/recaptcha/$csp,script,subdocument
 @@||google.com/translate_$media,third-party,xmlhttprequest
 @@||google.com/usability/$domain=google.com,document
 @@||google.de/translate_$media,third-party,xmlhttprequest
@@ -4255,6 +4255,7 @@
 @@||scdn.cxense.com/cx.cce.js$script,domain=handelsblatt.com
 @@||scdn.cxense.com/cx.js$domain=13.cl
 @@||scdn.cxense.com/cx.js$domain=deadspin.com|theinventory.com|thetakeout.com|splinternews.com|theroot.com|kotaku.com|jezebel.com|gizmodo.com
+@@||scdn.cxense.com/cx.js$domain=delfi.lt
 @@||scdn.cxense.com/cx.js$domain=digi24.ro
 @@||scdn.cxense.com/cx.js$domain=digisport.ro
 @@||scdn.cxense.com/cx.js$domain=friday.kodansha.co.jp

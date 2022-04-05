@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-04-05 10:23:08
-! Total count: 140091
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-04-05 22:21:45
+! Total count: 140129
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -14156,6 +14156,7 @@
 ##.adsmedrect
 ##.adsmedrectright
 ##.adsmessage
+##.adsninja-ad-zone
 ##.adsnippet_widget
 ##.adsns
 ##.adsoho
@@ -15016,6 +15017,7 @@
 ##.advertisements-sidebar
 ##.advertisementsOutterDiv
 ##.advertisements_contain
+##.advertisements_heading
 ##.advertisementsubtitle
 ##.advertisementwrap
 ##.advertiser
@@ -15990,6 +15992,8 @@
 ##.block-mps
 ##.block-nmadition
 ##.block-nst-googledfp
+##.block-nyx-ads-ninja
+##.block-nyx-ads-ninja-ad-block
 ##.block-ohtdisplayad
 ##.block-openads
 ##.block-openadstream
@@ -23063,6 +23067,7 @@
 ##.video-boxad
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.video-innerAd-320x250
+##.video-item-ads
 ##.video-page__adv
 ##.video-player-ad-center
 ##.video-player-container > #player_bottom_banner
@@ -24930,6 +24935,7 @@
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##hl-adsense
 ##iframe[id^="google_ads_frame"]
+##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*=".xxmh891.com/"]
 ##iframe[src^="http://ad.yieldmanager.com/"]
 ##iframe[src^="https://pagead2.googlesyndication.com/"]
@@ -27059,6 +27065,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .info/js/alls_top.js
 .info/s.php?id=$script,third-party
 .info/topjs/
+.informz.net/z/$image
 .innologica.com/t/
 .instructure.com/api/v1/courses/*/ping
 .instructure.com/page_views
@@ -31713,6 +31720,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /apps/misc.php?action=advert&
 /apricot.php?
 /apsdk/apsdk.
+/apsti7.*.js^$script,domain=txxx.com
 /aptads/*
 /aptrk.js
 /apu.php?*&zoneid=
@@ -34433,6 +34441,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /google_tag/*
 /google_tag/*$script
 /google_tag_$script
+/google_tag_extra.
 /google_tracker.
 /googlead-
 /googlead.$~script
@@ -37467,7 +37476,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /randomad2.
 /randomad_
 /randomads.
-/rass7.*.js^$script,domain=upornia.com
+/rass7.*.js^$script,domain=upornia.com|vjav.com
 /rassets1/ads-
 /ravelin-*-track.min.js
 /rawtubelivead.
@@ -42102,6 +42111,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://*.tv/ad/$domain=~moviedj.tv
 ://*:*/api/v4/g?kyurl=$script,third-party
 ://*:*/jscode/*.js$script,third-party
+://*:*/oklist/vars.js
 ://*:*/s.php?id=$script,third-party
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
@@ -44879,8 +44889,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||google.com/js/gweb/analytics/$domain=google.com
 @@||google.com/js/gweb/analytics/doubletrack.js$domain=android.com
 @@||google.com/payments/*/adwords.$document,subdocument
-@@||google.com/recaptcha/$csp,subdocument
-@@||google.com/recaptcha/api.js
+@@||google.com/recaptcha/$csp,script,subdocument
 @@||google.com/translate_$media,third-party,xmlhttprequest
 @@||google.com/usability/$domain=google.com,document
 @@||google.de/translate_$media,third-party,xmlhttprequest
@@ -50770,6 +50779,7 @@ business.nikkei.com##.cbCxense
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
 businessinsider.co.uk,businessinsider.com##.rail-recommended
 businessinsider.com##.bottom-recommended
+businessinsider.com##.in-post-sticky
 businessinsider.com.au##.content-section-banner
 businessinsider.in##.clmb_eoa
 businessinsider.in##.colombia-rhs-wdgt
@@ -55908,6 +55918,7 @@ ipcfun.com###crumb_r
 ipcfun.com###sidebar > ul > div[style]
 ipcfun.com###sidebar > ul > li[style]
 ipcfun.com##div[style="height:280px;width:336px;margin:-10px auto 20px auto"]
+iphonelife.com##.l-header
 iphones.ru##DIV[style="background-color: rgb(222, 71, 0); margin-bottom: 20px; padding: 60px 0px;"]
 iphonesoft.fr,iphonetweak.fr###msgUser
 iphonic.tv,kontraband.com,motherproof.com,nutritioncuisine.com,sansabanews.com,thestreet.com###leader
@@ -62459,6 +62470,7 @@ themoscowtimes.com##.mb-4.py-3
 themoviebay.ru##.is-danger.notification
 themoviedb.org##.fanhattan
 themoviesflix.io##a[rel="noopener"]
+thenetnaija.co##.cmp-list
 thenewslens.com##.help-tnl-container-300_250
 thenewslens.com##.help-tnl-container-970_250
 thenewslens.com##div[class^="help-tnl-"]
@@ -64361,10 +64373,11 @@ www.excelpx.com##table#sitehead
 www.facebook.com###pagelet_side_ads
 www.facebook.com##.egoOrganicColumn+*
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
-www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /(C.*o.*m.*m.*a.*n.*d.*i.*t.*é.*)|(S.*p.*o.*n.*s.*o.*r.*e.*d.*)|(S.*p.*o.*n.*s.*o.*r.*i.*z.*z.*a.*t.*o.*)|(P.*u.*b.*l.*i.*c.*i.*d.*a.*d.*)|(P.*a.*t.*r.*o.*c.*i.*n.*a.*d.*o.*)|(C.*o.*m.*m.*a.*n.*d.*i.*t.*é.*)|(S.*p.*o.*n.*s.*o.*r.*i.*s.*é.*)|(G.*e.*s.*p.*o.*n.*s.*o.*r.*d.*)/ div[aria-describedby] a[aria-label="label"] span[class]
+www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /(C.*o.*m.*m.*a.*n.*d.*i.*t.*é.*)|(S.*p.*o.*n.*s.*o.*r.*e.*d.*)|(S.*p.*o.*n.*s.*o.*r.*i.*z.*z.*a.*t.*o.*)|(P.*u.*b.*l.*i.*c.*i.*d.*a.*d.*)|(P.*a.*t.*r.*o.*c.*i.*n.*a.*d.*o.*)|(S.*p.*o.*n.*s.*r.*a.*d.*)|(S.*p.*o.*n.*s.*o.*r.*i.*s.*é.*)|(G.*e.*s.*p.*o.*n.*s.*o.*r.*d.*)/ div[aria-describedby] a[aria-label="label"] span[class]
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Publicidad|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|Sponsoreret|Sponsrad$/ div[aria-posinset] div[role^="button"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a/span/span/b[contains("Sponsorizzato Sponsored Gesponsert Sponsorisé Commandité Patrocinado Publicidad Bersponsor",concat(./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][1],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][2],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][3],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][4],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][5],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][6],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][7],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][8],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][9],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][10],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][11],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][12],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][13],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][14]))][count(./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])]) > 6]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a/span/span/span[contains("Sponsorizzato Sponsored Gesponsert Sponsorisé Commandité Patrocinado Publicidad Bersponsor",concat(./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][1],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][2],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][3],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][4],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][5],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][6],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][7],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][8],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][9],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][10],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][11],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][12],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][13],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][14]))][count(./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])]) > 6]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@data-pagelet="MainFeed"]//span[not(self::node()[contains(@class," ")])]//a[@aria-label="Sponsored"]/ancestor::div[not(@id)][starts-with(@class,"_")]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@id="watch_feed"]//div[@data-pagelet="MainFeed"]//a[@aria-label="label"]//ancestor::div[8][not(@id)][starts-with(@class,"_")]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span//b[@class][contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
@@ -66503,6 +66516,7 @@ zznews.cn##.ad:not([style])
 ||123vidz.com^$popup
 ||124fe3e59c.com^
 ||126.com/get.do?*=themeHandler.
+||126.net/2022/0315/c82ed9e0g00r8seoy015pd00104003cp.gif
 ||126.net/caipiao/js2/dialog.js
 ||126.net/caipiao/js2/index/homePop.js
 ||126.net/caipiao/js2/popularize/hello.js^
@@ -67510,6 +67524,7 @@ zznews.cn##.ad:not([style])
 ||3987.com/statics/tow_skin/new_img/20
 ||3990.tv
 ||399a240ee2.com^
+||39bace7344.com^
 ||39d1d397c97730.com^
 ||39jz.com^
 ||39mob.com^
@@ -77730,6 +77745,7 @@ zznews.cn##.ad:not([style])
 ||bf-tools.net^$third-party
 ||bf1872dae47d.com^
 ||bf35f69f2c6f6bcda64064b1f5b49218.domain.com.au^
+||bf640c8a78.com^
 ||bf99.com/User*/Ad_
 ||bf99.com/User/Images/bg_Blued.jpg
 ||bfast.com^
@@ -84788,6 +84804,7 @@ zznews.cn##.ad:not([style])
 ||d31mxuhvwrofft.cloudfront.net^
 ||d31qbv1cthcecs.cloudfront.net^
 ||d31vxm9ubutrmw.cloudfront.net^
+||d32bug9eb0g0bh.cloudfront.net^
 ||d32hwlnfiv2gyn.cloudfront.net^
 ||d33im0067v833a.cloudfront.net^
 ||d33otidwg56k90.cloudfront.net^
@@ -87214,6 +87231,7 @@ zznews.cn##.ad:not([style])
 ||doushoom.net^
 ||douthosh.net^
 ||doutula.com/img/upupoo/
+||douyinstatic.com/obj/tos-cn-i-xg/6fea25a4f79d4ec88428ce202a9aa395?.appdownv4.js
 ||douyu*/upload/signs/*.swf
 ||douyu.com/dygev/*.swf
 ||douyu.com/japi/sign/web/getinfo
@@ -88725,6 +88743,7 @@ zznews.cn##.ad:not([style])
 ||eifold.com^
 ||eiga.k-img.com/javascripts/td.js?1578981009
 ||eighteenmedal.com^
+||eiipskos.com^
 ||eikegolehem.com^
 ||eiorzm.orvis.com^
 ||eiryabba.com^
@@ -89583,6 +89602,7 @@ zznews.cn##.ad:not([style])
 ||eroar.lionsclubs.org^
 ||erofus.com/move
 ||eroge.com^$popup
+||erokimooki.com^
 ||eroo.shop^
 ||erop.store^
 ||erorib.com^
@@ -93054,6 +93074,7 @@ zznews.cn##.ad:not([style])
 ||geoplugin.net^
 ||geoplugin.net^$third-party
 ||geopromos.com^$third-party
+||georgh.com^
 ||georiot.com^$third-party
 ||geoservice.curse.com^
 ||geosvc.globalmailer.com^$third-party
@@ -94167,6 +94188,7 @@ zznews.cn##.ad:not([style])
 ||gouweida.cn^
 ||gouwupianyi.cn^
 ||govbusi.info^
+||govchaozhou.cn^
 ||govchengdu.cn^
 ||govchongqing.cn^
 ||governessarson.com^
@@ -94188,6 +94210,7 @@ zznews.cn##.ad:not([style])
 ||govowhaca.com^
 ||govowhaca.com^$popup
 ||govqingdao.cn^
+||govshanghai.cn^
 ||govshangxi.cn^
 ||govshanxi.cn^
 ||govshenzhen.cn^
@@ -94784,6 +94807,7 @@ zznews.cn##.ad:not([style])
 ||gyluheshy.com^
 ||gynax.com^
 ||gyofhxepanmkgx.com^
+||gyppedsquiss.com^
 ||gypsiedjilt.com^
 ||gyqevddwaha.com^
 ||gyrenmai.icu^
@@ -95464,6 +95488,7 @@ zznews.cn##.ad:not([style])
 ||heizoel24.de/Scripts/g_tracking.js
 ||hej.henriksommerfeld.se^
 ||hejeyoke.xyz^
+||hekowutus.com^
 ||helessenge.club^
 ||helic3oniusrcharithonia.com^
 ||hello-jm.com/foot.js
@@ -96111,6 +96136,7 @@ zznews.cn##.ad:not([style])
 ||hocalwire.com/tracking-
 ||hocam.com/gemius/xgemius_v*.js
 ||hocgeese.com^$third-party
+||hockeyhavoc.com^
 ||hockeystack.com^$third-party
 ||hodor-collect.arabam.com^
 ||hodun.ru/files/promo/
@@ -100613,6 +100639,7 @@ zznews.cn##.ad:not([style])
 ||jumplead.io^$third-party
 ||jumptap.com^
 ||jumptime.com^$third-party
+||jumpvoobmi.com^
 ||jun01.oss-cn-beijing.aliyuncs.com^
 ||junbi-tracker.com^$popup
 ||junbi-tracker.com^$third-party
@@ -102748,6 +102775,8 @@ zznews.cn##.ad:not([style])
 ||lifeselector.com/iframetool/$third-party
 ||lifestyleoptimisticsing.com^
 ||lifetimeactivatewasp.com^
+||lifetimeroyaltybestial.com^
+||lifetimeroyaltybestial.com^$popup
 ||lifeway.hb.omtrdc.net^
 ||lifiads.com^
 ||lifrim.com^
@@ -110138,6 +110167,7 @@ zznews.cn##.ad:not([style])
 ||noughttrustthreshold.com^
 ||noughttrustthreshold.com^$popup
 ||nounstrenuous.com^
+||nourishinghousehold.com^
 ||nouseeth.com^
 ||noushe.zevvle.com^
 ||nouzhu.cn^
@@ -114653,6 +114683,7 @@ zznews.cn##.ad:not([style])
 ||prjslxhtx005.top^
 ||prksism.com^
 ||prkvlr.camper.com^
+||prlmspfelvnsfx.com^
 ||prlog.ru/images/counter/$third-party
 ||prm-native.com^
 ||prmobiles.com^$third-party
@@ -115595,6 +115626,7 @@ zznews.cn##.ad:not([style])
 ||qagdczc.cn^
 ||qagyb.cn^
 ||qajypx.com^
+||qalvhnlgfhh.top^
 ||qamnyl.bever.nl^
 ||qaolyke.cn^
 ||qaops.jgwsmqx.com^$third-party
@@ -120633,6 +120665,7 @@ zznews.cn##.ad:not([style])
 ||shenxiangkeji.com^
 ||shenyunkeji.com^
 ||shepeekr.net^
+||shepherdbetrayaldecoction.com^
 ||shequn.online^
 ||shermore.info^
 ||sherrycha.cn^
@@ -121276,6 +121309,7 @@ zznews.cn##.ad:not([style])
 ||sitv.com.cn/cookiead.php
 ||siusnl.anime-store.fr^
 ||siutxxdk.com^
+||sivpnnmpppmor.xyz^
 ||siwhausy.net^
 ||sixft-apart.com^
 ||sixft-apart.com^$popup
@@ -127801,6 +127835,7 @@ zznews.cn##.ad:not([style])
 ||tdbsoc.thegivingmovement.com^
 ||tdbwgrm.cn^
 ||tdcbvxxhss.xyz^
+||tdcupijtgp.com^
 ||tdedqqv.cn^
 ||tdep.bunzlonline.nl^
 ||tdep.growwwdigital.com^
@@ -128495,6 +128530,7 @@ zznews.cn##.ad:not([style])
 ||thrustlumpypulse.com^
 ||ths9j89.com^$popup
 ||thterras.com^
+||thuate.com^
 ||thubyjemi.pro^
 ||thudywhamy.com^
 ||thumbnail-galleries.net^$third-party
@@ -128768,6 +128804,7 @@ zznews.cn##.ad:not([style])
 ||tj.21ic.com^
 ||tj.7kww.net^$third-party
 ||tj.ali213.net/
+||tj.banzhu111.xyz^
 ||tj.video.qq.com/
 ||tj.youzanyun.com^
 ||tj3rql9siwef.www.freecodecamp.org^
@@ -132090,6 +132127,7 @@ zznews.cn##.ad:not([style])
 ||ugdturner.com^$third-party
 ||ugent.be/js/log.js
 ||ugeolf.com^$script
+||ugewvoyijwy.com^
 ||ugg66.com^
 ||ughhimtoy.com^
 ||ugishdff.xyz^
