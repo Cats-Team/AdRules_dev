@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-04-07 18:25:18（北京时间） 
-! Total count: 5351
+! Version: 2022-04-08 06:23:14（北京时间） 
+! Total count: 5355
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1355,6 +1355,7 @@
 @@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com
 @@||clj.valuecommerce.com^|
 @@||clk*.tradedoubler.com^|
+@@||cloud.189.cn/web/subapp/main.html$jsinject,elemhide,extension
 @@||cloud.google.com^$generichide
 @@||cloud.google.com^$~third-party
 @@||cloud.mail.ru^$image,~third-party
@@ -2428,7 +2429,10 @@
 @@||google.com/js/gweb/analytics/$domain=google.com
 @@||google.com/js/gweb/analytics/doubletrack.js$domain=android.com
 @@||google.com/payments/*/adwords.$document,subdocument
-@@||google.com/recaptcha/$csp,script,subdocument
+@@||google.com/recaptcha/$csp,subdocument
+@@||google.com/recaptcha/api.js
+@@||google.com/recaptcha/enterprise.js
+@@||google.com/recaptcha/enterprise/
 @@||google.com/translate_$media,third-party,xmlhttprequest
 @@||google.com/usability/$domain=google.com,document
 @@||google.de/translate_$media,third-party,xmlhttprequest
@@ -2460,6 +2464,7 @@
 @@||googleoptimize.com/optimize.js$script,domain=wallapop.com
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
 @@||googletagmanager.com/gtag/$domain=usnews.com
+@@||googletagmanager.com/gtag/js$domain=av01.tv|javhd.com
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=bizimtoptan.com.tr
 @@||googletagmanager.com/gtag/js$domain=dholic.co.jp
@@ -3977,7 +3982,6 @@
 @@||pool.supportxmr.com^
 @@||popart.hk/newweb/$generichide
 @@||popeater.com/traffic/?$script,domain=popeater.com
-@@||popin.cc/popin_discovery/$script,domain=mainichikirei.jp
 @@||popo8.com^$domain=www.6park.com
 @@||pornbraze.com^$generichide
 @@||portal.autotrader.co.uk/advert/$~third-party
