@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-04-08 06:23:14（北京时间） 
-! Total count: 127007
+! Version: 2022-04-08 18:26:29（北京时间） 
+! Total count: 127031
 ! ------加强屏蔽Start------ !
 !酷安"提到的好物"
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
@@ -3156,6 +3156,7 @@ bilibili.com#@#.btn-ctnr
 ###ads-vertical-wrapper
 ###ads-wrap
 ###ads-wrapper
+###ads.row
 ###ads1
 ###ads100Box
 ###ads100Middlei4
@@ -4411,6 +4412,7 @@ bilibili.com#@#.btn-ctnr
 ###asdw3 + img + :not(div)
 ###asideAd
 ###aside_ad
+###aside_cat_ad_bottom
 ###asideads
 ###asinglead
 ###asx_text
@@ -4638,6 +4640,7 @@ bilibili.com#@#.btn-ctnr
 ###billboard_ad
 ###bingadcontainer2
 ###bl11adv
+###bl_mobile_float
 ###blancco-ad
 ###blkAds1
 ###blkAds2
@@ -5015,6 +5018,8 @@ bilibili.com#@#.btn-ctnr
 ###captcha-adspace
 ###carbonads-container
 ###card-ads-top
+###cat_intro_first_ad
+###cat_intro_second_ad
 ###catad
 ###catalog_page_970x250_1_ad
 ###catalyst-125-ads
@@ -5104,6 +5109,7 @@ bilibili.com#@#.btn-ctnr
 ###columnTwoAdContainer
 ###column_adverts
 ###column_extras_ad
+###comic_reader + #adDisabledBtn
 ###comiis_xizi_gg02
 ###commentAdWrapper
 ###commentTopAd
@@ -8935,6 +8941,8 @@ bilibili.com#@#.btn-ctnr
 ###top-right-ad-slot
 ###top-search-ad-wrapper
 ###top-sidebar-ad-300x250
+###top-skin-ad
+###top-skin-ad-bg
 ###top-sponsor-ad
 ###top-story-ad
 ###top-story-ad-0
@@ -15551,6 +15559,7 @@ bilibili.com#@#.btn-ctnr
 ##.app_ad_unit
 ##.app_advertising_skyscraper
 ##.app_nexus_banners_common
+##.appdownload_ad + .hider
 ##.appguide-wrap[onclick*="bcebos.com"]
 ##.appnexus.ad
 ##.apxContentAd
@@ -43230,7 +43239,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
@@ -55525,6 +55534,7 @@ netbardh.com##.js-static[data-position="3.3"]
 netbardh.com##.pos-navbar-ad
 netbian.com##a[href^="https://ibaotu.com/guanggao/"]
 netflav.com##.ads_video_overlay_mobile
+netflix-izle.com#$#override-property-read reklam_1 undefined; override-property-read reklamsayisi undefined; override-property-read reklam_1_saniye null; override-property-read reklam_1_gecsaniye null;
 netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)
 netflix.mom,netflixya.com,yanetflix.com##.tips-box,#note.popup
 netsh.org##DIV#ad-header-text,DIV#ad-above-content,div#ad-blog-header,.adsbygoogle,[style="margin:8px auto; width:730px; max-height:90px;"],#ad-link-banner,#ad-header
@@ -56473,8 +56483,10 @@ pocket-lint.com##.im-desktop
 pocket-lint.com##.recommended-best-deal
 pocket-lint.com##.sqr_p
 pocket-lint.com##.squirrel_widget
+pocket-lint.com##div[id^="taboola-demo-widget_"]
 pocketgamer.com##.abs
 pocketgamer.com##.item-unit
+pocketnow.com###block-alertbar
 poedb.tw#?#div[id]:-abp-contains(ad blocker)
 pogocheats.net#@#.adsbygoogle
 pogoda.wp.pl#$#abort-on-property-read prebidConfig.config.floorprices
@@ -63110,6 +63122,7 @@ zznews.cn##.ad:not([style])
 ||21edu8.com/js/mymoney/
 ||21find.com^$popup
 ||21fit3-wnro.cn^
+||21gebd.store^
 ||21kk.cc^
 ||21mob.com^
 ||21sexturycash.com^
@@ -63756,6 +63769,7 @@ zznews.cn##.ad:not([style])
 ||42d61f012e27b36d53.com^
 ||42fd278b95.com^
 ||42ye.com^
+||42yenxh.cn^
 ||43137c93a82b0e81da.com^
 ||4336wang.cn^
 ||43423.com/template/skin1/images/g_js/
@@ -71692,6 +71706,8 @@ zznews.cn##.ad:not([style])
 ||banzd.com^
 ||banzdw.cn^
 ||banzf.com^
+||banzhu111.xyz/js/51.js
+||banzhu111.xyz/js/cdn.js
 ||banzhuxs.org/js/function.js
 ||banzou.name/qq/qq2.js
 ||baobaopicture.space^
@@ -74533,6 +74549,7 @@ zznews.cn##.ad:not([style])
 ||catbox.moe/bb5wdv.jpg
 ||catchtheclick.com^$popup
 ||cathaycentury.com^
+||catherinebeverly.com^
 ||catherineembankmentbouquet.com^
 ||cathodecreped.com^
 ||catiligh.ru^
@@ -80589,6 +80606,7 @@ zznews.cn##.ad:not([style])
 ||dspmulti.com^
 ||dspultra.com^
 ||dspultra.com^$popup
+||dsqzk.cn^
 ||dsrjpcjgb.xyz^
 ||dss8l0f.cn^
 ||dssdr.top^
@@ -87994,6 +88012,7 @@ zznews.cn##.ad:not([style])
 ||hk50606.cn^
 ||hk9600.com^
 ||hkb123.com/plus/show.php
+||hkbmsb.fun^
 ||hkbrrwxnijhnfg.com^
 ||hkcoding.com/chequeconvert/img/grammarly-
 ||hkcoding.com/img/
@@ -88319,6 +88338,7 @@ zznews.cn##.ad:not([style])
 ||hot.ffhre.com^
 ||hot4k.org^
 ||hotavxxx.com/images/*96
+||hotbanner.site^
 ||hotcaracum.com/banner/
 ||hotchat-im.iqiyi.com^
 ||hotchatdate.com^$popup
@@ -88452,6 +88472,7 @@ zznews.cn##.ad:not([style])
 ||hqq.tv/out.php?$popup
 ||hqr9q6f30371.com^
 ||hqsjc.com^
+||hqtlw.cn^
 ||hqtrk.com^$popup
 ||hqtrnoqfvqao.xyz^
 ||hqvwniado.com^
@@ -91066,6 +91087,7 @@ zznews.cn##.ad:not([style])
 ||j.zhuyonglawyer.com^
 ||j.zlszw.com^
 ||j.zykxjt.com^
+||j05ot.online^
 ||j07773.com^
 ||j1.ax.xrea.com^
 ||j1.piaobing.com^
@@ -97192,6 +97214,7 @@ zznews.cn##.ad:not([style])
 ||meried.co^
 ||meriesbefor.fun^
 ||meritdeserved.com^
+||meritiny.top^
 ||merituckia.cam^
 ||merklesearch.com/merkle_track.js
 ||merryemotionally.com^
@@ -98406,6 +98429,7 @@ zznews.cn##.ad:not([style])
 ||mountain.zhidao.baidu.com^
 ||mountainouspear.com^
 ||mountries.xyz^
+||mouruidesign.cn^
 ||mouse3k.com^$third-party
 ||mouseflow.com^$domain=wetter.com
 ||mouseflow.com^$third-party
