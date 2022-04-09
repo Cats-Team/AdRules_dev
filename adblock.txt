@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-04-09 06:23:47（北京时间） 
-! Total count: 127069
+! Version: 2022-04-09 18:24:41（北京时间） 
+! Total count: 127090
 ! ------加强屏蔽Start------ !
 !酷安"提到的好物"
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
@@ -27870,6 +27870,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 .com/adds/
 .com/adinf/
 .com/adlib/
+.com/ads.
 .com/ads.$~script,~xmlhttprequest
 .com/ads/$image,object,subdocument,domain=~developers.google.com|~sabotage-films.com
 .com/ads/ada.js
@@ -34372,7 +34373,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /dynamicvideoad?
 /dynamicyield/*
 /dynanews/ad-
-/dynatrace-$domain=~dynatrace.com|~github.com
+/dynatrace-$~image,domain=~dynatrace.com|~github.com|~github.io
 /dynbanner/flash/*
 /dynimpression?rkey=
 /dyxia/js/ny
@@ -38524,6 +38525,10 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /rpgetad.
 /rr/t?step=
 /rrweb-record-
+/rrweb-script.
+/rrweb.js
+/rrweb.min.js
+/rrweb/*
 /rsads.js
 /rsads/*
 /rsc_ad_
@@ -47481,8 +47486,8 @@ bccn.net##img[src*="data:"]
 bcmagazine.net##img[style^="width:300px;"]
 bcquan.me##.bcqad
 bd-sanctuary.com,cine-sanctuary.com,comics-sanctuary.com,manga-sanctuary.com##div[style^="background:#444;"]
-bd2020.com###fmtdiv
-bd2020.com##body > div[id^="z"]
+bd2020.co###fmtdiv
+bd2020.co##body > div[id^="z"]
 bde4.cc###ayx > img
 bde4.cc###ybad > center:first-child
 bde4.cc##div:last-child > a:last-child > img
@@ -52862,10 +52867,12 @@ iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com###zbsp
 iqiyi.com##+js(aeld,dblclick,t.fullToggle)
+iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
 iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
 iqiyi.com##.adBanner980
 iqiyi.com##.banner3
 iqiyi.com##.banner980
+iqiyi.com##.black-screen[data-cupid="adblock-blackscreen"], div[data-adzone],#block-V
 iqiyi.com##.cell-left
 iqiyi.com##.cell-right
 iqiyi.com##.cupid-panel + div
@@ -54438,6 +54445,7 @@ m.huya.com##.start-btn
 m.huya.com##.u-btn-down.header-app-btn
 m.huya.com##.u-btn-down.start-btn
 m.image.so.com##.waterfall > li[data-imgid] > a[href^="https://e.so.com/search/mclick?"]
+m.iqiyi.com##+js(set, Object.prototype.adPlayerId, '')
 m.iqiyi.com##DIV.iqyGuide-content,.cover
 m.iqiyi.com##div#shortcut,div.banner_inner.bd-large.aaaa,div.appBar
 m.ithome.com##BUTTON[class='open-app']
@@ -58273,6 +58281,7 @@ sports.qq.com##.topBnaner
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 sports.qq.com##a[href^="http://market.1hai.cn/"]
 sports.qq.com##div.nwrap,div.ad-type-a,.oBanner,#banner,.topBnaner,[href^="http://iwan.qq.com/ad/"],[class="layout mt35"],[class^="ad-type-"],.mod-ad-full,#midExtension
+sports.qq.com,v.qq.com#@#+js(nosiif,/^/,100)
 sports.ru,tribuna.com#$#override-property-read Object.prototype.getRandomArrayElement noopFunc
 sports4u.tv,sports4u.live#@##adblock
 sportsclimax.com###top_banner
@@ -59193,6 +59202,8 @@ tophub.today##.ax
 topminecraftservers.org##.grey-section
 toppixxx.com###bottom
 toppixxx.com##.thumbad
+topservers.com##.google_slot
+topservers.com##.long_wrap
 topwar.ru###google_full_story_mobile
 topwwnews.com#$#abort-on-property-read localStorage
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
@@ -60273,6 +60284,7 @@ wifinetnews.com##table[height="260"]
 wigcw.cn##.alert-block
 wigcw.cn##a[href*=".gwents.com"]
 wiki.fextralife.com#@#.ad-sidebar
+wiki.gg##[href^="https://app.wiki.gg/showcase/"]
 wiki.mbalib.com##.app-ad
 wiki.mbalib.com##.download_app.news-banner-container
 wikihow.com###contribute_footer
@@ -60737,6 +60749,7 @@ www.newasp.net##div.banner,div.a_box10,IFRAME[src*=".e399.com/html/"]
 www.news.cn##[id^="adBody"],#topAdv,.guanggao
 www.newsmth.net##div#sogou_banner
 www.nuxue.com##DIV[id^="f21ac82b21eeb7322631b6aa94e17f"]
+www.olevod.com##DIV.B1Lss,.B1Rss
 www.pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],DIV#slide.layui-carousel,DIV.closeable
 www.paipai.fm##a#picleft,a#picright,div.wrapbg
 www.pbhz.com##.agoogled,#text-html-widget-2
@@ -71972,7 +71985,7 @@ zznews.cn##.ad:not([style])
 ||bd100.010lm.com^
 ||bd11.nipic.com^
 ||bd2.zuimeitianqi.com^
-||bd2020.com/gg/
+||bd2020.co/gg/
 ||bd202457b.com^
 ||bd2fbnfg.com^
 ||bd3.chuiyue.com^
@@ -91468,6 +91481,7 @@ zznews.cn##.ad:not([style])
 ||jianglishi.cn^$third-party
 ||jianglongjie.cn^
 ||jiangmg.com^
+||jiangsm.club^
 ||jianhuadaily.com/wp-content/plugins/popup-
 ||jiankang13.com^$third-party
 ||jianke.com^*/jquery.ppt.
@@ -96649,6 +96663,7 @@ zznews.cn##.ad:not([style])
 ||mayhemabjure.com^
 ||mayi360.cn^
 ||mayiad.com^
+||mayib.xyz^
 ||mayie.xyz^
 ||mayif.xyz^
 ||mayig.xyz^
@@ -105947,6 +105962,7 @@ zznews.cn##.ad:not([style])
 ||rank4all.eu^$third-party
 ||rankchamp.de^$third-party
 ||ranke.link^
+||ranker.com/api/tr?
 ||rankhit.china.com^
 ||ranking-charts.de^$third-party
 ||ranking-counter.de^$third-party
@@ -107099,6 +107115,7 @@ zznews.cn##.ad:not([style])
 ||roirocket.com^$third-party
 ||roiservice.com^$third-party
 ||roispy.com^$third-party
+||roistat.com^*/addVisit?
 ||roitesting.com^$third-party
 ||rokitokijoki.com^
 ||rolegu.com^
@@ -111547,6 +111564,7 @@ zznews.cn##.ad:not([style])
 ||songcan.me^
 ||songlongtech.com^
 ||songrfid.com^
+||songshijiazu.cn^
 ||songsongyun.com/ads/
 ||songssmoke.com^
 ||sonichits.com/tf.php
@@ -113744,7 +113762,6 @@ zznews.cn##.ad:not([style])
 ||suwoj.com^
 ||suxhap.com^
 ||suzanne.pro^
-||suzihaza.com^
 ||sv.baidu.com/liveserver/sys/sync
 ||sv.log57.top^
 ||sv2.biz^$third-party
@@ -115234,6 +115251,7 @@ zznews.cn##.ad:not([style])
 ||tianfus.com^$third-party
 ||tiangu99.com^
 ||tianhenggo.xyz^
+||tianhong.mobi^
 ||tianhuafund.cn^
 ||tianii.top^
 ||tianji520.cn^$third-party
@@ -116584,6 +116602,7 @@ zznews.cn##.ad:not([style])
 ||tracker.bt.uol.com.br^
 ||tracker.cauly.co.kr^
 ||tracker.cdnbye.com^
+||tracker.comagic.ru^
 ||tracker.data-vp.com^
 ||tracker.digitalcamp.co.kr^
 ||tracker.downdetector.com^
@@ -117458,6 +117477,7 @@ zznews.cn##.ad:not([style])
 ||trw12.com^$popup
 ||trw12.com^$third-party
 ||trwl1.com/ascripts/gcrt.js
+||trx-hub.com^
 ||trx3.famousfix.com^
 ||try.abtasty.com^
 ||try9.com^$third-party
@@ -119434,6 +119454,7 @@ zznews.cn##.ad:not([style])
 ||visitingtoelargely.com^
 ||visitor-analytics.io^$third-party
 ||visitor-analytics.net^$third-party
+||visitor-microservice.ext.p-a.im^
 ||visitor-stats.de^$third-party
 ||visitor-track.com^$third-party
 ||visitorglobe.com^$third-party
