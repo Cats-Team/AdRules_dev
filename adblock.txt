@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-04-10 06:23:04（北京时间） 
-! Total count: 127130
+! Version: 2022-04-10 18:24:48（北京时间） 
+! Total count: 127151
 ! ------加强屏蔽Start------ !
 !酷安"提到的好物"
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
@@ -1353,6 +1353,7 @@ bilibili.com#@#.btn-ctnr
 ###ad-sidebarleft-top
 ###ad-single-spotlight-container
 ###ad-skin
+###ad-skm-below-content
 ###ad-sky
 ###ad-sky-atf
 ###ad-sky-btf
@@ -5850,6 +5851,7 @@ bilibili.com#@#.btn-ctnr
 ###eis_pad1
 ###eis_pad2
 ###elections-ad-container
+###elgoogybsda
 ###elite-ads
 ###em_ad_superbanner
 ###embedAD
@@ -21219,6 +21221,7 @@ bilibili.com#@#.btn-ctnr
 ##.results_sponsor_right
 ##.rev-content-sponsored
 ##.rev_square_side_door
+##.revamp-ads
 ##.revcontent-main-ad
 ##.revcontent-slot
 ##.review-ad
@@ -22751,6 +22754,7 @@ bilibili.com#@#.btn-ctnr
 ##.tfagAd
 ##.tgads-box
 ##.tge-ad
+##.th-ad
 ##.thb_ad_before_header
 ##.thb_ad_header
 ##.theAdvert
@@ -46362,7 +46366,7 @@ aipai.com##canvas~*
 aipai.com##div.side_gg,div#baidu_gg,div#pm_bgg,div[class^="wbanner_baidu_"],div.wbanner_baidu_689,div.banner_90,.con_l,.con_r,div#videosRightDown,div.cover_inner,a.pmp_random,[class^="banner_"],#theme_gg,.pm_bgg,[id^="cs_gg"],.spread,.ad
 aiqicha.baidu.com##.float-banner
 aiqicha.baidu.com#@#.share-label
-aiqicha.baidu.com#@#.share-title
+aiqicha.baidu.com,xinmin.cn#@#.share-title
 airav.cc###Panel_GambleZone
 airav.cc###Panel_GambleZone + .Hide_For_JP_AND_EN
 airav.cc###Right_Panel > div[style^="margin-"]
@@ -48025,6 +48029,7 @@ burze.dzis.net#@#.adsbygoogle
 buscodepto.com##div[style^="position: fixed;"]
 business-hack.net,clip.m-boso.net,iine-tachikawa.net,meihong.work#@#.category-ads:not(html):not(body)
 businessinsider.com##.in-post-sticky
+businessinsider.com,insider.com##.in-post-sticky
 businessinsider.com.au##.content-section-banner
 businessinsider.in##.clmb_eoa
 businessinsider.in##.colombia-rhs-wdgt
@@ -52829,6 +52834,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.opr-xmas-game-con
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.res_top_banner
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[data-click*="\"rsv_srcid\":\"10090\""]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-platform"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-romance"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_chris_prize_list"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_game_recommend"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_timeliness2"]
@@ -55366,6 +55372,8 @@ myanimelist.net###M_300x250_1_iframe
 myanimelist.net###M_320x50_1_iframe
 myanimelist.net##._unit
 myanimelist.net##.koukoku-sticky-wrapper
+myanimelist.net##.mal-side-koukoku
+myanimelist.net##.pda-tla-nUGkAdHmiepCTsbx
 myanimelist.net##.pda_top
 myanimelist.net##.tag_pc_top
 mybroadband.co.za##.box-sponsored
@@ -57755,6 +57763,7 @@ shockwave.com##.ympb_target_banner
 shoegames.blogspot.com###HTML5
 shoesession.com##iframe[width="732"]
 shop.asobistore.jp#@#.block-sponsor
+shortlist.com##.align-xl-content-between
 shortorial.com,webogram.in##.sgpb-popup-dialog-main-div-wrapper
 shortorial.com,webogram.in##.sgpb-popup-overlay
 shortwaveschedule.com###reclama_mijloc
@@ -60160,6 +60169,7 @@ weibo.com###pl_common_ali
 weibo.com##.UG_bn_a
 weibo.com##.tag_showTopicL[href^="https://shop.sc.weibo.com/"]
 weibo.com##DIV#pl_content_biztips,div#v6_pl_content_biztips,div[class^="WB_ad_"],div#v6_pl_rightmod_ads35,div.menberdy,div[ad-data^="id=ads_"],.vd_ads,[feedtype="ad"]
+weibo.com##a[action-type="realtimehot_ad"]
 weibo.com##div[ad-data]
 weibo.com##div[class^="HotTopic_doticon_"] + div[class^="HotTopic_tit_"]
 weibo.com##div[feedtype="ad"]
@@ -60169,6 +60179,7 @@ weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contain
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_authicon_"][src^="data"])
 weibo.com#?#.wbpro-side-panel:-abp-has(.wbpro-icon-search-tp4:-abp-contains(商))
+weibo.com#?#.wbpro-side-panel:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(商))
 weibo.com#?#tr:-abp-has(> .td-03 > .icon-txt-recommend)
 weike87.com##.copy
 weimob.com###active-entrance
@@ -61146,7 +61157,6 @@ xinjunshi.com##[id^="ads_onload"],.main_gg,[class^="ad_"]
 xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
 xinmin.cn##div[class^="IndexAd_"],div[class*="_gg"],DIV.ContentAd_665_80,DIV.ContentAd_300_250,DIV[class^="ContentAd_260_"],DIV.ListAdBox,DIV[class^="ListAd_"],DIV.ContentAdBox,DIV.ContentAd_640_90,DIV.ContentAd_600_200,div.ChannelAdBox,[href="http://sbiz.xinmin.cn/new/"]
 xinmin.cn#@#.a_p
-xinmin.cn#@#.share-title
 xinpian.com##.t-img-80,.age-img-80,.age-img-159,.t-img-78,.i-3-77,.i-sh-e,.i-re-s,.i-row2-right,.i-3-95,.su-r-img2,.su-r-img3,.p-img-list,.buy-img-110
 xinshuhaige.net##div[style="float:left;width:300px;height:300px;margin:10px;border:1px dashed blue;"]
 xinwenren.com##.banner
@@ -62768,6 +62778,7 @@ zznews.cn##.ad:not([style])
 ||14a3d6c4df.com^
 ||14bobo.com/js/
 ||14nuzznszbdp.com^
+||150075.com^
 ||1503.net/code/
 ||1503.net^
 ||151c1501b0fa.com^
@@ -74302,6 +74313,7 @@ zznews.cn##.ad:not([style])
 ||calendarrate.com^
 ||calguns.net/images/ad
 ||caliente.mx/integration-scripts/tracking.min.js
+||calistabeverly.com^
 ||call-tracking.by^$third-party
 ||call-tracking.co.uk^$third-party
 ||callalelel.info^
@@ -74520,6 +74532,7 @@ zznews.cn##.ad:not([style])
 ||carnoc.com/noticejs/
 ||caroda.io^$third-party
 ||carolina.actonservice.com^
+||carolinebeverly.com^
 ||carolsdaughter.com/IZ/uaPO0cuk/init.js
 ||carotolbhavan.com^
 ||carpcw.com^
@@ -79584,7 +79597,6 @@ zznews.cn##.ad:not([style])
 ||dialoguetramppayoff.com^
 ||diamages.carte-gr.total.fr^
 ||diamondtraff.com^
-||diampokusy.com^
 ||dian500.com^
 ||dian500.com^$third-party
 ||dian5000.com^
@@ -99609,6 +99621,7 @@ zznews.cn##.ad:not([style])
 ||netgreatlyavailable.com^
 ||netinsight.co.kr^$third-party
 ||netizen.co^$third-party
+||netkantu.com^
 ||netliker.com^$third-party
 ||netloader.cc^$third-party
 ||netminers.dk^$third-party
@@ -100445,6 +100458,7 @@ zznews.cn##.ad:not([style])
 ||ntvpinp.com^
 ||ntvpwpush.com^
 ||ntvsw.com^
+||ntwaafv.cn^
 ||ntzfly.cn^
 ||nu2.nu/gfx/sponsor/
 ||nuaaad.cn^
@@ -108134,6 +108148,7 @@ zznews.cn##.ad:not([style])
 ||schibsted.com/autoTracker
 ||schicksalnvi.cn^
 ||schjmp.com^
+||schlaftabletten.cn^
 ||schnaeppchenfuchs.com/js/default-
 ||scholarshipidol.com^
 ||schoolyeargo.com^$third-party
@@ -115311,6 +115326,7 @@ zznews.cn##.ad:not([style])
 ||tianshui.com.cn/datugg/
 ||tianshui.com.cn/newbg
 ||tianshui.com.cn/yb.html
+||tiantai.ink^
 ||tiantiansoft.com^
 ||tiantianwl.cn^
 ||tiantianyinyue.cn^
@@ -116080,6 +116096,7 @@ zznews.cn##.ad:not([style])
 ||tpm.pw^$third-party
 ||tpn134.com^
 ||tpool.cn^
+||tptoon.com/skin/js/footkk.
 ||tpx.tesseradigital.com^
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/
@@ -120123,6 +120140,7 @@ zznews.cn##.ad:not([style])
 ||wangxuan.pw^
 ||wangyao.pro^
 ||wangyasen.link^
+||wangye.icu^
 ||wangyeshij.top^
 ||wangyh.icu^
 ||wangyouxs.cn^
@@ -125999,6 +126017,7 @@ zznews.cn##.ad:not([style])
 11px.cn##.zz
 11px.cn##.zz_nr
 012.tw#@#.ad728
+12tomatoes.com,bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,whitepages.ae###leaderboard
 13mv.com##.aggd
 13mv.com##li[id^="media_image-"]
 13mv.com,csai.cn##.keifu
@@ -126192,6 +126211,8 @@ zznews.cn##.ad:not([style])
 51dll.com,fulisuo.com,papa1024.com###aa
 51feels.com##.gg
 51itstudy.com###ad_coupleleft,.adsbygoogle,.ad_leftbanner
+51live.com###adquality
+51live.com###waterMark
 51live.com##.play-text,[height="50"],.left-banner
 51nb.com###diynavtop + .t_rown[cellpadding="5"]
 51nb.com##.a_mu,.altbg2,.a_f

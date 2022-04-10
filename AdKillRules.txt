@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdKillRules
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
-! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-04-09 22:22:41
-! Total count: 140490
+! 该规则合并自AdGuardDNS过滤器，HalfLife，Adgk，Neodev_lite，Githosts，Adaway，Anti-ad， Malicious URL Blocklist以及乘风规则! Version: 2022-04-10 10:24:24
+! Total count: 140492
 
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -5675,6 +5675,7 @@
 ###eis_pad1
 ###eis_pad2
 ###elections-ad-container
+###elgoogybsda
 ###elite-ads
 ###em_ad_superbanner
 ###embedAD
@@ -21032,6 +21033,7 @@
 ##.results_sponsor_right
 ##.rev-content-sponsored
 ##.rev_square_side_door
+##.revamp-ads
 ##.revcontent-main-ad
 ##.revcontent-slot
 ##.review-ad
@@ -39791,7 +39793,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /video-js-ads.
 /video.ads.
 /video.counters.
-/video.counters.js
 /video/ad/*
 /video/ads/*
 /video/tracking.js
@@ -43352,7 +43353,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||api.ipify.org^$xmlhttprequest,domain=247sports.com|account.pennytel.com.au|equinoxplus.com|speedcheck.ky
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
-@@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.mixpanel.com/engage/?data=$xmlhttprequest,domain=deezer.com
 @@||api.mixpanel.com/track/*$domain=etcher.io
 @@||api.mixpanel.com/track/?data=$xmlhttprequest,domain=deezer.com
@@ -49065,7 +49065,7 @@ aipai.com##canvas~*
 aipai.com##div.side_gg,div#baidu_gg,div#pm_bgg,div[class^="wbanner_baidu_"],div.wbanner_baidu_689,div.banner_90,.con_l,.con_r,div#videosRightDown,div.cover_inner,a.pmp_random,[class^="banner_"],#theme_gg,.pm_bgg,[id^="cs_gg"],.spread,.ad
 aiqicha.baidu.com##.float-banner
 aiqicha.baidu.com#@#.share-label
-aiqicha.baidu.com#@#.share-title
+aiqicha.baidu.com,xinmin.cn#@#.share-title
 airav.cc###Panel_GambleZone
 airav.cc###Panel_GambleZone + .Hide_For_JP_AND_EN
 airav.cc###Right_Panel > div[style^="margin-"]
@@ -64982,7 +64982,6 @@ xinjunshi.com##[id^="ads_onload"],.main_gg,[class^="ad_"]
 xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
 xinmin.cn##div[class^="IndexAd_"],div[class*="_gg"],DIV.ContentAd_665_80,DIV.ContentAd_300_250,DIV[class^="ContentAd_260_"],DIV.ListAdBox,DIV[class^="ListAd_"],DIV.ContentAdBox,DIV.ContentAd_640_90,DIV.ContentAd_600_200,div.ChannelAdBox,[href="http://sbiz.xinmin.cn/new/"]
 xinmin.cn#@#.a_p
-xinmin.cn#@#.share-title
 xinpian.com##.t-img-80,.age-img-80,.age-img-159,.t-img-78,.i-3-77,.i-sh-e,.i-re-s,.i-row2-right,.i-3-95,.su-r-img2,.su-r-img3,.p-img-list,.buy-img-110
 xinshuhaige.net##div[style="float:left;width:300px;height:300px;margin:10px;border:1px dashed blue;"]
 xinwenren.com##.banner
@@ -66688,6 +66687,7 @@ zznews.cn##.ad:not([style])
 ||14a3d6c4df.com^
 ||14bobo.com/js/
 ||14nuzznszbdp.com^
+||150075.com^
 ||1503.net/code/
 ||1503.net^
 ||151c1501b0fa.com^
@@ -78750,7 +78750,6 @@ zznews.cn##.ad:not([style])
 ||bookmtpo.com^
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
-||bookoffonline.co.jp/mbfiles/tracking/
 ||bookofsex.com^$third-party
 ||bookopen.cn^
 ||bookrb.com/images/jtt
@@ -86361,7 +86360,6 @@ zznews.cn##.ad:not([style])
 ||diamages.carte-gr.total.fr^
 ||diamant-software.actonservice.com^
 ||diamondtraff.com^
-||diampokusy.com^
 ||dian500.com^
 ||dian500.com^$third-party
 ||dian5000.com^
@@ -109662,6 +109660,7 @@ zznews.cn##.ad:not([style])
 ||netgreatlyavailable.com^
 ||netinsight.co.kr^$third-party
 ||netizen.co^$third-party
+||netkantu.com^
 ||netliker.com^$third-party
 ||netloader.cc^$third-party
 ||netminers.dk^$third-party
@@ -119670,6 +119669,7 @@ zznews.cn##.ad:not([style])
 ||schibsted.com/autoTracker
 ||schicksalnvi.cn^
 ||schjmp.com^
+||schlaftabletten.cn^
 ||schlaubi.de/dynamicjavascript/tracking^
 ||schnaeppchenfuchs.com/js/default-
 ||scholarshipidol.com^
@@ -128906,6 +128906,7 @@ zznews.cn##.ad:not([style])
 ||tianshui.com.cn/datugg/
 ||tianshui.com.cn/newbg
 ||tianshui.com.cn/yb.html
+||tiantai.ink^
 ||tiantiansoft.com^
 ||tiantianwl.cn^
 ||tiantianyinyue.cn^
@@ -134687,6 +134688,7 @@ zznews.cn##.ad:not([style])
 ||wangxuan.pw^
 ||wangyao.pro^
 ||wangyasen.link^
+||wangye.icu^
 ||wangyeshij.top^
 ||wangyh.icu^
 ||wangyouxs.cn^
