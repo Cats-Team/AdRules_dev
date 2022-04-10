@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-04-10 18:24:48（北京时间） 
-! Total count: 127151
+! Version: 2022-04-11 06:23:20（北京时间） 
+! Total count: 127153
 ! ------加强屏蔽Start------ !
 !酷安"提到的好物"
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
@@ -16205,6 +16205,7 @@ bilibili.com#@#.btn-ctnr
 ##.block-pm_doubleclick
 ##.block-pt-ads
 ##.block-reklama
+##.block-simple-blockad-320-250-front-2
 ##.block-simpleads
 ##.block-skyscraper-ad
 ##.block-sn-ad
@@ -29465,7 +29466,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /ad-identifier.
 /ad-ifr.
 /ad-iframe-
-/ad-iframe.
 /ad-iframe?
 /ad-image.
 /ad-images/*$~image
@@ -34282,7 +34282,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /dne_ad.
 /dni_reporting.js
 /dns_ad/*
-/dnsads.
 /doIperceptionsRegulator.
 /doctracking.
 /dolWebAnalytics.
@@ -47840,7 +47839,6 @@ blogbugs.org,tallermaintenancar.com,zuzandra.com##.player-right
 bloggertemplateplace.com##.bsainpost
 blogvporn.com##.blue-btns
 bloomberg.com###adBlockerContainer
-bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,whitepages.ae###leaderboard
 bloomberg.com,weatherpro.com##.leaderboard-wrapper
 blueidea.com##.listcontent
 bmbaike.cn
@@ -48028,7 +48026,6 @@ buondua.com##small[style^="border-bottom: solid 1px;"]
 burze.dzis.net#@#.adsbygoogle
 buscodepto.com##div[style^="position: fixed;"]
 business-hack.net,clip.m-boso.net,iine-tachikawa.net,meihong.work#@#.category-ads:not(html):not(body)
-businessinsider.com##.in-post-sticky
 businessinsider.com,insider.com##.in-post-sticky
 businessinsider.com.au##.content-section-banner
 businessinsider.in##.clmb_eoa
@@ -49180,10 +49177,10 @@ dama.cz##div[class^="sky-wrap"]
 daman.cc##DIV#p-left,DIV#p-right,[class^="ad980"]
 dancering.cn##.a_h
 dandanplay.com##div[id$="_ad"],iframe[width="720"][height="90"]
-dandanzan10.top,nunuyy10.top##+js(set,RTCPeerConnection,null)
-dandanzan10.top,nunuyy10.top##+js(set,webkitRTCPeerConnection,null)
-dandanzan10.top,nunuyy10.top##.gm-fp-body video:style(max-height:100%!important)
-dandanzan10.top,nunuyy10.top#@#+js(nowebrtc)
+dandanzan10.top,nnyy6.top##+js(set,RTCPeerConnection,null)
+dandanzan10.top,nnyy6.top##+js(set,webkitRTCPeerConnection,null)
+dandanzan10.top,nnyy6.top##.gm-fp-body video:style(max-height:100%!important)
+dandanzan10.top,nnyy6.top#@#+js(nowebrtc)
 dangdang.com###fix_erweima
 dangdang.com##.bottom_fixed
 dangdang.com##.code2s
@@ -57651,6 +57648,7 @@ serverhd.eu###countDown
 serverhd.eu##[id^="closeFrame"]
 seseda90.com###clone_ad
 seshowclub.com##.topAdv,tbody#cate_thread,.ad_thread
+setlist.fm##.prmtnTop
 setn.com###FBAnchor
 setn.com##.header-left-banner
 setn.com##.header-right-banner-b
@@ -58895,6 +58893,7 @@ thepostmillennial.com###leader-mot
 thepostmillennial.com##.mot-label
 thepostmillennial.com##.support
 thepostmillennial.com##.surfsharkcontent
+thepostmillennial.com#?#.bg-yellow-400:-abp-has(.topAlertAds)
 thequint.com##._1v3nU
 thequint.com##._4xQrn
 therainbowtimesmass.com##img[alt="banner ad"]
@@ -60169,16 +60168,15 @@ weibo.com###pl_common_ali
 weibo.com##.UG_bn_a
 weibo.com##.tag_showTopicL[href^="https://shop.sc.weibo.com/"]
 weibo.com##DIV#pl_content_biztips,div#v6_pl_content_biztips,div[class^="WB_ad_"],div#v6_pl_rightmod_ads35,div.menberdy,div[ad-data^="id=ads_"],.vd_ads,[feedtype="ad"]
-weibo.com##a[action-type="realtimehot_ad"]
 weibo.com##div[ad-data]
 weibo.com##div[class^="HotTopic_doticon_"] + div[class^="HotTopic_tit_"]
 weibo.com##div[feedtype="ad"]
 weibo.com#?#.card-content > ul > li:-abp-has(> p > .icon-txt-recommend)
+weibo.com#?#.card-content > ul > li:-abp-has(>a[action-type="realtimehot_ad"])
 weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains(广告))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_authicon_"][src^="data"])
-weibo.com#?#.wbpro-side-panel:-abp-has(.wbpro-icon-search-tp4:-abp-contains(商))
 weibo.com#?#.wbpro-side-panel:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(商))
 weibo.com#?#tr:-abp-has(> .td-03 > .icon-txt-recommend)
 weike87.com##.copy
@@ -73770,6 +73768,7 @@ zznews.cn##.ad:not([style])
 ||btc.com/v1/poster/production/explorer-banner.
 ||btcadtop.com^
 ||btcfans.com/template/comiis_lssy/ad/
+||btcnews.one/adsbanner_
 ||btdb.in/beacon.html
 ||btdx8.com/tmp/
 ||bte.ink^
@@ -80942,6 +80941,7 @@ zznews.cn##.ad:not([style])
 ||dyino.com^
 ||dyjqd.com/images/js/dyjqd.js
 ||dykeep.com^
+||dylenura.xyz^
 ||dymlo6ffhj97l.cloudfront.net^
 ||dymmt.com/skin/mzitu/js/foot.
 ||dyn.empflix.com^
@@ -81241,6 +81241,7 @@ zznews.cn##.ad:not([style])
 ||early-birds.fr/tracker/
 ||early-birds.fr^$third-party
 ||early-birds.io^$third-party
+||earn-bitcoins.net/banner_
 ||earnbigo.com^
 ||earnify.com^
 ||earningmo.biz^
@@ -100793,6 +100794,7 @@ zznews.cn##.ad:not([style])
 ||octopod.cc^
 ||octopuspop.com^
 ||octopuspop.com^$third-party
+||ocubafyv.xyz^
 ||ocwlhv.ecid.com.br^
 ||ocznxv.cn^
 ||oda.markitondemand.com^
