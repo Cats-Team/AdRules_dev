@@ -4,7 +4,7 @@
 
 #cd $(cd "$(dirname "$0")";pwd)
 chmod -x ./*/prepare-upstream.sh
-./*/prepare-upstream.sh
+bash ./*/prepare-upstream.sh
 cd script
 php make-addr.php
 echo "!Title: anti-AD for AdGuard" > ../anti-ad-adguard.txt
