@@ -37,15 +37,15 @@ dead_hosts=(
 )
 
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list \
- | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' >./origin-files/hosts999.txt
+ | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' >./hosts999.txt
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list \
- | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' >./origin-files/hosts998.txt
+ | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' >./hosts998.txt
 
 
 for i in "${!easylist[@]}"
 do
   echo "开始下载 easylist${i}..."
-  curl -k -o "./origin-files/easylist${i}.txt" --connect-timeout 60 -s "${easylist[$i]}" &
+  curl -k -o "easylist${i}.txt" --connect-timeout 60 -s "${easylist[$i]}" &
   # shellcheck disable=SC2181
   if [ $? -ne 0 ];then
     echo '下载失败，请重试'
@@ -56,7 +56,7 @@ wait
 for i in "${!hosts[@]}"
 do
   echo "开始下载 hosts${i}..."
-  curl -k -o "./origin-files/hosts${i}.txt" --connect-timeout 60 -s "${hosts[$i]}" &
+  curl -k -o "hosts${i}.txt" --connect-timeout 60 -s "${hosts[$i]}" &
   # shellcheck disable=SC2181
   if [ $? -ne 0 ];then
     echo '下载失败，请重试'
@@ -67,7 +67,7 @@ wait
 for i in "${!strict_hosts[@]}"
 do
   echo "开始下载 strict-hosts${i}..."
-  curl -k -o "./origin-files/strict-hosts${i}.txt" --connect-timeout 60 -s "${strict_hosts[$i]}" &
+  curl -k -o "strict-hosts${i}.txt" --connect-timeout 60 -s "${strict_hosts[$i]}" &
   # shellcheck disable=SC2181
   if [ $? -ne 0 ];then
     echo '下载失败，请重试'
@@ -78,7 +78,7 @@ wait
 for i in "${!dead_hosts[@]}"
 do
   echo "开始下载 dead-hosts${i}..."
-  curl -k -o "./origin-files/dead-hosts${i}.txt" --connect-timeout 60 -s "${dead_hosts[$i]}" &
+  curl -k -o "dead-hosts${i}.txt" --connect-timeout 60 -s "${dead_hosts[$i]}" &
   # shellcheck disable=SC2181
   if [ $? -ne 0 ];then
     echo '下载失败，请重试'
@@ -86,8 +86,6 @@ do
   fi
 done
 wait
-
-cd origin-files
 
 cat hosts*.txt | grep -v -E "^((#.*)|(\s*))$" \
  | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
