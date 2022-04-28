@@ -3,7 +3,8 @@
 #source /etc/profile
 
 #cd $(cd "$(dirname "$0")";pwd)
-
+mkdir -p ./tmp/
+cd tmp
 easylist=(
   "https://easylist-downloads.adblockplus.org/easylist.txt"
   "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt"
