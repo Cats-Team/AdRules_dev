@@ -6,6 +6,6 @@
 chmod -x ./*/prepare-upstream.sh
 bash ./*/prepare-upstream.sh
 cd script
-php make-addr.php
+#php make-addr.php
 #php ./adguard-extend.php ../anti-ad-adguard.txt
-php ./easylist-extend.php ../anti-ad-easylist.txt
+php ./easylist-extend.php
