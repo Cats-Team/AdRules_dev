@@ -24,7 +24,8 @@ jobs:
           #bash ./AdKillRules/main.sh
           #bash ./DNSFilter/main.sh
           #bash ./script/test.sh
-          bash ./script/build*.sh
+          sudo update-alternatives --set php /usr/bin/php7.4
+          /bin/bash ./script/build*.sh
       - name: Git push assets to github
         run: |
           git init
