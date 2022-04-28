@@ -10,7 +10,7 @@
  */
 
 define('ROOT_DIR', __DIR__ . '/');
-define('ORIG_DIR', ROOT_DIR . 'origin-files/');
+define('ORIG_DIR', ROOT_DIR . '../tmp/');
 set_time_limit(600);
 error_reporting(0);
 
@@ -19,10 +19,10 @@ if(PHP_SAPI != 'cli'){
 }
 
 date_default_timezone_set('Asia/Shanghai');
-$ARR_BLACKLIST = require ROOT_DIR . 'lib/black_domain_list.php';
+$ARR_BLACKLIST = require ROOT_DIR . '../rule/lib/black_domain_list.php';
 $ARR_WHITELIST = require ROOT_DIR . 'lib/white_domain_list.php';
-require ROOT_DIR . 'lib/writerFormat.class.php';
-require ROOT_DIR . 'lib/addressMaker.class.php';
+require ROOT_DIR . '../rule/lib/writerFormat.class.php';
+require ROOT_DIR . '../rule/lib/addressMaker.class.php';
 
 $arr_input_cache = $arr_whitelist_cache = $arr_output = array();
 
