@@ -3,10 +3,10 @@
 #source /etc/profile
 
 #cd $(cd "$(dirname "$0")";pwd)
-sudo ./*/prepare-upstream.sh
+chmod -x ./*/prepare-upstream.sh
+./*/prepare-upstream.sh
 cd script
 php make-addr.php
-echo
 echo "!Title: anti-AD for AdGuard" > ../anti-ad-adguard.txt
 echo "!Version: $(date "+%Y%m%d%H%M%S%N")" >> ../anti-ad-adguard.txt
 echo "!Homepage: https://anti-ad.net/" >> ../anti-ad-adguard.txt
