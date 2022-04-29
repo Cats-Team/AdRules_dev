@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202204290920
+! Version: 202204292201
 ! Title: EasyPrivacy
-! Last modified: 29 Apr 2022 09:20 UTC
+! Last modified: 29 Apr 2022 22:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2712,6 +2712,7 @@
 /log/server?
 /log/track/*
 /log/ux_analytics^
+/log/views/*
 /log/web?
 /log2.php?
 /log204?
@@ -3046,6 +3047,7 @@
 /new-relic.$~stylesheet
 /new.cnt.aspx?
 /newlog.php?
+/newrelic-browser.
 /newrelic-google-
 /newrelic-gpt.
 /newrelic.browser.
@@ -14658,6 +14660,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||brightside.me/metric-collector
 ||browser.mi-img.com^
 ||builder.io/api/v1/track
+||buondua.com/hit/
 ||bwbx.io/s3/javelin/public/hub/js/abba/$script,domain=bloomberg.co.jp|bloomberg.com
 ||c.paypal.com^$script
 ||c.wort-suche.com^
@@ -15081,7 +15084,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||neowin.net/ws/$websocket
 ||net.haier.com^
 ||netflix.com/msl/playapi/cadmium/logblob/
-||netu.wiztube.xyz^
 ||newegg.com/amber3/tracking?
 ||news.google.com/_/v
 ||newscom.com/js/v2/ga.js
