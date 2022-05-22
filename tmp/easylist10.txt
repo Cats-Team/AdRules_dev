@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: +XftsO7gBoLl4GJZ7Gjt+Q
+! Checksum: 63QZvnMXKO2IGVXrzLqbRQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-05-22 16:26:47（北京时间） 
-! Total count: 91335
+! Version: 2022-05-23 01:15:30（北京时间） 
+! Total count: 91356
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -7178,8 +7178,6 @@
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
-##div[style=" max-width:971px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:971px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
@@ -21847,6 +21845,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||drstickyfingers.com/intermission/loadTargetUrl$xmlhttprequest
 @@||dtp.tv3cloud.com/amc/beacon?$domain=telekomtvgo.hu
 @@||duckduckgo.com/?q=$generichide
+@@||duckduckgo.com/tty^$removeparam=t
 @@||dundi.it^$generichide
 @@||dupedornot.com^$generichide
 @@||dushu.ru^$script,domain=bhshu.net
@@ -27666,8 +27665,6 @@ bdsmx.tube###und_ban
 bdsmx.tube##.oImef0
 bdsmx.tube##section
 bdsmx.tube,hotmovs.com,javdoe.fun,javtape.site##.right
-bdsmx.tube,inporn.com##.video-info > section
-bdsmx.tube,inporn.com##.video-page__content > div.right
 bdsmx.tube,inporn.com##.video__wrapper > div.wrapper.headline
 bdsmx.tube,inporn.com##.wrapper > article
 bdsmx.tube,inporn.com##section[is-footer-banners]
@@ -34135,6 +34132,8 @@ inoreader.com##.block_article_ad
 inoreader.com##.sinner_inner
 inoreader.com##div[id^="column_ad-"]
 inoreader.com#$##reader_pane.reader_pane_sinner { padding-right: 0!important; }
+inporn.com##.video-info > section
+inporn.com##.video-page__content > div.right
 inporn.com,bdsmx.tube###in_v
 inporn.com,bdsmx.tube##.btn-close
 inquirer.net###billboard_article
@@ -48459,6 +48458,7 @@ zznews.cn##.ad:not([style])
 ||aau6.xyz^
 ||aau8.xyz^
 ||aau9.xyz^
+||aawulszemel.com^
 ||aax-eu-dub.amazon.com^$script
 ||aax-us-iad.amazon.com^$script
 ||aaxads.com^
@@ -51286,6 +51286,7 @@ zznews.cn##.ad:not([style])
 ||artimwapo.com^$script
 ||artisan-digital.cn^
 ||artistchristinacarmel.ericksonbuilt.com^
+||artisticbuoyemphasize.com^
 ||artpever.com^
 ||arts-cloud.net^
 ||artsmalle.pro^
@@ -55034,7 +55035,6 @@ zznews.cn##.ad:not([style])
 ||cleverwebserver.com^$third-party
 ||clevi.com^$third-party
 ||clewm.net/public/cli_analytics.js$domain=cli.im
-||clewxc.com/xd2/
 ||clewxc.com/xd3/
 ||clfmm.cn^
 ||clfxts.com^
@@ -57421,6 +57421,7 @@ zznews.cn##.ad:not([style])
 ||dd3p.com/sensor/ddsense.aspx?
 ||dd6364.com/js/777/
 ||dd6zx4ibq538k.cloudfront.net^
+||ddajztoum.com^
 ||ddanq.com^
 ||ddb85f4fd9.com^
 ||dddddd.net^$third-party
@@ -58524,6 +58525,7 @@ zznews.cn##.ad:not([style])
 ||dtsxn.cn^
 ||dttrk.com^
 ||dtv5loup63fac.cloudfront.net^
+||dtwangicrur.com^
 ||dtxngr.com^$third-party
 ||dtym7iokkjlif.cloudfront.net/dough/
 ||dtyry4ejybx0.cloudfront.net^
@@ -58992,6 +58994,7 @@ zznews.cn##.ad:not([style])
 ||eb.informabi.com^
 ||ebay.$removeparam=abcId
 ||ebay.$removeparam=campid
+||ebay.$removeparam=ch
 ||ebay.$removeparam=chn
 ||ebay.$removeparam=customid
 ||ebay.$removeparam=mkcid
@@ -58999,8 +59002,11 @@ zznews.cn##.ad:not([style])
 ||ebay.$removeparam=mkgroupid
 ||ebay.$removeparam=mkrid
 ||ebay.$removeparam=mktype
+||ebay.$removeparam=osub
 ||ebay.$removeparam=poi
+||ebay.$removeparam=segname
 ||ebay.$removeparam=toolid
+||ebay.$removeparam=ut
 ||ebay.*$removeparam=bu
 ||ebay.*$removeparam=crd
 ||ebay.*$removeparam=emsid
@@ -61502,6 +61508,7 @@ zznews.cn##.ad:not([style])
 ||fwetxfvxsjtw.com^
 ||fwix.com/ref.js
 ||fwix.com^*/trackclicks_
+||fwlgepp.cn^
 ||fwmrm.net^
 ||fwnetrb.cn^
 ||fwpixel.com^$third-party
@@ -62070,6 +62077,7 @@ zznews.cn##.ad:not([style])
 ||ggwan.com^$third-party,domain=~linghit.com
 ||ggweb.net^
 ||ggxt.net^$third-party
+||ggxwb.miguvideo.com^
 ||gh1024.xyz^
 ||ghacks.net/statics/px.gif
 ||ghcncwmm.com^
@@ -69123,6 +69131,7 @@ zznews.cn##.ad:not([style])
 ||ltkcdn.net/ltkrev.js
 ||ltn.com.tw/js/ad_door.js
 ||ltripg.marti.mx^
+||lts*.qq.com^*.ts?index=$media,redirect=noop-0.1s.mp3,domain=qq.com
 ||lts*.qq.com^*.ts?index=$media,redirect=noopmp3-0.1s,domain=qq.com
 ||lts*.qq.com^*.ts?index=$media,rewrite=abp-resource:blank-mp3,domain=qq.com
 ||ltsveh.wetteronline.ch^
@@ -71725,6 +71734,7 @@ zznews.cn##.ad:not([style])
 ||mutinyhq.com/impressions/
 ||mutinyhq.com^$third-party
 ||mutinyhq.io^$third-party
+||muwootch.com^
 ||muxingkj.com^$third-party,image
 ||muyang888.top/js/
 ||muybjar.cn^
@@ -72917,6 +72927,12 @@ zznews.cn##.ad:not([style])
 ||nyt1.biosens-leanature.fr^
 ||nytimes.com/svc/nyt/data-layer?
 ||nytimes.com/v1/purr-cache
+||nytimes.com^$removeparam=instance_id
+||nytimes.com^$removeparam=nl
+||nytimes.com^$removeparam=regi_id
+||nytimes.com^$removeparam=segment_id
+||nytimes.com^$removeparam=te
+||nytimes.com^$removeparam=user_id
 ||nytjyf.dholic.co.jp^
 ||nytlog.com^$third-party
 ||nytrng.com^
@@ -86890,6 +86906,7 @@ zznews.cn##.ad:not([style])
 ||vsfius.aranzulla.it^
 ||vsgwsk.bergzeit.at^
 ||vsheying.top^
+||vsmyhky.cn^
 ||vsnoon.com^$third-party
 ||vsqyaz.sweetwater.com^
 ||vst.sibnet.ru^
@@ -88843,6 +88860,7 @@ zznews.cn##.ad:not([style])
 ||xaqdf.com^
 ||xatczs.cn^
 ||xavingtsun.com^
+||xawmgspvdvyrnrd.com^
 ||xaxdwz.xyz^
 ||xay5o.toscane-boutique.fr^
 ||xayah.date^
@@ -89787,6 +89805,7 @@ zznews.cn##.ad:not([style])
 ||ygamhusjtdzajm.com^
 ||ygdy8.com/jsy/
 ||ygdy8.net/js1/
+||ygetatleiomrrr.com^
 ||yggkzs.cn^
 ||yghua.com^$third-party
 ||ygiugqyccp.com^
@@ -90310,6 +90329,7 @@ zznews.cn##.ad:not([style])
 ||yueleshenghuo.cn^
 ||yueli.me^
 ||yueli101.xyz^
+||yuemmu.com^
 ||yuesenshangmao.cn^
 ||yuesp.com/js/viu/
 ||yuetx.cc^
@@ -90735,6 +90755,7 @@ zznews.cn##.ad:not([style])
 ||zhangjuan.love^
 ||zhangjunying.top^
 ||zhangkeblog.site^
+||zhanglibomgmail.online^
 ||zhangmingqin.tech^
 ||zhangshen.club^
 ||zhangshiyuan.com^
