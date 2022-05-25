@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: sVUQIIWjdSU1c61L/nwo2g
-! Version: 202205242154
+! Checksum: Zp2v+x5uBbnP6rxRI698zg
+! Version: 202205251004
 ! Title: ABP filters
-! Last modified: 24 May 2022 21:54 UTC
+! Last modified: 25 May 2022 10:04 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -676,6 +676,7 @@ about:blank$popup,domain=streamtape.cc|streamtape.net|streamtape.xyz|streamtape.
 ##[href^="//x4pollyxxpush.com/"]
 ||a.streamoupload.*^$script
 freeomovie.co.in#$#abort-on-property-read decodeURIComponent
+fastconverter.net#?#:xpath(//div[contains(@style,"fixed") and contains(@style,"z-index")]/ancestor-or-self::div[@style][1])
 ! #CV-691
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ div[aria-label] div[class]
 ebay.ca,ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-matches-xpath './/span[contains(@class,"s-item__sep--multi-line") and contains(text(),"S") and contains(text(),"p") and contains(text(),"o") and contains(text(),"n") and contains(text(),"s") and contains(text(),"o") and contains(text(),"r") and contains(text(),"e") and contains(text(),"d")]/parent::span/ancestor::li[1][starts-with(@class,"s-item")]'
