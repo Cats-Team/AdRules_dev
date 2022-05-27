@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205270935
+! Version: 202205272205
 ! Title: Fanboy's Annoyance List
-! Last modified: 27 May 2022 09:35 UTC
+! Last modified: 27 May 2022 22:05 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -23952,6 +23952,7 @@ _vpcookieconsent/
 ###coockiepopup
 ###coockies
 ###coockies3wmDiv
+###coockies_box
 ###coockies_warning
 ###coockiewrap
 ###cook-cont
@@ -31080,6 +31081,7 @@ _vpcookieconsent/
 ##.cmp-experiencefragment--cookies
 ##.cmp-popup-cookies
 ##.cmp-teaser__subcontent
+##.cmpBoxWelcomeOptIn
 ##.cmp_cookies_usage_wr
 ##.cmplz-show-banner
 ##.cmplz-tcf-banner-hidden
@@ -42399,6 +42401,7 @@ instagram.com##.HoverCard
 ! medium.com blogs
 ##.screenContent > .u-bottom0
 ! Google notifications
+www.google.com##[jscontroller][data-limp] > .zQSHZb.cH2VZe[style^="right:"] > .gLpFG
 ##div > div + [aria-label="promo"][role="region"][data-ved]
 ! 
 ! ---------- RSS Buttons ----------
@@ -45851,6 +45854,7 @@ postaffiliatepro.com##.CookieLaw
 print24.com##.CookieLayer_wrapper__e6TSn
 bloomberglaw.com##.CookieNotice_cookiesBar_16NY6
 engen.co.za##.CookieNotification_wrapper__Pi8aL
+dailymotion.com##.CookiePopup__desktopContainer____u4u4
 brain.fm##.CookiePopup__transparentWrapper___Jmhpv
 bitcoin-store.net##.CookiePopup_container__C7az6
 traderjoes.com##.CookiesAlert_cookiesAlert__3qSl1
@@ -49325,6 +49329,7 @@ strawpoll.de###consent-overlay
 kraemer.de###consentLayer
 pharmadecor.be,van-overstraeten.be###consentmodal
 schnelle-online.info###container-banner-over
+content.de###content-de-hinweis-cookie-richtlinie-blocking
 abi-und-jetzt.com,adventures-kompakt.de,alternative-zu.de,autozine.de,burg-lindenfels.de,econsteel.de,essentraextrusion.de,flexrun-software.de,flipspot.de,goldankauf123.de,haushalts-robotic.de,kaffeeverband.de,kmcchain.de,lvr.de,mallorca.de,nik-technik.de,prosenectute.ch,shelties-vom-uhleneck.de,uni-und-dann.com###cookie
 uhrzeit123.de###cookie-consent
 designtagebuch.de,kunstverein-friedrichshafen.de,radiologen-mansfelder-land.de###cookie-law-info-bar
@@ -49514,6 +49519,7 @@ konzerthaus.de##.modal-mask
 fahrrad-xxl.de,starcar.de##.modal-overlay
 bmfgroup.de,lagerbox.com##.modal-wrapper
 ibadual.com##.modalcomplete
+myeducation.de##.modals-overlay
 demirjasarevic.com##.mpp-container
 foundrax.de##.mpp-container-position-bottom-bar
 tecedo.at##.msg-banner
@@ -49552,6 +49558,7 @@ adsomenoise.de##.svelte-sac9e3
 thomann.de##.thomann-cookie-consent-overlay
 hillwig.de##.ui-corner-all.ui-dialog
 bio-rad.com##.ui-dialog
+sparwelt.de##.ui-notification
 americantourister.at,bio-rad.com,hillwig.de,spaetzlesuche.de##.ui-widget-overlay
 cebit.de,messe.de##.user-notes-notification
 aiseesoft.de##.usernotice_pop
@@ -49735,7 +49742,7 @@ nik.bg###cookie
 bta.bg,justice.bg,mfa.bg,minfin.bg###cookies
 tennis24.bg###private_info
 devstudio.bg##.bottom-0
-edmarkinternational.bg,ledivin.bg,zora.bg##.bottom-freezed-bar
+edmarkinternational.bg,ledivin.bg,visvitalisbg.com,zora.bg##.bottom-freezed-bar
 bittel.bg##.c-website-notification
 hotelterminus.bg,strive4.bg,techmart.bg##.cookie
 fair.bg##.cookies
@@ -50499,12 +50506,14 @@ smakmagasinet.no##.coco-wrapper
 kitchentime.no,parat.com##.cookie
 lexus.no##.disclaimer
 ruter.no##.fixed-messages
+altaposten.no##.gdpr-modal
 sveip.no##.kake_wrap
 forsvaret.no##.message-bar
 dnbeiendom.no,elektroskandia.no##.modal-backdrop
 dekk1.no##.name_infobar.ModuleGroup
 nrk.no##.nrk-masthead__info-banner
 bodohavn.no##.privacy
+verdi-eiendom.no##.reveal-modal-bg
 dagbladet.no##.show.css-pp-box
 gezond.nl##.show.fade.modal
 gezond.nl##.show.fade.modal-backdrop
@@ -51188,6 +51197,7 @@ worldpower.com.tr###popup
 natro.com###readed_contract_row
 oz.av.tr##.Legal
 columbia.com.tr##.MuiCollapse-wrapperInner
+pariyer.com##.Rules
 apigo.com.tr##.ant-notification
 aksam.com.tr,star.com.tr##.bottom-0.fixed
 ikonambalaj.com.tr##.bottom-center
@@ -51200,6 +51210,7 @@ ak-asya.com.tr##.dialog-lightbox-message
 ak-asya.com.tr##.dialog-type-lightbox
 yucebasmakine.com.tr##.fadeInUp
 modoko.com.tr,muze.gen.tr##.fixed-bottom
+denizozel.com##.kvk
 dizioneri.com##.modal-backdrop
 versus-omega.com.tr##.notification
 betuyab.com.tr,yenisafak.com##.policy
@@ -51219,6 +51230,7 @@ strana.digital,strana.ua###openModal
 mullerol.com.ua###parent_popup
 facenews.ua###pblock
 zoo-food.com###policy
+104.ua###privacy-policy
 intersport.ua##.CookieMessage___R6YKh
 i.ua##.Disclaimer
 kurs.com.ua##.background-popup
