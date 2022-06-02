@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Q7oiFFs0kQsmJ8wxX1A6yg
-! Version: 202206021004
+! Checksum: s62sidn9nukoIm8+lLoFTA
+! Version: 202206022154
 ! Title: ABP filters
-! Last modified: 02 Jun 2022 10:04 UTC
+! Last modified: 02 Jun 2022 21:54 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -592,7 +592,7 @@ freeuseporn.com#$#override-property-read p18 undefined
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 letsjerk.tv#$#abort-current-inline-script asgPopScript
-apkmody.io,atomohd.com,atomtt.com,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,prmovies.re,readcomiconline.li#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+apkmody.io,atomohd.org,atomohd.com,atomtt.com,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,prmovies.re,readcomiconline.li#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 fastconverter.net#$#abort-on-property-read afScript
 tpbay.link#$#abort-on-property-read _wm_settings
 ! #CV-667
@@ -1068,6 +1068,7 @@ peliculaseroticasonline.tv#$#abort-on-property-write _0x1dc1
 animeflv.cc#$#abort-current-inline-script JSON.parse
 pelismart.com#$#abort-on-property-read localStorage
 estrenosdoramas.net#$#abort-on-property-read __DOMAIN
+monoschinos2.com#$#abort-on-property-read a3klsam; abort-on-property-write JSON.parse
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! Popup/Popunder
