@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: iGk9BJTapfgmithyAhtUcA
+! Checksum: ASOuPRvD3rxv9TAP4hTvMw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-06-05 17:18:12（北京时间） 
-! Total count: 93137
+! Version: 2022-06-06 00:28:32（北京时间） 
+! Total count: 93147
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -7447,6 +7447,7 @@ $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=streamlare.com,badfilter
 $popup,third-party,domain=videovard.sx,badfilter
 $popup,third-party,domain=webkaka.com
+$popup,third-party,domain=xmflv.com
 $removeparam=%243p,domain=reddit.com
 $removeparam=%24deep_link,domain=reddit.com
 $removeparam=%24original_url,domain=reddit.com
@@ -11214,8 +11215,8 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /^https?://www\.liveinternet\.ru/[^\s]{100,}/$header=content-type=application/json
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.(?:com|website)\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})(?:\?_=\d+)?$/$popup,third-party,match-case
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.(?:com|website)\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})(?:\?_=\d+)?$/$subdocument,script,xmlhttprequest,third-party,match-case
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.(?:com|website)\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$popup,third-party,match-case
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.(?:com|website)\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$subdocument,script,xmlhttprequest,third-party,match-case
 /^https?:\/\/(?:www\.)?[a-z0-9-]{5,}\.(?:com|bid|online|top|club)\/[0-9a-f]{32}\/invoke\.js/$script,third-party
 /^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|bid|link|live|online|top|club)\/(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,xmlhttprequest,third-party
 /^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|mangapanda|mangareader|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|assets|combined|content|cover|img|static|thumbs|wp-content|wp-includes))(.*)/$image,other,script,~third-party,xmlhttprequest,badfilter
@@ -13789,6 +13790,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /events/pixel/*$image
 /events/pixelEvent
 /events/track/*
+/events/view?
 /events?data=
 /events?rpId=
 /eventsBeacon?
@@ -47446,6 +47448,7 @@ zznews.cn##.ad:not([style])
 ||1845130540.rsc.cdn77.org/onclick_ad/
 ||185.165.169.108^
 ||185.193.38.148^
+||18600441156.cn^
 ||187cn.cn^
 ||188soft.com/js/PCsoftDetailAD.js
 ||188xiaoba.net^
@@ -50927,6 +50930,7 @@ zznews.cn##.ad:not([style])
 ||adskom.com^$third-party
 ||adskpak.com^
 ||adsnative.com^
+||adsninja.ca^$third-party
 ||adsniper.ru^$third-party
 ||adsnot.1javguru.xyz^
 ||adsnot.1supjav.xyz^
@@ -56368,6 +56372,7 @@ zznews.cn##.ad:not([style])
 ||cho7932105co3l2ate3covere53d.com^
 ||choachim.com^
 ||chobsang.net^
+||chocolate521.online^
 ||choconart.com^
 ||choicestream.com^*/pixel/
 ||chokupsupto.com^
@@ -59053,6 +59058,7 @@ zznews.cn##.ad:not([style])
 ||deceittoured.com^
 ||decemberpedalunfair.com^
 ||decibelinsight.net^$third-party
+||decide.dev^
 ||decidedrum.com^
 ||decideinteractive.com^$third-party
 ||decisivebase.com^
@@ -60885,6 +60891,7 @@ zznews.cn##.ad:not([style])
 ||eicyds.qoo10.jp^
 ||eidsign.com.cn^
 ||eiecaw.com^$script,xmlhttprequest
+||eignal.com^
 ||eiipskos.com^
 ||eirenefv.com^
 ||eiteribesshaints.com^
@@ -80705,6 +80712,7 @@ zznews.cn##.ad:not([style])
 ||sinaimg.cn/large^$domain=fcw45.com
 ||sinaimg.cn/mw1024/006NYgrsgy1ffahk0lf8og30i204677m.gif
 ||sinaimg.cn/mw690/005uyUwYjw1eocc98cbgag30gk02ygm9.gif
+||sinaimg.cn/mw690/00745YaMgy1gu95zq2d1qj60go09g0vc02.jpg
 ||sinaimg.cn/news/article/article_qcode
 ||sinaimg.cn/news/diversion/index2/static/js/index.
 ||sinaimg.cn/sports/20214c6d/20181128/880_110.png
@@ -82079,6 +82087,7 @@ zznews.cn##.ad:not([style])
 ||snnnyy.com^
 ||sno1.snowrental.com^
 ||snodlycaccias.com^
+||snonoz.com^
 ||snoobi.com^$third-party
 ||snoresmile.com^
 ||snowdayonline.xyz^
@@ -92628,6 +92637,7 @@ zznews.cn##.ad:not([style])
 ||zhiyoo.com/mplus/images/banner.jpg
 ||zhiys.com/img_new/mobilemo2.jpg
 ||zhizhunbao.top^
+||zhizhuzhijia.cn^
 ||zhizones.com^
 ||zhjfad.com^
 ||zhmyq.cn^
