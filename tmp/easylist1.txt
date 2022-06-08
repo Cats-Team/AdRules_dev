@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: lwg9dK3QF3ZkApphfFpeqQ
-! Version: 202206081004
+! Checksum: 2Cdi1WoMbr5Z3Bx1uo9Mtg
+! Version: 202206082154
 ! Title: ABP filters
-! Last modified: 08 Jun 2022 10:04 UTC
+! Last modified: 08 Jun 2022 21:54 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/
 !
@@ -790,7 +790,7 @@ streaminfr.com#$#abort-on-property-read pushADs
 linfoweb.com#$#abort-on-property-write num
 down-paradise.com,mega-p2p.net#$#abort-on-property-read open
 1fr1.net,forum-gratuit.net,forum2jeux.com,forumactif.com,forumactif.fr,forumactif.org,forumpro.fr,forums-actifs.com,lebonforum.com,lemondedudiagauto.com,open-consoles.com,passionmilitaria.com,superforum.fr,vttpoitou.com##a[onclick^="this.href=atob"]
-1fr1.net,forum-gratuit.net,forum2jeux.com,forumactif.fr,forumpro.fr,forums-actifs.com,lebonforum.com,lemondedudiagauto.com,open-consoles.com,passionmilitaria.com,superforum.fr,vttpoitou.com#$#abort-on-property-read atob
+1fr1.net,forum-gratuit.net,forum2jeux.com,forumpro.fr,lebonforum.com,lemondedudiagauto.com,open-consoles.com,passionmilitaria.com,vttpoitou.com#$#abort-on-property-read atob
 french-streams.com#$#abort-on-property-read open
 e-sushi.fr#$#abort-on-property-read aEteAffiche
 ! #CV-368
@@ -1135,6 +1135,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 *$third-party,script,domain=sexdiaryz.xyz
 phimhays.com#$#abort-current-inline-script jQuery window.open
 truyentranhtuan.com#$#abort-current-inline-script $ btpop
+vebo.live#$#abort-current-inline-script jQuery popup
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-hotfix/main/hotfix.txt ***
 ! FDA-2830
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
