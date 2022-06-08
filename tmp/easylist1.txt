@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: AsH2R01ddgRm5dZp45vMAQ
-! Version: 202206072154
+! Checksum: lwg9dK3QF3ZkApphfFpeqQ
+! Version: 202206081004
 ! Title: ABP filters
-! Last modified: 07 Jun 2022 21:54 UTC
+! Last modified: 08 Jun 2022 10:04 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/
 !
@@ -593,7 +593,7 @@ freeuseporn.com#$#override-property-read p18 undefined
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 letsjerk.tv#$#abort-current-inline-script asgPopScript
-apkmody.io,atomohd.org,atomohd.com,atomtt.com,goyabu.com,hentai20.com,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,prmovies.re,readcomiconline.li#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+apkmody.io,atomohd.org,atomohd.com,atomtt.com,goyabu.com,hentai20.com,kimcartoon.li,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,prmovies.re,readcomiconline.li,wiflix.bet#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 fastconverter.net#$#abort-on-property-read afScript
 tpbay.link#$#abort-on-property-read _wm_settings
 ! #CV-667
@@ -663,7 +663,7 @@ eztv.tf,eztv.unblockit.llc,eztv.yt#$#abort-current-inline-script s2ss52
 idope.cyou,yts2.cc#$#abort-on-property-read JSON.stringify
 latinblog.tv#$#abort-on-property-write _cpp
 camsstream.com#$#abort-current-inline-script onload;
-ytstv.me,yts.do,yts.mx,yts.movie,yts.rs#$#abort-on-property-read atob; abort-on-property-read setInterval;
+ytstv.me,yts.do,yts.mx,yts.movie,yts.rs#$#abort-on-property-read atob
 masahub.net#$#abort-on-property-read decodeURI; abort-on-property-read mm
 ||*.com/*b8121.js^$script,domain=mult34.com
 ||see.xxx/poppy/*.js^$domain=see.xxx
@@ -837,6 +837,8 @@ hotsexstory.xyz#$#abort-current-inline-script document.querySelectorAll popMagic
 ! #CV-667
 citpekalongan.com,designmyhomee.com,mangacanblog.com,marthamatika.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
 hotabis.com#$#override-property-read td_ad_background_click_link undefined
+! Popup/Popunder/Clickunder
+komikcast.me#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/italian.txt ***
 ! #CV-667
 mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
