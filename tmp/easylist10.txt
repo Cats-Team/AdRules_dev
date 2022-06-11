@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: lKe04i1/OAt6p7o1fwIYPg
+! Checksum: Td7KifcK5pIjyEW9pMqxhQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-06-11 17:23:24（北京时间） 
-! Total count: 93378
+! Version: 2022-06-12 00:28:14（北京时间） 
+! Total count: 93402
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -1044,6 +1044,9 @@
 ###bigbox-ad
 ###billboard-atf
 ###billboard_ad
+###bing-text-ad-1
+###bing-text-ad-2
+###bing-text-ad-3
 ###bl_mobile_float
 ###block-ltadvertising-ltadvertising
 ###blogads
@@ -7366,6 +7369,8 @@
 ##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -12828,6 +12833,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /bin/stats?
 /bineos.min.js
 /bing-bat.js
+/bingimpression?
 /bipixel/*
 /bitcoin-plus-miner/*
 /bitcoincore/?ref=
@@ -13913,6 +13919,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /facebook-retargeting-
 /facebook-tracking/*
 /facebook_fbevents.
+/facebook_pixel_
 /facebookpixel.
 /facebookpixel/*
 /facebookproductad/*$script
@@ -14454,6 +14461,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /healthanalytics.js
 /heatmap_log.js
 /heituad/*
+/heji/mei00*.js
 /helper.wasm$third-party
 /hg?hc=&hb=*&vjs=
 /hgct?hc=&hb=*&vjs=
@@ -15881,6 +15889,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /partnerbanner/*
 /partnermetrics.
 /partners/ad-
+/partnership-ads/*
 /partnerships-ads-
 /past.js|$script,domain=expres.cz|www.idnes.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 /pasta.js|$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
@@ -17468,6 +17477,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /track_outbound_
 /track_page_view?
 /track_pageview?
+/track_pixel?
 /track_proxy?
 /track_social.
 /track_stat?
@@ -19237,6 +19247,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 360che.com##.con_banner
 360che.com##div[id^="PAGE_AD_"]
 360doc.cn###artnewdiv
+360doc.com###arttopbdad
 360doc.com###btn_freeread
 360doc.com###divaboveReflectionAd1
 360doc.com###divaboveReflectionAd2
@@ -20778,8 +20789,8 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||adnxs.com^$image,subdocument,domain=bitzfree.com
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
-@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|hilton.com|ing.com.au|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
+@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca|nbarizona.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|kroger.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
@@ -23099,7 +23110,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||googletagmanager.com/gtag/js?id=$domain=dropgalaxy.com
 @@||googletagmanager.com/gtag/js?id=$xmlhttprequest,domain=streamingcommunity.*
 @@||googletagmanager.com/gtag/js^$domain=rapidvideo.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
@@ -25917,6 +25928,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||smstibo.com^$generichide
 @@||smtcaw.com^$generichide
 @@||smtebooks.net^$generichide
+@@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snailsengine.com^$script,xmlhttprequest
 @@||snakemineral.com^$script,xmlhttprequest
 @@||snakesshop.com^$script,xmlhttprequest
@@ -31409,6 +31421,7 @@ dm5.com,dm5.hk##.cl970
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 dm530.net,hdshare.cn,it168.com###adv
 dmarge.com##.dx-ad-wrapper
+dmh8.com##img[src*="data:"]
 dmhy.anoneko.com##div[id$="_adv"]
 dmhy.b168.net##div[align="center"] > a[href^="https://www.baidu.com/?mm_sycmid="] > img
 dmhy.b168.net##div[align="center"] > a[onclick*="'ad'"] > img
@@ -35956,6 +35969,7 @@ iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 iqshv.com#?#.post-list-item:-abp-has(.thumb-link[href^="http"]:not([href*=".iqshv."]))
 iqshw.com##.iqshwad-comm
 irisbuddies.ml##+js(abort-on-property-write, adregain_wall)
+irishnews.com,nscreenmedia.com,whoscored.com##.banner-container
 irk.ru##.b-adblock-message
 ironsaga-msoku.xyz#@#.ad.widget
 irs03.com
@@ -42288,6 +42302,9 @@ sina.com.cn##p + .article-video
 sina.com.tw###cboxOverlay
 sina.com.tw###colorbox
 sina.com.tw##.adbig300_mid
+sina.com.tw##.tablet_above_ad
+sina.com.tw##div[style*="min-height"][style*="250px"]
+sina.com.tw##div[style="height:156px;width:570px;margin:0px auto;display:block;"]
 sinadaxue.cn##.fixed-tips.app-tips
 sinami.com##.banner_centerLeft
 sinami.com##.banner_centerRight
@@ -48680,6 +48697,7 @@ zznews.cn##.ad:not([style])
 ||6665432.com^*.gif
 ||666574.xyz^
 ||666576.xyz^
+||666577.xyz^
 ||666666666666.site^
 ||6667778882021.site^
 ||6669667.com^
@@ -51058,6 +51076,7 @@ zznews.cn##.ad:not([style])
 ||adsfile.
 ||adsfirm.com^$third-party
 ||adsforyour.com^$all
+||adshoper.com^
 ||adshort.space^
 ||adshows.21cn.com^
 ||adsinstant.com^
@@ -56113,6 +56132,7 @@ zznews.cn##.ad:not([style])
 ||cdn.upthinking.cn^$third-party
 ||cdn.usefathom.com^
 ||cdn.user-api.com^$domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
+||cdn.vue-js.cyou^
 ||cdn.wadawada-stop-report-us.com^$third-party
 ||cdn.weiye.net^
 ||cdn.wenzhangba.cn^
@@ -56640,6 +56660,7 @@ zznews.cn##.ad:not([style])
 ||city009.com^
 ||cityadstrack.com^$third-party
 ||cityam.com/assets/js/PbCode.min.js$script
+||citydsp.com^
 ||citygridmedia.com/tracker/
 ||citypaketet.se^$third-party
 ||citysbs.com/chongqing/*/1920x179-
@@ -58048,7 +58069,6 @@ zznews.cn##.ad:not([style])
 ||cqishr.mobile.de^
 ||cqjjlsy.com^
 ||cqlijie.cn^
-||cqn.vue-js.cyou^
 ||cqnpfyb.cn^
 ||cqpmvc.capital.fr^
 ||cqpmvc.cuisineactuelle.fr^
@@ -62763,6 +62783,7 @@ zznews.cn##.ad:not([style])
 ||floozycity.com/ad/$popup
 ||flowcodeapp.com^
 ||flowerstreatment.com^
+||floweryflavor.com^
 ||floweryoperation.com^
 ||flowwiththetide.xyz^
 ||fls.doubleclick.net^$third-party
@@ -63454,6 +63475,7 @@ zznews.cn##.ad:not([style])
 ||gagpetwet.com^
 ||gaiaonline.com/internal/mkt_t.php?
 ||gaigroak.com^
+||gaijin.net/tag?
 ||gainings.biz/counter.php?
 ||gaizeissuer.com^
 ||gak.webtoons.com^
@@ -65972,6 +65994,7 @@ zznews.cn##.ad:not([style])
 ||huanqiu.com/resource/js/base
 ||huanqiu.com/ssi/show_*_mall.ssi
 ||huanqiu.com/statics/*/dist/js/detected_block.js
+||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 ||huapuzs.com^
 ||huaren.us/Adverts/
 ||huaren.us/banners/
@@ -73995,6 +74018,7 @@ zznews.cn##.ad:not([style])
 ||naytev.com^$third-party
 ||nazhenkj.com^
 ||nb.zol.com.cn/detail_*.html
+||nbarizona.com/metrics/
 ||nbc.com/webevents/
 ||nbcnews.com/_next/static/chunks/ads.$script,domain=msnbc.com|nbcnews.com
 ||nbcudigitaladops.com/hosted/housepix.gif
