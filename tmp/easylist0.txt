@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 20D+Fay7fO4QSgCUCTUm1A
-! Version: 202206112155
+! Checksum: Tg0qgGTJz1BuVdnN01I5vQ
+! Version: 202206120955
 ! Title: EasyList
-! Last modified: 11 Jun 2022 21:55 UTC
+! Last modified: 12 Jun 2022 09:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6006,7 +6006,6 @@
 /static/ad-
 /static/ad/*
 /static/ad_
-/static/ads/*
 /static/adv/*
 /static/advertising/*
 /static/js/4728ba74bc.js$~third-party
@@ -21949,6 +21948,7 @@ _800x80_
 ##.adv__box
 ##.adv__container--300x250
 ##.adv__container--728x90
+##.adv__leaderboard
 ##.adv__text
 ##.adv__wrapper
 ##.adv_aff
@@ -57170,8 +57170,8 @@ eteknix.com###wrapper > header
 cranestodaymagazine.com,hoistmagazine.com,ttjonline.com,tunnelsonline.info###wrapper_banners
 blasternation.com###xobda
 yardbarker.com###yb_recirc
-sevenforums.com###yui-gen0
-sevenforums.com###yui-gen1
+sevenforums.com,tenforums.com###yui-gen0
+sevenforums.com,tenforums.com###yui-gen1
 ecoustics.com###zox-lead-bot
 talkingpointsmemo.com##.--span\:12.AdSlot
 voiceofsandiego.org##.-sponsored
@@ -57630,6 +57630,7 @@ zambianeye.com##.box_skitter
 canadaka.net##.boxadd
 businessplus.ie##.bp_billboard_single
 brainyquote.com##.bq_ad_320x250_multi
+bing.com##.br-productCarousel
 hardware.info##.br_top_container
 primedia.co.za##.branding-sponsor
 eightieskids.com##.break
@@ -58390,7 +58391,6 @@ yifymovies.one##.mvic-btn
 malwaretips.com##.mwt_ads
 invezz.com,reviewparking.com##.mx-auto
 standardmedia.co.ke##.my-2
-engine.presearch.org##.my-4
 troypoint.com##.mysticky-welcomebar-fixed-wrap
 exportfromnigeria.info##.mytopads
 transfermarkt.com##.nENxsZD
@@ -58546,7 +58546,6 @@ fastcompany.com##.post__promotion
 thetowner.com##.powered
 theportugalnews.com##.ppp-banner
 theportugalnews.com##.ppp-inner-banner
-presearch.org##.pr-4.max-w-2xl.mb-4.mt-4.md\:mt-0.md\:mb-6.ml-4
 foxbusiness.com##.pre-content
 sassymamahk.com##.pre_header_widget
 vivo.sx##.preload
@@ -58891,7 +58890,7 @@ jquery.com##.sponsor-line
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
-2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,reviewjournal.com,stocksnap.io,timeslive.co.za##.sponsored
+2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,hbr.org,herald.co.zw,libhunt.com,motherjones.com,msn.com,reviewjournal.com,stocksnap.io,timeslive.co.za##.sponsored
 washingtontimes.com##.sponsored-heading
 hellomagazine.com##.sponsored-news
 coinmarketcap.com##.sponsoredMark
@@ -59366,7 +59365,7 @@ torrentresource.com##[width="150"]:last-child
 fansshare.com,wmal.com##[width="300"]
 drwealth.com##[width="640"]
 4chan.org##[width="728"]
-presearch.org##[x-data*="{ keywordAdFirst:"]
+presearch.com##[x-data*="keywordAdFirst"]
 mobiforge.com##a > img[alt="Ad"]
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 freshplaza.com##a.banner
@@ -60411,7 +60410,7 @@ javfor.tv##.fel-playclose
 hotmovs.com,thegay.com##.fiioed
 sexyandfunny.com##.firstblock
 vxxx.com##.fktcgpktyyccs
-ah-me.com##.flirt-block
+ah-me.com,gaygo.tv##.flirt-block
 asiangaysex.net,gaysex.tv##.float-ck
 stileproject.com##.fluid_nonLinear_bottom
 porn.com##.foot-zn
@@ -61195,7 +61194,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||docs.google.com^$generichide
 @@||drive.google.com^$generichide
 @@||dropbox.com^$generichide
-@@||engine.presearch.org^$generichide
 @@||fastmail.com^$generichide
 @@||github.com^$generichide
 @@||gitlab.com^$generichide
@@ -61261,7 +61259,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adblockplus.org^$generichide
 @@||aetv.com^$generichide
 @@||apkmirror.com^$generichide
-@@||bing.com/shop$generichide
 @@||brighteon.com^$generichide
 @@||cwtv.com^$generichide
 @@||destinationamerica.com^$generichide
