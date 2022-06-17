@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UBYCGXE10g1qHSGNWVnSCw
-! Version: 202206170955
+! Checksum: gFJzsPKHBP9GGE0J+1JANw
+! Version: 202206172155
 ! Title: EasyList
-! Last modified: 17 Jun 2022 09:55 UTC
+! Last modified: 17 Jun 2022 21:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4590,7 +4590,6 @@
 /img.ads.
 /img/_ad.
 /img/ad-
-/img/ad.
 /img/ad/*
 /img/ad_$domain=~kazi.co.jp|~rakuten.co.jp
 /img/ads/*$domain=~save.ca
@@ -14343,6 +14342,9 @@ _800x80_
 ###landing-adserver
 ###lapho-top-ad-1
 ###large-ads
+###large-bottom-leaderboard-ad
+###large-leaderboard-ad
+###large-middle-leaderboard-ad
 ###large-rectange-ad
 ###large-rectange-ad-2
 ###large-screen-ads
@@ -40039,6 +40041,7 @@ tf2r.com#@#.adverts
 ||ingpercent.biz^
 ||ingramony.com^
 ||inhaletorchesoffended.com^
+||inheritanceourselves.com^
 ||inheritedfinnishdysfunctional.com^
 ||inheritedgeneralrailroad.com^
 ||inheritwalter.com^
@@ -42026,6 +42029,7 @@ tf2r.com#@#.adverts
 ||mixmarket.biz^
 ||mixpo.com^
 ||mixturehopeful.com^
+||mixwevri.com^
 ||mjbuuxt7l18r.com^
 ||mjiszovwqwn.com^
 ||mjjppdbqrlo.com^
@@ -48229,6 +48233,7 @@ tf2r.com#@#.adverts
 ||vaipsona.com^
 ||vaipsouw.com^
 ||vak345.com^
+||vakagdnj.com^
 ||valetisolate.com^
 ||valleysupervisesecret.com^
 ||valonghost.xyz^
@@ -51993,6 +51998,7 @@ tf2r.com#@#.adverts
 ||crypto-news-world.club^$popup
 ||cuddlethehyena.com^$popup
 ||cyan92010.com^$popup
+||cyber-guard.me^$popup
 ||cyberlink.pro^$popup
 ||cymetaphy.xyz^$popup
 ||cythusheju.com^$popup
@@ -54346,6 +54352,7 @@ tf2r.com#@#.adverts
 ||hostmonster.com/src/js/$third-party
 ||hoteltravel.com/partner/$third-party
 ||hotlink.cc/promo/
+||hotwire-widget.dailywire.com^$third-party
 ||httpslink.com/EdgeOfTheFire
 ||iad-*.blaze.com^
 ||ibvpn.com/img/banners/
@@ -56178,15 +56185,18 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockstreamtape.a
 ||embed.mystream.to^$popup
 ||flixhq.ru/?$popup
 ||gg.bet^$popup,domain=cq-esports.com
+||hltv.org^*=|$popup,domain=hltv.org
 ||hqq.tv/out.php?$popup
 ||hurawatch.ru/?$popup
 ||kissanimeonline.com/driectlink$popup
 ||link.advancedsystemrepairpro.com^$popup
+||mercurybest.com^$popup,domain=hltv.org
 ||mp3-convert.org/p$popup
 ||notube.website/p/$popup
 ||pinoymovies.es/links/$popup
 ||player.tabooporns.com^$popup
 ||qontent.pouvideo.cc^$popup
+||routeumber.com^$popup,domain=hltv.org
 ||sendspace.com/defaults/sendspace-pop.html$popup
 ||skycheats.com^$popup,domain=elitepvpers.com
 ||t.co^$popup,domain=hltv.org
@@ -56744,7 +56754,7 @@ returnyoutubedislike.com###biggest-supporters
 bentoneveningnews.com,dailyregister.com,dailyrepublicannews.com,duquoin.com,randolphcountyheraldtribune.com###billBoardATF
 versus.com###bill_bottom
 cricketnetwork.co.uk,f1network.net,howtogermany.com,rugbynetwork.net,thefootballnetwork.net,timesandstar.co.uk###billboard
-whoscored.com###billboard-container
+canberratimes.com.au,examiner.com.au,theland.com.au,whoscored.com###billboard-container
 inquirer.net###billboard_article
 searchenginereports.net###bio_ep
 searchenginereports.net###bio_ep_bg
@@ -57103,6 +57113,7 @@ gearspace.com###navbar_notice_617
 nbcsports.com###nbcsports-leaderboard
 my.juno.com###newsCarousel
 livelaw.in###news_on_exit
+canberratimes.com.au,examiner.com.au,theland.com.au###newswell-leaderboard-container
 searchfiles.de###nextuse
 seroundtable.com###ninja_box
 pcgamesn.com###nn_astro_wrapper
@@ -57366,7 +57377,6 @@ sportsclimax.com###top_banner
 caribpress.com###top_banner_container
 bleedingcool.com,indy100.com,jamaicaobserver.com,pastemagazine.com###top_leaderboard
 bleedingcool.com###top_medium_rectangle
-anisearch.com###top_outside
 imdb.com###top_rhs
 repeatmyvids.com,w3newspapers.com###topads
 scorespro.com###topban
@@ -57822,7 +57832,6 @@ autocar.co.uk##.block-autocar-ads-mpu-flexible2
 autocar.co.uk##.block-autocar-ads-mpu1
 thescore1260.com##.block-content > a[href*="sweetdealscumulus.com"]
 indysmix.com,wzpl.com##.block-content > a[href^="https://sweetjack.com/local"]
-92kqrs.com,93x.com##.block-content > a[href^="https://www.sweetdeals.com/minneapolis/deals"]
 stuff.tv##.block-hcm-external-blocks
 mondoweiss.net##.block-head-c
 newsweek.com##.block-ibtmedia-dfp
@@ -58618,6 +58627,7 @@ revolutionsoccer.net##.mls-o-adv-container
 inhabitat.com##.mn-wrapper
 byrdie.com,investopedia.com,verywellhealth.com##.mntl-leaderboard-spacer
 comicbook.com##.mobile
+d123movies.to##.mobile-btn > div
 pcmacstore.com##.mobileHide
 theblockcrypto.com##.mobileView
 thedailybeast.com##.mobiledoc-sizer
@@ -58649,7 +58659,7 @@ autosport.com,motorsport.com##.ms-hapb
 autosport.com##.ms-side-items--with-banner
 marinetraffic.com##.mt-desktop-mode
 zerolives.com##.munder-fn5udnsn
-yifymovies.one##.mvic-btn
+d123movies.to,yifymovies.one##.mvic-btn
 malwaretips.com##.mwt_ads
 invezz.com,reviewparking.com##.mx-auto
 standardmedia.co.ke##.my-2
@@ -59144,7 +59154,6 @@ u.today##.something
 songfacts.com##.songfacts-song-inline-ads
 freeonlineapps.net##.sp
 ndtv.com##.sp_ad-t
-canberratimes.com.au,examiner.com.au,theland.com.au##.space-y-2
 mdisk.me##.spdownloader-ad
 informer.com##.spnsd
 sundayworld.co.za##.spnsorhome
@@ -59837,6 +59846,7 @@ apkonline.net##div[id^="adzz"]
 amgreatness.com##div[id^="ag-front-"]
 digg.com##div[id^="bsa-zone_"]
 titantv.com##div[id^="ctl00_TTLB"]
+cyprus-mail.com##div[id^="cypru-"]
 football-tribe.com##div[id^="da-article-"]
 dexerto.com##div[id^="dex-ad-"]
 hellomagazine.com##div[id^="div-hola-slot-"]
@@ -59845,10 +59855,14 @@ thewrap.com##div[id^="dsk-box-ad"]
 whatsondisneyplus.com##div[id^="extra_mpu_"]
 micast.tv##div[id^="floatLayer"]
 mangatigre.com##div[id^="i-d-cr-page"]
+forbesafrica.com##div[id^="incontentAd"]
 dexerto.com##div[id^="jwplayer_"]
+canberratimes.com.au,examiner.com.au,theland.com.au##div[id^="leaderboard-"]
 maltadaily.mt##div[id^="malta-"]
 mediabiasfactcheck.com##div[id^="media-"]
 gamebyte.com##div[id^="mpu"]
+canberratimes.com.au,examiner.com.au,theland.com.au##div[id^="mrec-"]
+canberratimes.com.au,examiner.com.au,theland.com.au##div[id^="newswell-side-"]
 ebay.co.uk,ebay.com,ebay.com.au,ebay.de##div[id^="plmt_html_"]:not(#plmt_html_101113):not(#plmt_html_101224)
 progamerage.com##div[id^="proga-"]
 yopmail.com,yopmail.fr,yopmail.net##div[id^="pub"]
@@ -61189,6 +61203,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adserve.atedra.com/js/$script,domain=repeatmyvids.com
 @@||adserve.atedra.com/vast/wrap.php?$script,domain=repeatmyvids.com
 @@||adserve.atedra.com/zones.php$xmlhttprequest,domain=repeatmyvids.com
+@@||adservex.media.net/videoAds.js?$script,domain=forbes.com
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
 @@||adswizz.com/sca_newenco/$xmlhttprequest,domain=triplem.com.au
 @@||airplaydirect.com/openx/www/images/$image
