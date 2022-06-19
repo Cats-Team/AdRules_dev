@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: sAHz9HmW6kQPM3x/z/xfeg
+! Checksum: LDlub55pm0A3Y0uqFjrTjg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-06-19 16:25:23（北京时间） 
-! Total count: 91481
+! Version: 2022-06-20 00:28:26（北京时间） 
+! Total count: 91492
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -22556,6 +22556,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
+@@||haokoubei.top/check_img_block.js
 @@||haokoubei.top/dl/rfo_v_f_pc.js
 @@||haokoubei.top/sz/to_v_f.js
 @@||haoweichi.com/Public/js/ads.js
@@ -24852,6 +24853,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||sankakucomplex.com^$generichide
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
+@@||sarapbabe.com/nativeads-v2.js
 @@||sarapbeh.com^$generichide
 @@||sardeath.com^$generichide
 @@||saruch.co/ads/ad.xml$domain=saruch.co
@@ -32939,6 +32941,7 @@ gaymovievids.com,me-gay.com,ts-tube.net,verygayboys.com##.random-td
 gaymovievids.com,verygayboys.com##.mobile-random
 gayporno.fm##.b-content__aside-head
 gayporno.fm##.traffic
+gayporno.fm,gaymaletube.name,gayporn.fm,gaysuperman.com##.b-uvb-spot
 gayporno.fm,gayporn.fm,igayvideos.tv##.b-content__aside > .b-random-column
 gaystream.pw##.a-block
 gaytail.com##+js(abort-current-script, onload, onclick)
@@ -33245,7 +33248,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 gohome.com.hk,idv.st#@##adFrame
 gokano.com#@#.adsbygoogle
 goldderby.com##.adma
-goldgay.tv,verytwink.com,redporn.xxx,me-gay.com,24porn.com,gayporno.fm##.ae-player__itv
+goldgay.tv,verytwink.com,redporn.xxx,24porn.com,gayporno.fm##.ae-player__itv
 golf.com##.golf-ad
 golfdigest.com##.o-ArticleRecirc
 golfroyale.io##+js(set-constant, adblocked, false)
@@ -37439,9 +37442,7 @@ mcrypto.club,ptc4btc.com,eldibux.com,coinsearns.com##div[id^="promo"]
 md4u.ru###pagecontent > div[style*="background-color"]
 md5hashing.net##+js(set-constant, _app.adsBlocked.set, falseFunc)
 me-gay.com##.b-uvb-spot
-me-gay.com,gayporno.fm,gaymaletube.name,gayporn.fm,gaysuperman.com##.b-uvb-spot
 me-gay.com,gaysuperman.com##.mobile-random
-me-gay.com,youtrannytube.com##.random-td
 me360.com##.footer-booking-open
 meczyki.pl##.placeholder
 med66.com##.banner
@@ -40936,6 +40937,7 @@ sanoybonito.club#@#.adbanner
 sanv.org##.main-nav
 sanv.org##.p_left
 saramin.co.kr#@##ad_top
+sarapbabe.com##a.has-text-danger
 sasadown.cn###float_mask
 sashares.co.za##.elementor-48612
 sashares.co.za##.wppopups-whole
@@ -43045,6 +43047,8 @@ tmall.com##.mui-mbarp-qrcode-tip
 tmall.com##.sn-mobile
 tmall.com##div[style*="z-index: 99999; display: block;"]
 tmearn.com##+js(window.open-defuser)
+tmioe.com##.ad_single_0
+tmioe.com##a[target="_blank"] > img[src*=".sinaimg.cn"]
 tmtpost.com##.open-app
 tnaflix.com###zoneInPlayer
 tnaflix.com##.menu-paid-tab
@@ -45631,6 +45635,7 @@ youth.cn##div[style="width:960px;height:90px;margin:0 auto;"]
 youthwant.com.tw##.flex-container
 youthwant.com.tw##.side_adbox
 youtnbe.xyz##+js(window.open-defuser)
+youtrannytube.com##.random-td
 youtube-nocookie.com##.ytp-ad-progress-list
 youtube-video.download##+js(window.open-defuser)
 youtube.com###YtKevlarVisibilityIdentifier
@@ -47791,6 +47796,7 @@ zznews.cn##.ad:not([style])
 ||666587.xyz^
 ||666589.xyz^
 ||666592.xyz^
+||666593.xyz^
 ||666666666666.site^
 ||6667778882021.site^
 ||6669667.com^
@@ -54682,6 +54688,7 @@ zznews.cn##.ad:not([style])
 ||caibaojian.com/d/uploads/*0-
 ||caichenguang.cn^
 ||caicj.club^
+||caicnax.cn^
 ||caigoubao.cc^*/960
 ||caijingzz.cn^
 ||caikuu.com/ckimages/*_gg
@@ -64172,6 +64179,7 @@ zznews.cn##.ad:not([style])
 ||hgdgdsgh.cn^
 ||hgdnd.cc^
 ||hgf4.zanzicar.fr^
+||hggtt.top^
 ||hghit.com^
 ||hguas.com^
 ||hgub2polye.com^$third-party
@@ -87250,6 +87258,7 @@ zznews.cn##.ad:not([style])
 ||vymhnxjyj.com^
 ||vyrhxfi.cn^
 ||vyule.com^
+||vyvxx.com^
 ||vyyikx.sixt.ch^
 ||vz.7vid.net^
 ||vz1m.com^
@@ -87376,6 +87385,7 @@ zznews.cn##.ad:not([style])
 ||wangdq.com^
 ||wanghu2020.ltd^
 ||wanghualang.com/wp-content/gallery/ad/
+||wangjianxd.site^
 ||wangjing.cn*/upload/com/
 ||wangjing.cn/iframe/zhounian.php?
 ||wangjing.cn/images/js/YlFloat.js
@@ -90362,6 +90372,7 @@ zznews.cn##.ad:not([style])
 ||youtube.com/pagead/
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
+||youtube.com^$domain=sarapbabe.com
 ||youtube.com^$removeparam=ab_channel
 ||youtube4kdownloader.com/scripts/stats.js
 ||youtubekids.com/api/stats/ads?
