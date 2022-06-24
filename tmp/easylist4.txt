@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202206232102
+! Version: 202206241009
 ! Title: EasyPrivacy
-! Last modified: 23 Jun 2022 21:02 UTC
+! Last modified: 24 Jun 2022 10:09 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1702,6 +1702,7 @@
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.jbhunt.com|~dynatrace.udemy.com|~dynatrace.zoom.us|~github.com|~github.io
+/dynatrace/*$domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -4934,6 +4935,7 @@
 /uxm_tracking.
 /v.gif?
 /v1/analytics.js
+/v1/analytics/*
 /v1/custom-metrics
 /v1/impressions
 /v1/log_event
@@ -6125,6 +6127,7 @@ _mongo_stats/
 ||acxiomapac.com^$third-party
 ||ad-score.com^$third-party
 ||ad-srv-track.com^$third-party
+||ad1x.com^$third-party
 ||adabra.com^$third-party
 ||adalyser.com^$third-party
 ||adara.com^$third-party
@@ -7614,7 +7617,6 @@ _mongo_stats/
 ||niftymaps.com^$third-party
 ||nik.io^$third-party
 ||ninjacat.io^$third-party
-||nitropay.com^$third-party
 ||nmrodam.com^$third-party
 ||noibu.com^$third-party
 ||noowho.com^$third-party
