@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oxIP6sLW3vX9Nws2Qu336w
-! Version: 202206250955
+! Checksum: CWVIZ8cuhg93tCBHJhZIvQ
+! Version: 202206252155
 ! Title: EasyList
-! Last modified: 25 Jun 2022 09:55 UTC
+! Last modified: 25 Jun 2022 21:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9902,6 +9902,7 @@ _800x80_
 ###ad_crown_top
 ###ad_cyborg
 ###ad_dfp_premiumrec
+###ad_dfp_rec1
 ###ad_display_300_250
 ###ad_display_728_90
 ###ad_div
@@ -17238,6 +17239,8 @@ _800x80_
 ##.MadClose
 ##.MainAdCont
 ##.Main_right_Adv_incl
+##.MapLayout_BottomAd
+##.MapLayout_BottomMobiAd
 ##.MarketGid_container
 ##.MasterLeftContentColumnThreeColumnAdLeft
 ##.MbanAd
@@ -21239,6 +21242,7 @@ _800x80_
 ##.ads_infoBtns
 ##.ads_inline_640
 ##.ads_inside2
+##.ads_inview
 ##.ads_item
 ##.ads_label
 ##.ads_large_ads
@@ -25848,6 +25852,7 @@ _800x80_
 ##.hn-ads
 ##.holder-ad
 ##.holder-ads
+##.home-2020-ad-wide
 ##.home-300x250-ad
 ##.home-activity-ad
 ##.home-ad
@@ -27639,8 +27644,12 @@ _800x80_
 ##.ozadtop3
 ##.p-ad
 ##.p-ad-block
+##.p-ad-dfp-banner
+##.p-ad-dfp-middle-rec
+##.p-ad-feature-pr.p-ad-thumbnail-txt
 ##.p-ad-outbreak
 ##.p-ad-rectangle
+##.p-ad-thumbnail-txt
 ##.p-post-ad
 ##.p2_right_ad
 ##.p75_sidebar_ads
@@ -32196,7 +32205,7 @@ canonsupports.com#@#.box_ads
 8field.net,deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,kotan.link,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua,posh-samples.com#@#.category-ad:not(html):not(body)
 business-hack.net,clip.m-boso.net,iine-tachikawa.net,meihong.work#@#.category-ads:not(html):not(body)
 studio55.fi#@#.column-ad
-skyrimcommands.com#@#.container-ads
+fontspace.com,skyrimcommands.com#@#.container-ads
 marca.com#@#.content-ad
 verizonwireless.com#@#.contentAds
 disk.yandex.by,disk.yandex.com,disk.yandex.kz,disk.yandex.ru,disk.yandex.ua,disk.yandex.uz,freevoipdeal.com,voipstunt.com,yadi.sk#@#.content_ads
@@ -45636,7 +45645,6 @@ tf2r.com#@#.adverts
 ||similt.com^
 ||simpan.online^
 ||simplemuk.com^
-||simpletraffic.co^
 ||simplewebanalysis.com^
 ||simplyjmp.com^
 ||simplysemblance.com^
@@ -50439,6 +50447,7 @@ tf2r.com#@#.adverts
 ||showyoursite.com^$third-party
 ||shrinkearn.com^$third-party
 ||simpio.com^$third-party
+||simpletraffic.co^$third-party
 ||simplyhired.com^$third-party
 ||simvinvo.com^$third-party
 ||sinsoftu.com^$third-party
@@ -58387,6 +58396,7 @@ ee.co.za##.sidepromo
 ohinternet.com##.sider
 atlasobscura.com##.siderail-bottom-affix-placeholder
 nabble.com##.signature
+wncv.com##.simple-image
 greatis.com##.sing
 metalsucks.net##.single-300-insert
 inoreader.com##.sinner_inner
@@ -59026,6 +59036,7 @@ pooletown.co.uk##a[href^="https://www.easyfundraising.org.uk"]
 futbin.com##a[href^="https://www.eneba.com/"][href*="?af_id="]
 coachhuey.com##a[href^="https://www.hudl.com"]
 domaintyper.com##a[href^="https://www.kqzyfj.com/"]
+jox2fm.com,joxfm.com##a[href^="https://www.milb.com/"]
 who.is##a[href^="https://www.name.com/redirect/"]
 kollelbudget.com##a[href^="https://www.oorahauction.org/"][target="_blank"] > img
 lite105.com##a[href^="https://www.pellabranch.com/"]
@@ -59413,6 +59424,8 @@ petapixel.com##.video-aspect-wrapper
 macworld.co.uk##.videoContainer
 consequence.net##.video_container
 consequence.net##.wasp-video-player
+wlevradio.com##a[href^="https://omny.fm/shows/just-start-the-conversation"]
+wlevradio.com,wncv.com,wskz.com,wxbm.com,wzpl.com,xtrasports1300.com##a[href^="https://www.sweetdeals.com"]
 firstforwomen.com##div[class^="article-content__www_ex_co_video_player_"]
 ! Google https://forums.lanik.us/viewtopic.php?f=62&t=45153
 ##.section-subheader > .section-hotel-prices-header
@@ -59644,6 +59657,7 @@ haveibeenpwned.com##.actionsBar:-abp-has(.why1Password)
 haveibeenpwned.com##.bodyGradient>:-abp-has(.why1Password)
 instacart.com#?#.css-zlyu1d:-abp-contains(Sponsored)
 instacart.com#?#.css-1pc1srv-ItemCardHoverProvider:-abp-has(.css-cieada-SponsoredProductBadge)
+instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-ads-badge="Sponsored"])
 instacart.com#?#li[data-testid^="item_list_item_items_19462-"]:-abp-has(span:-abp-contains(Sponsored))
 ksl.com#?#.queue:-abp-has(.sponsored)
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
@@ -59700,8 +59714,6 @@ windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
 xing.com#?#div[class^="styles-grid-col-"]:-abp-has(span[class^="MediaObject-MediaObject-meta-"]:-abp-contains(/Gesponsert|Sponsored|Patrocinado|Sponsorisé|Sponsorizzato/))
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
 1001tracklists.com#?#a[onclick^='gaLnkTr']
-instacart.com#?#div[class="css-1pc1srv-ItemCardHoverProvider"]:-abp-has(.css-8t254x-SponsoredProductBadge)
-instacart.com#?#li:-abp-contains(Sponsored)
 ! *** easylist:easylist_adult/adult_specific_hide.txt ***
 porndr.com###PD-Under-player
 deviants.com###_iframe_content
