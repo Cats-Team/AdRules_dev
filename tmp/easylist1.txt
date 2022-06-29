@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 7O61z+L83z9B6f0XDAWivQ
-! Version: 202206282204
+! Checksum: PxyOHV42G3iMCgwhr9MWNQ
+! Version: 202206291004
 ! Title: ABP filters
-! Last modified: 28 Jun 2022 22:04 UTC
+! Last modified: 29 Jun 2022 10:04 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/
 !
@@ -1033,6 +1033,7 @@ lrepacks.net#$#abort-current-inline-script document.createElement 'delete window
 igroutka.ru#$#override-property-read Object.prototype.afg true
 sibnet.ru#$#prevent-listener DOMContentLoaded 'pobeda'
 ivanovonews.ru#$#json-prune banner.ytcode
+porngames.su,rintor.info,rintor.net#$#abort-on-property-read TotemToolsObject
 ! Popup/popunder/clickunder
 freehat.cc,tt-cup.com,zerno-ua.com,oxax.tv,prostoporno.help,vmusi.ru,xittv.net,potokcdn.com,lostpix.com,uploadimagex.com,volynpost.com,wowskill.ru,hlamer.ru,oveg.ru#$#abort-on-property-read open
 domahatv.com,piratam.net,piratca.net,sexitorrent.com,sextor.org,xtorrent.net,xxxrip.net,torrent-pirat.com,pornoakt.vip,porn720.biz,hentai-share.one,huyamba.tv,xxxtor.com#$#abort-current-inline-script document.querySelectorAll popMagic
