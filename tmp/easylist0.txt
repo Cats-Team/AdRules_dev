@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: v2AtT1YSE+5JRyHqJjUEJw
-! Version: 202206302155
+! Checksum: C2wL+ca7uku1AOYe5II+bw
+! Version: 202207010955
 ! Title: EasyList
-! Last modified: 30 Jun 2022 21:55 UTC
+! Last modified: 01 Jul 2022 09:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1511,8 +1511,8 @@
 /adcore_$domain=~adcore.ch|~adcore.com.au
 /adcount.$domain=~adcount.com|~adcount.fi
 /adcounter.
-/adcreative.$domain=~adcreative.es|~hange.jp
-/adcreative/*$~image
+/adcreative.$domain=~adcreative.es|~adcreative.nl|~hange.jp
+/adcreative/*$~image,domain=~adcreative.nl
 /adcreatives/*
 /adcss/*$~image
 /adctrl/*$~image
@@ -28345,6 +28345,7 @@ _800x80_
 ##.rev-content-sponsored
 ##.rev_square_side_door
 ##.revamp-ads
+##.revamp-ads4
 ##.revcontent-main-ad
 ##.revcontent-slot
 ##.revcontent-wrap
@@ -30944,12 +30945,14 @@ _800x80_
 ##[href^="https://affiliate.fastcomet.com/"] > img
 ##[href^="https://awbbjmp.com/"]
 ##[href^="https://click2cvs.com/"]
+##[href^="https://clk.right-wing-health.com/"]
 ##[href^="https://cpa.10kfreesilver.com/"]
 ##[href^="https://detachedbates.com/"]
 ##[href^="https://glersakr.com/"]
 ##[href^="https://go.4rabettraff.com/"]
 ##[href^="https://go.affiliatexe.com/"]
 ##[href^="https://go.astutelinks.com/"]
+##[href^="https://ilovemyfreedoms.com/landing-"]
 ##[href^="https://infinitytrk.com/"]
 ##[href^="https://istlnkcl.com/"]
 ##[href^="https://join.girlsoutwest.com/"]
@@ -31381,6 +31384,7 @@ _800x80_
 ##a[href^="https://claring-loccelkin.com/"]
 ##a[href^="https://click.a-ads.com/"]
 ##a[href^="https://click.hoolig.app/"]
+##a[href^="https://click.linksynergy.com/"]
 ##a[href^="https://click.plista.com/pets"]
 ##a[href^="https://clickadilla.com/"]
 ##a[href^="https://clicks.pipaffiliates.com/"]
@@ -41054,7 +41058,6 @@ tf2r.com#@#.adverts
 ||linicom.co.il^
 ||linicom.co.uk^
 ||linkbuddies.com^
-||linkclicks.com^
 ||linkedgraceless.com^
 ||linkedprepenseprepense.com^
 ||linkeinvitable.site^
@@ -50904,6 +50907,7 @@ tf2r.com#@#.adverts
 ||weborama.io^$third-party
 ||webtrafic.ru^$third-party
 ||webwap.org^$third-party
+||whatfinger.com^$third-party
 ||whizzco.com^$third-party
 ||widgetly.com^$third-party
 ||winadx.com^$third-party
@@ -56047,7 +56051,7 @@ $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|
 $popup,third-party,domain=porn-tube-club.com
 !------------------------Specific element hiding rules------------------------!
 ! *** easylist:easylist/easylist_specific_hide.txt ***
-smagnet.so###AD
+magnet.so###AD
 webcarstory.com###Ads
 search.snapdo.com###AfloatingD
 weegy.com###BannerDiv
@@ -56883,6 +56887,7 @@ cranestodaymagazine.com,hoistmagazine.com,ttjonline.com,tunnelsonline.info###wra
 blasternation.com###xobda
 yardbarker.com###yb_recirc
 ecoustics.com###zox-lead-bot
+arydigital.tv###zzright
 talkingpointsmemo.com##.--span\:12.AdSlot
 androidauthority.com##.-Ci
 androidauthority.com##.-Yc
@@ -57021,7 +57026,7 @@ wordfind.com##.adbl
 dataversity.net,sakshi.com,songlyrics.com##.adblock
 entrepreneur.com,pricespy.co.nz##.adbox
 moviechat.org##.adc
-ancient.eu,fanatix.com,gamertweak.com,gematsu.com,tucsonsentinel.com,videogameschronicle.com,worldhistory.org##.adcontainer
+ancient.eu,fanatix.com,gamertweak.com,gematsu.com,tucsonsentinel.com,worldhistory.org##.adcontainer
 sumanasa.com##.adcontent
 edutourism.in,news24online.com,online-image-editor.com,thehindu.com##.add
 buzz.ie,irishpost.com,theweekendsun.co.nz##.add-block
@@ -57361,7 +57366,7 @@ hardware.info##.br_top_container
 primedia.co.za##.branding-sponsor
 eightieskids.com##.break
 karachicorner.com##.bsa336
-barakbulletin.com##.bsac
+arydigital.tv,barakbulletin.com##.bsac
 bloggertemplateplace.com##.bsainpost
 mangable.com,tutorial9.net,webdesign.org##.bsarocks
 doge-faucet.com##.bspot
@@ -57547,7 +57552,6 @@ eviemagazine.com##.css-9n98hk
 eviemagazine.com##.css-ipk9pc
 eviemagazine.com##.css-re7z9l
 healthline.com##.css-rjh5b
-instacart.com##.css-uf7278
 healthline.com##.css-umsscj
 izismile.com##.css-widget-item-wrap
 comparitech.com##.ct_popup_modal
@@ -58665,7 +58669,7 @@ jquery.com##.sponsor-line
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
-2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,hbr.org,herald.co.zw,infoq.com,libhunt.com,motherjones.com,msn.com,reviewjournal.com,stocksnap.io,timeslive.co.za##.sponsored
+2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,dunyanews.tv,fifplay.com,hbr.org,herald.co.zw,infoq.com,libhunt.com,motherjones.com,msn.com,reviewjournal.com,stocksnap.io,timeslive.co.za##.sponsored
 washingtontimes.com##.sponsored-heading
 hellomagazine.com##.sponsored-news
 coinmarketcap.com##.sponsoredMark
@@ -58753,7 +58757,7 @@ shacknews.com##.takeover-skin
 igg-games.com##.taxonomy-description
 pixwox.com##.tce-box-i-w
 pixwox.com##.tce-box-n-w
-aptoslife.com,bohemian.com,constructionreviewonline.com,cyberparse.co.uk,eastbayexpress.com,eindhovennews.com,ericpetersautos.com,fenuxe.com,gameplayinside.com,gamezone.com,gilroydispatch.com,gizmochina.com,goodtimes.sc,greekreporter.com,greenfieldnews.com,healdsburgtribune.com,industryhit.com,kenyan-post.com,kingcityrustler.com,maltabusinessweekly.com,metrosiliconvalley.com,morganhilltimes.com,musictech.net,nasilemaktech.com,newsnext.live,nme.com,pacificsun.com,pajaronian.com,pressbanner.com,radioink.com,salinasvalleytribune.com,sanbenito.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
+aptoslife.com,bohemian.com,constructionreviewonline.com,cyberparse.co.uk,eastbayexpress.com,eindhovennews.com,ericpetersautos.com,fenuxe.com,gameplayinside.com,gamezone.com,gilroydispatch.com,gizmochina.com,goodtimes.sc,greekreporter.com,greenfieldnews.com,healdsburgtribune.com,industryhit.com,kenyan-post.com,kingcityrustler.com,maltabusinessweekly.com,metrosiliconvalley.com,morganhilltimes.com,musictech.net,nasilemaktech.com,newsnext.live,nme.com,pacificsun.com,pajaronian.com,pakobserver.net,pressbanner.com,radioink.com,salinasvalleytribune.com,sanbenito.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
 bizasialive.com##.td-all-devices
 americanindependent.com##.td-banner-bg
 brila.net,cgmagonline.com,cycling.today,gayexpress.co.nz,theyeshivaworld.com,thisisanfield.com##.td-banner-wrap-full
@@ -58762,8 +58766,11 @@ healthyceleb.com##.td-header-header-full
 androidcommunity.com##.td-header-rec-wrap
 5pillarsuk.com,babeltechreviews.com,sonorannews.com,thestonedsociety.com,weekendspecial.co.za##.td-header-sp-recs
 gadgetstouse.com##.td-ss-main-sidebar
-ssbcrack.com##.td_spot_img_all
+capsulenz.com,ssbcrack.com##.td_spot_img_all
 tech-latest.com##.tdi_102_e06
+arynews.tv##.tdi_103
+pakobserver.net##.tdi_121
+pakobserver.net##.tdi_124
 based-politics.com##.tdi_30
 who.is##.teaser-bar
 macrumors.com##.tertiary
@@ -58911,6 +58918,7 @@ kyivpost.com##.widget-300-250
 wikikeep.com##.widget-area
 cinemaexpress.com##.widget-container-133
 miniclip.com##.widget-mpu
+dawn.com##.widget-sponsoredcontent
 screencrush.com##.widget-widget_third_party_content
 gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,usmagazine.com##.widget_block
@@ -59877,7 +59885,7 @@ haveibeenpwned.com##.bodyGradient>:-abp-has(.why1Password)
 instacart.com#?#.css-zlyu1d:-abp-contains(Sponsored)
 instacart.com#?#.css-1pc1srv-ItemCardHoverProvider:-abp-has(.css-cieada-SponsoredProductBadge)
 instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-ads-badge="Sponsored"])
-instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-sp-badge="Sponsored"])
+instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-spp-badge="Sponsored"])
 instacart.com#?#li[data-testid^="item_list_item_items_19462-"]:-abp-has(span:-abp-contains(Sponsored))
 ksl.com#?#.queue:-abp-has(.sponsored)
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
