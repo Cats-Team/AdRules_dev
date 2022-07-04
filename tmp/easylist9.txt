@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: YOzgCg/6YdnZCXb+UF1ZBg
-! Version: 202207040955
+! Checksum: T0ZpCAq9NjPEfK+DTSeomA
+! Version: 202207042155
 ! Title: EasyPrivacy
-! Last modified: 04 Jul 2022 09:55 UTC
+! Last modified: 04 Jul 2022 21:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12096,7 +12096,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.medio.com^
 ||events.ocdn.eu^
 ||events.realgravity.com^
-||events.release.narrativ.com^
+||events.release.narrativ.com^$script,xmlhttprequest
 ||events.shareably.net^
 ||events.splash-screen.net^
 ||events.split.io^
@@ -25912,8 +25912,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tf.360.cn^
 ||tianxun.com/ajax_website_statistics.
 ||titan24.com/scripts/stats.js
-||tmall.com/add?
-||tmall.com^*/vdata.htm?
 ||tongji.mafengwo.cn^
 ||tongji.xinmin.cn^
 ||tongji2.vip.duba.net/__infoc.gif?
