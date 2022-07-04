@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: r/q8EyFoiaWquqi/M+FV8w
-! Version: 202207032155
+! Checksum: YOzgCg/6YdnZCXb+UF1ZBg
+! Version: 202207040955
 ! Title: EasyPrivacy
-! Last modified: 03 Jul 2022 21:55 UTC
+! Last modified: 04 Jul 2022 09:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -285,6 +285,7 @@
 /__utm.js
 /__varnish_geoip
 /__wsm.gif
+/_ga?send&
 /_gz/counter.php?
 /_hcms/perf
 /_lib/ga.js
@@ -5924,6 +5925,7 @@ _mongo_stats/
 ||fpaux.net^
 ||fpavx.net^
 ||fpaxu.net^
+||fpcdn.io^
 ||fpxau.net^
 ||g11686975765.co^
 ||g1188506010.co^
@@ -11608,6 +11610,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||audit.303br.net^
 ||audit.median.hu^
 ||aurora-d3.herokuapp.com^
+||auryc.com/v1/event
 ||autoline-top.com/counter.php?
 ||automate-prod.s3.amazonaws.com^$~script
 ||avo.app^*/track
@@ -11904,7 +11907,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cookiex.ngd.yahoo.com^
 ||count.asnetworks.de^
 ||count.carrierzone.com^
-||count.channeladvisor.com^
 ||count.me.uk^
 ||count.paycounter.com^
 ||counter.bloke.com^
@@ -12656,6 +12658,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||newsanalytics.com.au^$third-party
 ||newsletters.nationalgeographic.com^$image,third-party
 ||newton.pm/events/track_bulk
+||nfcube.com/assets/img/pixel.gif
 ||ngpvan.com/v1/Track/
 ||nice264.com/data?$third-party
 ||nile.works/api/save-perf?
@@ -12745,6 +12748,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||performgroup.com/metrics/
 ||perr.h-cdn.com^
 ||perso.aws.arc.pub^
+||pets.channeladvisor.com^
 ||photobox.com/event
 ||photobox.com/logs
 ||phrasetech.com/api/collect
@@ -13128,6 +13132,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.c4tw.net^
 ||t.castle.io^
 ||t.cfjump.com^
+||t.channeladvisor.com^
 ||t.clic2buy.com^
 ||t.dgm-au.com^$third-party
 ||t.irtyc.com^
@@ -27538,6 +27543,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 @@||alfadirect.ru/api/analytics/latest?$~third-party,xmlhttprequest
 @@||avito.st/s/a/i/0.gif$image,domain=avito.ru
+@@||bitrix.info/ba.js$domain=galamart.ru
 @@||boxberry.ru/bitrix/templates/main.adaptive/js/tracking.js
 @@||boxberry.ru/tracking.service/
 @@||coronavirus-monitor.ru/scripts/statistics/statistics.$script,~third-party
