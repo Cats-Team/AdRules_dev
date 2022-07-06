@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: nV6BnGIkPDQy1jNJMb/Jzg
-! Version: 202207061004
+! Checksum: f0y56+jGvgARSk7IVBPteA
+! Version: 202207062154
 ! Title: ABP filters
-! Last modified: 06 Jul 2022 10:04 UTC
+! Last modified: 06 Jul 2022 21:54 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/
 !
@@ -794,6 +794,7 @@ hindipix.in,netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read _pop
 japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws#$#abort-on-property-read atob; abort-current-inline-script document.createElement String.fromCharCode; abort-current-inline-script Object.defineProperty XMLHttpRequest
 jpscan-vf.com#$#abort-on-property-read __formatsGetters
 blablastream.rip,frstream.rip,papadustream.co,papystreamings.com,voirseries.rip#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+ianime-fr.com#$#abort-on-property-read document.createElement
 streaminfr.com#$#abort-on-property-read pushADs
 linfoweb.com#$#abort-on-property-write num
 down-paradise.com,mega-p2p.net#$#abort-on-property-read open
@@ -1090,6 +1091,7 @@ animeflv.ac,bajarpelisgratis.com,jkanime.top,pelismart.com,pelismartv.com,pelisp
 gnula.nu,pelispop.me,tmomanga.com#$#abort-on-property-write JSON.parse
 futbollatam.com#$#abort-on-property-read attr; abort-on-property-read mm
 gnula.cc,series24.nu#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
+calidadcine.net#$#abort-on-property-read afStorage
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! Popup/Popunder
