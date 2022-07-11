@@ -1,6 +1,7 @@
 ||*.cloudfront.net^$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
 ||*.kameleoon.eu^$domain=20minutes.fr|20min.fr
 ||*.wap.xsbiquge.com^
+||*^sdtfrom=^$media,redirect=noop-0.1s.mp3,domain=qq.com
 ||*serror*.wo.com.cn^
 ||201*.myhard.com^
 ||8*.tianya.cn^
@@ -14,7 +15,15 @@
 ||adi*.cnool.net^
 ||ads*-normal*.zijieapi.com^
 ||ads*-normal-hl.zijieapi.com^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
+||ads*.dfiles.eu^
 ||aff*.kolektiva.net^
+||aliexpress.*^$removeparam=gatewayAdapt
+||aliexpress.*^$removeparam=pdp_pi
+||amazon.*^$removeparam=channel
+||amazon.*^$removeparam=orig
+||amazon.*^$removeparam=tag
 ||ap*.jj20.com^
 ||ap*.pl520.com^
 ||api-access.pangolin-sdk-toutiao-*.com^
@@ -24,6 +33,7 @@
 ||bdcpro*.techweb.com.cn^
 ||bdlm*.hc360.com^
 ||bj*.9669.cn^
+||bms*.adjarabet.com^$third-party
 ||cas.*.criteo.com^
 ||cas.*.criteo.com^$domain=spiegel.de
 ||collect.*.miui.com^
@@ -36,6 +46,7 @@
 ||dm*.yxlady.com^
 ||dm-*.toutiao.com^
 ||dn*.ixinwei.com^
+||facebook.*^$document,removeparam=hoisted_section_header_type
 ||fanpingbi*.gaokao.com^
 ||fpb*.51edu.com^
 ||g*.biqugetv.com^
@@ -45,13 +56,16 @@
 ||images.*.criteo.net^$domain=spiegel.de
 ||impservice*.yodao.com^
 ||impservice*.youdao.com^
+||instagram.*.fna.fbcdn.net^$removeparam=ccb
 ||ja*.gamersky.com^
 ||js*.abolezi.com^
+||lidl.*^$removeparam=flyx
 ||liveweb*.msstatic.com^
 ||log*-normal-lq.toutiaoapi.com^
 ||log*.ku6.com^
 ||log-*.previewnetworks.com^
 ||log-api.pangolin-sdk-toutiao-*.com^
+||lts*.qq.com^*.ts?index=$media,redirect=noop-0.1s.mp3,domain=qq.com
 ||mcdp-*.outbrain.com^
 ||minero-proxy-*.sh^$third-party
 ||mkto-*.com^$third-party
@@ -67,6 +81,7 @@
 ||sense-*.tapdb.net^
 ||sf*-be-pack.pglstatp-toutiao.com^
 ||sf*-fe-tos.pglstatp-toutiao.com^
+||startpage.*^$removeparam=segment
 ||stat.*.v-56.com^
 ||static*.365inews.com^
 ||stats-*.p2pnow.ru^
