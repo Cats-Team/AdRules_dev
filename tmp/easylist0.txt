@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OZVQtb9O0iGIjKJD3rimgg
-! Version: 202207142205
+! Checksum: lIACsGRvRpu8E0fg5tsK7A
+! Version: 202207151005
 ! Title: EasyList
-! Last modified: 14 Jul 2022 22:05 UTC
+! Last modified: 15 Jul 2022 10:04 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1751,7 +1751,7 @@
 /adman.$domain=~adman.com|~adman.ee|~adman.press.pl|~adman.studio
 /adman/*
 /adman_
-/admanager.$~object,domain=~admanager.alzura.com|~admanager.google.com
+/admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com
 /admanager/*$~object,domain=~konograma.com
 /admanager3.
 /admanager_$domain=~konograma.com
@@ -2498,6 +2498,7 @@
 /adsbanner.
 /adsbanner/*
 /adsbannerjs.
+/adsBlob/*
 /adsbox.$~script,domain=~adsbox.com.sg|~adsbox.in
 /adsby.
 /adsbytenmax.
@@ -8815,6 +8816,7 @@ _800x80_
 ###ad-img
 ###ad-in-post
 ###ad-in-post-0
+###ad-incontent
 ###ad-index
 ###ad-inline-block
 ###ad-inserter-1
@@ -34102,6 +34104,7 @@ tf2r.com#@#.adverts
 ||asccdn.com^
 ||ascdwiah.com^
 ||asce.xyz^
+||ascensionpatterbearable.com^
 ||ascertaincrescenthandbag.com^
 ||ascertainedfortnight.com^
 ||ascraftan.com^
@@ -40008,6 +40011,7 @@ tf2r.com#@#.adverts
 ||ioiylgyf.com^
 ||ionakasulba.xyz^
 ||ioniamcurren.com^
+||ioniaukmla.xyz^
 ||ionisestriller.com^
 ||iople.com^
 ||ioredi.com^
@@ -40592,6 +40596,7 @@ tf2r.com#@#.adverts
 ||kindlyfeebleremembered.com^
 ||king3rsc7ol9e3ge.com^
 ||kingads.mobi^
+||kingwitheaa.lol^
 ||kingyonlendir.link^
 ||kinkledunendly.com^
 ||kinkydisplacelate.com^
@@ -44826,6 +44831,7 @@ tf2r.com#@#.adverts
 ||resortinspireresolution.com^
 ||resourceagrarianhavoc.com^
 ||respectfulcoal.com^
+||respectfullysavvy.com^
 ||respectivepreservation.com^
 ||respondhq.com^
 ||responservbzh.icu^
@@ -57282,7 +57288,6 @@ h-online.com##.bcadv
 fakenamegenerator.com##.bcsw
 censor.net##.beGrKXqw1r8uLq2pL
 thepointsguy.com##.beam-card-feature
-beckershospitalreview.com##.becker_doubleclick
 browardpalmbeach.com,dallasobserver.com,houstonpress.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.beforeBillboard
 renonr.com##.below-header-widgets
 gobankingrates.com##.bestbanks-slidein
@@ -58159,6 +58164,7 @@ finextra.com##.module--sponsor
 webmd.com##.module-f-hs
 pcworld.idg.com.au##.module-rhs-brandpost
 webmd.com##.module-top-picks
+beckershospitalreview.com##.moduletable > .becker_doubleclick
 thisismoney.co.uk##.mol-fe-vouchercodes-puff
 dailymail.co.uk##.mol-fe-vouchercodes-redesign
 monsoonjournal.com##.mom-e3lanat-wrap
@@ -59806,6 +59812,7 @@ m.youtube.com##a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]
 youtube.com##ytd-compact-promoted-video-renderer
 youtube.com##ytd-companion-slot-renderer
 youtube.com##ytd-display-ad-renderer
+youtube.com##ytd-engagement-panel-section-list-renderer
 youtube.com##ytd-promoted-sparkles-text-search-renderer
 youtube.com##ytd-promoted-sparkles-web-renderer
 youtube.com##ytd-single-option-survey-renderer
