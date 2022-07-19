@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202207191001
+! Version: 202207192120
 ! Title: Fanboy's Annoyance List
-! Last modified: 19 Jul 2022 10:01 UTC
+! Last modified: 19 Jul 2022 21:20 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -2907,6 +2907,7 @@ _subscribers_newsletters/
 /telergram_button.
 /template/facebook_
 /template/twitter_
+/tg-join-banner-
 /theme/Facebook_
 /theme/social-
 /Theme/Twitter.
@@ -3294,25 +3295,14 @@ _pinterest_white.
 _pinteresticon.
 _share_bookmark.
 _share_bt.
-_share_buttons.
-_share_buttons/
 _share_e.
 _share_fb.
 _share_google.
-_share_icon.
-_share_icon_
-_share_icons.
-_share_social.
-_share_sprite.
-_share_sprites.
 _share_stumbleupon.
 _share_twitter.
 _share_twt.
 _share_widget_
 _sharebar2_
-_sharebutton.
-_ShareIcons.
-_sharelinks_
 _sharrre.php?
 _slideshare.
 _small_share.
@@ -4407,7 +4397,6 @@ _youtube_social_
 /um-gdpr.
 /unibo-cookies.
 /unitb-cmp.
-/uploads/GDPR-
 /usecookies.js
 /usocookies.
 /util/gdpr/*
@@ -5802,6 +5791,7 @@ _vpcookieconsent/
 ##.s-f-back-to-top
 ##.s-gotop-wrap
 ##.s5_scrolltotop
+##.sc-back-to-top
 ##.scroll-back-to-top-wrapper
 ##.scroll-to-top-arrow
 ##.scroll-to-top-btn
@@ -17378,6 +17368,7 @@ _vpcookieconsent/
 ##.sc-pinterest-image-share
 ##.sc-share-button
 ##.sc-social
+##.sc-social-links
 ##.sc-social-sharing
 ##.scShareBoxRow
 ##.scShareText
@@ -21519,6 +21510,7 @@ _vpcookieconsent/
 ##.wpdev-social-tw
 ##.wpdev-top-share
 ##.wpdev-twitter
+##.wpex-social-share
 ##.wpex-social-share-wrap
 ##.wplogout-float-social-wrapper
 ##.wplogout-social-wrapper
@@ -22826,11 +22818,9 @@ _vpcookieconsent/
 ###__cookies__
 ###__fr_cookie_notifier
 ###__ic-notice
-###__layout div[class*="cookie-popup"]
 ###__loadCookie
 ###__ndcc_cookieImpliedConsent
 ###__ndcc_cookieImpliedConsentBackdrop
-###__next div[aria-labelledby*="cookie-dialog"]
 ###__ntk_banner_cookie
 ###__pb-cookie
 ###__shopwired_consent_cookie_container
@@ -27687,7 +27677,6 @@ _vpcookieconsent/
 ###head_cookie
 ###headband-cookie
 ###headband_cookies
-###header ~ div[aria-label*="cookieconsent"]
 ###header-coockie
 ###header-cookie
 ###header-cookie-bar
@@ -27967,6 +27956,7 @@ _vpcookieconsent/
 ###js-c-cookie-consent-banner
 ###js-cConsent
 ###js-ccpa
+###js-ccpa-banner
 ###js-cnil--alert
 ###js-cookie-02-popup
 ###js-cookie-03-popup
@@ -28102,6 +28092,7 @@ _vpcookieconsent/
 ###kgc-consent
 ###khcookie
 ###kjfCookieInfoBox
+###kkcookie
 ###klaro .cook-modal
 ###km-cookie-accept
 ###kn-gdpr-dialog
@@ -30046,6 +30037,7 @@ _vpcookieconsent/
 ##.BlogHeader__cookies-banner
 ##.BorlabsCookie
 ##.C21-cookie-banner
+##.CCPABanner
 ##.CCcookiewarning
 ##.CInfo[data-cookie-info]
 ##.CLawBanner
@@ -30092,6 +30084,7 @@ _vpcookieconsent/
 ##.CookieBar
 ##.CookieBarWrapper
 ##.CookieBar__Wrapper
+##.CookieBaxGr
 ##.CookieBox
 ##.CookieBtn
 ##.CookieChecker
@@ -30229,6 +30222,7 @@ _vpcookieconsent/
 ##.EuropeanCookieBar
 ##.F6-cookies_w_js-entrypoint
 ##.FE_COOKIELAW
+##.FooterCookieGL
 ##.G005-global-cookie-notification
 ##.GAcookies
 ##.GDPR-Msg
@@ -30302,7 +30296,6 @@ _vpcookieconsent/
 ##.Rgpd-notice
 ##.RgpdBanner-component
 ##.RodoNotyfication
-##.RootContainerClassName div[class*="CookieNotificationPopup"]
 ##.Root_cookieConsentBanner
 ##.S01M97-CookieAlert
 ##.S01M97-CookieAlert--overlay
@@ -30515,7 +30508,6 @@ _vpcookieconsent/
 ##.alert-cookies-banner
 ##.alert-cookies-bar
 ##.alert-cookiewarning
-##.alert-dismissible[id*="cookiechoice"]
 ##.alert-message.cookie
 ##.alert-privacy-disclaimer
 ##.alert-rgpd
@@ -30533,10 +30525,8 @@ _vpcookieconsent/
 ##.alert[data-cookie="banner-cookie"]
 ##.alert[data-name="eu_biscuits"]
 ##.alert[data-ng-if="showCookieDisclaimer"]
-##.alert[ng-hide*="ShowCookieInfo"]
 ##.alert[ng-if="cookieAlert"]
 ##.alert[ng-if="showCookieDisclaimer"]
-##.alert[ng-show*="cookiePopup"]
 ##.alert__RGPD
 ##.alert__cookie
 ##.alert_container.cookie
@@ -30597,8 +30587,6 @@ _vpcookieconsent/
 ##.animate-cookies
 ##.animated.gdpr-container
 ##.announcement-eu-cookie
-##.announcement[class*="cookies"]
-##.announcement[data-id*="cookie_notice"]
 ##.anonymous-consent-banner
 ##.anonymousToSConsent_mask
 ##.anunt-cookie
@@ -30620,7 +30608,6 @@ _vpcookieconsent/
 ##.app-cookie-row
 ##.app-cookies-agreement-banner
 ##.app-disclaimer-rgpd
-##.app-message[class*="cookie-consent"]
 ##.app-root > .cookies
 ##.app-wrapper-cookies
 ##.app__misc-cookie__consent
@@ -31315,7 +31302,6 @@ _vpcookieconsent/
 ##.ccpa-slideup
 ##.ccpa-slideup--row
 ##.ccpaBanner
-##.ccpa[ng-controller*="CcpaBanner"]
 ##.ccpa_container_class
 ##.ccpa_opt_out_banner
 ##.ccpa_opt_out_reset
@@ -32868,6 +32854,7 @@ _vpcookieconsent/
 ##.cookieTermsContent
 ##.cookieText
 ##.cookieTextsWrapper
+##.cookieTipWrap
 ##.cookieTkd
 ##.cookieToTop
 ##.cookieToast
@@ -38670,6 +38657,7 @@ _vpcookieconsent/
 ! Embedded video Annoyances
 ||sendtonews.com/player/sidebar.php?$third-party
 ! *** easylist:fanboy-addon/fanboy_notifications_thirdparty.txt ***
+||api-push.com^$third-party
 ||arc.io^$third-party
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
@@ -50563,6 +50551,7 @@ splu-engineers.com###frontpage-banner-cover
 uwebergverlag.de###gdpr
 kalenderwoche.at,kalenderwoche.de###gdpr-consent
 pokewiki.de###gl-topbar-bg
+antonius.de###google-splash-screen
 rapool.de,softwarenetz.de###grayout
 auktionssuche.de,baumpflege.ac,garten.ac,heim-und-haustiere.de,schwedisch-translator.de###hinweise
 aqualip.de###idHrSysGipsDivBlackTransparentOverlay
@@ -51910,8 +51899,9 @@ pkspolonus.pl###popek
 poznan.pl###popup-peka
 erhem.pl###popupContact
 lca.pl,legnica.pl###popupDiv
-mieszko.pl###privacy
+cieplodlakrakowa.pl,kancelariamzm.pl,kpr.pl,mieszko.pl###privacy
 ile-kalorii.pl###privacyMessage
+solankowaaleja.com###privacybox
 gazeo.pl###reg_all
 tanibus.com###rodo
 mojekatowice.pl###rodo-bar
@@ -51993,6 +51983,7 @@ szybkopraca.pl##.toast
 miastograf.pl##.ui-dialog
 miastograf.pl##.ui-widget-overlay
 optyczne.pl##.w3-modal
+shopee.pl##.zsav9a
 pirolam.pl##body > div[style*="100%"]
 ingbank.pl##cookie-policy
 elektrozysk.pl##div[style*="background:url(images/cookies_tlo.png)"]
