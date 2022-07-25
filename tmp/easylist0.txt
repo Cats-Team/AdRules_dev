@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vHwLAYcFj3sRxURp5hASQg
-! Version: 202207242155
+! Checksum: bEjvWiTbImcCQCvJ2V61yg
+! Version: 202207251005
 ! Title: EasyList
-! Last modified: 24 Jul 2022 21:55 UTC
+! Last modified: 25 Jul 2022 10:04 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12592,6 +12592,7 @@ _800x80_
 ###buySellAds
 ###buysellads
 ###buysellads-4x1
+###bww-advertising-popup-overlay
 ###c-adzone
 ###c4_ad
 ###c4ad-Middle1
@@ -23946,6 +23947,7 @@ _800x80_
 ##.bvi-ads
 ##.bvp-ad
 ##.bwm_widget_ad_callout
+##.bww-advertising-ad-container
 ##.bx-ads
 ##.bx-ads--banner
 ##.bx_ad
@@ -31824,7 +31826,6 @@ _800x80_
 ##div[data-id-advertdfpconf]
 ##div[data-insertion]
 ##div[data-mediatype="advertising"]
-##div[data-module="cookie-manager-dialog"]
 ##div[data-mpu1]
 ##div[data-native-ad]
 ##div[data-native_ad]
@@ -61844,6 +61845,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||www.google.com/images/icons/feature/adsense_$image
 @@||www.google.com/images/icons/product/adsense-$image
 @@||www.googleadservices.*/aclk?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|googleadservices.com
+! https://github.com/easylist/easylist/issues/12681
+@@||v.fwmrm.net/ad/g/1?*_html5_live
 ! Quantcast.com
 ! http://forums.lanik.us/viewtopic.php?f=64&t=15116&p=53518
 @@||quantcast.com/advertise$domain=quantcast.com
